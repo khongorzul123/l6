@@ -3,16 +3,20 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"lesson_06_atlas_1", frames: [[0,0,1920,1080]]},
-		{name:"lesson_06_atlas_2", frames: [[0,1082,1513,794],[0,0,1920,1080]]},
-		{name:"lesson_06_atlas_3", frames: [[0,0,1513,794],[0,796,1513,794]]},
-		{name:"lesson_06_atlas_4", frames: [[0,0,1505,634],[0,1172,1453,533],[0,636,1474,534]]},
-		{name:"lesson_06_atlas_5", frames: [[0,1192,1178,532],[0,0,1242,600],[0,602,1239,588]]},
-		{name:"lesson_06_atlas_6", frames: [[0,934,1139,431],[0,1367,1277,372],[0,483,1269,449],[0,0,1284,481]]},
-		{name:"lesson_06_atlas_7", frames: [[0,0,1104,348],[0,350,1100,281],[0,633,482,578],[0,1213,482,578],[484,633,482,578],[484,1213,482,578],[1106,0,482,578],[968,633,482,578],[968,1213,482,578],[1452,580,482,578],[1452,1160,482,578]]},
-		{name:"lesson_06_atlas_8", frames: [[0,0,482,578],[0,580,482,578],[0,1160,482,578],[484,0,482,578],[968,0,482,578],[1452,0,482,578],[484,580,482,578],[484,1160,482,578],[968,580,482,578],[1452,580,482,578],[968,1160,482,578],[1452,1160,482,578]]},
-		{name:"lesson_06_atlas_9", frames: [[0,0,482,578],[0,580,482,578],[0,1160,482,578],[484,0,482,578],[968,0,482,578],[1452,0,482,578],[484,580,482,578],[484,1160,482,578],[968,580,482,578],[1452,580,482,578],[968,1160,482,578],[1452,1160,482,578]]},
-		{name:"lesson_06_atlas_10", frames: [[0,1435,313,294],[1511,951,415,389],[1936,346,24,47],[1978,263,32,48],[2012,263,32,48],[1936,296,32,48],[1970,313,32,48],[2004,361,24,47],[1962,363,24,47],[1936,395,23,46],[2004,313,25,46],[1988,410,23,46],[968,964,411,107],[1928,951,118,112],[1381,964,118,111],[1797,1600,184,182],[685,1704,182,182],[315,1703,183,182],[500,1704,183,182],[1425,1600,184,185],[1611,1600,184,183],[0,1160,1368,198],[0,1360,1279,73],[1511,580,492,369],[968,580,541,382],[1370,1342,588,256],[600,1435,281,267],[1154,1600,269,267],[883,1435,269,268],[315,1435,283,266],[1936,216,40,78],[1978,216,54,45],[1936,0,96,72],[1936,74,97,70],[1936,146,88,68],[1928,1065,117,106],[0,0,482,578],[484,0,482,578],[968,0,482,578],[1452,0,482,578],[0,580,482,578],[484,580,482,578]]}
+		{name:"lesson_06_atlas_1", frames: [[0,0,1928,1187]]},
+		{name:"lesson_06_atlas_2", frames: [[0,0,1920,1080]]},
+		{name:"lesson_06_atlas_3", frames: [[0,0,1920,1080]]},
+		{name:"lesson_06_atlas_4", frames: [[0,0,1920,1080]]},
+		{name:"lesson_06_atlas_5", frames: [[0,1082,1513,794],[0,0,1920,1080]]},
+		{name:"lesson_06_atlas_6", frames: [[0,0,1513,794],[0,796,1513,794]]},
+		{name:"lesson_06_atlas_7", frames: [[0,0,1505,634],[0,1172,1453,533],[0,636,1474,534]]},
+		{name:"lesson_06_atlas_8", frames: [[0,1192,1178,532],[0,0,1242,600],[0,602,1239,588]]},
+		{name:"lesson_06_atlas_9", frames: [[0,934,1139,431],[0,1367,1277,372],[0,483,1269,449],[0,0,1284,481]]},
+		{name:"lesson_06_atlas_10", frames: [[0,350,1111,294],[0,0,1104,348],[0,646,1100,281],[1113,0,482,578],[1113,580,482,578],[0,1160,482,578],[484,929,482,578],[968,1160,482,578],[1452,1160,482,578]]},
+		{name:"lesson_06_atlas_11", frames: [[0,0,482,578],[0,580,482,578],[0,1160,482,578],[484,0,482,578],[968,0,482,578],[1452,0,482,578],[484,580,482,578],[484,1160,482,578],[968,580,482,578],[1452,580,482,578],[968,1160,482,578],[1452,1160,482,578]]},
+		{name:"lesson_06_atlas_12", frames: [[0,0,482,578],[0,580,482,578],[0,1160,482,578],[484,0,482,578],[968,0,482,578],[1452,0,482,578],[484,580,482,578],[484,1160,482,578],[968,580,482,578],[1452,580,482,578],[968,1160,482,578],[1452,1160,482,578]]},
+		{name:"lesson_06_atlas_13", frames: [[1385,1335,313,294],[968,1335,415,389],[0,1740,1368,198],[0,1940,1279,73],[1452,964,492,369],[1452,580,541,382],[1370,1726,588,256],[1700,1335,283,266],[0,0,482,578],[0,580,482,578],[0,1160,482,578],[484,0,482,578],[968,0,482,578],[1452,0,482,578],[484,580,482,578],[484,1160,482,578],[968,580,482,578]]},
+		{name:"lesson_06_atlas_14", frames: [[576,613,24,47],[369,504,32,48],[403,504,32,48],[549,563,32,48],[583,563,32,48],[602,613,24,47],[923,722,24,47],[949,722,23,46],[549,613,25,46],[974,722,23,46],[554,269,411,107],[229,641,118,112],[349,738,118,111],[638,378,184,182],[185,457,182,182],[824,378,183,182],[0,414,183,182],[266,270,184,185],[452,378,184,183],[0,0,281,267],[554,0,269,267],[283,0,269,268],[967,265,40,78],[369,563,178,173],[863,562,153,158],[825,0,190,191],[779,722,142,144],[638,562,223,143],[0,269,264,143],[549,707,228,117],[0,641,227,125],[369,457,54,45],[825,193,96,72],[923,193,97,70],[452,270,88,68],[229,755,117,106]]}
 ];
 
 
@@ -37,645 +41,729 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_3 = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
+	this.initialize(ss["lesson_06_atlas_13"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_2 = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
+	this.initialize(ss["lesson_06_atlas_13"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_1 = function() {
-	this.initialize(ss["lesson_06_atlas_4"]);
+	this.initialize(ss["lesson_06_atlas_7"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib._13 = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(2);
+(lib._05help_tv = function() {
+	this.initialize(ss["lesson_06_atlas_5"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib._102 = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._104 = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._106 = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._108 = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._32 = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._33 = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._41 = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._42 = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._43 = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(11);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.bg_lessonnhiih = function() {
+(lib._06storyinteractive = function() {
 	this.initialize(ss["lesson_06_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Group2 = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(12);
+(lib._06help_kz = function() {
+	this.initialize(ss["lesson_06_atlas_6"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.help_btn = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(13);
+(lib._06help_mn = function() {
+	this.initialize(ss["lesson_06_atlas_6"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.home = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(14);
+(lib._13 = function() {
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Lesson13_help_kz = function() {
+(lib._102 = function() {
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._104 = function() {
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._106 = function() {
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._108 = function() {
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._32 = function() {
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._33 = function() {
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._41 = function() {
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._42 = function() {
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._43 = function() {
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.bg_lessonnhiih = function() {
 	this.initialize(ss["lesson_06_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Lesson13_help_mn = function() {
-	this.initialize(ss["lesson_06_atlas_3"]);
+(lib.Group2 = function() {
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.help_btn = function() {
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(11);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.home = function() {
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Layer1 = function() {
+	this.initialize(ss["lesson_06_atlas_10"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Lesson13_help_tu = function() {
-	this.initialize(ss["lesson_06_atlas_3"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.lesson6_1 = function() {
-	this.initialize(ss["lesson_06_atlas_4"]);
+	this.initialize(ss["lesson_06_atlas_7"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_10 = function() {
-	this.initialize(ss["lesson_06_atlas_5"]);
+	this.initialize(ss["lesson_06_atlas_8"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_10a = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(15);
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_10b = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(16);
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_10c = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(17);
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_10d = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(18);
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_10f = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(19);
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_10g = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(20);
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_11 = function() {
-	this.initialize(ss["lesson_06_atlas_6"]);
+	this.initialize(ss["lesson_06_atlas_9"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_2 = function() {
-	this.initialize(ss["lesson_06_atlas_7"]);
-	this.gotoAndStop(0);
+	this.initialize(ss["lesson_06_atlas_10"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_3 = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(21);
+	this.initialize(ss["lesson_06_atlas_13"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_3_1 = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(22);
+	this.initialize(ss["lesson_06_atlas_13"]);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_4 = function() {
-	this.initialize(ss["lesson_06_atlas_6"]);
+	this.initialize(ss["lesson_06_atlas_9"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_5 = function() {
-	this.initialize(ss["lesson_06_atlas_6"]);
+	this.initialize(ss["lesson_06_atlas_9"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_6a = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(23);
+	this.initialize(ss["lesson_06_atlas_13"]);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_6b = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(24);
+	this.initialize(ss["lesson_06_atlas_13"]);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_6bg = function() {
-	this.initialize(ss["lesson_06_atlas_5"]);
+	this.initialize(ss["lesson_06_atlas_8"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_6g = function() {
-	this.initialize(ss["lesson_06_atlas_7"]);
-	this.gotoAndStop(1);
+	this.initialize(ss["lesson_06_atlas_10"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_6v = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(25);
+	this.initialize(ss["lesson_06_atlas_13"]);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_7 = function() {
-	this.initialize(ss["lesson_06_atlas_4"]);
+	this.initialize(ss["lesson_06_atlas_7"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_7aa = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(26);
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_7bb = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(27);
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_7cc = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(28);
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_7vv = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(29);
+	this.initialize(ss["lesson_06_atlas_13"]);
+	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_8 = function() {
-	this.initialize(ss["lesson_06_atlas_5"]);
+	this.initialize(ss["lesson_06_atlas_8"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_9pngcopy = function() {
-	this.initialize(ss["lesson_06_atlas_6"]);
+	this.initialize(ss["lesson_06_atlas_9"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_9Group2copy9 = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(22);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.lesson6_inter_bg3_02618 = function() {
+	this.initialize(ss["lesson_06_atlas_3"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.lesson6_inter_bg4_03532 = function() {
+	this.initialize(ss["lesson_06_atlas_4"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.lesson6_inter_bt1_01520 = function() {
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(23);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.lesson6_inter_bt2_01520 = function() {
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(24);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.lesson6_inter_bt3_01520 = function() {
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(25);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.lesson6_inter_bt4_01520 = function() {
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(26);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.lesson6_inter_bt5_01520 = function() {
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(27);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.lesson6_inter_bt6_01520 = function() {
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(28);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.lesson6_inter_bt7_01520 = function() {
+	this.initialize(ss["lesson_06_atlas_14"]);
+	this.gotoAndStop(29);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.lesson6_inter_bt8_01520 = function() {
+	this.initialize(ss["lesson_06_atlas_14"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson_bg = function() {
-	this.initialize(ss["lesson_06_atlas_2"]);
+	this.initialize(ss["lesson_06_atlas_5"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.nud0000 = function() {
-	this.initialize(ss["lesson_06_atlas_7"]);
-	this.gotoAndStop(2);
+	this.initialize(ss["lesson_06_atlas_10"]);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.nud0001 = function() {
-	this.initialize(ss["lesson_06_atlas_7"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.nud0002 = function() {
-	this.initialize(ss["lesson_06_atlas_7"]);
+	this.initialize(ss["lesson_06_atlas_10"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.nud0003 = function() {
-	this.initialize(ss["lesson_06_atlas_7"]);
+(lib.nud0002 = function() {
+	this.initialize(ss["lesson_06_atlas_10"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.nud0004 = function() {
-	this.initialize(ss["lesson_06_atlas_7"]);
+(lib.nud0003 = function() {
+	this.initialize(ss["lesson_06_atlas_10"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.nud0005 = function() {
-	this.initialize(ss["lesson_06_atlas_7"]);
+(lib.nud0004 = function() {
+	this.initialize(ss["lesson_06_atlas_10"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.nud0006 = function() {
-	this.initialize(ss["lesson_06_atlas_7"]);
+(lib.nud0005 = function() {
+	this.initialize(ss["lesson_06_atlas_10"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.nud0007 = function() {
-	this.initialize(ss["lesson_06_atlas_7"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.nud0008 = function() {
-	this.initialize(ss["lesson_06_atlas_7"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.nud0009 = function() {
-	this.initialize(ss["lesson_06_atlas_8"]);
+(lib.nud0006 = function() {
+	this.initialize(ss["lesson_06_atlas_11"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.nud0010 = function() {
-	this.initialize(ss["lesson_06_atlas_8"]);
+(lib.nud0007 = function() {
+	this.initialize(ss["lesson_06_atlas_11"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.nud0011 = function() {
-	this.initialize(ss["lesson_06_atlas_8"]);
+(lib.nud0008 = function() {
+	this.initialize(ss["lesson_06_atlas_11"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.nud0012 = function() {
-	this.initialize(ss["lesson_06_atlas_8"]);
+(lib.nud0009 = function() {
+	this.initialize(ss["lesson_06_atlas_11"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.nud0010 = function() {
+	this.initialize(ss["lesson_06_atlas_11"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.nud0011 = function() {
+	this.initialize(ss["lesson_06_atlas_11"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.nud0012 = function() {
+	this.initialize(ss["lesson_06_atlas_11"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.Rectangle4copy3 = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
+	this.initialize(ss["lesson_06_atlas_14"]);
 	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.sum = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
+	this.initialize(ss["lesson_06_atlas_14"]);
 	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.sum2 = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
+	this.initialize(ss["lesson_06_atlas_14"]);
 	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.true0000 = function() {
-	this.initialize(ss["lesson_06_atlas_8"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.true0001 = function() {
-	this.initialize(ss["lesson_06_atlas_8"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.true0002 = function() {
-	this.initialize(ss["lesson_06_atlas_8"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.true0003 = function() {
-	this.initialize(ss["lesson_06_atlas_8"]);
+	this.initialize(ss["lesson_06_atlas_11"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.true0004 = function() {
-	this.initialize(ss["lesson_06_atlas_8"]);
+(lib.true0001 = function() {
+	this.initialize(ss["lesson_06_atlas_11"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.true0005 = function() {
-	this.initialize(ss["lesson_06_atlas_8"]);
+(lib.true0002 = function() {
+	this.initialize(ss["lesson_06_atlas_11"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.true0006 = function() {
-	this.initialize(ss["lesson_06_atlas_8"]);
+(lib.true0003 = function() {
+	this.initialize(ss["lesson_06_atlas_11"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.true0007 = function() {
-	this.initialize(ss["lesson_06_atlas_8"]);
+(lib.true0004 = function() {
+	this.initialize(ss["lesson_06_atlas_11"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.true0008 = function() {
-	this.initialize(ss["lesson_06_atlas_9"]);
+(lib.true0005 = function() {
+	this.initialize(ss["lesson_06_atlas_12"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.true0009 = function() {
-	this.initialize(ss["lesson_06_atlas_9"]);
+(lib.true0006 = function() {
+	this.initialize(ss["lesson_06_atlas_12"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.true0010 = function() {
-	this.initialize(ss["lesson_06_atlas_9"]);
+(lib.true0007 = function() {
+	this.initialize(ss["lesson_06_atlas_12"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.true0011 = function() {
-	this.initialize(ss["lesson_06_atlas_9"]);
+(lib.true0008 = function() {
+	this.initialize(ss["lesson_06_atlas_12"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.true0012 = function() {
-	this.initialize(ss["lesson_06_atlas_9"]);
+(lib.true0009 = function() {
+	this.initialize(ss["lesson_06_atlas_12"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.true0010 = function() {
+	this.initialize(ss["lesson_06_atlas_12"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.true0011 = function() {
+	this.initialize(ss["lesson_06_atlas_12"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.true0012 = function() {
+	this.initialize(ss["lesson_06_atlas_12"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.VectorSmartObject = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
+	this.initialize(ss["lesson_06_atlas_14"]);
 	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.voice_btn = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
+	this.initialize(ss["lesson_06_atlas_14"]);
 	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.zuvbndahinoroldnuu0000 = function() {
-	this.initialize(ss["lesson_06_atlas_9"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.zuvbndahinoroldnuu0001 = function() {
-	this.initialize(ss["lesson_06_atlas_9"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.zuvbndahinoroldnuu0002 = function() {
-	this.initialize(ss["lesson_06_atlas_9"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.zuvbndahinoroldnuu0003 = function() {
-	this.initialize(ss["lesson_06_atlas_9"]);
+	this.initialize(ss["lesson_06_atlas_12"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.zuvbndahinoroldnuu0004 = function() {
-	this.initialize(ss["lesson_06_atlas_9"]);
+(lib.zuvbndahinoroldnuu0001 = function() {
+	this.initialize(ss["lesson_06_atlas_12"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.zuvbndahinoroldnuu0005 = function() {
-	this.initialize(ss["lesson_06_atlas_9"]);
+(lib.zuvbndahinoroldnuu0002 = function() {
+	this.initialize(ss["lesson_06_atlas_12"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.zuvbndahinoroldnuu0006 = function() {
-	this.initialize(ss["lesson_06_atlas_9"]);
+(lib.zuvbndahinoroldnuu0003 = function() {
+	this.initialize(ss["lesson_06_atlas_12"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.zuvbndahinoroldnuu0004 = function() {
+	this.initialize(ss["lesson_06_atlas_13"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.zuvbndahinoroldnuu0005 = function() {
+	this.initialize(ss["lesson_06_atlas_13"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.zuvbndahinoroldnuu0006 = function() {
+	this.initialize(ss["lesson_06_atlas_13"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.zuvbndahinoroldnuu0007 = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(36);
+	this.initialize(ss["lesson_06_atlas_13"]);
+	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.zuvbndahinoroldnuu0008 = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(37);
+	this.initialize(ss["lesson_06_atlas_13"]);
+	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.zuvbndahinoroldnuu0009 = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(38);
+	this.initialize(ss["lesson_06_atlas_13"]);
+	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.zuvbndahinoroldnuu0010 = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(39);
+	this.initialize(ss["lesson_06_atlas_13"]);
+	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.zuvbndahinoroldnuu0011 = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(40);
+	this.initialize(ss["lesson_06_atlas_13"]);
+	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.zuvbndahinoroldnuu0012 = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(41);
+	this.initialize(ss["lesson_06_atlas_13"]);
+	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -1144,6 +1232,685 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.Symbol1, new cjs.Rectangle(-67.8,-16.5,135.7,33.1), null);
+
+
+(lib.symb_1_6_4 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("AmylEIQtAAIAAKJIz1AAIAAnBQAAjIDIAAg");
+	this.shape.setTransform(63.5,32.5,1,1,180);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF9999").s().p("Ap6FFIAAnBQAAjIDIAAIQtAAIAAKJg");
+	this.shape_1.setTransform(63.5,32.5,1,1,180);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.symb_1_6_4, new cjs.Rectangle(-1,-1,129,67), null);
+
+
+(lib.symb_1_6_3 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("Ap6lEIQtAAQDIAAAADIIAAHBIz1AAg");
+	this.shape.setTransform(63.5106,32.506,1,1,180);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF9999").s().p("Ap6FFIAAqJIQtAAQDIAAAADIIAAHBg");
+	this.shape_1.setTransform(63.5106,32.506,1,1,180);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.symb_1_6_3, new cjs.Rectangle(-1,-1,129,67), null);
+
+
+(lib.symb_1_6_2 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("Ap6lEIQtAAQDIAAAADIIAAHBIz1AAg");
+	this.shape.setTransform(63.5,32.5);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF9999").s().p("Ap6FFIAAqJIQtAAQDIAAAADIIAAHBg");
+	this.shape_1.setTransform(63.5,32.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.symb_1_6_2, new cjs.Rectangle(-1,-1,129,67), null);
+
+
+(lib.symb_1_6_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("AmylEIQtAAIAAKJIz1AAIAAnBQAAjIDIAAg");
+	this.shape.setTransform(63.5,32.5);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF9999").s().p("Ap6FFIAAnBQAAjIDIAAIQtAAIAAKJg");
+	this.shape_1.setTransform(63.5,32.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.symb_1_6_1, new cjs.Rectangle(-1,-1,129,67), null);
+
+
+(lib.symb_1_5_4 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("AmylEIQtAAIAAKJIz1AAIAAnBQAAjIDIAAg");
+	this.shape.setTransform(63.5,32.5,1,1,180);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF9999").s().p("Ap6FFIAAnBQAAjIDIAAIQtAAIAAKJg");
+	this.shape_1.setTransform(63.5,32.5,1,1,180);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.symb_1_5_4, new cjs.Rectangle(-1,-1,129,67), null);
+
+
+(lib.symb_1_5_3 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("Ap6lEIQtAAQDIAAAADIIAAHBIz1AAg");
+	this.shape.setTransform(63.5106,32.506,1,1,180);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF9999").s().p("Ap6FFIAAqJIQtAAQDIAAAADIIAAHBg");
+	this.shape_1.setTransform(63.5106,32.506,1,1,180);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.symb_1_5_3, new cjs.Rectangle(-1,-1,129,67), null);
+
+
+(lib.symb_1_5_2 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("Ap6lEIQtAAQDIAAAADIIAAHBIz1AAg");
+	this.shape.setTransform(63.5,32.5);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF9999").s().p("Ap6FFIAAqJIQtAAQDIAAAADIIAAHBg");
+	this.shape_1.setTransform(63.5,32.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.symb_1_5_2, new cjs.Rectangle(-1,-1,129,67), null);
+
+
+(lib.symb_1_5_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("AmylEIQtAAIAAKJIz1AAIAAnBQAAjIDIAAg");
+	this.shape.setTransform(63.5,32.5);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF9999").s().p("Ap6FFIAAnBQAAjIDIAAIQtAAIAAKJg");
+	this.shape_1.setTransform(63.5,32.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.symb_1_5_1, new cjs.Rectangle(-1,-1,129,67), null);
+
+
+(lib.symb_1_4_4 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("AmylEIQtAAIAAKJIz1AAIAAnBQAAjIDIAAg");
+	this.shape.setTransform(63.5,32.5,1,1,180);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF9999").s().p("Ap6FFIAAnBQAAjIDIAAIQtAAIAAKJg");
+	this.shape_1.setTransform(63.5,32.5,1,1,180);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.symb_1_4_4, new cjs.Rectangle(-1,-1,129,67), null);
+
+
+(lib.symb_1_4_3 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("Ap6lEIQtAAQDIAAAADIIAAHBIz1AAg");
+	this.shape.setTransform(63.5106,32.506,1,1,180);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF9999").s().p("Ap6FFIAAqJIQtAAQDIAAAADIIAAHBg");
+	this.shape_1.setTransform(63.5106,32.506,1,1,180);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.symb_1_4_3, new cjs.Rectangle(-1,-1,129,67), null);
+
+
+(lib.symb_1_4_2 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("Ap6lEIQtAAQDIAAAADIIAAHBIz1AAg");
+	this.shape.setTransform(63.5,32.5);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF9999").s().p("Ap6FFIAAqJIQtAAQDIAAAADIIAAHBg");
+	this.shape_1.setTransform(63.5,32.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.symb_1_4_2, new cjs.Rectangle(-1,-1,129,67), null);
+
+
+(lib.symb_1_4_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("AmylEIQtAAIAAKJIz1AAIAAnBQAAjIDIAAg");
+	this.shape.setTransform(63.5,32.5);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF9999").s().p("Ap6FFIAAnBQAAjIDIAAIQtAAIAAKJg");
+	this.shape_1.setTransform(63.5,32.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.symb_1_4_1, new cjs.Rectangle(-1,-1,129,67), null);
+
+
+(lib.symb_1_3_4 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("AmylEIQtAAIAAKJIz1AAIAAnBQAAjIDIAAg");
+	this.shape.setTransform(63.5,32.5,1,1,180);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF9999").s().p("Ap6FFIAAnBQAAjIDIAAIQtAAIAAKJg");
+	this.shape_1.setTransform(63.5,32.5,1,1,180);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.symb_1_3_4, new cjs.Rectangle(-1,-1,129,67), null);
+
+
+(lib.symb_1_3_3 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("Ap6lEIQtAAQDIAAAADIIAAHBIz1AAg");
+	this.shape.setTransform(63.5106,32.506,1,1,180);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF9999").s().p("Ap6FFIAAqJIQtAAQDIAAAADIIAAHBg");
+	this.shape_1.setTransform(63.5106,32.506,1,1,180);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.symb_1_3_3, new cjs.Rectangle(-1,-1,129,67), null);
+
+
+(lib.symb_1_3_2 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("Ap6lEIQtAAQDIAAAADIIAAHBIz1AAg");
+	this.shape.setTransform(63.5,32.5);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF9999").s().p("Ap6FFIAAqJIQtAAQDIAAAADIIAAHBg");
+	this.shape_1.setTransform(63.5,32.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.symb_1_3_2, new cjs.Rectangle(-1,-1,129,67), null);
+
+
+(lib.symb_1_3_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("AmylEIQtAAIAAKJIz1AAIAAnBQAAjIDIAAg");
+	this.shape.setTransform(63.5,32.5);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF9999").s().p("Ap6FFIAAnBQAAjIDIAAIQtAAIAAKJg");
+	this.shape_1.setTransform(63.5,32.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.symb_1_3_1, new cjs.Rectangle(-1,-1,129,67), null);
+
+
+(lib.symb_1_2_4 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("AmylEIQtAAIAAKJIz1AAIAAnBQAAjIDIAAg");
+	this.shape.setTransform(63.5,32.5,1,1,180);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF9999").s().p("Ap6FFIAAnBQAAjIDIAAIQtAAIAAKJg");
+	this.shape_1.setTransform(63.5,32.5,1,1,180);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.symb_1_2_4, new cjs.Rectangle(-1,-1,129,67), null);
+
+
+(lib.symb_1_2_3 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("Ap6lEIQtAAQDIAAAADIIAAHBIz1AAg");
+	this.shape.setTransform(63.5106,32.506,1,1,180);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF9999").s().p("Ap6FFIAAqJIQtAAQDIAAAADIIAAHBg");
+	this.shape_1.setTransform(63.5106,32.506,1,1,180);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.symb_1_2_3, new cjs.Rectangle(-1,-1,129,67), null);
+
+
+(lib.symb_1_2_2 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("Ap6lEIQtAAQDIAAAADIIAAHBIz1AAg");
+	this.shape.setTransform(63.5,32.5);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF9999").s().p("Ap6FFIAAqJIQtAAQDIAAAADIIAAHBg");
+	this.shape_1.setTransform(63.5,32.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.symb_1_2_2, new cjs.Rectangle(-1,-1,129,67), null);
+
+
+(lib.symb_1_2_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("AmylEIQtAAIAAKJIz1AAIAAnBQAAjIDIAAg");
+	this.shape.setTransform(63.5,32.5);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF9999").s().p("Ap6FFIAAnBQAAjIDIAAIQtAAIAAKJg");
+	this.shape_1.setTransform(63.5,32.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.symb_1_2_1, new cjs.Rectangle(-1,-1,129,67), null);
+
+
+(lib.symb_1_1_4 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("AmylEIQtAAIAAKJIz1AAIAAnBQAAjIDIAAg");
+	this.shape.setTransform(63.5,32.5,1,1,180);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF9999").s().p("Ap6FFIAAnBQAAjIDIAAIQtAAIAAKJg");
+	this.shape_1.setTransform(63.5,32.5,1,1,180);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.symb_1_1_4, new cjs.Rectangle(-1,-1,129,67), null);
+
+
+(lib.symb_1_1_3 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("Ap6lEIQtAAQDIAAAADIIAAHBIz1AAg");
+	this.shape.setTransform(63.5106,32.506,1,1,180);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF9999").s().p("Ap6FFIAAqJIQtAAQDIAAAADIIAAHBg");
+	this.shape_1.setTransform(63.5106,32.506,1,1,180);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.symb_1_1_3, new cjs.Rectangle(-1,-1,129,67), null);
+
+
+(lib.symb_1_1_2 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("Ap6lEIQtAAQDIAAAADIIAAHBIz1AAg");
+	this.shape.setTransform(63.5,32.5);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF9999").s().p("Ap6FFIAAqJIQtAAQDIAAAADIIAAHBg");
+	this.shape_1.setTransform(63.5,32.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.symb_1_1_2, new cjs.Rectangle(-1,-1,129,67), null);
+
+
+(lib.symb_1_1_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(2,1,1).p("AmylEIQtAAIAAKJIz1AAIAAnBQAAjIDIAAg");
+	this.shape.setTransform(63.5,32.5);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF9999").s().p("Ap6FFIAAnBQAAjIDIAAIQtAAIAAKJg");
+	this.shape_1.setTransform(63.5,32.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.symb_1_1_1, new cjs.Rectangle(-1,-1,129,67), null);
+
+
+(lib.part_prev_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(1,1,1).p("ArUrZQJfAAGsGtQGsGqABJcI3HAAIAA2zQAHAAAIAAg");
+	this.shape.setTransform(74,73.025);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#AF3B47").s().p("AHUJYQgSgqAXgpQAcgwA3gDQA3gCAgAtQAfAtgWAxQgWAzg3AKIgQABQhBgEgag9gAgQJmQgogSgOgpQgFgPAAgPQAEhCA9gaQAqgSAoAYQA3AggFBAQgDAmgdAZQgeAaghAAQgWAAgVgKgAo5JQQgQgFgMgKQg1glAIhAQAGgvApgYQAwgdAyAcQA4AfACA/QABAtgjAeQgdAYgiAAQgQAAgRgFgAEqG4QgLgGgIgJQgugtAUg9QAPguAtgPQA0gRArAiQAyAogNA/QgKAtgpAUQgXALgXAAQgZAAgZgOgAjyGAQg9gUgRg9QgJgeAMgdQAZg8BBgCQAqgCAgAcQAwArgQA+QgKAqgmAUQgXAMgYAAQgNAAgNgDgAkgFkIABAAIAAABIAAgBIgBgBgApFC4QgogSgOgpQgFgPAAgPQAEhCA9gaQArgRAoAXQA3AggFBAQgDAmgdAZQgeAaghAAQgWAAgWgKgAgCCaQgygcgDg6QAChCA7gaQAqgUApAWQA4AegCBAQgDA3gwAbQgYANgYAAQgXAAgXgNgAFTAzQgrgJgWgmQgeg4Ahg3QAPgaAcgMQA8gYAvAsQAhAfAAAtQgBA/g5AcQgVALgWAAQgKAAgKgCgAjegxQgZgGgTgTQgxgrAQg/QALgvAsgSQAzgVAtAfQA3AkgEBAQgDAmgcAZQgeAbgkAAQgOAAgOgEgAAXkdQgngSgOgpQgFgPAAgPQAEhCA8gaQArgSAoAYQA3AggFBAQgDAmgdAZQgeAaghAAQgWAAgWgKgAo4kuQgWgCgTgLIgEgDIgDgCIgEgDIgDgCIgDgDIgEgDQgcgdgCgpQgCglAXgeQAYgiAqgGQAogFAgAYQAiAZAGApQACAIgBAIIABADIAAADQAAAUgIATQgIASgNANQgNAOgRAHQgUAJgVAAIgJgBgAksnIQg2gMgTgzQgHgQAAgRQgDhBA4ghQAogYArASQAzAVALA2QAMBAgxAqQgbAWggAAQgKAAgMgDg");
+	this.shape_1.setTransform(77.0234,77.0765);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("#FE5F56").s().p("AriLaIgB2zIAPAAQJfAAGsGtQGrGqACJcgAJKH7Qg3ACgbAxQgYAoASArQAaA9BBADIARgBQA2gJAWgzQAWgygfgtQgegqgzAAIgGAAgAATHaQg8AagDBBQAAAQAEAOQAOApAnASQA7AbAwgrQAdgZADgmQAGg/g4ghQgXgNgXAAQgSAAgTAIgAo1G+QgpAYgFAvQgJBAA1AlQANAJAQAFQA1ARAqgkQAjgdgBguQgCg/g4gfQgYgNgYAAQgZAAgZAPgAFYErQguAPgPAtQgTA9AtAuQAIAIALAGQAvAbAxgYQApgUAKgtQAOg/gzgoQgcgWggAAQgRAAgRAGgAjEDeQhBACgZA9QgNAcAJAeQARA9A9AUQAmAKAjgSQAmgVALgpQAQg+gxgrQgegbgnAAIgEAAgAohAsQg9AagDBBQAAAQAEAOQAOApAoASQA7AbAwgrQAdgZAEgmQAEg/g3ghQgXgNgXAAQgSAAgTAIgAAkAPQg7AcgBBCQACA5AxAdQAvAaAwgaQAwgcADg3QADhAg5geQgWgMgWAAQgTAAgUAJgAFfhoQgdALgPAaQghA3AeA4QAWAmAsAJQAgAHAfgPQA5gdAAg/QAAgsgggfQgfgdgkAAQgTAAgVAJgAjVjMQgsASgMAuQgPA/AwAsQATASAZAHQA1AMApgjQAcgZADgmQAEhAg2glQgbgSgdAAQgUAAgUAJgAA7mpQg8AZgEBCQAAAQAFAOQAOApAnASQA7AbAxgrQAcgZADgmQAFg/g3ghQgXgNgXAAQgSAAgTAIgAofnTQgpAGgZAhQgWAeACAmQACApAbAdIAEACIAEADIACADIAEACIAEADIADACQATAMAXACQAZACAYgKQARgIANgNQAOgOAHgRQAJgTgBgVIAAgDIAAgDQAAgIgBgHQgHgqgigZQgagTgfAAIgPABgAkppiQg4AhAEBBQAAARAGAQQATA0A3AMQAsAKAkgeQAygpgNhBQgLg2gygVQgTgHgSAAQgYAAgXANgAkBGNIgBgBIAAAAIABAAIAAABg");
+	this.shape_2.setTransform(74,73.025);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.part_prev_1, new cjs.Rectangle(-1,-1,150,148.1), null);
 
 
 (lib.MC_True = function(mode,startPosition,loop,reversed) {
@@ -2705,15 +3472,10 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_1
-	this.instance = new lib.Lesson13_help_tu();
-	this.instance.setTransform(-756.5,-397);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.help_tv, new cjs.Rectangle(-756.5,-397,1513,794), null);
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,0,0);
 
 
 (lib.help_btn_1 = function(mode,startPosition,loop,reversed) {
@@ -2860,6 +3622,174 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.btn_sign, new cjs.Rectangle(-27,-22.5,54,45), null);
+
+
+(lib.btn_prev_8 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.lesson6_inter_bt8_01520();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.btn_prev_8, new cjs.Rectangle(0,0,227,125), null);
+
+
+(lib.btn_prev_7 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.lesson6_inter_bt6_01520();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.btn_prev_7, new cjs.Rectangle(0,0,264,143), null);
+
+
+(lib.btn_prev_6 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.lesson6_inter_bt7_01520();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.btn_prev_6, new cjs.Rectangle(0,0,228,117), null);
+
+
+(lib.btn_prev_5 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.lesson6_inter_bt5_01520();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.btn_prev_5, new cjs.Rectangle(0,0,223,143), null);
+
+
+(lib.btn_prev_4 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.lesson6_inter_bt4_01520();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.btn_prev_4, new cjs.Rectangle(0,0,142,144), null);
+
+
+(lib.btn_prev_3 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.lesson6_inter_bt3_01520();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.btn_prev_3, new cjs.Rectangle(0,0,190,191), null);
+
+
+(lib.btn_prev_2 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.lesson6_inter_bt2_01520();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.btn_prev_2, new cjs.Rectangle(0,0,153,158), null);
+
+
+(lib.btn_prev_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.lesson6_inter_bt1_01520();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.btn_prev_1, new cjs.Rectangle(0,0,178,173), null);
 
 
 (lib.btn_next = function(mode,startPosition,loop,reversed) {
@@ -3400,7 +4330,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.Blue();
 	this.instance.setTransform(0.25,0.2,0.3034,0.3034,0,0,0,205.8,205.3);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{regX:205.8,regY:205.3,scaleX:0.3034,scaleY:0.3034,x:0.25,y:0.2}},{t:this.shape,p:{regX:0.2,regY:0.2,scaleX:0.95,scaleY:0.95,x:0.2,y:0.2}}]}).to({state:[{t:this.instance,p:{regX:202.1,regY:201.7,scaleX:0.2378,scaleY:0.2378,x:0.2,y:0.15}},{t:this.shape,p:{regX:0.8,regY:1.6,scaleX:0.7453,scaleY:0.7453,x:0.15,y:0.25}}]},1).to({state:[{t:this.instance,p:{regX:205.8,regY:205.3,scaleX:0.3034,scaleY:0.3034,x:0.25,y:0.2}},{t:this.shape,p:{regX:0.2,regY:0.2,scaleX:0.95,scaleY:0.95,x:0.2,y:0.2}}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{regX:205.8,regY:205.3,scaleX:0.3034,scaleY:0.3034,x:0.25,y:0.2}},{t:this.shape,p:{regX:0.2,regY:0.2,scaleX:0.95,scaleY:0.95,x:0.2,y:0.2}}]}).to({state:[{t:this.instance,p:{regX:201.8,regY:201.5,scaleX:0.2378,scaleY:0.2378,x:0.2,y:0.15}},{t:this.shape,p:{regX:0.8,regY:1.7,scaleX:0.7453,scaleY:0.7453,x:0.15,y:0.25}}]},1).to({state:[{t:this.instance,p:{regX:205.8,regY:205.3,scaleX:0.3034,scaleY:0.3034,x:0.25,y:0.2}},{t:this.shape,p:{regX:0.2,regY:0.2,scaleX:0.95,scaleY:0.95,x:0.2,y:0.2}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -3920,19 +4850,19 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
+	this.instance = new lib._06help_mn();
+	this.instance.setTransform(-757,-397);
+
 	this.closeBtn = new lib.closeBtn();
 	this.closeBtn.name = "closeBtn";
 	this.closeBtn.setTransform(640.9,-301.6,1.3928,1.3928);
 	this.closeBtn.visible = false;
 
-	this.instance = new lib.Lesson13_help_mn();
-	this.instance.setTransform(-756.5,-397);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.closeBtn}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.closeBtn},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.help_mn, new cjs.Rectangle(-756.5,-397,1513,794), null);
+}).prototype = getMCSymbolPrototype(lib.help_mn, new cjs.Rectangle(-757,-397,1513,794), null);
 
 
 (lib.help_kz = function(mode,startPosition,loop,reversed) {
@@ -3947,18 +4877,18 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.closeBtn();
-	this.instance.setTransform(639.55,-300.45,1.4814,1.3295,0,0,0,-0.1,0.1);
-	this.instance.visible = false;
+	this.instance = new lib._06help_kz();
+	this.instance.setTransform(-757,-397);
 
-	this.instance_1 = new lib.Lesson13_help_kz();
-	this.instance_1.setTransform(-756.5,-397);
+	this.instance_1 = new lib.closeBtn();
+	this.instance_1.setTransform(639.55,-300.45,1.4814,1.3295,0,0,0,-0.1,0.1);
+	this.instance_1.visible = false;
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.help_kz, new cjs.Rectangle(-756.5,-397,1513,794), null);
+}).prototype = getMCSymbolPrototype(lib.help_kz, new cjs.Rectangle(-757,-397,1513,794), null);
 
 
 (lib.help_popup = function(mode,startPosition,loop,reversed) {
@@ -3994,15 +4924,18 @@ if (reversed == null) { reversed = false; }
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("rgba(0,0,0,0.004)").s().p("Eh3yA8RMAAAh4hMDvlAAAMAAAB4hg");
 
-	this.instance_2 = new lib.help_tv();
-	this.instance_2.setTransform(10.25,-11.3);
+	this.instance_2 = new lib._05help_tv();
+	this.instance_2.setTransform(-746,-408);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.instance,p:{x:11.35}}]}).to({state:[{t:this.shape_1},{t:this.instance,p:{x:10.25}},{t:this.instance_1}]},1).to({state:[{t:this.shape_1},{t:this.instance,p:{x:10.25}},{t:this.instance_1},{t:this.instance_2}]},1).wait(1));
+	this.instance_3 = new lib.help_tv();
+	this.instance_3.setTransform(10.25,-11.3);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.instance,p:{x:11.35}}]}).to({state:[{t:this.shape_1},{t:this.instance,p:{x:10.25}},{t:this.instance_1}]},1).to({state:[{t:this.shape_1},{t:this.instance,p:{x:10.25}},{t:this.instance_1},{t:this.instance_3},{t:this.instance_2}]},1).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-766.7,-408.3,1534.6,794);
+p.nominalBounds = new cjs.Rectangle(-766.7,-408.3,1534.6,794.3);
 
 
 // stage content:
@@ -4017,7 +4950,7 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	this.actionFrames = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23];
+	this.actionFrames = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29];
 	// timeline functions:
 	this.frame_0 = function() {
 		var exportRoot = this;
@@ -4165,7 +5098,7 @@ if (reversed == null) { reversed = false; }
 		
 		function updateHomeText() {
 			var texts = homeText[exportRoot.gameState.selectedLanguage];
-			if (exportRoot.txt_title) exportRoot.txt_title.text = texts.title;
+			if (exportRoot.main_txt_title) exportRoot.main_txt_title.text = texts.title;
 			if (exportRoot.txt_subtitle) exportRoot.txt_subtitle.text = texts.subtitle;
 			if (exportRoot.txt_subject) exportRoot.txt_subject.text = texts.subject;
 			if (exportRoot.txt_grade) exportRoot.txt_grade.text = texts.grade;
@@ -4311,7 +5244,7 @@ if (reversed == null) { reversed = false; }
 				}
 			}
 			
-			var textFields = ["txt_title", "txt_instruction"];
+			var textFields = ["main_txt_title", "main_txt_instruction"];
 			textFields.forEach(function(name) {
 				if (exportRoot[name]) {
 					cleanupTextObject(exportRoot[name]);
@@ -4367,10 +5300,12 @@ if (reversed == null) { reversed = false; }
 		var progressFill = null;
 		var volumeSlider = null;
 		var downloadBtn = null;
+		var fullscreenBtn = null;
 		var skipButton = null;
 		var timeDisplay = null;
 		var loadingIndicator = null;
 		var resizeHandler = null;
+		var clickOverlay = null;
 		
 		function cleanup() {
 			if (videoElement) {
@@ -4387,14 +5322,26 @@ if (reversed == null) { reversed = false; }
 				window.removeEventListener("resize", resizeHandler);
 				resizeHandler = null;
 			}
+			document.removeEventListener("fullscreenchange", fullscreenChangeHandler);
 			playPauseBtn = null;
 			progressFill = null;
 			volumeSlider = null;
 			downloadBtn = null;
+			fullscreenBtn = null;
 			skipButton = null;
 			timeDisplay = null;
 			loadingIndicator = null;
 			controlsBar = null;
+			clickOverlay = null;
+		}
+		
+		function fullscreenChangeHandler() {
+			if (!fullscreenBtn) return;
+			if (document.fullscreenElement) {
+				fullscreenBtn.innerHTML = "✖";
+			} else {
+				fullscreenBtn.innerHTML = "⛶";
+			}
 		}
 		
 		function createVideoPlayer() {
@@ -4420,6 +5367,9 @@ if (reversed == null) { reversed = false; }
 			var rect = canvas.getBoundingClientRect();
 			var videoWatched = exportRoot.gameState.videosWatched.indexOf("mainStory") !== -1;
 		
+			// =====================================================
+			// CONTAINER
+			// =====================================================
 			videoContainer = document.createElement("div");
 			videoContainer.id = "video-container-main";
 			videoContainer.style.position = "absolute";
@@ -4427,10 +5377,13 @@ if (reversed == null) { reversed = false; }
 			videoContainer.style.top = rect.top + "px";
 			videoContainer.style.width = rect.width + "px";
 			videoContainer.style.height = rect.height + "px";
-			videoContainer.style.backgroundColor = "#6B4FBB";
+			videoContainer.style.backgroundColor = "#1a1a2e";
 			videoContainer.style.zIndex = "1000";
 			videoContainer.style.overflow = "hidden";
 		
+			// =====================================================
+			// LOADING SPINNER
+			// =====================================================
 			loadingIndicator = document.createElement("div");
 			loadingIndicator.style.position = "absolute";
 			loadingIndicator.style.top = "50%";
@@ -4443,7 +5396,7 @@ if (reversed == null) { reversed = false; }
 			spinner.style.width = "60px";
 			spinner.style.height = "60px";
 			spinner.style.border = "6px solid rgba(255,255,255,0.2)";
-			spinner.style.borderTop = "6px solid #FFD700";
+			spinner.style.borderTop = "6px solid #FFD700"; // ← FIXED COLOR
 			spinner.style.borderRadius = "50%";
 			spinner.style.margin = "0 auto 20px";
 			spinner.style.animation = "spin 1s linear infinite";
@@ -4465,8 +5418,11 @@ if (reversed == null) { reversed = false; }
 				document.head.appendChild(style);
 			}
 		
+			// =====================================================
+			// VIDEO ELEMENT
+			// =====================================================
 			videoElement = document.createElement("video");
-			videoElement.src = "./videos/Lesson6_main_story.mp4";
+			videoElement.src = "./videos/lesson6_intro1_mn.mp4";
 			videoElement.style.width = "100%";
 			videoElement.style.height = "100%";
 			videoElement.style.objectFit = "contain";
@@ -4479,9 +5435,60 @@ if (reversed == null) { reversed = false; }
 		
 			videoElement.addEventListener("error", function() {
 				console.log("VIDEO ERROR:", videoElement.error);
-				alert("Video load error");
 			});
 		
+			// =====================================================
+			// CLICK OVERLAY
+			// =====================================================
+			clickOverlay = document.createElement("div");
+			clickOverlay.style.position = "absolute";
+			clickOverlay.style.top = "0";
+			clickOverlay.style.left = "0";
+			clickOverlay.style.width = "100%";
+			clickOverlay.style.height = "calc(100% - 70px)";
+			clickOverlay.style.zIndex = "1001";
+			clickOverlay.style.cursor = "pointer";
+			clickOverlay.style.display = "none";
+		
+			var flashIcon = document.createElement("div");
+			flashIcon.style.position = "absolute";
+			flashIcon.style.top = "50%";
+			flashIcon.style.left = "50%";
+			flashIcon.style.transform = "translate(-50%, -50%)";
+			flashIcon.style.fontSize = "80px";
+			flashIcon.style.color = "rgba(255,255,255,0.85)";
+			flashIcon.style.pointerEvents = "none";
+			flashIcon.style.opacity = "0";
+			flashIcon.style.transition = "opacity 0.15s ease";
+			flashIcon.style.textShadow = "0 0 30px rgba(0,0,0,0.6)";
+			flashIcon.textContent = "⏸";
+			clickOverlay.appendChild(flashIcon);
+		
+			function showFlash(icon) {
+				flashIcon.textContent = icon;
+				flashIcon.style.opacity = "1";
+				setTimeout(function() {
+					flashIcon.style.opacity = "0";
+				}, 400);
+			}
+		
+			clickOverlay.addEventListener("click", function() {
+				if (!videoElement) return;
+				if (videoElement.paused) {
+					videoElement.muted = false;
+					videoElement.play().catch(function() {});
+					if (playPauseBtn) playPauseBtn.innerHTML = "⏸️";
+					showFlash("▶");
+				} else {
+					videoElement.pause();
+					if (playPauseBtn) playPauseBtn.innerHTML = "▶️";
+					showFlash("⏸");
+				}
+			});
+		
+			// =====================================================
+			// CONTROLS BAR
+			// =====================================================
 			controlsBar = document.createElement("div");
 			controlsBar.style.position = "absolute";
 			controlsBar.style.bottom = "0";
@@ -4493,8 +5500,9 @@ if (reversed == null) { reversed = false; }
 			controlsBar.style.alignItems = "center";
 			controlsBar.style.padding = "0 20px";
 			controlsBar.style.gap = "15px";
-			controlsBar.style.zIndex = "1001";
+			controlsBar.style.zIndex = "1002";
 		
+			// PLAY/PAUSE
 			playPauseBtn = document.createElement("button");
 			playPauseBtn.innerHTML = "⏸️";
 			playPauseBtn.style.fontSize = "24px";
@@ -4503,7 +5511,9 @@ if (reversed == null) { reversed = false; }
 			playPauseBtn.style.cursor = "pointer";
 			playPauseBtn.style.padding = "5px";
 			playPauseBtn.style.color = "#fff";
+			playPauseBtn.style.zIndex = "1003";
 		
+			// PROGRESS BAR
 			var progressContainer = document.createElement("div");
 			progressContainer.style.flex = "1";
 			progressContainer.style.height = "6px";
@@ -4511,6 +5521,7 @@ if (reversed == null) { reversed = false; }
 			progressContainer.style.borderRadius = "3px";
 			progressContainer.style.cursor = "pointer";
 			progressContainer.style.position = "relative";
+			progressContainer.style.zIndex = "1003";
 		
 			progressFill = document.createElement("div");
 			progressFill.style.width = "0%";
@@ -4520,13 +5531,16 @@ if (reversed == null) { reversed = false; }
 			progressFill.style.transition = "width 0.1s";
 			progressContainer.appendChild(progressFill);
 		
+			// TIME DISPLAY
 			timeDisplay = document.createElement("span");
 			timeDisplay.textContent = "0:00 / 0:00";
 			timeDisplay.style.color = "#fff";
 			timeDisplay.style.fontSize = "14px";
 			timeDisplay.style.fontFamily = "'Rubik', sans-serif";
 			timeDisplay.style.minWidth = "100px";
+			timeDisplay.style.zIndex = "1003";
 		
+			// VOLUME
 			volumeSlider = document.createElement("input");
 			volumeSlider.type = "range";
 			volumeSlider.min = "0";
@@ -4534,7 +5548,9 @@ if (reversed == null) { reversed = false; }
 			volumeSlider.value = "100";
 			volumeSlider.style.width = "80px";
 			volumeSlider.style.cursor = "pointer";
+			volumeSlider.style.zIndex = "1003";
 		
+			// DOWNLOAD
 			downloadBtn = document.createElement("button");
 			downloadBtn.innerHTML = "⬇️";
 			downloadBtn.style.fontSize = "20px";
@@ -4543,7 +5559,24 @@ if (reversed == null) { reversed = false; }
 			downloadBtn.style.cursor = "pointer";
 			downloadBtn.style.padding = "5px";
 			downloadBtn.style.color = "#fff";
+			downloadBtn.style.zIndex = "1003";
 		
+			// =====================================================
+			// FULLSCREEN BUTTON ← NEW
+			// =====================================================
+			fullscreenBtn = document.createElement("button");
+			fullscreenBtn.innerHTML = "⛶";
+			fullscreenBtn.style.fontSize = "22px";
+			fullscreenBtn.style.background = "none";
+			fullscreenBtn.style.border = "none";
+			fullscreenBtn.style.cursor = "pointer";
+			fullscreenBtn.style.padding = "5px";
+			fullscreenBtn.style.color = "#fff";
+			fullscreenBtn.style.zIndex = "1003";
+		
+			// =====================================================
+			// SKIP BUTTON
+			// =====================================================
 			skipButton = document.createElement("button");
 			skipButton.innerHTML = skipLabels[currentLang] || skipLabels.mn;
 			skipButton.style.position = "absolute";
@@ -4554,31 +5587,40 @@ if (reversed == null) { reversed = false; }
 			skipButton.style.fontFamily = "'Rubik', sans-serif";
 			skipButton.style.fontWeight = "bold";
 			skipButton.style.backgroundColor = "#FFD700";
-			skipButton.style.color = "#3D1F14";
+			skipButton.style.color = "#1a1a2e";
 			skipButton.style.border = "none";
 			skipButton.style.borderRadius = "25px";
 			skipButton.style.cursor = "pointer";
 			skipButton.style.boxShadow = "0 4px 12px rgba(0,0,0,0.5)";
-			skipButton.style.zIndex = "1002";
+			skipButton.style.zIndex = "1004";
 			skipButton.style.display = videoWatched ? "block" : "none";
 		
+			// =====================================================
+			// ASSEMBLE
+			// =====================================================
 			controlsBar.appendChild(playPauseBtn);
 			controlsBar.appendChild(progressContainer);
 			controlsBar.appendChild(timeDisplay);
 			controlsBar.appendChild(volumeSlider);
 			controlsBar.appendChild(downloadBtn);
+			controlsBar.appendChild(fullscreenBtn); // ← NEW
 		
 			videoContainer.appendChild(loadingIndicator);
 			videoContainer.appendChild(videoElement);
+			videoContainer.appendChild(clickOverlay);
 			videoContainer.appendChild(controlsBar);
 			videoContainer.appendChild(skipButton);
 		
 			document.body.appendChild(videoContainer);
 		
+			// =====================================================
+			// VIDEO EVENTS
+			// =====================================================
 			videoElement.addEventListener("loadeddata", function() {
 				if (loadingIndicator) loadingIndicator.style.display = "none";
 				videoElement.style.display = "block";
 				controlsBar.style.display = "flex";
+				clickOverlay.style.display = "block";
 				if (!videoWatched) skipButton.style.display = "block";
 		
 				videoElement.play().then(function() {
@@ -4591,54 +5633,16 @@ if (reversed == null) { reversed = false; }
 		
 			videoElement.addEventListener("loadedmetadata", function() {
 				if (timeDisplay) {
-					var total = formatTime(videoElement.duration);
-					timeDisplay.textContent = "0:00 / " + total;
+					timeDisplay.textContent = "0:00 / " + formatTime(videoElement.duration);
 				}
-			});
-		
-			playPauseBtn.addEventListener("click", function() {
-				if (videoElement.paused) {
-					videoElement.muted = false;
-					videoElement.play();
-					playPauseBtn.innerHTML = "⏸️";
-				} else {
-					videoElement.pause();
-					playPauseBtn.innerHTML = "▶️";
-				}
-			});
-		
-			progressContainer.addEventListener("click", function(e) {
-				var rect = progressContainer.getBoundingClientRect();
-				var pos = (e.clientX - rect.left) / rect.width;
-				videoElement.currentTime = pos * videoElement.duration;
 			});
 		
 			videoElement.addEventListener("timeupdate", function() {
 				if (progressFill && timeDisplay && videoElement.duration) {
 					var percent = (videoElement.currentTime / videoElement.duration) * 100;
 					progressFill.style.width = percent + "%";
-					var current = formatTime(videoElement.currentTime);
-					var total = formatTime(videoElement.duration);
-					timeDisplay.textContent = current + " / " + total;
+					timeDisplay.textContent = formatTime(videoElement.currentTime) + " / " + formatTime(videoElement.duration);
 				}
-			});
-		
-			volumeSlider.addEventListener("input", function() {
-				videoElement.volume = this.value / 100;
-				if (this.value > 0) {
-					videoElement.muted = false;
-				}
-			});
-		
-			downloadBtn.addEventListener("click", function() {
-				var a = document.createElement("a");
-				a.href = videoElement.src;
-				a.download = "Lesson6_main_story.mp4";
-				a.click();
-			});
-		
-			skipButton.addEventListener("click", function() {
-				goToExercise1();
 			});
 		
 			videoElement.addEventListener("ended", function() {
@@ -4650,17 +5654,76 @@ if (reversed == null) { reversed = false; }
 				setTimeout(goToExercise1, 800);
 			});
 		
+			// =====================================================
+			// CONTROLS EVENTS
+			// =====================================================
+			playPauseBtn.addEventListener("click", function(e) {
+				e.stopPropagation();
+				if (videoElement.paused) {
+					videoElement.muted = false;
+					videoElement.play();
+					playPauseBtn.innerHTML = "⏸️";
+				} else {
+					videoElement.pause();
+					playPauseBtn.innerHTML = "▶️";
+				}
+			});
+		
+			progressContainer.addEventListener("click", function(e) {
+				e.stopPropagation();
+				var r = progressContainer.getBoundingClientRect();
+				var pos = (e.clientX - r.left) / r.width;
+				videoElement.currentTime = pos * videoElement.duration;
+			});
+		
+			volumeSlider.addEventListener("input", function(e) {
+				e.stopPropagation();
+				videoElement.volume = this.value / 100;
+				if (this.value > 0) videoElement.muted = false;
+			});
+		
+			downloadBtn.addEventListener("click", function(e) {
+				e.stopPropagation();
+				var a = document.createElement("a");
+				a.href = videoElement.src;
+				a.download = "lesson6_intro1_mn.mp4";
+				a.click();
+			});
+		
+			// =====================================================
+			// FULLSCREEN EVENTS ← NEW
+			// =====================================================
+			fullscreenBtn.addEventListener("click", function(e) {
+				e.stopPropagation();
+				if (!document.fullscreenElement) {
+					videoContainer.requestFullscreen().catch(function(err) {
+						console.log("Fullscreen error:", err);
+					});
+				} else {
+					document.exitFullscreen();
+				}
+			});
+		
+			document.addEventListener("fullscreenchange", fullscreenChangeHandler);
+		
+			skipButton.addEventListener("click", function(e) {
+				e.stopPropagation();
+				goToExercise1();
+			});
+		
+			// =====================================================
+			// RESIZE
+			// =====================================================
 			resizeHandler = function() {
 				if (!videoContainer) return;
 				var canvas = document.getElementById("canvas");
 				if (!canvas) return;
-				var rect = canvas.getBoundingClientRect();
-				videoContainer.style.left = rect.left + "px";
-				videoContainer.style.top = rect.top + "px";
-				videoContainer.style.width = rect.width + "px";
-				videoContainer.style.height = rect.height + "px";
+				var r = canvas.getBoundingClientRect();
+				videoContainer.style.left   = r.left   + "px";
+				videoContainer.style.top    = r.top    + "px";
+				videoContainer.style.width  = r.width  + "px";
+				videoContainer.style.height = r.height + "px";
 			};
-		
 			window.addEventListener("resize", resizeHandler);
 		}
 		
@@ -4694,13 +5757,2514 @@ if (reversed == null) { reversed = false; }
 		// CONFIG
 		// =====================================================
 		var CONFIG = {
+		    backFrame: null,
+		    nextFrame: 3,
+		    autoNextDelay: 1200,
+		    soundPaths: {
+		        correct: "./sounds/voice_correct.mp3",
+		        wrong: "./sounds/voice_wrong.mp3",
+		        click: "./sounds/click.mp3"
+		    }
+		};
+		
+		// =====================================================
+		// GLOBAL STATE
+		// =====================================================
+		if (!exportRoot.audioPool) {
+		    exportRoot.audioPool = {};
+		}
+		
+		// =====================================================
+		// AUDIO
+		// =====================================================
+		function loadSound(type) {
+		    if (!CONFIG.soundPaths[type]) return null;
+		
+		    if (!exportRoot.audioPool[type]) {
+		        var audio = new Audio(CONFIG.soundPaths[type]);
+		        audio.preload = "auto";
+		        exportRoot.audioPool[type] = audio;
+		    }
+		    return exportRoot.audioPool[type];
+		}
+		
+		function playSound(type) {
+		    var base = loadSound(type);
+		    if (!base) return;
+		
+		    try {
+		        var a = base.cloneNode();
+		        a.play().catch(function () {});
+		    } catch (e) {}
+		}
+		
+		loadSound("correct");
+		loadSound("wrong");
+		loadSound("click");
+		
+		// =====================================================
+		// REFERENCES
+		// =====================================================
+		var dropEqual = exportRoot.drop_equal;
+		var dropUnequal = exportRoot.drop_unequal;
+		
+		// ЗӨВ mapping:
+		// equal   = 1, 3, 5, 7
+		// unequal = 2, 4, 6, 8
+		var items = [
+		    { mc: exportRoot.btn_prev_1_1, correctZone: "equal"   },
+		    { mc: exportRoot.btn_prev_1_2, correctZone: "unequal" },
+		    { mc: exportRoot.btn_prev_1_3, correctZone: "equal"   },
+		    { mc: exportRoot.btn_prev_1_4, correctZone: "unequal" },
+		    { mc: exportRoot.btn_prev_1_5, correctZone: "equal"   },
+		    { mc: exportRoot.btn_prev_1_6, correctZone: "unequal" },
+		    { mc: exportRoot.btn_prev_1_7, correctZone: "equal"   },
+		    { mc: exportRoot.btn_prev_1_8, correctZone: "unequal" }
+		];
+		
+		var placedInEqual = [];
+		var placedInUnequal = [];
+		var solvedCount = 0;
+		var totalCount = 0;
+		
+		for (var i = 0; i < items.length; i++) {
+		    if (items[i].mc) {
+		        totalCount++;
+		    } else {
+		        console.log("Missing item:", i + 1);
+		    }
+		}
+		
+		if (!dropEqual) console.log("drop_equal not found");
+		if (!dropUnequal) console.log("drop_unequal not found");
+		
+		// =====================================================
+		// HELPERS
+		// =====================================================
+		function isPointInsideMovieClip(globalX, globalY, target) {
+		    if (!target) return false;
+		    var pt = target.globalToLocal(globalX, globalY);
+		    return target.hitTest(pt.x, pt.y);
+		}
+		
+		function detectDroppedZoneByPointer(stageX, stageY) {
+		    if (isPointInsideMovieClip(stageX, stageY, dropEqual)) {
+		        return "equal";
+		    }
+		    if (isPointInsideMovieClip(stageX, stageY, dropUnequal)) {
+		        return "unequal";
+		    }
+		    return null;
+		}
+		
+		function getSlotsForZone(zoneName) {
+		    if (zoneName === "equal") {
+		        return [
+		            exportRoot.equal_slot_1,
+		            exportRoot.equal_slot_2,
+		            exportRoot.equal_slot_3,
+		            exportRoot.equal_slot_4
+		        ];
+		    }
+		
+		    return [
+		        exportRoot.unequal_slot_1,
+		        exportRoot.unequal_slot_2,
+		        exportRoot.unequal_slot_3,
+		        exportRoot.unequal_slot_4
+		    ];
+		}
+		
+		function snapItemToSlot(item, slot) {
+		    if (!item || !slot) return;
+		
+		    // slot-ийн registration point-ийг GLOBAL дээр авна
+		    var g = slot.localToGlobal(0, 0);
+		
+		    // item-ийн parent coordinate руу хөрвүүлнэ
+		    var target = item.parent.globalToLocal(g.x, g.y);
+		
+		    createjs.Tween.removeTweens(item);
+		    createjs.Tween.get(item).to({
+		        x: target.x,
+		        y: target.y,
+		        alpha: 0.82
+		    }, 180);
+		}
+		
+		function layoutZoneItems(zoneName) {
+		    var list = zoneName === "equal" ? placedInEqual : placedInUnequal;
+		    var slots = getSlotsForZone(zoneName);
+		
+		    if (!list.length || !slots.length) return;
+		
+		    for (var i = 0; i < list.length; i++) {
+		        var item = list[i];
+		        var slot = slots[i];
+		
+		        if (!item || !slot) continue;
+		
+		        snapItemToSlot(item, slot);
+		    }
+		}
+		
+		function shakeWrong(item, callback) {
+		    var ox = item.x;
+		
+		    createjs.Tween.removeTweens(item);
+		    createjs.Tween.get(item)
+		        .to({ x: ox - 8 }, 50)
+		        .to({ x: ox + 8 }, 50)
+		        .to({ x: ox - 5 }, 50)
+		        .to({ x: ox + 5 }, 50)
+		        .to({ x: ox }, 50)
+		        .call(function () {
+		            if (callback) callback();
+		        });
+		}
+		
+		function returnToStart(item) {
+		    createjs.Tween.removeTweens(item);
+		    createjs.Tween.get(item).to({
+		        x: item.startX,
+		        y: item.startY,
+		        scaleX: item.startScaleX,
+		        scaleY: item.startScaleY,
+		        rotation: item.startRotation,
+		        alpha: 1
+		    }, 200);
+		}
+		
+		function lockItem(item) {
+		    item.isLocked = true;
+		    item.mouseEnabled = false;
+		    item.mouseChildren = false;
+		    item.cursor = "default";
+		    item.alpha = 0.82;
+		}
+		
+		function addItemToZone(item, zoneName) {
+		    var list = zoneName === "equal" ? placedInEqual : placedInUnequal;
+		
+		    if (list.indexOf(item) === -1) {
+		        list.push(item);
+		    }
+		
+		    layoutZoneItems(zoneName);
+		}
+		
+		function finishExercise() {
+		    exportRoot.saveState();
+		    setTimeout(function () {
+		        if (CONFIG.nextFrame != null) {
+		            exportRoot.gotoAndStop(CONFIG.nextFrame);
+		        }
+		    }, CONFIG.autoNextDelay);
+		}
+		
+		// =====================================================
+		// DRAG LOGIC
+		// =====================================================
+		items.forEach(function (entry) {
+		    var item = entry.mc;
+		    if (!item) return;
+		
+		    item.mouseChildren = false;
+		    item.cursor = "pointer";
+		
+		    item.startX = item.x;
+		    item.startY = item.y;
+		    item.startScaleX = item.scaleX;
+		    item.startScaleY = item.scaleY;
+		    item.startRotation = item.rotation || 0;
+		    item.isLocked = false;
+		
+		    item.on("mousedown", function (evt) {
+		        if (this.isLocked) return;
+		
+		        playSound("click");
+		
+		        this.parent.addChild(this);
+		
+		        var pt = this.parent.globalToLocal(evt.stageX, evt.stageY);
+		        this.dragOffsetX = this.x - pt.x;
+		        this.dragOffsetY = this.y - pt.y;
+		
+		        createjs.Tween.removeTweens(this);
+		        this.alpha = 1;
+		    });
+		
+		    item.on("pressmove", function (evt) {
+		        if (this.isLocked) return;
+		
+		        var pt = this.parent.globalToLocal(evt.stageX, evt.stageY);
+		        this.x = pt.x + this.dragOffsetX;
+		        this.y = pt.y + this.dragOffsetY;
+		    });
+		
+		    item.on("pressup", function (evt) {
+		        if (this.isLocked) return;
+		
+		        var droppedZone = detectDroppedZoneByPointer(evt.stageX, evt.stageY);
+		
+		        if (!droppedZone) {
+		            returnToStart(this);
+		            return;
+		        }
+		
+		        if (droppedZone === entry.correctZone) {
+		            lockItem(this);
+		            addItemToZone(this, droppedZone);
+		            playSound("correct");
+		
+		            solvedCount++;
+		
+		            if (solvedCount >= totalCount) {
+		                finishExercise();
+		            }
+		        } else {
+		            playSound("wrong");
+		
+		            var self = this;
+		            shakeWrong(this, function () {
+		                returnToStart(self);
+		            });
+		        }
+		    });
+		});
+		
+		// =====================================================
+		// OPTIONAL NAV BUTTONS
+		// =====================================================
+		if (exportRoot.btn_next) {
+		    exportRoot.btn_next.visible = false;
+		    exportRoot.btn_next.mouseEnabled = false;
+		}
+		
+		if (exportRoot.btn_back) {
+		    exportRoot.btn_back.visible = CONFIG.backFrame != null;
+		    exportRoot.btn_back.mouseEnabled = CONFIG.backFrame != null;
+		
+		    if (CONFIG.backFrame != null) {
+		        exportRoot.btn_back.cursor = "pointer";
+		        exportRoot.btn_back.on("click", function () {
+		            playSound("click");
+		            exportRoot.gotoAndStop(CONFIG.backFrame);
+		        });
+		    }
+		}
+	}
+	this.frame_3 = function() {
+		var exportRoot = this;
+		exportRoot.stop();
+		
+		if (!exportRoot.gameState) {
+			exportRoot.gameState = {};
+		}
+		if (!exportRoot.gameState.selectedLanguage) {
+			exportRoot.gameState.selectedLanguage = "mn";
+		}
+		if (!exportRoot.gameState.videosWatched) {
+			exportRoot.gameState.videosWatched = [];
+		}
+		if (!exportRoot.saveState) {
+			exportRoot.saveState = function() {};
+		}
+		
+		var videoContainer = null;
+		var videoElement = null;
+		var controlsBar = null;
+		var playPauseBtn = null;
+		var progressFill = null;
+		var volumeSlider = null;
+		var downloadBtn = null;
+		var fullscreenBtn = null;
+		var skipButton = null;
+		var timeDisplay = null;
+		var loadingIndicator = null;
+		var resizeHandler = null;
+		var clickOverlay = null;
+		
+		function cleanup() {
+			if (videoElement) {
+				videoElement.pause();
+				videoElement.removeAttribute("src");
+				videoElement.load();
+				videoElement = null;
+			}
+			if (videoContainer && videoContainer.parentNode) {
+				videoContainer.parentNode.removeChild(videoContainer);
+				videoContainer = null;
+			}
+			if (resizeHandler) {
+				window.removeEventListener("resize", resizeHandler);
+				resizeHandler = null;
+			}
+			document.removeEventListener("fullscreenchange", fullscreenChangeHandler);
+			playPauseBtn = null;
+			progressFill = null;
+			volumeSlider = null;
+			downloadBtn = null;
+			fullscreenBtn = null;
+			skipButton = null;
+			timeDisplay = null;
+			loadingIndicator = null;
+			controlsBar = null;
+			clickOverlay = null;
+		}
+		
+		function fullscreenChangeHandler() {
+			if (!fullscreenBtn) return;
+			if (document.fullscreenElement) {
+				fullscreenBtn.innerHTML = "✖";
+			} else {
+				fullscreenBtn.innerHTML = "⛶";
+			}
+		}
+		
+		function createVideoPlayer() {
+			var skipLabels = {
+				mn: "АЛГАСАХ ▶",
+				kz: "АТТАП ӨТУ ▶",
+				tuva: "ЭРТЕР ▶",
+				sign: "АЛГАСАХ ▶"
+			};
+		
+			var existingContainer = document.getElementById("video-container-main");
+			if (existingContainer && existingContainer.parentNode) {
+				existingContainer.parentNode.removeChild(existingContainer);
+			}
+		
+			var canvas = document.getElementById("canvas");
+			if (!canvas) {
+				console.log("Canvas not found");
+				return;
+			}
+		
+			var currentLang = exportRoot.gameState.selectedLanguage || "mn";
+			var rect = canvas.getBoundingClientRect();
+			var videoWatched = exportRoot.gameState.videosWatched.indexOf("mainStory") !== -1;
+		
+			// =====================================================
+			// CONTAINER
+			// =====================================================
+			videoContainer = document.createElement("div");
+			videoContainer.id = "video-container-main";
+			videoContainer.style.position = "absolute";
+			videoContainer.style.left = rect.left + "px";
+			videoContainer.style.top = rect.top + "px";
+			videoContainer.style.width = rect.width + "px";
+			videoContainer.style.height = rect.height + "px";
+			videoContainer.style.backgroundColor = "#1a1a2e";
+			videoContainer.style.zIndex = "1000";
+			videoContainer.style.overflow = "hidden";
+		
+			// =====================================================
+			// LOADING SPINNER
+			// =====================================================
+			loadingIndicator = document.createElement("div");
+			loadingIndicator.style.position = "absolute";
+			loadingIndicator.style.top = "50%";
+			loadingIndicator.style.left = "50%";
+			loadingIndicator.style.transform = "translate(-50%, -50%)";
+			loadingIndicator.style.textAlign = "center";
+			loadingIndicator.style.zIndex = "1003";
+		
+			var spinner = document.createElement("div");
+			spinner.style.width = "60px";
+			spinner.style.height = "60px";
+			spinner.style.border = "6px solid rgba(255,255,255,0.2)";
+			spinner.style.borderTop = "6px solid #FFD700"; // ← FIXED COLOR
+			spinner.style.borderRadius = "50%";
+			spinner.style.margin = "0 auto 20px";
+			spinner.style.animation = "spin 1s linear infinite";
+		
+			var loadingText = document.createElement("div");
+			loadingText.textContent = currentLang === "mn" ? "Ачаалж байна..." : "Жүктелуде...";
+			loadingText.style.color = "#fff";
+			loadingText.style.fontSize = "18px";
+			loadingText.style.fontFamily = "'Rubik', sans-serif";
+			loadingText.style.fontWeight = "bold";
+		
+			loadingIndicator.appendChild(spinner);
+			loadingIndicator.appendChild(loadingText);
+		
+			if (!document.getElementById("spinner-style")) {
+				var style = document.createElement("style");
+				style.id = "spinner-style";
+				style.textContent = "@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }";
+				document.head.appendChild(style);
+			}
+		
+			// =====================================================
+			// VIDEO ELEMENT
+			// =====================================================
+			videoElement = document.createElement("video");
+			videoElement.src = "./videos/lesson6_intro2_mn.mp4";
+			videoElement.style.width = "100%";
+			videoElement.style.height = "100%";
+			videoElement.style.objectFit = "contain";
+			videoElement.style.display = "none";
+			videoElement.preload = "auto";
+			videoElement.playsInline = true;
+			videoElement.muted = false;
+			videoElement.autoplay = true;
+			videoElement.setAttribute("webkit-playsinline", "true");
+		
+			videoElement.addEventListener("error", function() {
+				console.log("VIDEO ERROR:", videoElement.error);
+			});
+		
+			// =====================================================
+			// CLICK OVERLAY
+			// =====================================================
+			clickOverlay = document.createElement("div");
+			clickOverlay.style.position = "absolute";
+			clickOverlay.style.top = "0";
+			clickOverlay.style.left = "0";
+			clickOverlay.style.width = "100%";
+			clickOverlay.style.height = "calc(100% - 70px)";
+			clickOverlay.style.zIndex = "1001";
+			clickOverlay.style.cursor = "pointer";
+			clickOverlay.style.display = "none";
+		
+			var flashIcon = document.createElement("div");
+			flashIcon.style.position = "absolute";
+			flashIcon.style.top = "50%";
+			flashIcon.style.left = "50%";
+			flashIcon.style.transform = "translate(-50%, -50%)";
+			flashIcon.style.fontSize = "80px";
+			flashIcon.style.color = "rgba(255,255,255,0.85)";
+			flashIcon.style.pointerEvents = "none";
+			flashIcon.style.opacity = "0";
+			flashIcon.style.transition = "opacity 0.15s ease";
+			flashIcon.style.textShadow = "0 0 30px rgba(0,0,0,0.6)";
+			flashIcon.textContent = "⏸";
+			clickOverlay.appendChild(flashIcon);
+		
+			function showFlash(icon) {
+				flashIcon.textContent = icon;
+				flashIcon.style.opacity = "1";
+				setTimeout(function() {
+					flashIcon.style.opacity = "0";
+				}, 400);
+			}
+		
+			clickOverlay.addEventListener("click", function() {
+				if (!videoElement) return;
+				if (videoElement.paused) {
+					videoElement.muted = false;
+					videoElement.play().catch(function() {});
+					if (playPauseBtn) playPauseBtn.innerHTML = "⏸️";
+					showFlash("▶");
+				} else {
+					videoElement.pause();
+					if (playPauseBtn) playPauseBtn.innerHTML = "▶️";
+					showFlash("⏸");
+				}
+			});
+		
+			// =====================================================
+			// CONTROLS BAR
+			// =====================================================
+			controlsBar = document.createElement("div");
+			controlsBar.style.position = "absolute";
+			controlsBar.style.bottom = "0";
+			controlsBar.style.left = "0";
+			controlsBar.style.right = "0";
+			controlsBar.style.height = "70px";
+			controlsBar.style.background = "linear-gradient(to top, rgba(0,0,0,0.9), transparent)";
+			controlsBar.style.display = "none";
+			controlsBar.style.alignItems = "center";
+			controlsBar.style.padding = "0 20px";
+			controlsBar.style.gap = "15px";
+			controlsBar.style.zIndex = "1002";
+		
+			// PLAY/PAUSE
+			playPauseBtn = document.createElement("button");
+			playPauseBtn.innerHTML = "⏸️";
+			playPauseBtn.style.fontSize = "24px";
+			playPauseBtn.style.background = "none";
+			playPauseBtn.style.border = "none";
+			playPauseBtn.style.cursor = "pointer";
+			playPauseBtn.style.padding = "5px";
+			playPauseBtn.style.color = "#fff";
+			playPauseBtn.style.zIndex = "1003";
+		
+			// PROGRESS BAR
+			var progressContainer = document.createElement("div");
+			progressContainer.style.flex = "1";
+			progressContainer.style.height = "6px";
+			progressContainer.style.backgroundColor = "rgba(255,255,255,0.3)";
+			progressContainer.style.borderRadius = "3px";
+			progressContainer.style.cursor = "pointer";
+			progressContainer.style.position = "relative";
+			progressContainer.style.zIndex = "1003";
+		
+			progressFill = document.createElement("div");
+			progressFill.style.width = "0%";
+			progressFill.style.height = "100%";
+			progressFill.style.backgroundColor = "#FFD700";
+			progressFill.style.borderRadius = "3px";
+			progressFill.style.transition = "width 0.1s";
+			progressContainer.appendChild(progressFill);
+		
+			// TIME DISPLAY
+			timeDisplay = document.createElement("span");
+			timeDisplay.textContent = "0:00 / 0:00";
+			timeDisplay.style.color = "#fff";
+			timeDisplay.style.fontSize = "14px";
+			timeDisplay.style.fontFamily = "'Rubik', sans-serif";
+			timeDisplay.style.minWidth = "100px";
+			timeDisplay.style.zIndex = "1003";
+		
+			// VOLUME
+			volumeSlider = document.createElement("input");
+			volumeSlider.type = "range";
+			volumeSlider.min = "0";
+			volumeSlider.max = "100";
+			volumeSlider.value = "100";
+			volumeSlider.style.width = "80px";
+			volumeSlider.style.cursor = "pointer";
+			volumeSlider.style.zIndex = "1003";
+		
+			// DOWNLOAD
+			downloadBtn = document.createElement("button");
+			downloadBtn.innerHTML = "⬇️";
+			downloadBtn.style.fontSize = "20px";
+			downloadBtn.style.background = "none";
+			downloadBtn.style.border = "none";
+			downloadBtn.style.cursor = "pointer";
+			downloadBtn.style.padding = "5px";
+			downloadBtn.style.color = "#fff";
+			downloadBtn.style.zIndex = "1003";
+		
+			// =====================================================
+			// FULLSCREEN BUTTON ← NEW
+			// =====================================================
+			fullscreenBtn = document.createElement("button");
+			fullscreenBtn.innerHTML = "⛶";
+			fullscreenBtn.style.fontSize = "22px";
+			fullscreenBtn.style.background = "none";
+			fullscreenBtn.style.border = "none";
+			fullscreenBtn.style.cursor = "pointer";
+			fullscreenBtn.style.padding = "5px";
+			fullscreenBtn.style.color = "#fff";
+			fullscreenBtn.style.zIndex = "1003";
+		
+			// =====================================================
+			// SKIP BUTTON
+			// =====================================================
+			skipButton = document.createElement("button");
+			skipButton.innerHTML = skipLabels[currentLang] || skipLabels.mn;
+			skipButton.style.position = "absolute";
+			skipButton.style.bottom = "90px";
+			skipButton.style.right = "20px";
+			skipButton.style.padding = "10px 20px";
+			skipButton.style.fontSize = "16px";
+			skipButton.style.fontFamily = "'Rubik', sans-serif";
+			skipButton.style.fontWeight = "bold";
+			skipButton.style.backgroundColor = "#FFD700";
+			skipButton.style.color = "#1a1a2e";
+			skipButton.style.border = "none";
+			skipButton.style.borderRadius = "25px";
+			skipButton.style.cursor = "pointer";
+			skipButton.style.boxShadow = "0 4px 12px rgba(0,0,0,0.5)";
+			skipButton.style.zIndex = "1004";
+			skipButton.style.display = videoWatched ? "block" : "none";
+		
+			// =====================================================
+			// ASSEMBLE
+			// =====================================================
+			controlsBar.appendChild(playPauseBtn);
+			controlsBar.appendChild(progressContainer);
+			controlsBar.appendChild(timeDisplay);
+			controlsBar.appendChild(volumeSlider);
+			controlsBar.appendChild(downloadBtn);
+			controlsBar.appendChild(fullscreenBtn); // ← NEW
+		
+			videoContainer.appendChild(loadingIndicator);
+			videoContainer.appendChild(videoElement);
+			videoContainer.appendChild(clickOverlay);
+			videoContainer.appendChild(controlsBar);
+			videoContainer.appendChild(skipButton);
+		
+			document.body.appendChild(videoContainer);
+		
+			// =====================================================
+			// VIDEO EVENTS
+			// =====================================================
+			videoElement.addEventListener("loadeddata", function() {
+				if (loadingIndicator) loadingIndicator.style.display = "none";
+				videoElement.style.display = "block";
+				controlsBar.style.display = "flex";
+				clickOverlay.style.display = "block";
+				if (!videoWatched) skipButton.style.display = "block";
+		
+				videoElement.play().then(function() {
+					playPauseBtn.innerHTML = "⏸️";
+				}).catch(function(err) {
+					console.log("Play failed:", err);
+					playPauseBtn.innerHTML = "▶️";
+				});
+			});
+		
+			videoElement.addEventListener("loadedmetadata", function() {
+				if (timeDisplay) {
+					timeDisplay.textContent = "0:00 / " + formatTime(videoElement.duration);
+				}
+			});
+		
+			videoElement.addEventListener("timeupdate", function() {
+				if (progressFill && timeDisplay && videoElement.duration) {
+					var percent = (videoElement.currentTime / videoElement.duration) * 100;
+					progressFill.style.width = percent + "%";
+					timeDisplay.textContent = formatTime(videoElement.currentTime) + " / " + formatTime(videoElement.duration);
+				}
+			});
+		
+			videoElement.addEventListener("ended", function() {
+				if (playPauseBtn) playPauseBtn.innerHTML = "▶️";
+				if (exportRoot.gameState.videosWatched.indexOf("mainStory") === -1) {
+					exportRoot.gameState.videosWatched.push("mainStory");
+					exportRoot.saveState();
+				}
+				setTimeout(goToExercise1, 800);
+			});
+		
+			// =====================================================
+			// CONTROLS EVENTS
+			// =====================================================
+			playPauseBtn.addEventListener("click", function(e) {
+				e.stopPropagation();
+				if (videoElement.paused) {
+					videoElement.muted = false;
+					videoElement.play();
+					playPauseBtn.innerHTML = "⏸️";
+				} else {
+					videoElement.pause();
+					playPauseBtn.innerHTML = "▶️";
+				}
+			});
+		
+			progressContainer.addEventListener("click", function(e) {
+				e.stopPropagation();
+				var r = progressContainer.getBoundingClientRect();
+				var pos = (e.clientX - r.left) / r.width;
+				videoElement.currentTime = pos * videoElement.duration;
+			});
+		
+			volumeSlider.addEventListener("input", function(e) {
+				e.stopPropagation();
+				videoElement.volume = this.value / 100;
+				if (this.value > 0) videoElement.muted = false;
+			});
+		
+			downloadBtn.addEventListener("click", function(e) {
+				e.stopPropagation();
+				var a = document.createElement("a");
+				a.href = videoElement.src;
+				a.download = "lesson6_intro2_mn.mp4";
+				a.click();
+			});
+		
+			// =====================================================
+			// FULLSCREEN EVENTS ← NEW
+			// =====================================================
+			fullscreenBtn.addEventListener("click", function(e) {
+				e.stopPropagation();
+				if (!document.fullscreenElement) {
+					videoContainer.requestFullscreen().catch(function(err) {
+						console.log("Fullscreen error:", err);
+					});
+				} else {
+					document.exitFullscreen();
+				}
+			});
+		
+			document.addEventListener("fullscreenchange", fullscreenChangeHandler);
+		
+			skipButton.addEventListener("click", function(e) {
+				e.stopPropagation();
+				goToExercise1();
+			});
+		
+			// =====================================================
+			// RESIZE
+			// =====================================================
+			resizeHandler = function() {
+				if (!videoContainer) return;
+				var canvas = document.getElementById("canvas");
+				if (!canvas) return;
+				var r = canvas.getBoundingClientRect();
+				videoContainer.style.left   = r.left   + "px";
+				videoContainer.style.top    = r.top    + "px";
+				videoContainer.style.width  = r.width  + "px";
+				videoContainer.style.height = r.height + "px";
+			};
+			window.addEventListener("resize", resizeHandler);
+		}
+		
+		function formatTime(seconds) {
+			if (isNaN(seconds)) return "0:00";
+			var mins = Math.floor(seconds / 60);
+			var secs = Math.floor(seconds % 60);
+			return mins + ":" + (secs < 10 ? "0" : "") + secs;
+		}
+		
+		function goToExercise1() {
+			if (exportRoot.gameState.videosWatched.indexOf("mainStory") === -1) {
+				exportRoot.gameState.videosWatched.push("mainStory");
+				exportRoot.saveState();
+			}
+			cleanup();
+			exportRoot.gameState.currentFrame = 4;
+			exportRoot.saveState();
+			exportRoot.gotoAndStop(4);
+		}
+		
+		exportRoot.on("removed", cleanup);
+		
+		createVideoPlayer();
+	}
+	this.frame_4 = function() {
+		var exportRoot = this;
+		exportRoot.stop();
+		
+		// =====================================================
+		// CONFIG
+		// =====================================================
+		var CONFIG = {
+		    backFrame: null,
+		    nextFrame: 5, // хэрэгтэй frame-ээ энд тавь
+		    autoNextDelay: 800,
+		    requiredCount: 2,
+		    selectedAlpha: 1,
+		    normalAlpha: 0.01,
+		    soundPaths: {
+		        correct: "./sounds/voice_correct.mp3",
+		        wrong: "./sounds/voice_wrong.mp3",
+		        click: "./sounds/click.mp3"
+		    }
+		};
+		
+		// =====================================================
+		// GLOBAL STATE
+		// =====================================================
+		if (!exportRoot.audioPool) {
+		    exportRoot.audioPool = {};
+		}
+		if (!exportRoot.saveState) {
+		    exportRoot.saveState = function () {};
+		}
+		
+		// =====================================================
+		// AUDIO
+		// =====================================================
+		function loadSound(type) {
+		    if (!CONFIG.soundPaths[type]) return null;
+		
+		    if (!exportRoot.audioPool[type]) {
+		        var audio = new Audio(CONFIG.soundPaths[type]);
+		        audio.preload = "auto";
+		        exportRoot.audioPool[type] = audio;
+		    }
+		    return exportRoot.audioPool[type];
+		}
+		
+		function playSound(type) {
+		    var base = loadSound(type);
+		    if (!base) return;
+		
+		    try {
+		        var a = base.cloneNode();
+		        a.play().catch(function () {});
+		    } catch (e) {}
+		}
+		
+		loadSound("correct");
+		loadSound("wrong");
+		loadSound("click");
+		
+		// =====================================================
+		// REFERENCES
+		// =====================================================
+		var parts = [
+		    exportRoot.part_prev_1,
+		    exportRoot.part_prev_2,
+		    exportRoot.part_prev_3,
+		    exportRoot.part_prev_4
+		];
+		
+		// =====================================================
+		// CHECK
+		// =====================================================
+		var selectedCount = 0;
+		var finished = false;
+		
+		for (var i = 0; i < parts.length; i++) {
+		    if (!parts[i]) {
+		        console.log("Missing part_prev_" + (i + 1));
+		    }
+		}
+		
+		// =====================================================
+		// HELPERS
+		// =====================================================
+		function setSelected(part, isSelected) {
+		    if (!part) return;
+		
+		    part.isSelected = isSelected;
+		
+		    if (isSelected) {
+		        part.alpha = CONFIG.selectedAlpha;
+		    } else {
+		        part.alpha = CONFIG.normalAlpha;
+		    }
+		}
+		
+		function pulseWrong(part) {
+		    if (!part) return;
+		
+		    var baseScaleX = part.baseScaleX || 1;
+		    var baseScaleY = part.baseScaleY || 1;
+		
+		    createjs.Tween.removeTweens(part);
+		    createjs.Tween.get(part)
+		        .to({ scaleX: baseScaleX * 1.06, scaleY: baseScaleY * 1.06 }, 70)
+		        .to({ scaleX: baseScaleX, scaleY: baseScaleY }, 70)
+		        .to({ scaleX: baseScaleX * 1.04, scaleY: baseScaleY * 1.04 }, 60)
+		        .to({ scaleX: baseScaleX, scaleY: baseScaleY }, 60);
+		}
+		
+		function finishExercise() {
+		    if (finished) return;
+		    finished = true;
+		
+		    playSound("correct");
+		
+		    setTimeout(function () {
+		        if (CONFIG.nextFrame != null) {
+		            exportRoot.gotoAndStop(CONFIG.nextFrame);
+		        }
+		    }, CONFIG.autoNextDelay);
+		}
+		
+		// =====================================================
+		// INIT
+		// =====================================================
+		parts.forEach(function (part, index) {
+		    if (!part) return;
+		
+		    part.mouseChildren = false;
+		    part.mouseEnabled = true;
+		    part.cursor = "pointer";
+		    part.isSelected = false;
+		    part.alpha = CONFIG.normalAlpha;
+		    part.baseScaleX = part.scaleX;
+		    part.baseScaleY = part.scaleY;
+		
+		    part.on("mousedown", function () {
+		        if (finished) return;
+		
+		        playSound("click");
+		
+		        if (this.isSelected) {
+		            setSelected(this, false);
+		            selectedCount--;
+		            return;
+		        }
+		
+		        if (selectedCount >= CONFIG.requiredCount) {
+		            playSound("wrong");
+		            pulseWrong(this);
+		            return;
+		        }
+		
+		        setSelected(this, true);
+		        selectedCount++;
+		
+		        if (selectedCount === CONFIG.requiredCount) {
+		            finishExercise();
+		        }
+		    });
+		});
+		
+		// =====================================================
+		// OPTIONAL NAV BUTTONS
+		// =====================================================
+		if (exportRoot.btn_next) {
+		    exportRoot.btn_next.visible = false;
+		    exportRoot.btn_next.mouseEnabled = false;
+		}
+		
+		if (exportRoot.btn_back) {
+		    exportRoot.btn_back.visible = CONFIG.backFrame != null;
+		    exportRoot.btn_back.mouseEnabled = CONFIG.backFrame != null;
+		
+		    if (CONFIG.backFrame != null) {
+		        exportRoot.btn_back.cursor = "pointer";
+		        exportRoot.btn_back.on("click", function () {
+		            playSound("click");
+		            exportRoot.gotoAndStop(CONFIG.backFrame);
+		        });
+		    }
+		}
+	}
+	this.frame_5 = function() {
+		var exportRoot = this;
+		exportRoot.stop();
+		
+		if (!exportRoot.gameState) {
+			exportRoot.gameState = {};
+		}
+		if (!exportRoot.gameState.selectedLanguage) {
+			exportRoot.gameState.selectedLanguage = "mn";
+		}
+		if (!exportRoot.gameState.videosWatched) {
+			exportRoot.gameState.videosWatched = [];
+		}
+		if (!exportRoot.saveState) {
+			exportRoot.saveState = function() {};
+		}
+		
+		var videoContainer = null;
+		var videoElement = null;
+		var controlsBar = null;
+		var playPauseBtn = null;
+		var progressFill = null;
+		var volumeSlider = null;
+		var downloadBtn = null;
+		var fullscreenBtn = null;
+		var skipButton = null;
+		var timeDisplay = null;
+		var loadingIndicator = null;
+		var resizeHandler = null;
+		var clickOverlay = null;
+		
+		function cleanup() {
+			if (videoElement) {
+				videoElement.pause();
+				videoElement.removeAttribute("src");
+				videoElement.load();
+				videoElement = null;
+			}
+			if (videoContainer && videoContainer.parentNode) {
+				videoContainer.parentNode.removeChild(videoContainer);
+				videoContainer = null;
+			}
+			if (resizeHandler) {
+				window.removeEventListener("resize", resizeHandler);
+				resizeHandler = null;
+			}
+			document.removeEventListener("fullscreenchange", fullscreenChangeHandler);
+			playPauseBtn = null;
+			progressFill = null;
+			volumeSlider = null;
+			downloadBtn = null;
+			fullscreenBtn = null;
+			skipButton = null;
+			timeDisplay = null;
+			loadingIndicator = null;
+			controlsBar = null;
+			clickOverlay = null;
+		}
+		
+		function fullscreenChangeHandler() {
+			if (!fullscreenBtn) return;
+			if (document.fullscreenElement) {
+				fullscreenBtn.innerHTML = "✖";
+			} else {
+				fullscreenBtn.innerHTML = "⛶";
+			}
+		}
+		
+		function createVideoPlayer() {
+			var skipLabels = {
+				mn: "АЛГАСАХ ▶",
+				kz: "АТТАП ӨТУ ▶",
+				tuva: "ЭРТЕР ▶",
+				sign: "АЛГАСАХ ▶"
+			};
+		
+			var existingContainer = document.getElementById("video-container-main");
+			if (existingContainer && existingContainer.parentNode) {
+				existingContainer.parentNode.removeChild(existingContainer);
+			}
+		
+			var canvas = document.getElementById("canvas");
+			if (!canvas) {
+				console.log("Canvas not found");
+				return;
+			}
+		
+			var currentLang = exportRoot.gameState.selectedLanguage || "mn";
+			var rect = canvas.getBoundingClientRect();
+			var videoWatched = exportRoot.gameState.videosWatched.indexOf("mainStory") !== -1;
+		
+			// =====================================================
+			// CONTAINER
+			// =====================================================
+			videoContainer = document.createElement("div");
+			videoContainer.id = "video-container-main";
+			videoContainer.style.position = "absolute";
+			videoContainer.style.left = rect.left + "px";
+			videoContainer.style.top = rect.top + "px";
+			videoContainer.style.width = rect.width + "px";
+			videoContainer.style.height = rect.height + "px";
+			videoContainer.style.backgroundColor = "#1a1a2e";
+			videoContainer.style.zIndex = "1000";
+			videoContainer.style.overflow = "hidden";
+		
+			// =====================================================
+			// LOADING SPINNER
+			// =====================================================
+			loadingIndicator = document.createElement("div");
+			loadingIndicator.style.position = "absolute";
+			loadingIndicator.style.top = "50%";
+			loadingIndicator.style.left = "50%";
+			loadingIndicator.style.transform = "translate(-50%, -50%)";
+			loadingIndicator.style.textAlign = "center";
+			loadingIndicator.style.zIndex = "1003";
+		
+			var spinner = document.createElement("div");
+			spinner.style.width = "60px";
+			spinner.style.height = "60px";
+			spinner.style.border = "6px solid rgba(255,255,255,0.2)";
+			spinner.style.borderTop = "6px solid #FFD700"; // ← FIXED COLOR
+			spinner.style.borderRadius = "50%";
+			spinner.style.margin = "0 auto 20px";
+			spinner.style.animation = "spin 1s linear infinite";
+		
+			var loadingText = document.createElement("div");
+			loadingText.textContent = currentLang === "mn" ? "Ачаалж байна..." : "Жүктелуде...";
+			loadingText.style.color = "#fff";
+			loadingText.style.fontSize = "18px";
+			loadingText.style.fontFamily = "'Rubik', sans-serif";
+			loadingText.style.fontWeight = "bold";
+		
+			loadingIndicator.appendChild(spinner);
+			loadingIndicator.appendChild(loadingText);
+		
+			if (!document.getElementById("spinner-style")) {
+				var style = document.createElement("style");
+				style.id = "spinner-style";
+				style.textContent = "@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }";
+				document.head.appendChild(style);
+			}
+		
+			// =====================================================
+			// VIDEO ELEMENT
+			// =====================================================
+			videoElement = document.createElement("video");
+			videoElement.src = "./videos/lesson6_intro3_mn.mp4";
+			videoElement.style.width = "100%";
+			videoElement.style.height = "100%";
+			videoElement.style.objectFit = "contain";
+			videoElement.style.display = "none";
+			videoElement.preload = "auto";
+			videoElement.playsInline = true;
+			videoElement.muted = false;
+			videoElement.autoplay = true;
+			videoElement.setAttribute("webkit-playsinline", "true");
+		
+			videoElement.addEventListener("error", function() {
+				console.log("VIDEO ERROR:", videoElement.error);
+			});
+		
+			// =====================================================
+			// CLICK OVERLAY
+			// =====================================================
+			clickOverlay = document.createElement("div");
+			clickOverlay.style.position = "absolute";
+			clickOverlay.style.top = "0";
+			clickOverlay.style.left = "0";
+			clickOverlay.style.width = "100%";
+			clickOverlay.style.height = "calc(100% - 70px)";
+			clickOverlay.style.zIndex = "1001";
+			clickOverlay.style.cursor = "pointer";
+			clickOverlay.style.display = "none";
+		
+			var flashIcon = document.createElement("div");
+			flashIcon.style.position = "absolute";
+			flashIcon.style.top = "50%";
+			flashIcon.style.left = "50%";
+			flashIcon.style.transform = "translate(-50%, -50%)";
+			flashIcon.style.fontSize = "80px";
+			flashIcon.style.color = "rgba(255,255,255,0.85)";
+			flashIcon.style.pointerEvents = "none";
+			flashIcon.style.opacity = "0";
+			flashIcon.style.transition = "opacity 0.15s ease";
+			flashIcon.style.textShadow = "0 0 30px rgba(0,0,0,0.6)";
+			flashIcon.textContent = "⏸";
+			clickOverlay.appendChild(flashIcon);
+		
+			function showFlash(icon) {
+				flashIcon.textContent = icon;
+				flashIcon.style.opacity = "1";
+				setTimeout(function() {
+					flashIcon.style.opacity = "0";
+				}, 400);
+			}
+		
+			clickOverlay.addEventListener("click", function() {
+				if (!videoElement) return;
+				if (videoElement.paused) {
+					videoElement.muted = false;
+					videoElement.play().catch(function() {});
+					if (playPauseBtn) playPauseBtn.innerHTML = "⏸️";
+					showFlash("▶");
+				} else {
+					videoElement.pause();
+					if (playPauseBtn) playPauseBtn.innerHTML = "▶️";
+					showFlash("⏸");
+				}
+			});
+		
+			// =====================================================
+			// CONTROLS BAR
+			// =====================================================
+			controlsBar = document.createElement("div");
+			controlsBar.style.position = "absolute";
+			controlsBar.style.bottom = "0";
+			controlsBar.style.left = "0";
+			controlsBar.style.right = "0";
+			controlsBar.style.height = "70px";
+			controlsBar.style.background = "linear-gradient(to top, rgba(0,0,0,0.9), transparent)";
+			controlsBar.style.display = "none";
+			controlsBar.style.alignItems = "center";
+			controlsBar.style.padding = "0 20px";
+			controlsBar.style.gap = "15px";
+			controlsBar.style.zIndex = "1002";
+		
+			// PLAY/PAUSE
+			playPauseBtn = document.createElement("button");
+			playPauseBtn.innerHTML = "⏸️";
+			playPauseBtn.style.fontSize = "24px";
+			playPauseBtn.style.background = "none";
+			playPauseBtn.style.border = "none";
+			playPauseBtn.style.cursor = "pointer";
+			playPauseBtn.style.padding = "5px";
+			playPauseBtn.style.color = "#fff";
+			playPauseBtn.style.zIndex = "1003";
+		
+			// PROGRESS BAR
+			var progressContainer = document.createElement("div");
+			progressContainer.style.flex = "1";
+			progressContainer.style.height = "6px";
+			progressContainer.style.backgroundColor = "rgba(255,255,255,0.3)";
+			progressContainer.style.borderRadius = "3px";
+			progressContainer.style.cursor = "pointer";
+			progressContainer.style.position = "relative";
+			progressContainer.style.zIndex = "1003";
+		
+			progressFill = document.createElement("div");
+			progressFill.style.width = "0%";
+			progressFill.style.height = "100%";
+			progressFill.style.backgroundColor = "#FFD700";
+			progressFill.style.borderRadius = "3px";
+			progressFill.style.transition = "width 0.1s";
+			progressContainer.appendChild(progressFill);
+		
+			// TIME DISPLAY
+			timeDisplay = document.createElement("span");
+			timeDisplay.textContent = "0:00 / 0:00";
+			timeDisplay.style.color = "#fff";
+			timeDisplay.style.fontSize = "14px";
+			timeDisplay.style.fontFamily = "'Rubik', sans-serif";
+			timeDisplay.style.minWidth = "100px";
+			timeDisplay.style.zIndex = "1003";
+		
+			// VOLUME
+			volumeSlider = document.createElement("input");
+			volumeSlider.type = "range";
+			volumeSlider.min = "0";
+			volumeSlider.max = "100";
+			volumeSlider.value = "100";
+			volumeSlider.style.width = "80px";
+			volumeSlider.style.cursor = "pointer";
+			volumeSlider.style.zIndex = "1003";
+		
+			// DOWNLOAD
+			downloadBtn = document.createElement("button");
+			downloadBtn.innerHTML = "⬇️";
+			downloadBtn.style.fontSize = "20px";
+			downloadBtn.style.background = "none";
+			downloadBtn.style.border = "none";
+			downloadBtn.style.cursor = "pointer";
+			downloadBtn.style.padding = "5px";
+			downloadBtn.style.color = "#fff";
+			downloadBtn.style.zIndex = "1003";
+		
+			// =====================================================
+			// FULLSCREEN BUTTON ← NEW
+			// =====================================================
+			fullscreenBtn = document.createElement("button");
+			fullscreenBtn.innerHTML = "⛶";
+			fullscreenBtn.style.fontSize = "22px";
+			fullscreenBtn.style.background = "none";
+			fullscreenBtn.style.border = "none";
+			fullscreenBtn.style.cursor = "pointer";
+			fullscreenBtn.style.padding = "5px";
+			fullscreenBtn.style.color = "#fff";
+			fullscreenBtn.style.zIndex = "1003";
+		
+			// =====================================================
+			// SKIP BUTTON
+			// =====================================================
+			skipButton = document.createElement("button");
+			skipButton.innerHTML = skipLabels[currentLang] || skipLabels.mn;
+			skipButton.style.position = "absolute";
+			skipButton.style.bottom = "90px";
+			skipButton.style.right = "20px";
+			skipButton.style.padding = "10px 20px";
+			skipButton.style.fontSize = "16px";
+			skipButton.style.fontFamily = "'Rubik', sans-serif";
+			skipButton.style.fontWeight = "bold";
+			skipButton.style.backgroundColor = "#FFD700";
+			skipButton.style.color = "#1a1a2e";
+			skipButton.style.border = "none";
+			skipButton.style.borderRadius = "25px";
+			skipButton.style.cursor = "pointer";
+			skipButton.style.boxShadow = "0 4px 12px rgba(0,0,0,0.5)";
+			skipButton.style.zIndex = "1004";
+			skipButton.style.display = videoWatched ? "block" : "none";
+		
+			// =====================================================
+			// ASSEMBLE
+			// =====================================================
+			controlsBar.appendChild(playPauseBtn);
+			controlsBar.appendChild(progressContainer);
+			controlsBar.appendChild(timeDisplay);
+			controlsBar.appendChild(volumeSlider);
+			controlsBar.appendChild(downloadBtn);
+			controlsBar.appendChild(fullscreenBtn); // ← NEW
+		
+			videoContainer.appendChild(loadingIndicator);
+			videoContainer.appendChild(videoElement);
+			videoContainer.appendChild(clickOverlay);
+			videoContainer.appendChild(controlsBar);
+			videoContainer.appendChild(skipButton);
+		
+			document.body.appendChild(videoContainer);
+		
+			// =====================================================
+			// VIDEO EVENTS
+			// =====================================================
+			videoElement.addEventListener("loadeddata", function() {
+				if (loadingIndicator) loadingIndicator.style.display = "none";
+				videoElement.style.display = "block";
+				controlsBar.style.display = "flex";
+				clickOverlay.style.display = "block";
+				if (!videoWatched) skipButton.style.display = "block";
+		
+				videoElement.play().then(function() {
+					playPauseBtn.innerHTML = "⏸️";
+				}).catch(function(err) {
+					console.log("Play failed:", err);
+					playPauseBtn.innerHTML = "▶️";
+				});
+			});
+		
+			videoElement.addEventListener("loadedmetadata", function() {
+				if (timeDisplay) {
+					timeDisplay.textContent = "0:00 / " + formatTime(videoElement.duration);
+				}
+			});
+		
+			videoElement.addEventListener("timeupdate", function() {
+				if (progressFill && timeDisplay && videoElement.duration) {
+					var percent = (videoElement.currentTime / videoElement.duration) * 100;
+					progressFill.style.width = percent + "%";
+					timeDisplay.textContent = formatTime(videoElement.currentTime) + " / " + formatTime(videoElement.duration);
+				}
+			});
+		
+			videoElement.addEventListener("ended", function() {
+				if (playPauseBtn) playPauseBtn.innerHTML = "▶️";
+				if (exportRoot.gameState.videosWatched.indexOf("mainStory") === -1) {
+					exportRoot.gameState.videosWatched.push("mainStory");
+					exportRoot.saveState();
+				}
+				setTimeout(goToExercise1, 800);
+			});
+		
+			// =====================================================
+			// CONTROLS EVENTS
+			// =====================================================
+			playPauseBtn.addEventListener("click", function(e) {
+				e.stopPropagation();
+				if (videoElement.paused) {
+					videoElement.muted = false;
+					videoElement.play();
+					playPauseBtn.innerHTML = "⏸️";
+				} else {
+					videoElement.pause();
+					playPauseBtn.innerHTML = "▶️";
+				}
+			});
+		
+			progressContainer.addEventListener("click", function(e) {
+				e.stopPropagation();
+				var r = progressContainer.getBoundingClientRect();
+				var pos = (e.clientX - r.left) / r.width;
+				videoElement.currentTime = pos * videoElement.duration;
+			});
+		
+			volumeSlider.addEventListener("input", function(e) {
+				e.stopPropagation();
+				videoElement.volume = this.value / 100;
+				if (this.value > 0) videoElement.muted = false;
+			});
+		
+			downloadBtn.addEventListener("click", function(e) {
+				e.stopPropagation();
+				var a = document.createElement("a");
+				a.href = videoElement.src;
+				a.download = "lesson6_intro3_mn.mp4";
+				a.click();
+			});
+		
+			// =====================================================
+			// FULLSCREEN EVENTS ← NEW
+			// =====================================================
+			fullscreenBtn.addEventListener("click", function(e) {
+				e.stopPropagation();
+				if (!document.fullscreenElement) {
+					videoContainer.requestFullscreen().catch(function(err) {
+						console.log("Fullscreen error:", err);
+					});
+				} else {
+					document.exitFullscreen();
+				}
+			});
+		
+			document.addEventListener("fullscreenchange", fullscreenChangeHandler);
+		
+			skipButton.addEventListener("click", function(e) {
+				e.stopPropagation();
+				goToExercise1();
+			});
+		
+			// =====================================================
+			// RESIZE
+			// =====================================================
+			resizeHandler = function() {
+				if (!videoContainer) return;
+				var canvas = document.getElementById("canvas");
+				if (!canvas) return;
+				var r = canvas.getBoundingClientRect();
+				videoContainer.style.left   = r.left   + "px";
+				videoContainer.style.top    = r.top    + "px";
+				videoContainer.style.width  = r.width  + "px";
+				videoContainer.style.height = r.height + "px";
+			};
+			window.addEventListener("resize", resizeHandler);
+		}
+		
+		function formatTime(seconds) {
+			if (isNaN(seconds)) return "0:00";
+			var mins = Math.floor(seconds / 60);
+			var secs = Math.floor(seconds % 60);
+			return mins + ":" + (secs < 10 ? "0" : "") + secs;
+		}
+		
+		function goToExercise1() {
+			if (exportRoot.gameState.videosWatched.indexOf("mainStory") === -1) {
+				exportRoot.gameState.videosWatched.push("mainStory");
+				exportRoot.saveState();
+			}
+			cleanup();
+			exportRoot.gameState.currentFrame = 4;
+			exportRoot.saveState();
+			exportRoot.gotoAndStop(6);
+		}
+		
+		exportRoot.on("removed", cleanup);
+		
+		createVideoPlayer();
+	}
+	this.frame_6 = function() {
+		var exportRoot = this;
+		exportRoot.stop();
+		
+		// =====================================================
+		// CONFIG
+		// =====================================================
+		var CONFIG = {
+		    backFrame: null,
+		    nextFrame: 7,
+		    autoNextDelay: 800,
+		    requiredCountPerGroup: 2,
+		    selectedAlpha: 0.5,
+		    normalAlpha: 0.01,
+		    doneAlpha: 0.5,
+		    soundPaths: {
+		        correct: "./sounds/voice_correct.mp3",
+		        wrong: "./sounds/voice_wrong.mp3",
+		        click: "./sounds/click.mp3"
+		    }
+		};
+		
+		// =====================================================
+		// GLOBAL STATE
+		// =====================================================
+		if (!exportRoot.audioPool) {
+		    exportRoot.audioPool = {};
+		}
+		if (!exportRoot.saveState) {
+		    exportRoot.saveState = function () {};
+		}
+		
+		// =====================================================
+		// AUDIO
+		// =====================================================
+		function loadSound(type) {
+		    if (!CONFIG.soundPaths[type]) return null;
+		
+		    if (!exportRoot.audioPool[type]) {
+		        var audio = new Audio(CONFIG.soundPaths[type]);
+		        audio.preload = "auto";
+		        exportRoot.audioPool[type] = audio;
+		    }
+		    return exportRoot.audioPool[type];
+		}
+		
+		function playSound(type) {
+		    var base = loadSound(type);
+		    if (!base) return;
+		
+		    try {
+		        var a = base.cloneNode();
+		        a.play().catch(function () {});
+		    } catch (e) {}
+		}
+		
+		loadSound("correct");
+		loadSound("wrong");
+		loadSound("click");
+		
+		// =====================================================
+		// GROUPS
+		// =====================================================
+		var groups = [
+		    {
+		        id: "g1",
+		        parts: [
+		            exportRoot.symb_1_1_1,
+		            exportRoot.symb_1_1_2,
+		            exportRoot.symb_1_1_3,
+		            exportRoot.symb_1_1_4
+		        ]
+		    },
+		    {
+		        id: "g2",
+		        parts: [
+		            exportRoot.symb_1_2_1,
+		            exportRoot.symb_1_2_2,
+		            exportRoot.symb_1_2_3,
+		            exportRoot.symb_1_2_4
+		        ]
+		    },
+		    {
+		        id: "g3",
+		        parts: [
+		            exportRoot.symb_1_3_1,
+		            exportRoot.symb_1_3_2,
+		            exportRoot.symb_1_3_3,
+		            exportRoot.symb_1_3_4
+		        ]
+		    },
+		    {
+		        id: "g4",
+		        parts: [
+		            exportRoot.symb_1_4_1,
+		            exportRoot.symb_1_4_2,
+		            exportRoot.symb_1_4_3,
+		            exportRoot.symb_1_4_4
+		        ]
+		    },
+		    {
+		        id: "g5",
+		        parts: [
+		            exportRoot.symb_1_5_1,
+		            exportRoot.symb_1_5_2,
+		            exportRoot.symb_1_5_3,
+		            exportRoot.symb_1_5_4
+		        ]
+		    },
+		    {
+		        id: "g6",
+		        parts: [
+		            exportRoot.symb_1_6_1,
+		            exportRoot.symb_1_6_2,
+		            exportRoot.symb_1_6_3,
+		            exportRoot.symb_1_6_4
+		        ]
+		    }
+		];
+		
+		// Зөвшөөрөгдөх 6 хослол
+		var ALL_VALID_COMBINATIONS = {
+		    "1-2": true,
+		    "1-3": true,
+		    "1-4": true,
+		    "2-3": true,
+		    "2-4": true,
+		    "3-4": true
+		};
+		
+		var usedCombinations = {};
+		var completedGroupCount = 0;
+		var finished = false;
+		
+		// =====================================================
+		// HELPERS
+		// =====================================================
+		function setPartSelected(part, isSelected) {
+		    if (!part) return;
+		    part.isSelected = isSelected;
+		    part.alpha = isSelected ? CONFIG.selectedAlpha : CONFIG.normalAlpha;
+		}
+		
+		function setGroupLocked(group, locked) {
+		    group.isLocked = locked;
+		
+		    for (var i = 0; i < group.parts.length; i++) {
+		        if (!group.parts[i]) continue;
+		        group.parts[i].mouseEnabled = !locked;
+		        group.parts[i].mouseChildren = false;
+		        group.parts[i].cursor = locked ? "default" : "pointer";
+		    }
+		}
+		
+		function getSelectedIndexes(group) {
+		    var arr = [];
+		    for (var i = 0; i < group.parts.length; i++) {
+		        var part = group.parts[i];
+		        if (part && part.isSelected) {
+		            arr.push(i + 1);
+		        }
+		    }
+		    return arr;
+		}
+		
+		function getCombinationKey(indexes) {
+		    var sorted = indexes.slice().sort(function (a, b) { return a - b; });
+		    return sorted.join("-");
+		}
+		
+		function clearGroup(group) {
+		    for (var i = 0; i < group.parts.length; i++) {
+		        var part = group.parts[i];
+		        if (!part) continue;
+		        setPartSelected(part, false);
+		    }
+		}
+		
+		function pulseWrong(group) {
+		    for (var i = 0; i < group.parts.length; i++) {
+		        var part = group.parts[i];
+		        if (!part) continue;
+		
+		        var baseScaleX = part.baseScaleX || 1;
+		        var baseScaleY = part.baseScaleY || 1;
+		
+		        createjs.Tween.removeTweens(part);
+		        createjs.Tween.get(part)
+		            .to({ scaleX: baseScaleX * 1.05, scaleY: baseScaleY * 1.05 }, 60)
+		            .to({ scaleX: baseScaleX, scaleY: baseScaleY }, 60);
+		    }
+		}
+		
+		function finalizeGroup(group) {
+		    var selected = getSelectedIndexes(group);
+		    var key = getCombinationKey(selected);
+		
+		    if (!ALL_VALID_COMBINATIONS[key]) {
+		        playSound("wrong");
+		        pulseWrong(group);
+		        setTimeout(function () {
+		            clearGroup(group);
+		        }, 150);
+		        return;
+		    }
+		
+		    if (usedCombinations[key]) {
+		        playSound("wrong");
+		        pulseWrong(group);
+		        setTimeout(function () {
+		            clearGroup(group);
+		        }, 150);
+		        return;
+		    }
+		
+		    usedCombinations[key] = true;
+		    group.combinationKey = key;
+		    group.isDone = true;
+		    completedGroupCount++;
+		
+		    for (var i = 0; i < group.parts.length; i++) {
+		        var part = group.parts[i];
+		        if (!part) continue;
+		
+		        if (part.isSelected) {
+		            part.alpha = CONFIG.doneAlpha;
+		        } else {
+		            part.alpha = CONFIG.normalAlpha;
+		        }
+		    }
+		
+		    setGroupLocked(group, true);
+		    playSound("correct");
+		
+		    if (completedGroupCount === groups.length) {
+		        finishExercise();
+		    }
+		}
+		
+		function finishExercise() {
+		    if (finished) return;
+		    finished = true;
+		
+		    exportRoot.saveState();
+		
+		    setTimeout(function () {
+		        if (CONFIG.nextFrame != null) {
+		            exportRoot.gotoAndStop(CONFIG.nextFrame);
+		        }
+		    }, CONFIG.autoNextDelay);
+		}
+		
+		// =====================================================
+		// INIT
+		// =====================================================
+		groups.forEach(function (group, groupIndex) {
+		    group.isLocked = false;
+		    group.isDone = false;
+		    group.combinationKey = null;
+		
+		    group.parts.forEach(function (part, partIndex) {
+		        if (!part) {
+		            console.log("Missing:", "symb_" + (groupIndex + 1) + "_" + (partIndex + 1));
+		            return;
+		        }
+		
+		        part.groupRef = group;
+		        part.partIndex = partIndex + 1;
+		        part.isSelected = false;
+		        part.mouseChildren = false;
+		        part.mouseEnabled = true;
+		        part.cursor = "pointer";
+		        part.alpha = CONFIG.normalAlpha;
+		        part.baseScaleX = part.scaleX;
+		        part.baseScaleY = part.scaleY;
+		
+		        part.on("mousedown", function () {
+		            var currentGroup = this.groupRef;
+		            if (!currentGroup || currentGroup.isLocked || finished) return;
+		
+		            playSound("click");
+		
+		            if (this.isSelected) {
+		                setPartSelected(this, false);
+		                return;
+		            }
+		
+		            var selectedNow = getSelectedIndexes(currentGroup);
+		            if (selectedNow.length >= CONFIG.requiredCountPerGroup) {
+		                playSound("wrong");
+		                pulseWrong(currentGroup);
+		                return;
+		            }
+		
+		            setPartSelected(this, true);
+		
+		            selectedNow = getSelectedIndexes(currentGroup);
+		            if (selectedNow.length === CONFIG.requiredCountPerGroup) {
+		                finalizeGroup(currentGroup);
+		            }
+		        });
+		    });
+		});
+		
+		// =====================================================
+		// OPTIONAL BACK BUTTON
+		// =====================================================
+		if (exportRoot.btn_back) {
+		    exportRoot.btn_back.visible = CONFIG.backFrame != null;
+		    exportRoot.btn_back.mouseEnabled = CONFIG.backFrame != null;
+		
+		    if (CONFIG.backFrame != null) {
+		        exportRoot.btn_back.cursor = "pointer";
+		        exportRoot.btn_back.on("click", function () {
+		            playSound("click");
+		            exportRoot.gotoAndStop(CONFIG.backFrame);
+		        });
+		    }
+		}
+	}
+	this.frame_7 = function() {
+		var exportRoot = this;
+		exportRoot.stop();
+		
+		if (!exportRoot.gameState) {
+			exportRoot.gameState = {};
+		}
+		if (!exportRoot.gameState.selectedLanguage) {
+			exportRoot.gameState.selectedLanguage = "mn";
+		}
+		if (!exportRoot.gameState.videosWatched) {
+			exportRoot.gameState.videosWatched = [];
+		}
+		if (!exportRoot.saveState) {
+			exportRoot.saveState = function() {};
+		}
+		
+		var videoContainer = null;
+		var videoElement = null;
+		var controlsBar = null;
+		var playPauseBtn = null;
+		var progressFill = null;
+		var volumeSlider = null;
+		var downloadBtn = null;
+		var fullscreenBtn = null;
+		var skipButton = null;
+		var timeDisplay = null;
+		var loadingIndicator = null;
+		var resizeHandler = null;
+		var clickOverlay = null;
+		
+		function cleanup() {
+			if (videoElement) {
+				videoElement.pause();
+				videoElement.removeAttribute("src");
+				videoElement.load();
+				videoElement = null;
+			}
+			if (videoContainer && videoContainer.parentNode) {
+				videoContainer.parentNode.removeChild(videoContainer);
+				videoContainer = null;
+			}
+			if (resizeHandler) {
+				window.removeEventListener("resize", resizeHandler);
+				resizeHandler = null;
+			}
+			document.removeEventListener("fullscreenchange", fullscreenChangeHandler);
+			playPauseBtn = null;
+			progressFill = null;
+			volumeSlider = null;
+			downloadBtn = null;
+			fullscreenBtn = null;
+			skipButton = null;
+			timeDisplay = null;
+			loadingIndicator = null;
+			controlsBar = null;
+			clickOverlay = null;
+		}
+		
+		function fullscreenChangeHandler() {
+			if (!fullscreenBtn) return;
+			if (document.fullscreenElement) {
+				fullscreenBtn.innerHTML = "✖";
+			} else {
+				fullscreenBtn.innerHTML = "⛶";
+			}
+		}
+		
+		function createVideoPlayer() {
+			var skipLabels = {
+				mn: "АЛГАСАХ ▶",
+				kz: "АТТАП ӨТУ ▶",
+				tuva: "ЭРТЕР ▶",
+				sign: "АЛГАСАХ ▶"
+			};
+		
+			var existingContainer = document.getElementById("video-container-main");
+			if (existingContainer && existingContainer.parentNode) {
+				existingContainer.parentNode.removeChild(existingContainer);
+			}
+		
+			var canvas = document.getElementById("canvas");
+			if (!canvas) {
+				console.log("Canvas not found");
+				return;
+			}
+		
+			var currentLang = exportRoot.gameState.selectedLanguage || "mn";
+			var rect = canvas.getBoundingClientRect();
+			var videoWatched = exportRoot.gameState.videosWatched.indexOf("mainStory") !== -1;
+		
+			// =====================================================
+			// CONTAINER
+			// =====================================================
+			videoContainer = document.createElement("div");
+			videoContainer.id = "video-container-main";
+			videoContainer.style.position = "absolute";
+			videoContainer.style.left = rect.left + "px";
+			videoContainer.style.top = rect.top + "px";
+			videoContainer.style.width = rect.width + "px";
+			videoContainer.style.height = rect.height + "px";
+			videoContainer.style.backgroundColor = "#1a1a2e";
+			videoContainer.style.zIndex = "1000";
+			videoContainer.style.overflow = "hidden";
+		
+			// =====================================================
+			// LOADING SPINNER
+			// =====================================================
+			loadingIndicator = document.createElement("div");
+			loadingIndicator.style.position = "absolute";
+			loadingIndicator.style.top = "50%";
+			loadingIndicator.style.left = "50%";
+			loadingIndicator.style.transform = "translate(-50%, -50%)";
+			loadingIndicator.style.textAlign = "center";
+			loadingIndicator.style.zIndex = "1003";
+		
+			var spinner = document.createElement("div");
+			spinner.style.width = "60px";
+			spinner.style.height = "60px";
+			spinner.style.border = "6px solid rgba(255,255,255,0.2)";
+			spinner.style.borderTop = "6px solid #FFD700"; // ← FIXED COLOR
+			spinner.style.borderRadius = "50%";
+			spinner.style.margin = "0 auto 20px";
+			spinner.style.animation = "spin 1s linear infinite";
+		
+			var loadingText = document.createElement("div");
+			loadingText.textContent = currentLang === "mn" ? "Ачаалж байна..." : "Жүктелуде...";
+			loadingText.style.color = "#fff";
+			loadingText.style.fontSize = "18px";
+			loadingText.style.fontFamily = "'Rubik', sans-serif";
+			loadingText.style.fontWeight = "bold";
+		
+			loadingIndicator.appendChild(spinner);
+			loadingIndicator.appendChild(loadingText);
+		
+			if (!document.getElementById("spinner-style")) {
+				var style = document.createElement("style");
+				style.id = "spinner-style";
+				style.textContent = "@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }";
+				document.head.appendChild(style);
+			}
+		
+			// =====================================================
+			// VIDEO ELEMENT
+			// =====================================================
+			videoElement = document.createElement("video");
+			videoElement.src = "./videos/lesson6_intro4_mn.mp4";
+			videoElement.style.width = "100%";
+			videoElement.style.height = "100%";
+			videoElement.style.objectFit = "contain";
+			videoElement.style.display = "none";
+			videoElement.preload = "auto";
+			videoElement.playsInline = true;
+			videoElement.muted = false;
+			videoElement.autoplay = true;
+			videoElement.setAttribute("webkit-playsinline", "true");
+		
+			videoElement.addEventListener("error", function() {
+				console.log("VIDEO ERROR:", videoElement.error);
+			});
+		
+			// =====================================================
+			// CLICK OVERLAY
+			// =====================================================
+			clickOverlay = document.createElement("div");
+			clickOverlay.style.position = "absolute";
+			clickOverlay.style.top = "0";
+			clickOverlay.style.left = "0";
+			clickOverlay.style.width = "100%";
+			clickOverlay.style.height = "calc(100% - 70px)";
+			clickOverlay.style.zIndex = "1001";
+			clickOverlay.style.cursor = "pointer";
+			clickOverlay.style.display = "none";
+		
+			var flashIcon = document.createElement("div");
+			flashIcon.style.position = "absolute";
+			flashIcon.style.top = "50%";
+			flashIcon.style.left = "50%";
+			flashIcon.style.transform = "translate(-50%, -50%)";
+			flashIcon.style.fontSize = "80px";
+			flashIcon.style.color = "rgba(255,255,255,0.85)";
+			flashIcon.style.pointerEvents = "none";
+			flashIcon.style.opacity = "0";
+			flashIcon.style.transition = "opacity 0.15s ease";
+			flashIcon.style.textShadow = "0 0 30px rgba(0,0,0,0.6)";
+			flashIcon.textContent = "⏸";
+			clickOverlay.appendChild(flashIcon);
+		
+			function showFlash(icon) {
+				flashIcon.textContent = icon;
+				flashIcon.style.opacity = "1";
+				setTimeout(function() {
+					flashIcon.style.opacity = "0";
+				}, 400);
+			}
+		
+			clickOverlay.addEventListener("click", function() {
+				if (!videoElement) return;
+				if (videoElement.paused) {
+					videoElement.muted = false;
+					videoElement.play().catch(function() {});
+					if (playPauseBtn) playPauseBtn.innerHTML = "⏸️";
+					showFlash("▶");
+				} else {
+					videoElement.pause();
+					if (playPauseBtn) playPauseBtn.innerHTML = "▶️";
+					showFlash("⏸");
+				}
+			});
+		
+			// =====================================================
+			// CONTROLS BAR
+			// =====================================================
+			controlsBar = document.createElement("div");
+			controlsBar.style.position = "absolute";
+			controlsBar.style.bottom = "0";
+			controlsBar.style.left = "0";
+			controlsBar.style.right = "0";
+			controlsBar.style.height = "70px";
+			controlsBar.style.background = "linear-gradient(to top, rgba(0,0,0,0.9), transparent)";
+			controlsBar.style.display = "none";
+			controlsBar.style.alignItems = "center";
+			controlsBar.style.padding = "0 20px";
+			controlsBar.style.gap = "15px";
+			controlsBar.style.zIndex = "1002";
+		
+			// PLAY/PAUSE
+			playPauseBtn = document.createElement("button");
+			playPauseBtn.innerHTML = "⏸️";
+			playPauseBtn.style.fontSize = "24px";
+			playPauseBtn.style.background = "none";
+			playPauseBtn.style.border = "none";
+			playPauseBtn.style.cursor = "pointer";
+			playPauseBtn.style.padding = "5px";
+			playPauseBtn.style.color = "#fff";
+			playPauseBtn.style.zIndex = "1003";
+		
+			// PROGRESS BAR
+			var progressContainer = document.createElement("div");
+			progressContainer.style.flex = "1";
+			progressContainer.style.height = "6px";
+			progressContainer.style.backgroundColor = "rgba(255,255,255,0.3)";
+			progressContainer.style.borderRadius = "3px";
+			progressContainer.style.cursor = "pointer";
+			progressContainer.style.position = "relative";
+			progressContainer.style.zIndex = "1003";
+		
+			progressFill = document.createElement("div");
+			progressFill.style.width = "0%";
+			progressFill.style.height = "100%";
+			progressFill.style.backgroundColor = "#FFD700";
+			progressFill.style.borderRadius = "3px";
+			progressFill.style.transition = "width 0.1s";
+			progressContainer.appendChild(progressFill);
+		
+			// TIME DISPLAY
+			timeDisplay = document.createElement("span");
+			timeDisplay.textContent = "0:00 / 0:00";
+			timeDisplay.style.color = "#fff";
+			timeDisplay.style.fontSize = "14px";
+			timeDisplay.style.fontFamily = "'Rubik', sans-serif";
+			timeDisplay.style.minWidth = "100px";
+			timeDisplay.style.zIndex = "1003";
+		
+			// VOLUME
+			volumeSlider = document.createElement("input");
+			volumeSlider.type = "range";
+			volumeSlider.min = "0";
+			volumeSlider.max = "100";
+			volumeSlider.value = "100";
+			volumeSlider.style.width = "80px";
+			volumeSlider.style.cursor = "pointer";
+			volumeSlider.style.zIndex = "1003";
+		
+			// DOWNLOAD
+			downloadBtn = document.createElement("button");
+			downloadBtn.innerHTML = "⬇️";
+			downloadBtn.style.fontSize = "20px";
+			downloadBtn.style.background = "none";
+			downloadBtn.style.border = "none";
+			downloadBtn.style.cursor = "pointer";
+			downloadBtn.style.padding = "5px";
+			downloadBtn.style.color = "#fff";
+			downloadBtn.style.zIndex = "1003";
+		
+			// =====================================================
+			// FULLSCREEN BUTTON ← NEW
+			// =====================================================
+			fullscreenBtn = document.createElement("button");
+			fullscreenBtn.innerHTML = "⛶";
+			fullscreenBtn.style.fontSize = "22px";
+			fullscreenBtn.style.background = "none";
+			fullscreenBtn.style.border = "none";
+			fullscreenBtn.style.cursor = "pointer";
+			fullscreenBtn.style.padding = "5px";
+			fullscreenBtn.style.color = "#fff";
+			fullscreenBtn.style.zIndex = "1003";
+		
+			// =====================================================
+			// SKIP BUTTON
+			// =====================================================
+			skipButton = document.createElement("button");
+			skipButton.innerHTML = skipLabels[currentLang] || skipLabels.mn;
+			skipButton.style.position = "absolute";
+			skipButton.style.bottom = "90px";
+			skipButton.style.right = "20px";
+			skipButton.style.padding = "10px 20px";
+			skipButton.style.fontSize = "16px";
+			skipButton.style.fontFamily = "'Rubik', sans-serif";
+			skipButton.style.fontWeight = "bold";
+			skipButton.style.backgroundColor = "#FFD700";
+			skipButton.style.color = "#1a1a2e";
+			skipButton.style.border = "none";
+			skipButton.style.borderRadius = "25px";
+			skipButton.style.cursor = "pointer";
+			skipButton.style.boxShadow = "0 4px 12px rgba(0,0,0,0.5)";
+			skipButton.style.zIndex = "1004";
+			skipButton.style.display = videoWatched ? "block" : "none";
+		
+			// =====================================================
+			// ASSEMBLE
+			// =====================================================
+			controlsBar.appendChild(playPauseBtn);
+			controlsBar.appendChild(progressContainer);
+			controlsBar.appendChild(timeDisplay);
+			controlsBar.appendChild(volumeSlider);
+			controlsBar.appendChild(downloadBtn);
+			controlsBar.appendChild(fullscreenBtn); // ← NEW
+		
+			videoContainer.appendChild(loadingIndicator);
+			videoContainer.appendChild(videoElement);
+			videoContainer.appendChild(clickOverlay);
+			videoContainer.appendChild(controlsBar);
+			videoContainer.appendChild(skipButton);
+		
+			document.body.appendChild(videoContainer);
+		
+			// =====================================================
+			// VIDEO EVENTS
+			// =====================================================
+			videoElement.addEventListener("loadeddata", function() {
+				if (loadingIndicator) loadingIndicator.style.display = "none";
+				videoElement.style.display = "block";
+				controlsBar.style.display = "flex";
+				clickOverlay.style.display = "block";
+				if (!videoWatched) skipButton.style.display = "block";
+		
+				videoElement.play().then(function() {
+					playPauseBtn.innerHTML = "⏸️";
+				}).catch(function(err) {
+					console.log("Play failed:", err);
+					playPauseBtn.innerHTML = "▶️";
+				});
+			});
+		
+			videoElement.addEventListener("loadedmetadata", function() {
+				if (timeDisplay) {
+					timeDisplay.textContent = "0:00 / " + formatTime(videoElement.duration);
+				}
+			});
+		
+			videoElement.addEventListener("timeupdate", function() {
+				if (progressFill && timeDisplay && videoElement.duration) {
+					var percent = (videoElement.currentTime / videoElement.duration) * 100;
+					progressFill.style.width = percent + "%";
+					timeDisplay.textContent = formatTime(videoElement.currentTime) + " / " + formatTime(videoElement.duration);
+				}
+			});
+		
+			videoElement.addEventListener("ended", function() {
+				if (playPauseBtn) playPauseBtn.innerHTML = "▶️";
+				if (exportRoot.gameState.videosWatched.indexOf("mainStory") === -1) {
+					exportRoot.gameState.videosWatched.push("mainStory");
+					exportRoot.saveState();
+				}
+				setTimeout(goToExercise1, 800);
+			});
+		
+			// =====================================================
+			// CONTROLS EVENTS
+			// =====================================================
+			playPauseBtn.addEventListener("click", function(e) {
+				e.stopPropagation();
+				if (videoElement.paused) {
+					videoElement.muted = false;
+					videoElement.play();
+					playPauseBtn.innerHTML = "⏸️";
+				} else {
+					videoElement.pause();
+					playPauseBtn.innerHTML = "▶️";
+				}
+			});
+		
+			progressContainer.addEventListener("click", function(e) {
+				e.stopPropagation();
+				var r = progressContainer.getBoundingClientRect();
+				var pos = (e.clientX - r.left) / r.width;
+				videoElement.currentTime = pos * videoElement.duration;
+			});
+		
+			volumeSlider.addEventListener("input", function(e) {
+				e.stopPropagation();
+				videoElement.volume = this.value / 100;
+				if (this.value > 0) videoElement.muted = false;
+			});
+		
+			downloadBtn.addEventListener("click", function(e) {
+				e.stopPropagation();
+				var a = document.createElement("a");
+				a.href = videoElement.src;
+				a.download = "lesson6_intro4_mn.mp4";
+				a.click();
+			});
+		
+			// =====================================================
+			// FULLSCREEN EVENTS ← NEW
+			// =====================================================
+			fullscreenBtn.addEventListener("click", function(e) {
+				e.stopPropagation();
+				if (!document.fullscreenElement) {
+					videoContainer.requestFullscreen().catch(function(err) {
+						console.log("Fullscreen error:", err);
+					});
+				} else {
+					document.exitFullscreen();
+				}
+			});
+		
+			document.addEventListener("fullscreenchange", fullscreenChangeHandler);
+		
+			skipButton.addEventListener("click", function(e) {
+				e.stopPropagation();
+				goToExercise1();
+			});
+		
+			// =====================================================
+			// RESIZE
+			// =====================================================
+			resizeHandler = function() {
+				if (!videoContainer) return;
+				var canvas = document.getElementById("canvas");
+				if (!canvas) return;
+				var r = canvas.getBoundingClientRect();
+				videoContainer.style.left   = r.left   + "px";
+				videoContainer.style.top    = r.top    + "px";
+				videoContainer.style.width  = r.width  + "px";
+				videoContainer.style.height = r.height + "px";
+			};
+			window.addEventListener("resize", resizeHandler);
+		}
+		
+		function formatTime(seconds) {
+			if (isNaN(seconds)) return "0:00";
+			var mins = Math.floor(seconds / 60);
+			var secs = Math.floor(seconds % 60);
+			return mins + ":" + (secs < 10 ? "0" : "") + secs;
+		}
+		
+		function goToExercise1() {
+			if (exportRoot.gameState.videosWatched.indexOf("mainStory") === -1) {
+				exportRoot.gameState.videosWatched.push("mainStory");
+				exportRoot.saveState();
+			}
+			cleanup();
+			exportRoot.gameState.currentFrame = 4;
+			exportRoot.saveState();
+			exportRoot.gotoAndStop(8);
+		}
+		
+		exportRoot.on("removed", cleanup);
+		
+		createVideoPlayer();
+		var exportRoot = this;
+		exportRoot.stop();
+		
+		if (!exportRoot.audioPool) {
+			exportRoot.audioPool = {};
+		}
+		
+		if (!exportRoot.gameState) {
+			exportRoot.gameState = {};
+		}
+		
+		exportRoot.currentLessonId = "Lesson06";
+		exportRoot.currentExerciseId = "ex01";
+		exportRoot.backBtn = null;
+		exportRoot.nextBtn = null;
+		var storageKey = "lesson6_gameState"
+		
+		function loadSound(type) {
+			var lang = exportRoot.gameState.selectedLanguage || "mn";
+			var lessonId = exportRoot.currentLessonId || "Lesson06";
+			var exerciseId = exportRoot.currentExerciseId || "ex01";
+			var key = type + "_" + lessonId + "_" + exerciseId + "_" + lang;
+		
+			var paths = {
+				correct: "./sounds/voice_correct.mp3",
+				wrong: "./sounds/voice_wrong.mp3",
+				click: "./sounds/click.mp3",
+				instruction: "./sounds/instructions/" + lessonId + "_" + exerciseId + "_" + lang + ".mp3"
+			};
+		
+			if (!exportRoot.audioPool[key]) {
+				exportRoot.audioPool[key] = new Audio(paths[type]);
+				exportRoot.audioPool[key].preload = "metadata";
+			}
+		
+			return exportRoot.audioPool[key];
+		}
+		
+		var currentInstructionAudio = null;
+		
+		exportRoot.playExerciseSound = function(soundName) {
+			var sound = loadSound(soundName);
+			if (sound) {
+				sound.pause();
+				sound.currentTime = 0;
+				sound.play().catch(function() {});
+			}
+		};
+		
+		exportRoot.playInstruction = function() {
+			if (currentInstructionAudio) {
+				currentInstructionAudio.pause();
+				currentInstructionAudio.currentTime = 0;
+			}
+			currentInstructionAudio = loadSound("instruction");
+			if (currentInstructionAudio) {
+				currentInstructionAudio.play().catch(function() {});
+			}
+		};
+		
+		exportRoot.stopInstruction = function() {
+			if (currentInstructionAudio) {
+				currentInstructionAudio.pause();
+				currentInstructionAudio.currentTime = 0;
+				currentInstructionAudio = null;
+			}
+		};
+		
+		function playSound(type) {
+			var s = loadSound(type);
+			if (!s) return;
+		
+			s.pause();
+			s.currentTime = 0;
+			s.play().catch(function() {});
+		}
+		
+		function setupButton(btn, callback, enabled) {
+			if (!btn) return;
+		
+			if (btn.removeAllEventListeners) {
+				btn.removeAllEventListeners();
+			}
+		
+			btn.visible = true;
+			btn.mouseChildren = false;
+		
+			if (enabled === false) {
+				btn.mouseEnabled = false;
+				btn.alpha = 0.3;
+				btn.cursor = null;
+				return;
+			}
+		
+			btn.mouseEnabled = true;
+			btn.alpha = 1;
+			btn.cursor = "pointer";
+		
+			btn.addEventListener("click", function() {
+				playSound("click");
+				if (callback) callback();
+			});
+		}
+		
+		function getExerciseNumber() {
+			if (!exportRoot || !exportRoot.currentExerciseId) return null;
+		
+			var match = String(exportRoot.currentExerciseId).match(/\d+/);
+			return match ? parseInt(match[0], 10) : null;
+		}
+		
+		var inputNames = ["lesson6_ex01_input_1_1", "lesson6_ex01_input_1_2", "lesson6_ex01_input_1_3", "lesson6_ex01_input_1_4", "lesson6_ex01_input_1_5", "lesson6_ex01_input_1_6", "lesson6_ex01_input_1_7", "lesson6_ex01_input_1_8", "lesson6_ex01_input_1_9", "lesson6_ex01_input_1_10", "lesson6_ex01_input_1_11", "lesson6_ex01_input_1_12", "lesson6_ex01_input_1_13", "lesson6_ex01_input_1_14", "lesson6_ex05_input_5_1", "lesson6_ex05_input_5_2", "lesson6_ex05_input_5_3", "lesson6_ex05_input_5_4", "lesson6_ex06_input_6_1_1", "lesson6_ex06_input_6_1_2", "lesson6_ex06_input_6_1_3", "lesson6_ex06_input_6_1_4", "lesson6_ex06_input_6_1_5", "lesson6_ex06_input_6_2_1", "lesson6_ex06_input_6_2_2", "lesson6_ex06_input_6_2_3", "lesson6_ex06_input_6_2_4", "lesson6_ex06_input_6_2_5", "lesson6_ex06_input_6_3_1", "lesson6_ex06_input_6_3_2", "lesson6_ex06_input_6_3_3", "lesson6_ex06_input_6_3_4", "lesson6_ex06_input_6_3_5", "lesson6_ex06_input_6_4_1", "lesson6_ex06_input_6_4_2", "lesson6_ex06_input_6_4_3", "lesson6_ex06_input_6_4_4", "lesson6_ex06_input_6_4_5", "lesson6_ex09_input_9_1_1", "lesson6_ex09_input_9_1_2", "lesson6_ex09_input_9_2_1", "lesson6_ex09_input_9_2_2", "lesson6_ex09_input_9_3_1", "lesson6_ex09_input_9_3_2", "lesson6_ex09_input_11_1", "lesson6_ex09_input_11_2"];
+		
+		function hideAllHtmlInputs() {
+			var exerciseNumber = getExerciseNumber();
+			inputNames.filter(name => name.includes(exportRoot.currentExerciseId)).forEach(function(name) {
+				var el = document.getElementById("html_" + name);
+				if (el) {
+					el.style.opacity = "0";
+				}
+			});
+		}
+		
+		function showAllHtmlInputs() {
+			var exerciseNumber = getExerciseNumber();
+			inputNames.filter(name => name.includes(exportRoot.currentExerciseId)).forEach(function(name) {
+				var el = document.getElementById("html_" + name);
+				if (el) {
+					el.style.opacity = "1";
+				}
+			});
+		}
+		
+		if (exportRoot.help_btn) {
+			setupButton(exportRoot.help_btn, function() {
+				if (exportRoot.stopInstruction) {
+					exportRoot.stopInstruction();
+				}
+		
+				if (exportRoot.help_popup) {
+					var currentLang = exportRoot.gameState.selectedLanguage || "mn";
+		
+					if (exportRoot.help_popup.gotoAndStop) {
+						exportRoot.help_popup.gotoAndStop(currentLang);
+					}
+		
+					exportRoot.help_popup.visible = true;
+					hideAllHtmlInputs();
+		
+					if (exportRoot.help_popup.parent) {
+						exportRoot.help_popup.parent.setChildIndex(
+							exportRoot.help_popup,
+							exportRoot.help_popup.parent.numChildren - 1
+						);
+					}
+		
+					if (exportRoot.help_popup.closeBtn) {
+						setupButton(exportRoot.help_popup.closeBtn, function() {
+							exportRoot.help_popup.visible = false;
+							showAllHtmlInputs();
+						}, true);
+					}
+				}
+			}, true);
+		}
+		
+		if (exportRoot.voice_btn) {
+			setupButton(exportRoot.voice_btn, function() {
+				if (exportRoot.playInstruction) {
+					exportRoot.playInstruction();
+				}
+			}, true);
+		}
+		
+		function removeLessonStateAndReload() {
+			sessionStorage.removeItem(storageKey);
+			location.reload();
+		}
+		
+		// HOME
+		if (exportRoot.home_btn) {
+			setupButton(exportRoot.home_btn, function() {
+				removeLessonStateAndReload();
+			}, true);
+		}
+		
+		if (exportRoot.home_btn_0) {
+			setupButton(exportRoot.home_btn_0, function() {
+				removeLessonStateAndReload();
+			}, true);
+		}
+		
+		if (exportRoot.helpPopup) {
+			exportRoot.help_popup.visible = false;
+		}
+		
+		function getCompleteKeyByExerciseId(exerciseId) {
+			var exNum = getExerciseNumber(exerciseId);
+			return "exercise" + exNum + "Complete";
+		}
+		
+		function getExerciseNumber(exerciseId) {
+			if (!exerciseId) return 1;
+		
+			var match = String(exerciseId).match(/ex(\d+)/i);
+			if (!match) return 1;
+		
+			return parseInt(match[1], 10);
+		}
+		
+		function getCurrentExerciseNumber() {
+			return getExerciseNumber(exportRoot.currentExerciseId);
+		}
+		
+		function getCurrentCompleteKey() {
+			return getCompleteKeyByExerciseId(exportRoot.currentExerciseId);
+		}
+		
+		function goToExercise(exNum) {
+			if (typeof exNum !== "number" || exNum < 1) return;
+		
+			exportRoot.stopInstruction();
+		
+			var nextExerciseId = "ex" + (exNum < 10 ? "0" + exNum : exNum);
+			exportRoot.currentExerciseId = nextExerciseId;
+		
+			// frame = exercise number гэж үзэж байна
+			// ex01 -> frame 1
+			// ex02 -> frame 2
+			// ex03 -> frame 3 ...
+			if (exportRoot.gotoAndStop) {
+				exportRoot.gotoAndStop(exNum);
+			}
+		}
+		
+		console.log("create exportRoot.refreshNavButtons");
+		
+		exportRoot.refreshNavButtons = function() {
+			console.log("refreshNavButtons");
+			console.log(exportRoot.backBtn);
+			console.log(exportRoot.nextBtn);
+			var currentExNum = getCurrentExerciseNumber();
+			console.log("currentExNum");
+			console.log(currentExNum);
+			var currentCompleteKey = getCurrentCompleteKey();
+			console.log("getCurrentCompleteKey");
+			console.log(currentCompleteKey);
+			var isComplete = !!exportRoot.gameState[currentCompleteKey];
+			console.log("console.log(isComplete);");
+			console.log(isComplete);
+			
+			if (exportRoot.backBtn) {
+				setupButton(exportRoot.btn_back, function() {
+					if (exportRoot.currentExerciseId === "ex09") {
+						hideAllHtmlInputs()
+					}			
+					exportRoot.gotoAndStop(exportRoot.backBtn);
+				}, currentExNum > 1);
+			}else {
+				setupButton(exportRoot.btn_back, function() {
+					exportRoot.gotoAndStop(exportRoot.backBtn);
+				}, false);
+			}
+		
+			if (exportRoot.nextBtn) {
+				setupButton(exportRoot.btn_next, function() {
+					exportRoot.gotoAndStop(exportRoot.nextBtn);
+					if (exportRoot.currentExerciseId === "ex09") {
+						hideAllHtmlInputs()
+					}
+				}, isComplete);
+			}
+		}
+	}
+	this.frame_8 = function() {
+		var exportRoot = this;
+		exportRoot.stop();
+		
+		// =====================================================
+		// CONFIG
+		// =====================================================
+		var CONFIG = {
 		    lessonId: "lesson6",
 		    exerciseId: "ex01",
 		    exerciseNumber: 1,
 		    storageKey: "lesson6_gameState",
 		    backFrame: null,
-		    nextFrame: 3,
-		    autoNextDelay: 1200,
+		    nextFrame: 9,
+		    autoNextDelay: 1500,
 		    soundPaths: {
 		        correct: "./sounds/voice_correct.mp3",
 		        wrong: "./sounds/voice_wrong.mp3",
@@ -4884,7 +8448,6 @@ if (reversed == null) { reversed = false; }
 		        autoNextTriggered = true;
 		        exportRoot.gameState[CONFIG.completeKey] = true;
 		        exportRoot.saveState();
-		        playSound("correct");
 		        if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
 		
 		        INPUT_NAMES.forEach(function(n) {
@@ -4925,8 +8488,9 @@ if (reversed == null) { reversed = false; }
 		        exportRoot.gameState[CONFIG.positionsKey][name] = this.value;
 		        exportRoot.saveState();
 		        
-		        if (this.value !== "") {
+		        if (this.value !== "" && this.value.length >= maxLen) {
 		            paintInputState(this, isCorrect(name, this.value) ? "correct" : "wrong");
+					exportRoot.playCharacterAnimation(isCorrect(name, this.value) ? "correct" : "wrong");
 		        } else {
 		            paintInputState(this, "default");
 		        }
@@ -4964,8 +8528,14 @@ if (reversed == null) { reversed = false; }
 		    exportRoot.help_popup.visible = false;
 		    exportRoot.help_popup.stop();
 		}
-		if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
 		
+		console.log("exportRoot.refreshNavButtons");
+		if (exportRoot.refreshNavButtons) {
+			console.log("exportRoot.refreshNavButtons");
+			exportRoot.refreshNavButtons();
+		}
+		
+		exportRoot.stopInstruction();
 		if (!exportRoot.gameState[CONFIG.completeKey]) {
 		    setTimeout(function() { 
 		        if(exportRoot.playInstruction) exportRoot.playInstruction(); 
@@ -4979,257 +8549,205 @@ if (reversed == null) { reversed = false; }
 		var exportRoot = this;
 		exportRoot.stop();
 		
-		if (!exportRoot.audioPool) {
-			exportRoot.audioPool = {};
-		}
+		var characterMC = exportRoot.Emoji_result;
+		var characterResetTimer = null;
 		
-		if (!exportRoot.gameState) {
-			exportRoot.gameState = {};
-		}
-		
-		exportRoot.currentLessonId = "Lesson06";
-		exportRoot.currentExerciseId = "ex01";
-		exportRoot.backBtn = null;
-		exportRoot.nextBtn = null;
-		var storageKey = "lesson6_gameState"
-		
-		function loadSound(type) {
-			var lang = exportRoot.gameState.selectedLanguage || "mn";
-			var lessonId = exportRoot.currentLessonId || "Lesson06";
-			var exerciseId = exportRoot.currentExerciseId || "ex01";
-			var key = type + "_" + lessonId + "_" + exerciseId + "_" + lang;
-		
-			var paths = {
-				correct: "./sounds/voice_correct.mp3",
-				wrong: "./sounds/voice_wrong.mp3",
-				click: "./sounds/click.mp3",
-				instruction: "./sounds/instructions/" + lessonId + "_" + exerciseId + "_" + lang + ".mp3"
-			};
-		
-			if (!exportRoot.audioPool[key]) {
-				exportRoot.audioPool[key] = new Audio(paths[type]);
-				exportRoot.audioPool[key].preload = "metadata";
-			}
-		
-			return exportRoot.audioPool[key];
-		}
-		
-		var currentInstructionAudio = null;
-		
-		exportRoot.playExerciseSound = function(soundName) {
-			var sound = loadSound(soundName);
-			if (sound) {
-				sound.pause();
-				sound.currentTime = 0;
-				sound.play().catch(function() {});
-			}
-		};
-		
-		exportRoot.playInstruction = function() {
-			if (currentInstructionAudio) {
-				currentInstructionAudio.pause();
-				currentInstructionAudio.currentTime = 0;
-			}
-			currentInstructionAudio = loadSound("instruction");
-			if (currentInstructionAudio) {
-				currentInstructionAudio.play().catch(function() {});
-			}
-		};
-		
-		exportRoot.stopInstruction = function() {
-			if (currentInstructionAudio) {
-				currentInstructionAudio.pause();
-				currentInstructionAudio.currentTime = 0;
-				currentInstructionAudio = null;
-			}
+		var soundPaths = {
+			correct: "./sounds/voice_correct.mp3",
+			wrong: "./sounds/voice_wrong.mp3",
+			click: "./sounds/click.mp3"
 		};
 		
 		function playSound(type) {
-			var s = loadSound(type);
-			if (!s) return;
-		
-			s.pause();
-			s.currentTime = 0;
-			s.play().catch(function() {});
+		    try { new Audio(soundPaths[type]).play().catch(function() {}); } catch (e) {}
 		}
 		
-		function setupButton(btn, callback, enabled) {
-			if (!btn) return;
+		exportRoot.playCharacterAnimation = function(state) {
+			if (!characterMC) return;
+			if (characterResetTimer) clearTimeout(characterResetTimer);
+			playSound(state);
+			if (state === "correct") {
+				characterMC.gotoAndStop(3);
+				characterResetTimer = setTimeout(function () {
+					if (characterMC) characterMC.gotoAndStop(0);
+				}, 2000);
+			} else if (state === "wrong") {
+				characterMC.gotoAndStop(2);
+				characterResetTimer = setTimeout(function () {
+					if (characterMC) characterMC.gotoAndStop(0);
+				}, 2000);
+			} else {
+				characterMC.gotoAndStop(0);
+			}
+		}
+		var exportRoot = this;
 		
-			if (btn.removeAllEventListeners) {
-				btn.removeAllEventListeners();
+		function applyTextStyling(textObj, opts) {
+			if (!textObj || !(textObj instanceof createjs.Text) || !textObj.parent) return;
+		
+			opts = opts || {};
+		
+			var outlineColor = opts.outlineColor || "#461A17";
+			var outlineSize = opts.outlineSize || 6;
+			var fillColor = opts.fillColor || "#FFFFFF";
+			var shadowColor = opts.shadowColor || "rgba(60, 20, 0, 0.4)";
+			var pad = opts.pad || 60;
+		
+			var savedX = textObj.x;
+			var savedY = textObj.y;
+			var parent = textObj.parent;
+			var cloneName = "__strokeClone_" + (textObj.name || "text");
+		
+			// Өмнө үлдсэн ижил clone-уудыг parent-оос цэвэрлэнэ
+			for (var i = parent.numChildren - 1; i >= 0; i--) {
+				var child = parent.getChildAt(i);
+				if (child && child.name === cloneName) {
+					if (child.cacheCanvas) child.uncache();
+					parent.removeChild(child);
+				}
 			}
 		
-			btn.visible = true;
-			btn.mouseChildren = false;
-		
-			if (enabled === false) {
-				btn.mouseEnabled = false;
-				btn.alpha = 0.3;
-				btn.cursor = null;
-				return;
+			// Хуучин cache арилгана
+			if (textObj.cacheCanvas) {
+				textObj.uncache();
 			}
 		
-			btn.mouseEnabled = true;
-			btn.alpha = 1;
-			btn.cursor = "pointer";
+			textObj.outline = null;
+			textObj.color = fillColor;
+			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
 		
-			btn.addEventListener("click", function() {
-				playSound("click");
-				if (callback) callback();
+			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
+			strokeText.name = cloneName;
+			strokeText.textAlign = textObj.textAlign;
+			strokeText.textBaseline = textObj.textBaseline;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+			strokeText.scaleX = textObj.scaleX;
+			strokeText.scaleY = textObj.scaleY;
+			strokeText.rotation = textObj.rotation;
+			strokeText.skewX = textObj.skewX;
+			strokeText.skewY = textObj.skewY;
+			strokeText.regX = textObj.regX;
+			strokeText.regY = textObj.regY;
+			strokeText.outline = outlineSize;
+			strokeText.shadow = null;
+			strokeText.mouseEnabled = false;
+		
+			var idx = parent.getChildIndex(textObj);
+			parent.addChildAt(strokeText, idx);
+		
+			textObj._strokeClone = strokeText;
+		
+			// cache хэрэглэх бол
+			var bounds = textObj.getBounds();
+			if (bounds) {
+				var cacheX = bounds.x - pad;
+				var cacheY = bounds.y - pad;
+				var cacheW = bounds.width + pad * 2;
+				var cacheH = bounds.height + pad * 2;
+		
+				if (strokeText.cacheCanvas) strokeText.uncache();
+				if (textObj.cacheCanvas) textObj.uncache();
+		
+				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+				textObj.cache(cacheX, cacheY, cacheW, cacheH);
+			}
+		
+			// frame солигдоход original text хасагдах үед clone-ыг хамт устгана
+			if (textObj._onRemovedCleanup) {
+				textObj.off("removed", textObj._onRemovedCleanup);
+			}
+		
+			textObj._onRemovedCleanup = function () {
+				if (strokeText) {
+					if (strokeText.cacheCanvas) strokeText.uncache();
+					if (strokeText.parent) {
+						strokeText.parent.removeChild(strokeText);
+					}
+				}
+		
+				if (textObj.cacheCanvas) {
+					textObj.uncache();
+				}
+		
+				textObj._strokeClone = null;
+			};
+		
+			textObj.on("removed", textObj._onRemovedCleanup);
+		
+			textObj.x = savedX;
+			textObj.y = savedY;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+		}
+		
+		var exerciseText = {
+			mn: {
+				title: "ТОГЛООМЫН ЗАМ",
+				instruction: "Тоглоомын замын будсан хэсгүүдийг ажиглаарай. \n1 метр замын хэдэн хэсэг нь ягаан өнгөтэй байна вэ? \nТохирох энгийн бутархайг нөхөж бичээрэй."
+			},
+			kz: {
+				title: "ОЙЫН ЖОЛЫ",
+				instruction: "Ойын жолының боялған бөліктеріне назар аударыңыз. \n1 метр жолдың неше бөлігі қызғылт түсті? \nСәйкес жай бөлшекті толықтырып жазыңыз."
+			},
+			tuva: {
+				title: "НААДАМ ЧОЛ",
+				instruction: "Наадам чолунуң өөделген кезектерин ажыглаңар. \n1 метр чолнуң каш үеези ягаан өңгүлүг болур? \nТуда келген эңгин бөлүктү дүптеп бижиңер."
+			},
+			sign: {
+				title: "ТОГЛООМЫН ЗАМ",
+				instruction: "Тоглоомын замын будсан хэсгүүдийг ажиглаарай. \n1 метр замын хэдэн хэсэг нь ягаан өнгөтэй байна вэ? \nТохирох энгийн бутархайг нөхөж бичээрэй."
+			}
+		};
+		
+		var lang = exportRoot.gameState.selectedLanguage || "mn";
+		var texts = exerciseText[lang];
+		
+		function findTextByContent(container, content) {
+			if (!container) return null;
+		
+			if (container instanceof createjs.Text && container.text === content) {
+				return container;
+			}
+		
+			if (!container.numChildren) return null;
+		
+			for (var i = 0; i < container.numChildren; i++) {
+				var found = findTextByContent(container.getChildAt(i), content);
+				if (found) return found;
+			}
+		
+			return null;
+		}
+		
+		var txt_title = findTextByContent(exportRoot, "txt_title");
+		var txt_instruction = findTextByContent(exportRoot, "txt_instruction");
+		
+		
+		console.log("exerciseText[lang]");
+		console.log(exerciseText[lang]);
+		console.log(exportRoot.txt_title);
+		if (txt_title) {
+			txt_title.text = texts.title;
+			applyTextStyling(txt_title, {
+				outlineSize: 15,
+				outlineColor: "#461A17",
+				fillColor: "#FFFFFF",
+				pad: 80
 			});
+		}else {
+			console.log("exportRoot.txt_title not found");
 		}
 		
-		if (exportRoot.help_btn) {
-			setupButton(exportRoot.help_btn, function() {
-				if (exportRoot.stopInstruction) {
-					exportRoot.stopInstruction();
-				}
+		console.log('--------------------------');
+		console.log(exportRoot);
+		console.log('--------------------------');
 		
-				if (exportRoot.help_popup) {
-					var currentLang = exportRoot.gameState.selectedLanguage || "mn";
-		
-					if (exportRoot.help_popup.gotoAndStop) {
-						exportRoot.help_popup.gotoAndStop(currentLang);
-					}
-		
-					exportRoot.help_popup.visible = true;
-		
-					if (exportRoot.help_popup.parent) {
-						exportRoot.help_popup.parent.setChildIndex(
-							exportRoot.help_popup,
-							exportRoot.help_popup.parent.numChildren - 1
-						);
-					}
-		
-					if (exportRoot.help_popup.closeBtn) {
-						setupButton(exportRoot.help_popup.closeBtn, function() {
-							exportRoot.help_popup.visible = false;
-						}, true);
-					}
-				}
-			}, true);
-		}
-		
-		if (exportRoot.voice_btn) {
-			setupButton(exportRoot.voice_btn, function() {
-				if (exportRoot.playInstruction) {
-					exportRoot.playInstruction();
-				}
-			}, true);
-		}
-		
-		function removeLessonStateAndReload() {
-			sessionStorage.removeItem(storageKey);
-			location.reload();
-		}
-		
-		// HOME
-		if (exportRoot.home_btn) {
-			setupButton(exportRoot.home_btn, function() {
-				removeLessonStateAndReload();
-			}, true);
-		}
-		
-		if (exportRoot.home_btn_0) {
-			setupButton(exportRoot.home_btn_0, function() {
-				removeLessonStateAndReload();
-			}, true);
-		}
-		
-		if (exportRoot.helpPopup) {
-			exportRoot.help_popup.visible = false;
-		}
-		
-		function getCompleteKeyByExerciseId(exerciseId) {
-			var exNum = getExerciseNumber(exerciseId);
-			return "exercise" + exNum + "Complete";
-		}
-		
-		function getExerciseNumber(exerciseId) {
-			if (!exerciseId) return 1;
-		
-			var match = String(exerciseId).match(/ex(\d+)/i);
-			if (!match) return 1;
-		
-			return parseInt(match[1], 10);
-		}
-		
-		function getCurrentExerciseNumber() {
-			return getExerciseNumber(exportRoot.currentExerciseId);
-		}
-		
-		function getCurrentCompleteKey() {
-			return getCompleteKeyByExerciseId(exportRoot.currentExerciseId);
-		}
-		
-		function goToExercise(exNum) {
-			if (typeof exNum !== "number" || exNum < 1) return;
-		
-			exportRoot.stopInstruction();
-		
-			var nextExerciseId = "ex" + (exNum < 10 ? "0" + exNum : exNum);
-			exportRoot.currentExerciseId = nextExerciseId;
-		
-			// frame = exercise number гэж үзэж байна
-			// ex01 -> frame 1
-			// ex02 -> frame 2
-			// ex03 -> frame 3 ...
-			if (exportRoot.gotoAndStop) {
-				exportRoot.gotoAndStop(exNum);
-			}
-		}
-		
-		exportRoot.refreshNavButtons = function() {
-			console.log("refreshNavButtons");
-			console.log(exportRoot.backBtn);
-			console.log(exportRoot.nextBtn);
-			var currentExNum = getCurrentExerciseNumber();
-			console.log("currentExNum");
-			console.log(currentExNum);
-			var currentCompleteKey = getCurrentCompleteKey();
-			console.log("getCurrentCompleteKey");
-			console.log(currentCompleteKey);
-			var isComplete = !!exportRoot.gameState[currentCompleteKey];
-			console.log("console.log(isComplete);");
-			console.log(isComplete);
-			
-			if (exportRoot.backBtn) {
-				setupButton(exportRoot.btn_back, function() {
-					exportRoot.gotoAndStop(exportRoot.backBtn);
-				}, currentExNum > 1);
-			}else {
-				setupButton(exportRoot.btn_back, function() {
-					exportRoot.gotoAndStop(exportRoot.backBtn);
-				}, false);
-			}
-		
-			if (exportRoot.nextBtn) {
-				setupButton(exportRoot.btn_next, function() {
-					exportRoot.gotoAndStop(exportRoot.nextBtn);
-					var INPUT_NAMES = ["input_1_1", "input_1_2", "input_1_3", "input_1_4", "input_1_5", "input_1_6", "input_1_7", "input_1_8", "input_1_9", "input_1_10", "input_1_11", "input_1_12", "input_1_13", "input_1_14"];
-					INPUT_NAMES.forEach(function(n) {
-						console.log("html_lesson6_ex01_" + n);
-						var input = document.getElementById("html_lesson6_ex01_" + n);
-						if (input) {
-							input.style.opacity = "0";
-							input.style.pointerEvents = "none";
-						}
-					});
-					var INPUT_NAMES1 = ["input_5_1", "input_5_2", "input_5_3", "input_5_4"];
-					INPUT_NAMES1.forEach(function(n) {
-						console.log("html_lesson6_ex05_" + n);
-						var input = document.getElementById("html_lesson6_ex05_" + n);
-						if (input) {
-							input.style.opacity = "0";
-							input.style.pointerEvents = "none";
-						}
-					});
-				}, isComplete);
-			}
+		if (txt_instruction) {
+			txt_instruction.text = texts.instruction;
 		}
 	}
-	this.frame_3 = function() {
+	this.frame_9 = function() {
 		var exportRoot = this;
 		exportRoot.stop();
 		
@@ -5242,1220 +8760,6 @@ if (reversed == null) { reversed = false; }
 			videoId: "map01",
 			videoFile: "./videos/lesson6_map1.mp4",
 			containerId: "success-video-map01",
-			nextFrame: 4,
-			backgroundColor: "#6B4FBB",
-			zIndex: "9999",
-			autoSkipOnError: true,
-			autoMarkWatchedOnSkip: true
-		};
-		
-		// =====================================================
-		// INIT
-		// =====================================================
-		if (!exportRoot.gameState) {
-			exportRoot.gameState = {};
-		}
-		
-		if (!exportRoot.gameState.videosWatched) {
-			exportRoot.gameState.videosWatched = [];
-		}
-		
-		if (!exportRoot.saveState) {
-			exportRoot.saveState = function() {};
-		}
-		
-		var videoContainer = null;
-		var videoElement = null;
-		var resizeHandler = null;
-		var started = false;
-		var endedOrSkipped = false;
-		
-		// =====================================================
-		// HELPERS
-		// =====================================================
-		function hasWatchedVideo() {
-			return exportRoot.gameState.videosWatched.indexOf(CONFIG.videoId) !== -1;
-		}
-		
-		function markVideoWatched() {
-			if (!hasWatchedVideo()) {
-				exportRoot.gameState.videosWatched.push(CONFIG.videoId);
-				exportRoot.saveState();
-			}
-		}
-		
-		function lockPageScroll() {
-			document.body.style.overflow = "hidden";
-			document.documentElement.style.overflow = "hidden";
-		}
-		
-		function unlockPageScroll() {
-			document.body.style.overflow = "";
-			document.documentElement.style.overflow = "";
-		}
-		
-		function cleanup() {
-			unlockPageScroll();
-		
-			if (videoElement) {
-				try {
-					videoElement.pause();
-					videoElement.removeAttribute("src");
-					videoElement.load();
-				} catch (e) {}
-				videoElement = null;
-			}
-		
-			if (videoContainer && videoContainer.parentNode) {
-				videoContainer.parentNode.removeChild(videoContainer);
-				videoContainer = null;
-			}
-		
-			if (resizeHandler) {
-				window.removeEventListener("resize", resizeHandler);
-				resizeHandler = null;
-			}
-		}
-		
-		function updateContainerPosition() {
-			if (!videoContainer) return;
-		
-			var canvas = document.getElementById("canvas");
-			if (!canvas) return;
-		
-			var rect = canvas.getBoundingClientRect();
-		
-			videoContainer.style.left = rect.left + "px";
-			videoContainer.style.top = rect.top + "px";
-			videoContainer.style.width = rect.width + "px";
-			videoContainer.style.height = rect.height + "px";
-		}
-		
-		function goToNextExercise(reason) {
-			if (endedOrSkipped) return;
-			endedOrSkipped = true;
-		
-			if (CONFIG.autoMarkWatchedOnSkip) {
-				markVideoWatched();
-			}
-		
-			cleanup();
-		
-			exportRoot.gameState.currentFrame = CONFIG.nextFrame;
-			exportRoot.saveState();
-			exportRoot.gotoAndStop(CONFIG.nextFrame);
-		}
-		
-		function tryPlayVideo() {
-			if (!videoElement || started) return;
-			started = true;
-		
-			var playPromise = videoElement.play();
-		
-			if (playPromise && typeof playPromise.catch === "function") {
-				playPromise.catch(function(err) {
-					console.log("Video autoplay failed:", err);
-					goToNextExercise("autoplay_failed");
-				});
-			}
-		}
-		
-		// =====================================================
-		// MAIN
-		// =====================================================
-		function createSuccessVideo() {
-			var existingContainer = document.getElementById(CONFIG.containerId);
-			if (existingContainer && existingContainer.parentNode) {
-				existingContainer.parentNode.removeChild(existingContainer);
-			}
-		
-			var canvas = document.getElementById("canvas");
-			if (!canvas) {
-				goToNextExercise("canvas_missing");
-				return;
-			}
-		
-			if (hasWatchedVideo()) {
-				goToNextExercise("already_watched");
-				return;
-			}
-		
-			lockPageScroll();
-		
-			var rect = canvas.getBoundingClientRect();
-		
-			videoContainer = document.createElement("div");
-			videoContainer.id = CONFIG.containerId;
-			videoContainer.style.position = "fixed";
-			videoContainer.style.left = rect.left + "px";
-			videoContainer.style.top = rect.top + "px";
-			videoContainer.style.width = rect.width + "px";
-			videoContainer.style.height = rect.height + "px";
-			videoContainer.style.backgroundColor = CONFIG.backgroundColor;
-			videoContainer.style.zIndex = CONFIG.zIndex;
-			videoContainer.style.overflow = "hidden";
-			videoContainer.style.margin = "0";
-			videoContainer.style.padding = "0";
-			videoContainer.style.boxSizing = "border-box";
-		
-			videoElement = document.createElement("video");
-			videoElement.src = CONFIG.videoFile;
-			videoElement.style.width = "100%";
-			videoElement.style.height = "100%";
-			videoElement.style.objectFit = "contain";
-			videoElement.style.display = "block";
-			videoElement.preload = "auto";
-			videoElement.playsInline = true;
-			videoElement.setAttribute("playsinline", "true");
-			videoElement.setAttribute("webkit-playsinline", "true");
-		
-			// Зарим browser autoplay дээр дууг хаадаг.
-			// Хэрэв заавал sound-тай autoplay хэрэгтэй бол browser policy-оос хамаарна.
-			// Найдвартай ажиллуулахын тулд muted=true болгож болно.
-			videoElement.muted = false;
-			videoElement.autoplay = false;
-			videoElement.controls = false;
-		
-			videoContainer.appendChild(videoElement);
-			document.body.appendChild(videoContainer);
-		
-			videoElement.addEventListener("loadeddata", function() {
-				tryPlayVideo();
-			});
-		
-			videoElement.addEventListener("canplay", function() {
-				tryPlayVideo();
-			});
-		
-			videoElement.addEventListener("ended", function() {
-				markVideoWatched();
-				setTimeout(function() {
-					goToNextExercise("ended");
-				}, 500);
-			});
-		
-			videoElement.addEventListener("error", function() {
-				console.log("Video load error:", videoElement.error, CONFIG.videoFile);
-				if (CONFIG.autoSkipOnError) {
-					goToNextExercise("error");
-				}
-			});
-		
-			resizeHandler = function() {
-				updateContainerPosition();
-			};
-		
-			window.addEventListener("resize", resizeHandler);
-			updateContainerPosition();
-		
-			// Хэрэв ямар ч event trigger болохгүй гацвал fallback
-			setTimeout(function() {
-				if (!started && !endedOrSkipped) {
-					console.log("Video start timeout, skipping:", CONFIG.videoFile);
-					goToNextExercise("timeout");
-				}
-			}, 4000);
-		}
-		
-		exportRoot.on("removed", cleanup);
-		
-		createSuccessVideo();
-	}
-	this.frame_4 = function() {
-		var exportRoot = this;
-		exportRoot.stop();
-		
-		// =====================================================
-		// CONFIG
-		// =====================================
-		var CONFIG = {
-			lessonId: "lesson6",
-			exerciseId: "ex02",
-			exerciseNumber: 2,
-			storageKey: "lesson6_gameState",
-			backFrame: 2,
-			nextFrame: 5,
-			autoNextDelay: 1500,
-			soundPaths: {
-				correct: "./sounds/voice_correct.mp3",
-				wrong: "./sounds/voice_wrong.mp3",
-				click: "./sounds/click.mp3",
-				instruction: "./sounds/instruction_ex02.mp3"
-			},
-			// Асуулт 1: Зүүн талын товчнууд
-			q1_buttons: ["btn_2_1_1", "btn_2_1_2", "btn_2_1_3", "btn_2_1_4"], // Гуравны нэг, Гуравны хоёр...
-			q1_correctIndex: 0, // "Гуравны нэг" (Эхний товч)
-		
-			// Асуулт 2: Баруун талын товчнууд
-			q2_buttons: ["btn_2_2_1", "btn_2_2_2", "btn_2_2_3", "btn_2_2_4"], // Дөрөвний нэг, Дөрөвний хоёр...
-			q2_correctIndex: 2 // "Дөрөвний гурав" (Гурав дахь товч)
-		};
-		
-		exportRoot.currentExerciseId = CONFIG.exerciseId;
-		exportRoot.backBtn = CONFIG.backFrame;
-		exportRoot.nextBtn = CONFIG.nextFrame;
-		CONFIG.completeKey = "exercise" + CONFIG.exerciseNumber + "Complete";
-		CONFIG.answersKey = "exercise" + CONFIG.exerciseNumber + "Answers";
-		
-		// =====================================================
-		// STATE & INIT
-		// =====================
-		if (!exportRoot.gameState) exportRoot.gameState = {};
-		if (!exportRoot.gameState[CONFIG.answersKey]) {
-			exportRoot.gameState[CONFIG.answersKey] = {
-				q1: null,
-				q2: null
-			};
-		}
-		if (typeof exportRoot.gameState[CONFIG.completeKey] === "undefined") {
-			exportRoot.gameState[CONFIG.completeKey] = false;
-		}
-		
-		exportRoot.saveState = function () {
-			try {
-				localStorage.setItem(CONFIG.storageKey, JSON.stringify(exportRoot.gameState));
-			} catch (e) {}
-		};
-		
-		function playSound(type) {
-			try {
-				new Audio(CONFIG.soundPaths[type]).play().catch(function () {});
-			} catch (e) {}
-		}
-		
-		// =====================================================
-		// BUTTON LOGIC
-		// =====================
-		function setupQuestion(buttonsArray, correctIdx, stateKey) {
-			buttonsArray.forEach(function (btnName, idx) {
-				var btn = exportRoot[btnName];
-				if (!btn) return;
-		
-				btn.cursor = "pointer";
-				btn.gotoAndStop(0); // Хэвийн төлөв (Frame 1)
-		
-				// Хэрэв өмнө нь зөв хариулсан бол сэргээх
-				if (exportRoot.gameState[CONFIG.answersKey][stateKey] === idx) {
-					btn.gotoAndStop(1); // Сонгогдсон/Зөв төлөв (Frame 2)
-				}
-		
-				btn.on("click", function () {
-					if (exportRoot.gameState[CONFIG.completeKey]) return; // Дууссан бол дарагдахгүй
-					if (exportRoot.gameState[CONFIG.answersKey][stateKey] !== null) return; // Аль хэдийн зөв хариулсан бол
-		
-					playSound("click");
-		
-					if (idx === correctIdx) {
-						// ЗӨВ
-						playSound("correct");
-						btn.gotoAndStop(1); // Зөв болсон эффект (Frame 2)
-		
-						// Change to green color
-						var colorFilter = new createjs.ColorFilter(0, 1, 0, 1, 0, 100, 0, 0);
-						btn.filters = [colorFilter];
-						btn.cache(0, 0, btn.nominalBounds.width, btn.nominalBounds.height);
-		
-						exportRoot.gameState[CONFIG.answersKey][stateKey] = idx;
-						exportRoot.saveState();
-		
-						checkAllDone();
-					} else {
-						// БУРУУ
-						playSound("wrong");
-		
-						// Change to red color
-						var colorFilter = new createjs.ColorFilter(1, 0, 0, 1, 100, 0, 0, 0);
-						btn.filters = [colorFilter];
-						btn.cache(0, 0, btn.nominalBounds.width, btn.nominalBounds.height);
-		
-						// Shake effect
-						createjs.Tween.get(btn)
-							.to({
-								x: btn.x + 5
-							}, 50)
-							.to({
-								x: btn.x - 5
-							}, 50)
-							.to({
-								x: btn.x
-							}, 50)
-							.call(function () {
-								// Remove red color after shake animation
-								btn.filters = [];
-								btn.updateCache();
-							});
-					}
-				});
-			});
-		}
-		
-		function checkAllDone() {
-			var q1Done = exportRoot.gameState[CONFIG.answersKey].q1 !== null;
-			var q2Done = exportRoot.gameState[CONFIG.answersKey].q2 !== null;
-		
-			if (q1Done && q2Done && !exportRoot.gameState[CONFIG.completeKey]) {
-				exportRoot.gameState[CONFIG.completeKey] = true;
-				exportRoot.saveState();
-		
-				if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
-		
-				setTimeout(function () {
-					exportRoot.gotoAndStop(CONFIG.nextFrame);
-				}, CONFIG.autoNextDelay);
-			}
-		}
-		
-		// =====================================================
-		// EXECUTION
-		// =====================
-		// Товчнуудыг идэвхжүүлэх
-		setupQuestion(CONFIG.q1_buttons, CONFIG.q1_correctIndex, "q1");
-		setupQuestion(CONFIG.q2_buttons, CONFIG.q2_correctIndex, "q2");
-		
-		if (exportRoot.help_popup) {
-			exportRoot.help_popup.visible = false;
-			exportRoot.help_popup.stop();
-		}
-		
-		if (exportRoot.refreshNavButtons) {
-			exportRoot.refreshNavButtons();
-		}
-		
-		if (!exportRoot.gameState[CONFIG.completeKey]) {
-			setTimeout(function () {
-				if (exportRoot.playInstruction) exportRoot.playInstruction();
-			}, 500);
-		}
-		
-		exportRoot.on("removed", function () {
-			if (exportRoot.stopInstruction) exportRoot.stopInstruction();
-		});
-	}
-	this.frame_5 = function() {
-		var exportRoot = this;
-		exportRoot.stop();
-		
-		// =====================================================
-		// CONFIG
-		// =====================================================
-		var CONFIG = {
-			lessonId: "lesson6",
-			lessonFolder: "Lesson6",
-			videoId: "map02",
-			videoFile: "./videos/lesson6_map2.mp4",
-			containerId: "success-video-map02",
-			nextFrame: 6,
-			backgroundColor: "#6B4FBB",
-			zIndex: "9999",
-			autoSkipOnError: true,
-			autoMarkWatchedOnSkip: true
-		};
-		
-		// =====================================================
-		// INIT
-		// =====================================================
-		if (!exportRoot.gameState) {
-			exportRoot.gameState = {};
-		}
-		
-		if (!exportRoot.gameState.videosWatched) {
-			exportRoot.gameState.videosWatched = [];
-		}
-		
-		if (!exportRoot.saveState) {
-			exportRoot.saveState = function() {};
-		}
-		
-		var videoContainer = null;
-		var videoElement = null;
-		var resizeHandler = null;
-		var started = false;
-		var endedOrSkipped = false;
-		
-		// =====================================================
-		// HELPERS
-		// =====================================================
-		function hasWatchedVideo() {
-			return exportRoot.gameState.videosWatched.indexOf(CONFIG.videoId) !== -1;
-		}
-		
-		function markVideoWatched() {
-			if (!hasWatchedVideo()) {
-				exportRoot.gameState.videosWatched.push(CONFIG.videoId);
-				exportRoot.saveState();
-			}
-		}
-		
-		function lockPageScroll() {
-			document.body.style.overflow = "hidden";
-			document.documentElement.style.overflow = "hidden";
-		}
-		
-		function unlockPageScroll() {
-			document.body.style.overflow = "";
-			document.documentElement.style.overflow = "";
-		}
-		
-		function cleanup() {
-			unlockPageScroll();
-		
-			if (videoElement) {
-				try {
-					videoElement.pause();
-					videoElement.removeAttribute("src");
-					videoElement.load();
-				} catch (e) {}
-				videoElement = null;
-			}
-		
-			if (videoContainer && videoContainer.parentNode) {
-				videoContainer.parentNode.removeChild(videoContainer);
-				videoContainer = null;
-			}
-		
-			if (resizeHandler) {
-				window.removeEventListener("resize", resizeHandler);
-				resizeHandler = null;
-			}
-		}
-		
-		function updateContainerPosition() {
-			if (!videoContainer) return;
-		
-			var canvas = document.getElementById("canvas");
-			if (!canvas) return;
-		
-			var rect = canvas.getBoundingClientRect();
-		
-			videoContainer.style.left = rect.left + "px";
-			videoContainer.style.top = rect.top + "px";
-			videoContainer.style.width = rect.width + "px";
-			videoContainer.style.height = rect.height + "px";
-		}
-		
-		function goToNextExercise(reason) {
-			if (endedOrSkipped) return;
-			endedOrSkipped = true;
-		
-			if (CONFIG.autoMarkWatchedOnSkip) {
-				markVideoWatched();
-			}
-		
-			cleanup();
-		
-			exportRoot.gameState.currentFrame = CONFIG.nextFrame;
-			exportRoot.saveState();
-			exportRoot.gotoAndStop(CONFIG.nextFrame);
-		}
-		
-		function tryPlayVideo() {
-			if (!videoElement || started) return;
-			started = true;
-		
-			var playPromise = videoElement.play();
-		
-			if (playPromise && typeof playPromise.catch === "function") {
-				playPromise.catch(function(err) {
-					console.log("Video autoplay failed:", err);
-					goToNextExercise("autoplay_failed");
-				});
-			}
-		}
-		
-		// =====================================================
-		// MAIN
-		// =====================================================
-		function createSuccessVideo() {
-			var existingContainer = document.getElementById(CONFIG.containerId);
-			if (existingContainer && existingContainer.parentNode) {
-				existingContainer.parentNode.removeChild(existingContainer);
-			}
-		
-			var canvas = document.getElementById("canvas");
-			if (!canvas) {
-				goToNextExercise("canvas_missing");
-				return;
-			}
-		
-			if (hasWatchedVideo()) {
-				goToNextExercise("already_watched");
-				return;
-			}
-		
-			lockPageScroll();
-		
-			var rect = canvas.getBoundingClientRect();
-		
-			videoContainer = document.createElement("div");
-			videoContainer.id = CONFIG.containerId;
-			videoContainer.style.position = "fixed";
-			videoContainer.style.left = rect.left + "px";
-			videoContainer.style.top = rect.top + "px";
-			videoContainer.style.width = rect.width + "px";
-			videoContainer.style.height = rect.height + "px";
-			videoContainer.style.backgroundColor = CONFIG.backgroundColor;
-			videoContainer.style.zIndex = CONFIG.zIndex;
-			videoContainer.style.overflow = "hidden";
-			videoContainer.style.margin = "0";
-			videoContainer.style.padding = "0";
-			videoContainer.style.boxSizing = "border-box";
-		
-			videoElement = document.createElement("video");
-			videoElement.src = CONFIG.videoFile;
-			videoElement.style.width = "100%";
-			videoElement.style.height = "100%";
-			videoElement.style.objectFit = "contain";
-			videoElement.style.display = "block";
-			videoElement.preload = "auto";
-			videoElement.playsInline = true;
-			videoElement.setAttribute("playsinline", "true");
-			videoElement.setAttribute("webkit-playsinline", "true");
-		
-			// Зарим browser autoplay дээр дууг хаадаг.
-			// Хэрэв заавал sound-тай autoplay хэрэгтэй бол browser policy-оос хамаарна.
-			// Найдвартай ажиллуулахын тулд muted=true болгож болно.
-			videoElement.muted = false;
-			videoElement.autoplay = false;
-			videoElement.controls = false;
-		
-			videoContainer.appendChild(videoElement);
-			document.body.appendChild(videoContainer);
-		
-			videoElement.addEventListener("loadeddata", function() {
-				tryPlayVideo();
-			});
-		
-			videoElement.addEventListener("canplay", function() {
-				tryPlayVideo();
-			});
-		
-			videoElement.addEventListener("ended", function() {
-				markVideoWatched();
-				setTimeout(function() {
-					goToNextExercise("ended");
-				}, 500);
-			});
-		
-			videoElement.addEventListener("error", function() {
-				console.log("Video load error:", videoElement.error, CONFIG.videoFile);
-				if (CONFIG.autoSkipOnError) {
-					goToNextExercise("error");
-				}
-			});
-		
-			resizeHandler = function() {
-				updateContainerPosition();
-			};
-		
-			window.addEventListener("resize", resizeHandler);
-			updateContainerPosition();
-		
-			// Хэрэв ямар ч event trigger болохгүй гацвал fallback
-			setTimeout(function() {
-				if (!started && !endedOrSkipped) {
-					console.log("Video start timeout, skipping:", CONFIG.videoFile);
-					goToNextExercise("timeout");
-				}
-			}, 4000);
-		}
-		
-		exportRoot.on("removed", cleanup);
-		
-		createSuccessVideo();
-	}
-	this.frame_6 = function() {
-		var exportRoot = this;
-		exportRoot.stop();
-		
-		// =====================================================
-		// CONFIG
-		// =====================================
-		var CONFIG = {
-		    lessonId: "lesson6",
-		    exerciseId: "ex03",
-		    exerciseNumber: 3,
-		    storageKey: "lesson6_gameState",
-		    backFrame: 4, 
-		    nextFrame: 7, 
-		    autoNextDelay: 1500,
-		    soundPaths: {
-		        correct: "./sounds/voice_correct.mp3",
-		        wrong: "./sounds/voice_wrong.mp3",
-		        click: "./sounds/click.mp3",
-		        instruction: "./sounds/instruction_ex03.mp3"
-		    },
-		    // Бүлэг тус бүрийн Цагаан нүхний тоо (total) болон ЗӨВ нүхний тоо (required)
-		    groups: [
-		        { id: 1, total: 6,  required: 2 }, // Эрвээхэй: 1, 2-р нүд ЗӨВ
-		        { id: 2, total: 10, required: 5 }, // Далайн од: 1-5-р нүд ЗӨВ
-		        { id: 3, total: 8,  required: 3 }, // Мэлхий: 1-3-р нүд ЗӨВ
-		        { id: 4, total: 5,  required: 2 }  // Оцон шувуу: 1-2-р нүд ЗӨВ
-		    ]
-		};
-		
-		exportRoot.currentExerciseId = CONFIG.exerciseId;
-		exportRoot.backBtn = CONFIG.backFrame;
-		exportRoot.nextBtn = CONFIG.nextFrame;
-		CONFIG.completeKey = "exercise" + CONFIG.exerciseNumber + "Complete";
-		CONFIG.answersKey = "exercise" + CONFIG.exerciseNumber + "Answers";
-		
-		// =====================================================
-		// STATE & INIT
-		// =====================
-		if (!exportRoot.gameState) exportRoot.gameState = {};
-		
-		// Хариултуудыг массив байдлаар хадгалах (аль нүдийг дарсан бэ гэдгийг хадгална)
-		if (!exportRoot.gameState[CONFIG.answersKey] || typeof exportRoot.gameState[CONFIG.answersKey].g1 === "number") {
-		    exportRoot.gameState[CONFIG.answersKey] = { g1: [], g2: [], g3: [], g4: [] };
-		}
-		
-		if (typeof exportRoot.gameState[CONFIG.completeKey] === "undefined") {
-		    exportRoot.gameState[CONFIG.completeKey] = false;
-		}
-		
-		exportRoot.saveState = function() {
-		    try { localStorage.setItem(CONFIG.storageKey, JSON.stringify(exportRoot.gameState)); } catch (e) {}
-		};
-		
-		function playSound(type) {
-		    try { new Audio(CONFIG.soundPaths[type]).play().catch(function(){}); } catch (e) {}
-		}
-		
-		// =====================================================
-		// BUTTON & TARGET LOGIC
-		// =====================
-		function setupExercise() {
-		    CONFIG.groups.forEach(function(group) {
-		        var clickedArray = exportRoot.gameState[CONFIG.answersKey]["g" + group.id];
-		
-		        // 1. Шар TARGET-уудыг (будах хэсэг) тохируулах
-		        for (var t = 1; t <= group.required; t++) {
-		            var targetName = "target_3_" + group.id + "_" + t;
-		            var target = exportRoot[targetName];
-		            if (target) {
-		                // Хэрэв өмнө нь дарсан бол ил гаргана
-		                target.visible = (clickedArray.indexOf(t) !== -1);
-		                // Target нь товчны click-ийг хаахгүй байх тохиргоо
-		                target.mouseEnabled = false; 
-		                target.mouseChildren = false;
-		            }
-		        }
-		
-		        // 2. ЦАГААН НҮХНҮҮДИЙГ (товчнууд) тохируулах
-		        for (var b = 1; b <= group.total; b++) {
-		            (function(btnIndex) {
-		                var btnName = "btn_3_" + group.id + "_" + btnIndex;
-		                var btn = exportRoot[btnName];
-		                
-		                if (!btn) {
-		                    console.log("Олдсонгүй: " + btnName);
-		                    return;
-		                }
-		
-		                btn.mouseEnabled = true;
-		                btn.mouseChildren = false;
-		                btn.cursor = "pointer";
-		                
-		                if (btn.hasEventListener("click")) {
-		                    btn.removeAllEventListeners("click");
-		                }
-		
-		                btn.on("click", function() {
-		                    if (exportRoot.gameState[CONFIG.completeKey]) return;
-		
-		                    // ЗӨВ нүх (шар амьтанд харгалзах нүх) мөн эсэхийг шалгах
-		                    if (btnIndex <= group.required) {
-		                        var currentClicked = exportRoot.gameState[CONFIG.answersKey]["g" + group.id];
-		                        
-		                        if (currentClicked.indexOf(btnIndex) === -1) {
-		                            playSound("click");
-		                            currentClicked.push(btnIndex);
-		                            exportRoot.saveState();
-		
-		                            // Харгалзах шар target-ийг ил гаргах
-		                            var targetToShow = exportRoot["target_3_" + group.id + "_" + btnIndex];
-		                            if (targetToShow) {
-		                                targetToShow.visible = true;
-		                            }
-		
-		                            checkCompletion();
-		                        }
-		                    } 
-		                    // БУРУУ нүх (шар биш амьтанд харгалзах нүх)
-		                    else {
-		                        playSound("wrong");
-		                        createjs.Tween.get(btn).to({x: btn.x + 4}, 50).to({x: btn.x - 4}, 50).to({x: btn.x}, 50);
-		                    }
-		                });
-		            })(b);
-		        }
-		    });
-		}
-		
-		function checkCompletion() {
-		    var allCorrect = true;
-		
-		    CONFIG.groups.forEach(function(group) {
-		        var currentClicked = exportRoot.gameState[CONFIG.answersKey]["g" + group.id];
-		        if (currentClicked.length !== group.required) {
-		            allCorrect = false;
-		        }
-		    });
-		
-		    if (allCorrect && !exportRoot.gameState[CONFIG.completeKey]) {
-		        exportRoot.gameState[CONFIG.completeKey] = true;
-		        exportRoot.saveState();
-		        playSound("correct");
-		
-		        if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
-		
-		        setTimeout(function() {
-		            exportRoot.gotoAndStop(CONFIG.nextFrame);
-		        }, CONFIG.autoNextDelay);
-		    }
-		}
-		
-		// =====================================================
-		// START
-		// =====================
-		setupExercise();
-		
-		if (exportRoot.help_popup) {
-		    exportRoot.help_popup.visible = false;
-		    exportRoot.help_popup.stop();
-		}
-		
-		if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
-		
-		if (!exportRoot.gameState[CONFIG.completeKey]) {
-		    setTimeout(function() { 
-		        if(exportRoot.playInstruction) exportRoot.playInstruction(); 
-		    }, 500);
-		}
-		
-		exportRoot.on("removed", function() { 
-		    if(exportRoot.stopInstruction) exportRoot.stopInstruction(); 
-		});
-	}
-	this.frame_7 = function() {
-		var exportRoot = this;
-		exportRoot.stop();
-		
-		// =====================================================
-		// CONFIG
-		// =====================================================
-		var CONFIG = {
-			lessonId: "lesson6",
-			lessonFolder: "Lesson6",
-			videoId: "map03",
-			videoFile: "./videos/lesson6_map3.mp4",
-			containerId: "success-video-map03",
-			nextFrame: 8,
-			backgroundColor: "#6B4FBB",
-			zIndex: "9999",
-			autoSkipOnError: true,
-			autoMarkWatchedOnSkip: true
-		};
-		
-		// =====================================================
-		// INIT
-		// =====================================================
-		if (!exportRoot.gameState) {
-			exportRoot.gameState = {};
-		}
-		
-		if (!exportRoot.gameState.videosWatched) {
-			exportRoot.gameState.videosWatched = [];
-		}
-		
-		if (!exportRoot.saveState) {
-			exportRoot.saveState = function() {};
-		}
-		
-		var videoContainer = null;
-		var videoElement = null;
-		var resizeHandler = null;
-		var started = false;
-		var endedOrSkipped = false;
-		
-		// =====================================================
-		// HELPERS
-		// =====================================================
-		function hasWatchedVideo() {
-			return exportRoot.gameState.videosWatched.indexOf(CONFIG.videoId) !== -1;
-		}
-		
-		function markVideoWatched() {
-			if (!hasWatchedVideo()) {
-				exportRoot.gameState.videosWatched.push(CONFIG.videoId);
-				exportRoot.saveState();
-			}
-		}
-		
-		function lockPageScroll() {
-			document.body.style.overflow = "hidden";
-			document.documentElement.style.overflow = "hidden";
-		}
-		
-		function unlockPageScroll() {
-			document.body.style.overflow = "";
-			document.documentElement.style.overflow = "";
-		}
-		
-		function cleanup() {
-			unlockPageScroll();
-		
-			if (videoElement) {
-				try {
-					videoElement.pause();
-					videoElement.removeAttribute("src");
-					videoElement.load();
-				} catch (e) {}
-				videoElement = null;
-			}
-		
-			if (videoContainer && videoContainer.parentNode) {
-				videoContainer.parentNode.removeChild(videoContainer);
-				videoContainer = null;
-			}
-		
-			if (resizeHandler) {
-				window.removeEventListener("resize", resizeHandler);
-				resizeHandler = null;
-			}
-		}
-		
-		function updateContainerPosition() {
-			if (!videoContainer) return;
-		
-			var canvas = document.getElementById("canvas");
-			if (!canvas) return;
-		
-			var rect = canvas.getBoundingClientRect();
-		
-			videoContainer.style.left = rect.left + "px";
-			videoContainer.style.top = rect.top + "px";
-			videoContainer.style.width = rect.width + "px";
-			videoContainer.style.height = rect.height + "px";
-		}
-		
-		function goToNextExercise(reason) {
-			if (endedOrSkipped) return;
-			endedOrSkipped = true;
-		
-			if (CONFIG.autoMarkWatchedOnSkip) {
-				markVideoWatched();
-			}
-		
-			cleanup();
-		
-			exportRoot.gameState.currentFrame = CONFIG.nextFrame;
-			exportRoot.saveState();
-			exportRoot.gotoAndStop(CONFIG.nextFrame);
-		}
-		
-		function tryPlayVideo() {
-			if (!videoElement || started) return;
-			started = true;
-		
-			var playPromise = videoElement.play();
-		
-			if (playPromise && typeof playPromise.catch === "function") {
-				playPromise.catch(function(err) {
-					console.log("Video autoplay failed:", err);
-					goToNextExercise("autoplay_failed");
-				});
-			}
-		}
-		
-		// =====================================================
-		// MAIN
-		// =====================================================
-		function createSuccessVideo() {
-			var existingContainer = document.getElementById(CONFIG.containerId);
-			if (existingContainer && existingContainer.parentNode) {
-				existingContainer.parentNode.removeChild(existingContainer);
-			}
-		
-			var canvas = document.getElementById("canvas");
-			if (!canvas) {
-				goToNextExercise("canvas_missing");
-				return;
-			}
-		
-			if (hasWatchedVideo()) {
-				goToNextExercise("already_watched");
-				return;
-			}
-		
-			lockPageScroll();
-		
-			var rect = canvas.getBoundingClientRect();
-		
-			videoContainer = document.createElement("div");
-			videoContainer.id = CONFIG.containerId;
-			videoContainer.style.position = "fixed";
-			videoContainer.style.left = rect.left + "px";
-			videoContainer.style.top = rect.top + "px";
-			videoContainer.style.width = rect.width + "px";
-			videoContainer.style.height = rect.height + "px";
-			videoContainer.style.backgroundColor = CONFIG.backgroundColor;
-			videoContainer.style.zIndex = CONFIG.zIndex;
-			videoContainer.style.overflow = "hidden";
-			videoContainer.style.margin = "0";
-			videoContainer.style.padding = "0";
-			videoContainer.style.boxSizing = "border-box";
-		
-			videoElement = document.createElement("video");
-			videoElement.src = CONFIG.videoFile;
-			videoElement.style.width = "100%";
-			videoElement.style.height = "100%";
-			videoElement.style.objectFit = "contain";
-			videoElement.style.display = "block";
-			videoElement.preload = "auto";
-			videoElement.playsInline = true;
-			videoElement.setAttribute("playsinline", "true");
-			videoElement.setAttribute("webkit-playsinline", "true");
-		
-			// Зарим browser autoplay дээр дууг хаадаг.
-			// Хэрэв заавал sound-тай autoplay хэрэгтэй бол browser policy-оос хамаарна.
-			// Найдвартай ажиллуулахын тулд muted=true болгож болно.
-			videoElement.muted = false;
-			videoElement.autoplay = false;
-			videoElement.controls = false;
-		
-			videoContainer.appendChild(videoElement);
-			document.body.appendChild(videoContainer);
-		
-			videoElement.addEventListener("loadeddata", function() {
-				tryPlayVideo();
-			});
-		
-			videoElement.addEventListener("canplay", function() {
-				tryPlayVideo();
-			});
-		
-			videoElement.addEventListener("ended", function() {
-				markVideoWatched();
-				setTimeout(function() {
-					goToNextExercise("ended");
-				}, 500);
-			});
-		
-			videoElement.addEventListener("error", function() {
-				console.log("Video load error:", videoElement.error, CONFIG.videoFile);
-				if (CONFIG.autoSkipOnError) {
-					goToNextExercise("error");
-				}
-			});
-		
-			resizeHandler = function() {
-				updateContainerPosition();
-			};
-		
-			window.addEventListener("resize", resizeHandler);
-			updateContainerPosition();
-		
-			// Хэрэв ямар ч event trigger болохгүй гацвал fallback
-			setTimeout(function() {
-				if (!started && !endedOrSkipped) {
-					console.log("Video start timeout, skipping:", CONFIG.videoFile);
-					goToNextExercise("timeout");
-				}
-			}, 4000);
-		}
-		
-		exportRoot.on("removed", cleanup);
-		
-		createSuccessVideo();
-	}
-	this.frame_8 = function() {
-		var exportRoot = this;
-		exportRoot.stop();
-		
-		// =====================================================
-		// CONFIG
-		// =====================================
-		var CONFIG = {
-		    lessonId: "lesson6",
-		    exerciseId: "ex04",
-		    exerciseNumber: 4,
-		    storageKey: "lesson6_gameState",
-		    backFrame: 6, 
-		    nextFrame: 9, 
-		    autoNextDelay: 1500,
-		    soundPaths: {
-		        correct: "./sounds/voice_correct.mp3",
-		        wrong: "./sounds/voice_wrong.mp3",
-		        click: "./sounds/click.mp3",
-		        instruction: "./sounds/instruction_ex04.mp3"
-		    },
-		    // Чирэх объектуудын нэрс
-		    buttons: ["btn_4_1", "btn_4_2", "btn_4_3", "btn_4_4", "btn_4_5", "btn_4_6", "btn_4_7", "btn_4_8", "btn_4_9", "btn_4_10"],
-		    // Зөв холболтууд (Target: Button)
-		    correctMapping: {
-		        "target_4_1": "btn_4_2",
-		        "target_4_2": "btn_4_5",
-		        "target_4_3": "btn_4_9"
-		    }
-		};
-		
-		exportRoot.currentExerciseId = CONFIG.exerciseId;
-		exportRoot.backBtn = CONFIG.backFrame;
-		exportRoot.nextBtn = CONFIG.nextFrame;
-		CONFIG.completeKey = "exercise" + CONFIG.exerciseNumber + "Complete";
-		CONFIG.answersKey = "exercise" + CONFIG.exerciseNumber + "Answers";
-		
-		// =====================================================
-		// STATE & INIT
-		// =====================
-		if (!exportRoot.gameState) exportRoot.gameState = {};
-		if (!exportRoot.gameState[CONFIG.answersKey]) {
-		    exportRoot.gameState[CONFIG.answersKey] = {}; // Аль target дээр юу байгааг хадгална
-		}
-		
-		if (typeof exportRoot.gameState[CONFIG.completeKey] === "undefined") {
-		    exportRoot.gameState[CONFIG.completeKey] = false;
-		}
-		
-		exportRoot.saveState = function() {
-		    try { localStorage.setItem(CONFIG.storageKey, JSON.stringify(exportRoot.gameState)); } catch (e) {}
-		};
-		
-		function playSound(type) {
-		    try { new Audio(CONFIG.soundPaths[type]).play().catch(function(){}); } catch (e) {}
-		}
-		
-		// =====================================================
-		// DRAG AND DROP ENGINE
-		// =====================
-		var targetNames = Object.keys(CONFIG.correctMapping);
-		
-		function setupDragAndDrop() {
-		    CONFIG.buttons.forEach(function(btnName) {
-		        var btn = exportRoot[btnName];
-		        if (!btn) return;
-		
-		        btn.oldX = btn.x;
-		        btn.oldY = btn.y;
-		        btn.cursor = "pointer";
-		        btn.mouseChildren = false;
-		
-		        // Өмнөх төлөвийг сэргээх хэсэг (хэвээрээ үлдэнэ)
-		        targetNames.forEach(function(tName) {
-		            if (exportRoot.gameState[CONFIG.answersKey][tName] === btnName) {
-		                var target = exportRoot[tName];
-		                btn.x = target.x;
-		                btn.y = target.y;
-		                btn.mouseEnabled = false;
-		            }
-		        });
-		
-		        // ЧИРЭХ ЛОГИКИЙН ЗАСВАР (Масштаб тааруулах)
-		        btn.on("mousedown", function(evt) {
-		            if (exportRoot.gameState[CONFIG.completeKey]) return;
-		            exportRoot.addChild(btn);
-		            
-		            // globalToLocal ашиглаж масштабыг тооцоолох
-		            var localPos = btn.parent.globalToLocal(evt.stageX, evt.stageY);
-		            btn.offset = { x: btn.x - localPos.x, y: btn.y - localPos.y };
-		        });
-		
-		        btn.on("pressmove", function(evt) {
-		            if (exportRoot.gameState[CONFIG.completeKey]) return;
-		            
-		            // globalToLocal ашиглаж масштабыг тооцоолох
-		            var localPos = btn.parent.globalToLocal(evt.stageX, evt.stageY);
-		            btn.x = localPos.x + btn.offset.x;
-		            btn.y = localPos.y + btn.offset.y;
-		        });
-		
-		        // Тавих үйлдэл (хэвээрээ үлдэнэ)
-		        btn.on("pressup", function(evt) {
-		            if (exportRoot.gameState[CONFIG.completeKey]) return;
-		
-		            var hitTarget = null;
-		            targetNames.forEach(function(tName) {
-		                var target = exportRoot[tName];
-		                // hitTest хийхдээ мөн адил globalToLocal ашиглана
-		                var pt = target.globalToLocal(evt.stageX, evt.stageY);
-		                if (target.hitTest(pt.x, pt.y)) {
-		                    hitTarget = tName;
-		                }
-		            });
-		
-		            if (hitTarget && CONFIG.correctMapping[hitTarget] === btnName) {
-		                playSound("click");
-		                var targetMC = exportRoot[hitTarget];
-		                btn.x = targetMC.x;
-		                btn.y = targetMC.y;
-		                btn.mouseEnabled = false;
-		                exportRoot.gameState[CONFIG.answersKey][hitTarget] = btnName;
-		                exportRoot.saveState();
-		                checkCompletion();
-		            } else {
-		                playSound("wrong");
-		                createjs.Tween.get(btn).to({ x: btn.oldX, y: btn.oldY }, 500, createjs.Ease.backOut);
-		            }
-		        });
-		    });
-		}
-		
-		function checkCompletion() {
-		    var allCorrect = true;
-		    targetNames.forEach(function(tName) {
-		        if (exportRoot.gameState[CONFIG.answersKey][tName] !== CONFIG.correctMapping[tName]) {
-		            allCorrect = false;
-		        }
-		    });
-		
-		    if (allCorrect) {
-		        exportRoot.gameState[CONFIG.completeKey] = true;
-		        exportRoot.saveState();
-		        playSound("correct");
-		        
-		        if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
-		
-		        setTimeout(function() {
-		            exportRoot.gotoAndStop(CONFIG.nextFrame);
-		        }, CONFIG.autoNextDelay);
-		    }
-		}
-		
-		// =====================================================
-		// START
-		// =====================
-		setupDragAndDrop();
-		
-		if (exportRoot.help_popup) {
-		    exportRoot.help_popup.visible = false;
-		}
-		
-		if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
-		
-		if (!exportRoot.gameState[CONFIG.completeKey]) {
-		    setTimeout(function() { 
-		        if(exportRoot.playInstruction) exportRoot.playInstruction(); 
-		    }, 500);
-		}
-		
-		exportRoot.on("removed", function() { 
-		    if(exportRoot.stopInstruction) exportRoot.stopInstruction(); 
-		});
-	}
-	this.frame_9 = function() {
-		var exportRoot = this;
-		exportRoot.stop();
-		
-		// =====================================================
-		// CONFIG
-		// =====================================================
-		var CONFIG = {
-			lessonId: "lesson6",
-			lessonFolder: "Lesson6",
-			videoId: "map04",
-			videoFile: "./videos/lesson6_map4.mp4",
-			containerId: "success-video-map04",
 			nextFrame: 10,
 			backgroundColor: "#6B4FBB",
 			zIndex: "9999",
@@ -6681,249 +8985,333 @@ if (reversed == null) { reversed = false; }
 		
 		// =====================================================
 		// CONFIG
-		// =====================================================
+		// =====================================
 		var CONFIG = {
-		    lessonId: "lesson6",
-		    exerciseId: "ex05", // 5-р даалгавар
-		    exerciseNumber: 5,
-		    storageKey: "lesson6_gameState",
-		    backFrame: 8, 
-		    nextFrame: 11, 
-		    autoNextDelay: 1200,
-		    soundPaths: {
-		        correct: "./sounds/voice_correct.mp3",
-		        wrong: "./sounds/voice_wrong.mp3",
-		        click: "./sounds/click.mp3"
-		    },
-		    // Зөв хариултууд: 3/4 > 1/4, 4/8 < 7/8, 2/3 < 3/3, 4/5 > 3/5
-		    inputs: {
-		        input_5_1: ">",
-		        input_5_2: "<",
-		        input_5_3: "<",
-		        input_5_4: ">"
-		    }
+			lessonId: "lesson6",
+			exerciseId: "ex02",
+			exerciseNumber: 2,
+			storageKey: "lesson6_gameState",
+			backFrame: 8,
+			nextFrame: 11,
+			autoNextDelay: 1500,
+			soundPaths: {
+				correct: "./sounds/voice_correct.mp3",
+				wrong: "./sounds/voice_wrong.mp3",
+				click: "./sounds/click.mp3",
+				instruction: "./sounds/instruction_ex02.mp3"
+			},
+			// Асуулт 1: Зүүн талын товчнууд
+			q1_buttons: ["btn_2_1_1", "btn_2_1_2", "btn_2_1_3", "btn_2_1_4"], // Гуравны нэг, Гуравны хоёр...
+			q1_correctIndex: 0, // "Гуравны нэг" (Эхний товч)
+		
+			// Асуулт 2: Баруун талын товчнууд
+			q2_buttons: ["btn_2_2_1", "btn_2_2_2", "btn_2_2_3", "btn_2_2_4"], // Дөрөвний нэг, Дөрөвний хоёр...
+			q2_correctIndex: 2 // "Дөрөвний гурав" (Гурав дахь товч)
 		};
 		
 		exportRoot.currentExerciseId = CONFIG.exerciseId;
 		exportRoot.backBtn = CONFIG.backFrame;
 		exportRoot.nextBtn = CONFIG.nextFrame;
-		CONFIG.positionsKey = "exercise" + CONFIG.exerciseNumber + "Positions";
 		CONFIG.completeKey = "exercise" + CONFIG.exerciseNumber + "Complete";
+		CONFIG.answersKey = "exercise" + CONFIG.exerciseNumber + "Answers";
 		
 		// =====================================================
 		// STATE & INIT
-		// =====================================================
+		// =====================
 		if (!exportRoot.gameState) exportRoot.gameState = {};
-		if (!exportRoot.gameState[CONFIG.positionsKey]) exportRoot.gameState[CONFIG.positionsKey] = {};
-		if (typeof exportRoot.gameState[CONFIG.completeKey] === "undefined") exportRoot.gameState[CONFIG.completeKey] = false;
-		
-		if (!exportRoot.saveState) {
-		    exportRoot.saveState = function() {
-		        try { localStorage.setItem(CONFIG.storageKey, JSON.stringify(exportRoot.gameState)); } catch (e) {}
-		    };
+		if (!exportRoot.gameState[CONFIG.answersKey]) {
+			exportRoot.gameState[CONFIG.answersKey] = {
+				q1: null,
+				q2: null
+			};
+		}
+		if (typeof exportRoot.gameState[CONFIG.completeKey] === "undefined") {
+			exportRoot.gameState[CONFIG.completeKey] = false;
 		}
 		
-		var INPUT_NAMES = Object.keys(CONFIG.inputs);
-		var autoNextTriggered = !!exportRoot.gameState[CONFIG.completeKey];
+		exportRoot.saveState = function () {
+			try {
+				localStorage.setItem(CONFIG.storageKey, JSON.stringify(exportRoot.gameState));
+			} catch (e) {}
+		};
 		
 		function playSound(type) {
-		    try { new Audio(CONFIG.soundPaths[type]).play().catch(function() {}); } catch (e) {}
+			try {
+				new Audio(CONFIG.soundPaths[type]).play().catch(function () {});
+			} catch (e) {}
 		}
 		
 		// =====================================================
-		// HTML INPUT HELPERS
-		// =====================================================
-		function getInputDomId(name) { return "html_" + CONFIG.lessonId + "_" + CONFIG.exerciseId + "_" + name; }
+		// BUTTON LOGIC
+		// =====================
+		function setupQuestion(buttonsArray, correctIdx, stateKey) {
+			buttonsArray.forEach(function (btnName, idx) {
+				var btn = exportRoot[btnName];
+				if (!btn) return;
 		
-		function createOrGetHtmlInput(name) {
-		    var id = getInputDomId(name);
-		    var input = document.getElementById(id);
+				btn.cursor = "pointer";
+				btn.gotoAndStop(0); // Хэвийн төлөв (Frame 1)
 		
-		    if (!input) {
-		        input = document.createElement("input");
-		        input.type = "text";
-		        input.id = id;
-		        // inputMode-г text болгож өөрчлөв (Тэмдэгт бичих тул)
-		        input.inputMode = "text"; 
-		        input.maxLength = 1;
+				// Хэрэв өмнө нь зөв хариулсан бол сэргээх
+				if (exportRoot.gameState[CONFIG.answersKey][stateKey] === idx) {
+					btn.gotoAndStop(1); // Сонгогдсон/Зөв төлөв (Frame 2)
+				}
 		
-		        input.style.position = "fixed";
-		        input.style.zIndex = "99999";
-		        input.style.boxSizing = "border-box";
-		        input.style.textAlign = "center";
-		        input.style.fontFamily = "'Rubik', Arial, sans-serif";
-		        input.style.fontWeight = "700";
-		        
-		        input.style.background = "transparent"; 
-		        input.style.border = "none";
-		        input.style.outline = "none";
-		        input.style.padding = "0";
-		        input.style.margin = "0";
+				btn.on("click", function () {
+					if (exportRoot.gameState[CONFIG.completeKey]) return; // Дууссан бол дарагдахгүй
+					if (exportRoot.gameState[CONFIG.answersKey][stateKey] !== null) return; // Аль хэдийн зөв хариулсан бол
 		
-		        document.body.appendChild(input);
-		    }
-		    input.style.opacity = "1";
-		    input.style.pointerEvents = "auto";
-		    
-		    return input;
+					playSound("click");
+		
+					if (idx === correctIdx) {
+						// ЗӨВ
+						exportRoot.playCharacterAnimation("correct");
+						btn.gotoAndStop(1); // Зөв болсон эффект (Frame 2)
+		
+						// Change to green color
+						var colorFilter = new createjs.ColorFilter(0, 1, 0, 1, 0, 100, 0, 0);
+						btn.filters = [colorFilter];
+						btn.cache(0, 0, btn.nominalBounds.width, btn.nominalBounds.height);
+		
+						exportRoot.gameState[CONFIG.answersKey][stateKey] = idx;
+						exportRoot.saveState();
+		
+						checkAllDone();
+					} else {
+						// БУРУУ
+						exportRoot.playCharacterAnimation("wrong");
+		
+						// Change to red color
+						var colorFilter = new createjs.ColorFilter(1, 0, 0, 1, 100, 0, 0, 0);
+						btn.filters = [colorFilter];
+						btn.cache(0, 0, btn.nominalBounds.width, btn.nominalBounds.height);
+		
+						// Shake effect
+						createjs.Tween.get(btn)
+							.to({
+								x: btn.x + 5
+							}, 50)
+							.to({
+								x: btn.x - 5
+							}, 50)
+							.to({
+								x: btn.x
+							}, 50)
+							.call(function () {
+								// Remove red color after shake animation
+								btn.filters = [];
+								btn.updateCache();
+							});
+					}
+				});
+			});
 		}
 		
-		function hideAllHtmlInputs() {
-		    INPUT_NAMES.forEach(function(name) {
-		        var input = document.getElementById(getInputDomId(name));
-		        if (input) {
-		            input.style.opacity = "0";
-		            input.style.pointerEvents = "none";
-		        }
-		    });
-		}
+		function checkAllDone() {
+			var q1Done = exportRoot.gameState[CONFIG.answersKey].q1 !== null;
+			var q2Done = exportRoot.gameState[CONFIG.answersKey].q2 !== null;
 		
-		function positionHtmlInput(name) {
-		    var clip = exportRoot[name];
-		    var input = document.getElementById(getInputDomId(name));
-		    var canvas = exportRoot.stage ? exportRoot.stage.canvas : document.querySelector("canvas");
+			if (q1Done && q2Done && !exportRoot.gameState[CONFIG.completeKey]) {
+				exportRoot.gameState[CONFIG.completeKey] = true;
+				exportRoot.saveState();
 		
-		    if (!clip || !input || !canvas || !exportRoot.stage) return;
+				if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
 		
-		    var canvasRect = canvas.getBoundingClientRect();
-		    var stageScaleX = exportRoot.stage.scaleX || 1;
-		    var stageScaleY = exportRoot.stage.scaleY || 1;
-		    var browserScaleX = canvasRect.width / canvas.width;
-		    var browserScaleY = canvasRect.height / canvas.height;
-		
-		    var b = clip.getBounds() || clip.nominalBounds || {width: 46, height: 46};
-		    var size = { width: b.width, height: b.height };
-		    var globalPos = clip.localToGlobal(0, 0);
-		
-		    var width = (size.width * stageScaleX * browserScaleX) * 0.9;
-		    var height = (size.height * stageScaleY * browserScaleY) * 0.9;
-		
-		    var left = canvasRect.left + (globalPos.x * browserScaleX) - (width * 0.5);
-		    var top = canvasRect.top + (globalPos.y * browserScaleY) - (height * 0.5);
-		
-		    input.style.left = left + "px";
-		    input.style.top = top + "px";
-		    input.style.width = width + "px";
-		    input.style.height = height + "px";
-		    
-		    input.style.fontSize = Math.max(20, Math.floor(height * 0.8)) + "px";
-		    input.style.lineHeight = Math.floor(height) + "px";
-		}
-		
-		function positionAllHtmlInputs() {
-		    INPUT_NAMES.forEach(positionHtmlInput);
-		}
-		
-		function paintInputState(input, state) {
-		    if (!input) return;
-		    input.style.backgroundColor = "transparent";
-		    
-		    if (state === "correct") {
-		        input.style.color = "#1F5F1A"; // Зөв бол ногоон
-		    } else if (state === "wrong") {
-		        input.style.color = "#E54848"; // Буруу бол улаан
-		    } else {
-		        input.style.color = "#222222"; 
-		    }
-		}
-		
-		function isCorrect(name, value) { return String(value || "").trim() === String(CONFIG.inputs[name]); }
-		
-		function checkAllAnswers() {
-		    var allCorrect = true;
-		    INPUT_NAMES.forEach(function(name) {
-		        var input = document.getElementById(getInputDomId(name));
-		        if (!input) { allCorrect = false; return; }
-		        var value = String(input.value || "").trim();
-		        if (value === "" || !isCorrect(name, value)) allCorrect = false;
-		    });
-		
-		    if (allCorrect && !autoNextTriggered) {
-		        autoNextTriggered = true;
-		        exportRoot.gameState[CONFIG.completeKey] = true;
-		        exportRoot.saveState();
-		        playSound("correct");
-		        if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
-		
-		        INPUT_NAMES.forEach(function(n) {
-		            var locked = document.getElementById(getInputDomId(n));
-		            if (locked) locked.disabled = true;
-		        });
-		
-		        setTimeout(function() {
-		            hideAllHtmlInputs(); 
-		            exportRoot.gotoAndStop(CONFIG.nextFrame);
-		        }, CONFIG.autoNextDelay);
-		    }
-		}
-		
-		function setupSingleHtmlInput(name) {
-		    var clip = exportRoot[name];
-		    if (!clip) return;
-		
-		    var input = createOrGetHtmlInput(name);
-		    clip.alpha = 0.01;
-		    clip.mouseEnabled = false;
-		
-		    input.value = String(exportRoot.gameState[CONFIG.positionsKey][name] || "");
-		    input.disabled = !!exportRoot.gameState[CONFIG.completeKey];
-		
-		    if (input.value !== "") {
-		        paintInputState(input, isCorrect(name, input.value) ? "correct" : "wrong");
-		    } else {
-		        paintInputState(input, "default");
-		    }
-		
-		    input.oninput = function() {
-		        // Зөвхөн харьцуулах тэмдэгтүүдийг зөвшөөрөх шүүлтүүр
-		        this.value = this.value.replace(/[^><=]/g, "");
-		        exportRoot.gameState[CONFIG.positionsKey][name] = this.value;
-		        exportRoot.saveState();
-		        
-		        if (this.value !== "") {
-		            paintInputState(this, isCorrect(name, this.value) ? "correct" : "wrong");
-		        } else {
-		            paintInputState(this, "default");
-		        }
-		        checkAllAnswers(); 
-		    };
-		
-		    input.onfocus = function() { playSound("click"); };
-		    positionHtmlInput(name);
+				setTimeout(function () {
+					exportRoot.gotoAndStop(CONFIG.nextFrame);
+				}, CONFIG.autoNextDelay);
+			}
 		}
 		
 		// =====================================================
-		// START
-		// =====================================================
-		INPUT_NAMES.forEach(setupSingleHtmlInput);
-		positionAllHtmlInputs();
-		
-		if (!exportRoot.resizeHandler) {
-		    exportRoot.resizeHandler = function() { positionAllHtmlInputs(); };
-		    window.addEventListener("resize", exportRoot.resizeHandler);
-		}
+		// EXECUTION
+		// =====================
+		// Товчнуудыг идэвхжүүлэх
+		setupQuestion(CONFIG.q1_buttons, CONFIG.q1_correctIndex, "q1");
+		setupQuestion(CONFIG.q2_buttons, CONFIG.q2_correctIndex, "q2");
 		
 		if (exportRoot.help_popup) {
-		    exportRoot.help_popup.visible = false;
+			exportRoot.help_popup.visible = false;
+			exportRoot.help_popup.stop();
 		}
 		
-		if (!exportRoot.tickAttached && createjs && createjs.Ticker) {
-		    createjs.Ticker.addEventListener("tick", positionAllHtmlInputs);
-		    exportRoot.tickAttached = true;
+		if (exportRoot.refreshNavButtons) {
+			exportRoot.refreshNavButtons();
 		}
-		
-		if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
-		
+		if (exportRoot.stopInstruction) exportRoot.stopInstruction();
 		if (!exportRoot.gameState[CONFIG.completeKey]) {
-		    setTimeout(function() { 
-		        if(exportRoot.playInstruction) exportRoot.playInstruction(); 
-		    }, 500);
+			setTimeout(function () {
+				if (exportRoot.playInstruction) exportRoot.playInstruction();
+			}, 500);
 		}
 		
-		exportRoot.on("removed", function() { 
-		    if(exportRoot.stopInstruction) exportRoot.stopInstruction(); 
-		    hideAllHtmlInputs(); 
+		exportRoot.on("removed", function () {
+			if (exportRoot.stopInstruction) exportRoot.stopInstruction();
 		});
+		function applyTextStyling(textObj, opts) {
+			if (!textObj || !(textObj instanceof createjs.Text) || !textObj.parent) return;
+		
+			opts = opts || {};
+		
+			var outlineColor = opts.outlineColor || "#461A17";
+			var outlineSize = opts.outlineSize || 6;
+			var fillColor = opts.fillColor || "#FFFFFF";
+			var shadowColor = opts.shadowColor || "rgba(60, 20, 0, 0.4)";
+			var pad = opts.pad || 60;
+		
+			var savedX = textObj.x;
+			var savedY = textObj.y;
+			var parent = textObj.parent;
+			var cloneName = "__strokeClone_" + (textObj.name || "text");
+		
+			// Өмнө үлдсэн ижил clone-уудыг parent-оос цэвэрлэнэ
+			for (var i = parent.numChildren - 1; i >= 0; i--) {
+				var child = parent.getChildAt(i);
+				if (child && child.name === cloneName) {
+					if (child.cacheCanvas) child.uncache();
+					parent.removeChild(child);
+				}
+			}
+		
+			// Хуучин cache арилгана
+			if (textObj.cacheCanvas) {
+				textObj.uncache();
+			}
+		
+			textObj.outline = null;
+			textObj.color = fillColor;
+			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
+		
+			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
+			strokeText.name = cloneName;
+			strokeText.textAlign = textObj.textAlign;
+			strokeText.textBaseline = textObj.textBaseline;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+			strokeText.scaleX = textObj.scaleX;
+			strokeText.scaleY = textObj.scaleY;
+			strokeText.rotation = textObj.rotation;
+			strokeText.skewX = textObj.skewX;
+			strokeText.skewY = textObj.skewY;
+			strokeText.regX = textObj.regX;
+			strokeText.regY = textObj.regY;
+			strokeText.outline = outlineSize;
+			strokeText.shadow = null;
+			strokeText.mouseEnabled = false;
+		
+			var idx = parent.getChildIndex(textObj);
+			parent.addChildAt(strokeText, idx);
+		
+			textObj._strokeClone = strokeText;
+		
+			// cache хэрэглэх бол
+			var bounds = textObj.getBounds();
+			if (bounds) {
+				var cacheX = bounds.x - pad;
+				var cacheY = bounds.y - pad;
+				var cacheW = bounds.width + pad * 2;
+				var cacheH = bounds.height + pad * 2;
+		
+				if (strokeText.cacheCanvas) strokeText.uncache();
+				if (textObj.cacheCanvas) textObj.uncache();
+		
+				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+				textObj.cache(cacheX, cacheY, cacheW, cacheH);
+			}
+		
+			// frame солигдоход original text хасагдах үед clone-ыг хамт устгана
+			if (textObj._onRemovedCleanup) {
+				textObj.off("removed", textObj._onRemovedCleanup);
+			}
+		
+			textObj._onRemovedCleanup = function () {
+				if (strokeText) {
+					if (strokeText.cacheCanvas) strokeText.uncache();
+					if (strokeText.parent) {
+						strokeText.parent.removeChild(strokeText);
+					}
+				}
+		
+				if (textObj.cacheCanvas) {
+					textObj.uncache();
+				}
+		
+				textObj._strokeClone = null;
+			};
+		
+			textObj.on("removed", textObj._onRemovedCleanup);
+		
+			textObj.x = savedX;
+			textObj.y = savedY;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+		}
+		
+		var exerciseText = {
+			mn: {
+				title: "ЭРГЭДЭГ ХҮРД",
+				instruction: "Хүрдний будагдаагүй хэсэгт тохирох хариултыг сонгоно уу."
+			},
+			kz: {
+				title: "АЙНАЛМАЛЫ ДӨҢГЕЛЕК",
+				instruction: "Дөңгелектің боялмаған бөлігіне сәйкес келетін жауапты таңдаңыз."
+			},
+			tuva: {
+				title: "ЭРТКЕН ХҮР",
+				instruction: "Хүрнүң өөделбээн кезээнге тааржыыр харыыны шылыңар."
+			},
+			sign: {
+				title: "ЭРГЭДЭГ ХҮРД",
+				instruction: "Хүрдний будагдаагүй хэсэгт тохирох хариултыг сонгоно уу."
+			}
+		};
+		
+		var lang = exportRoot.gameState.selectedLanguage || "mn";
+		var texts = exerciseText[lang];
+		
+		function findTextByContent(container, content) {
+			if (!container) return null;
+		
+			if (container instanceof createjs.Text && container.text === content) {
+				return container;
+			}
+		
+			if (!container.numChildren) return null;
+		
+			for (var i = 0; i < container.numChildren; i++) {
+				var found = findTextByContent(container.getChildAt(i), content);
+				if (found) return found;
+			}
+		
+			return null;
+		}
+		
+		var txt_title = findTextByContent(exportRoot, "txt_title");
+		var txt_instruction = findTextByContent(exportRoot, "txt_instruction");
+		
+		
+		console.log("exerciseText[lang]");
+		console.log(exerciseText[lang]);
+		console.log(exportRoot.txt_title);
+		if (txt_title) {
+			txt_title.text = texts.title;
+			applyTextStyling(txt_title, {
+				outlineSize: 15,
+				outlineColor: "#461A17",
+				fillColor: "#FFFFFF",
+				pad: 80
+			});
+		}else {
+			console.log("exportRoot.txt_title not found");
+		}
+		
+		console.log('--------------------------');
+		console.log(exportRoot);
+		console.log('--------------------------');
+		
+		if (txt_instruction) {
+			txt_instruction.text = texts.instruction;
+		}
 	}
 	this.frame_11 = function() {
 		var exportRoot = this;
@@ -6935,9 +9323,9 @@ if (reversed == null) { reversed = false; }
 		var CONFIG = {
 			lessonId: "lesson6",
 			lessonFolder: "Lesson6",
-			videoId: "map05",
-			videoFile: "./videos/lesson6_map5.mp4",
-			containerId: "success-video-map05",
+			videoId: "map02",
+			videoFile: "./videos/lesson6_map2.mp4",
+			containerId: "success-video-map02",
 			nextFrame: 12,
 			backgroundColor: "#6B4FBB",
 			zIndex: "9999",
@@ -7166,12 +9554,1759 @@ if (reversed == null) { reversed = false; }
 		// =====================================
 		var CONFIG = {
 		    lessonId: "lesson6",
+		    exerciseId: "ex03",
+		    exerciseNumber: 3,
+		    storageKey: "lesson6_gameState",
+		    backFrame: 10, 
+		    nextFrame: 13, 
+		    autoNextDelay: 1500,
+		    soundPaths: {
+		        correct: "./sounds/voice_correct.mp3",
+		        wrong: "./sounds/voice_wrong.mp3",
+		        click: "./sounds/click.mp3",
+		        instruction: "./sounds/instruction_ex03.mp3"
+		    },
+		    // Бүлэг тус бүрийн Цагаан нүхний тоо (total) болон ЗӨВ нүхний тоо (required)
+		    groups: [
+		        { id: 1, total: 6,  required: 2 }, // Эрвээхэй: 1, 2-р нүд ЗӨВ
+		        { id: 2, total: 10, required: 5 }, // Далайн од: 1-5-р нүд ЗӨВ
+		        { id: 3, total: 8,  required: 3 }, // Мэлхий: 1-3-р нүд ЗӨВ
+		        { id: 4, total: 5,  required: 2 }  // Оцон шувуу: 1-2-р нүд ЗӨВ
+		    ]
+		};
+		
+		exportRoot.currentExerciseId = CONFIG.exerciseId;
+		exportRoot.backBtn = CONFIG.backFrame;
+		exportRoot.nextBtn = CONFIG.nextFrame;
+		CONFIG.completeKey = "exercise" + CONFIG.exerciseNumber + "Complete";
+		CONFIG.answersKey = "exercise" + CONFIG.exerciseNumber + "Answers";
+		
+		// =====================================================
+		// STATE & INIT
+		// =====================
+		if (!exportRoot.gameState) exportRoot.gameState = {};
+		
+		// Хариултуудыг массив байдлаар хадгалах (аль нүдийг дарсан бэ гэдгийг хадгална)
+		if (!exportRoot.gameState[CONFIG.answersKey] || typeof exportRoot.gameState[CONFIG.answersKey].g1 === "number") {
+		    exportRoot.gameState[CONFIG.answersKey] = { g1: [], g2: [], g3: [], g4: [] };
+		}
+		
+		if (typeof exportRoot.gameState[CONFIG.completeKey] === "undefined") {
+		    exportRoot.gameState[CONFIG.completeKey] = false;
+		}
+		
+		exportRoot.saveState = function() {
+		    try { localStorage.setItem(CONFIG.storageKey, JSON.stringify(exportRoot.gameState)); } catch (e) {}
+		};
+		
+		function playSound(type) {
+		    try { new Audio(CONFIG.soundPaths[type]).play().catch(function(){}); } catch (e) {}
+		}
+		
+		// =====================================================
+		// BUTTON & TARGET LOGIC
+		// =====================
+		function setupExercise() {
+		    CONFIG.groups.forEach(function(group) {
+		        var clickedArray = exportRoot.gameState[CONFIG.answersKey]["g" + group.id];
+		
+		        // 1. Шар TARGET-уудыг (будах хэсэг) тохируулах
+		        for (var t = 1; t <= group.required; t++) {
+		            var targetName = "target_3_" + group.id + "_" + t;
+		            var target = exportRoot[targetName];
+		            if (target) {
+		                // Хэрэв өмнө нь дарсан бол ил гаргана
+		                target.visible = (clickedArray.indexOf(t) !== -1);
+		                // Target нь товчны click-ийг хаахгүй байх тохиргоо
+		                target.mouseEnabled = false; 
+		                target.mouseChildren = false;
+		            }
+		        }
+		
+		        // 2. ЦАГААН НҮХНҮҮДИЙГ (товчнууд) тохируулах
+		        for (var b = 1; b <= group.total; b++) {
+		            (function(btnIndex) {
+		                var btnName = "btn_3_" + group.id + "_" + btnIndex;
+		                var btn = exportRoot[btnName];
+		                
+		                if (!btn) {
+		                    console.log("Олдсонгүй: " + btnName);
+		                    return;
+		                }
+		
+		                btn.mouseEnabled = true;
+		                btn.mouseChildren = false;
+		                btn.cursor = "pointer";
+		                
+		                if (btn.hasEventListener("click")) {
+		                    btn.removeAllEventListeners("click");
+		                }
+		
+		                btn.on("click", function() {
+		                    if (exportRoot.gameState[CONFIG.completeKey]) return;
+		
+		                    // ЗӨВ нүх (шар амьтанд харгалзах нүх) мөн эсэхийг шалгах
+		                    if (btnIndex <= group.required) {
+		                        var currentClicked = exportRoot.gameState[CONFIG.answersKey]["g" + group.id];
+		                        
+		                        if (currentClicked.indexOf(btnIndex) === -1) {
+		                            playSound("click");
+		                            currentClicked.push(btnIndex);
+		                            exportRoot.saveState();
+		
+		                            // Харгалзах шар target-ийг ил гаргах
+		                            var targetToShow = exportRoot["target_3_" + group.id + "_" + btnIndex];
+		                            if (targetToShow) {
+		                                targetToShow.visible = true;
+		                            }
+		
+		                            checkCompletion();
+		                        }
+		                    } 
+		                    // БУРУУ нүх (шар биш амьтанд харгалзах нүх)
+		                    else {
+		                        exportRoot.playCharacterAnimation("wrong");
+		                        createjs.Tween.get(btn).to({x: btn.x + 4}, 50).to({x: btn.x - 4}, 50).to({x: btn.x}, 50);
+		                    }
+		                });
+		            })(b);
+		        }
+		    });
+		}
+		
+		function checkCompletion() {
+		    var allCorrect = true;
+		
+		    CONFIG.groups.forEach(function(group) {
+		        var currentClicked = exportRoot.gameState[CONFIG.answersKey]["g" + group.id];
+		        if (currentClicked.length !== group.required) {
+		            allCorrect = false;
+		        }
+		    });
+		
+		    if (allCorrect && !exportRoot.gameState[CONFIG.completeKey]) {
+		        exportRoot.gameState[CONFIG.completeKey] = true;
+		        exportRoot.saveState();
+		        exportRoot.playCharacterAnimation("correct");
+		
+		        if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
+		
+		        setTimeout(function() {
+		            exportRoot.gotoAndStop(CONFIG.nextFrame);
+		        }, CONFIG.autoNextDelay);
+		    }
+		}
+		
+		// =====================================================
+		// START
+		// =====================
+		setupExercise();
+		
+		if (exportRoot.help_popup) {
+		    exportRoot.help_popup.visible = false;
+		    exportRoot.help_popup.stop();
+		}
+		
+		if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
+		if (exportRoot.stopInstruction) exportRoot.stopInstruction();
+		if (!exportRoot.gameState[CONFIG.completeKey]) {
+		    setTimeout(function() { 
+		        if(exportRoot.playInstruction) exportRoot.playInstruction(); 
+		    }, 500);
+		}
+		
+		exportRoot.on("removed", function() { 
+		    if(exportRoot.stopInstruction) exportRoot.stopInstruction(); 
+		});
+		function applyTextStyling(textObj, opts) {
+			if (!textObj || !(textObj instanceof createjs.Text) || !textObj.parent) return;
+		
+			opts = opts || {};
+		
+			var outlineColor = opts.outlineColor || "#461A17";
+			var outlineSize = opts.outlineSize || 6;
+			var fillColor = opts.fillColor || "#FFFFFF";
+			var shadowColor = opts.shadowColor || "rgba(60, 20, 0, 0.4)";
+			var pad = opts.pad || 60;
+		
+			var savedX = textObj.x;
+			var savedY = textObj.y;
+			var parent = textObj.parent;
+			var cloneName = "__strokeClone_" + (textObj.name || "text");
+		
+			// Өмнө үлдсэн ижил clone-уудыг parent-оос цэвэрлэнэ
+			for (var i = parent.numChildren - 1; i >= 0; i--) {
+				var child = parent.getChildAt(i);
+				if (child && child.name === cloneName) {
+					if (child.cacheCanvas) child.uncache();
+					parent.removeChild(child);
+				}
+			}
+		
+			// Хуучин cache арилгана
+			if (textObj.cacheCanvas) {
+				textObj.uncache();
+			}
+		
+			textObj.outline = null;
+			textObj.color = fillColor;
+			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
+		
+			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
+			strokeText.name = cloneName;
+			strokeText.textAlign = textObj.textAlign;
+			strokeText.textBaseline = textObj.textBaseline;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+			strokeText.scaleX = textObj.scaleX;
+			strokeText.scaleY = textObj.scaleY;
+			strokeText.rotation = textObj.rotation;
+			strokeText.skewX = textObj.skewX;
+			strokeText.skewY = textObj.skewY;
+			strokeText.regX = textObj.regX;
+			strokeText.regY = textObj.regY;
+			strokeText.outline = outlineSize;
+			strokeText.shadow = null;
+			strokeText.mouseEnabled = false;
+		
+			var idx = parent.getChildIndex(textObj);
+			parent.addChildAt(strokeText, idx);
+		
+			textObj._strokeClone = strokeText;
+		
+			// cache хэрэглэх бол
+			var bounds = textObj.getBounds();
+			if (bounds) {
+				var cacheX = bounds.x - pad;
+				var cacheY = bounds.y - pad;
+				var cacheW = bounds.width + pad * 2;
+				var cacheH = bounds.height + pad * 2;
+		
+				if (strokeText.cacheCanvas) strokeText.uncache();
+				if (textObj.cacheCanvas) textObj.uncache();
+		
+				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+				textObj.cache(cacheX, cacheY, cacheW, cacheH);
+			}
+		
+			// frame солигдоход original text хасагдах үед clone-ыг хамт устгана
+			if (textObj._onRemovedCleanup) {
+				textObj.off("removed", textObj._onRemovedCleanup);
+			}
+		
+			textObj._onRemovedCleanup = function () {
+				if (strokeText) {
+					if (strokeText.cacheCanvas) strokeText.uncache();
+					if (strokeText.parent) {
+						strokeText.parent.removeChild(strokeText);
+					}
+				}
+		
+				if (textObj.cacheCanvas) {
+					textObj.uncache();
+				}
+		
+				textObj._strokeClone = null;
+			};
+		
+			textObj.on("removed", textObj._onRemovedCleanup);
+		
+			textObj.x = savedX;
+			textObj.y = savedY;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+		}
+		
+		var exerciseText = {
+			mn: {
+				title: "АМЬТНЫ ХҮРЭЭЛЭН",
+				instruction: "Амьтны хүрээлэн дэх амьтдыг ажиглаарай. Нийт амьтдын дотор шар өнгөтэй амьтад хэдэн хэсэг болж байгааг олоод тохирох туузан дээрх хэсгийг будаарай."
+			},
+			kz: {
+				title: "ХАЙУАНАТТАР БАҒЫ",
+				instruction: "Хайуанаттар бағындағы жануарларға назар аударыңыз. Барлық жануарлардың ішінде сары түсті жануарлар неше бөлік болатынын тауып, сәйкес жолақтағы бөлікті бояңыз."
+			},
+			tuva: {
+				title: "АҢНАР ХҮРЭЭЗИ",
+				instruction: "Аңнар хүрээзиндеги аңнарны ажыглаңар. Бүгү аңнарның иштинде шара өңгүлүг аңнар каш бөлүк болурн олуп, тааржыыр лента дээрги бөлүктү өөдеңер."
+			},
+			sign: {
+				title: "АМЬТНЫ ХҮРЭЭЛЭН",
+				instruction: "Амьтны хүрээлэн дэх амьтдыг ажиглаарай. Нийт амьтдын дотор шар өнгөтэй амьтад хэдэн хэсэг болж байгааг олоод тохирох туузан дээрх хэсгийг будаарай."
+			}
+		};
+		
+		var lang = exportRoot.gameState.selectedLanguage || "mn";
+		var texts = exerciseText[lang];
+		
+		function findTextByContent(container, content) {
+			if (!container) return null;
+		
+			if (container instanceof createjs.Text && container.text === content) {
+				return container;
+			}
+		
+			if (!container.numChildren) return null;
+		
+			for (var i = 0; i < container.numChildren; i++) {
+				var found = findTextByContent(container.getChildAt(i), content);
+				if (found) return found;
+			}
+		
+			return null;
+		}
+		
+		var txt_title = findTextByContent(exportRoot, "txt_title");
+		var txt_instruction = findTextByContent(exportRoot, "txt_instruction");
+		
+		
+		console.log("exerciseText[lang]");
+		console.log(exerciseText[lang]);
+		console.log(exportRoot.txt_title);
+		if (txt_title) {
+			txt_title.text = texts.title;
+			applyTextStyling(txt_title, {
+				outlineSize: 15,
+				outlineColor: "#461A17",
+				fillColor: "#FFFFFF",
+				pad: 80
+			});
+		}else {
+			console.log("exportRoot.txt_title not found");
+		}
+		
+		console.log('--------------------------');
+		console.log(exportRoot);
+		console.log('--------------------------');
+		
+		if (txt_instruction) {
+			txt_instruction.text = texts.instruction;
+		}
+	}
+	this.frame_13 = function() {
+		var exportRoot = this;
+		exportRoot.stop();
+		
+		// =====================================================
+		// CONFIG
+		// =====================================================
+		var CONFIG = {
+			lessonId: "lesson6",
+			lessonFolder: "Lesson6",
+			videoId: "map03",
+			videoFile: "./videos/lesson6_map3.mp4",
+			containerId: "success-video-map03",
+			nextFrame: 14,
+			backgroundColor: "#6B4FBB",
+			zIndex: "9999",
+			autoSkipOnError: true,
+			autoMarkWatchedOnSkip: true
+		};
+		
+		// =====================================================
+		// INIT
+		// =====================================================
+		if (!exportRoot.gameState) {
+			exportRoot.gameState = {};
+		}
+		
+		if (!exportRoot.gameState.videosWatched) {
+			exportRoot.gameState.videosWatched = [];
+		}
+		
+		if (!exportRoot.saveState) {
+			exportRoot.saveState = function() {};
+		}
+		
+		var videoContainer = null;
+		var videoElement = null;
+		var resizeHandler = null;
+		var started = false;
+		var endedOrSkipped = false;
+		
+		// =====================================================
+		// HELPERS
+		// =====================================================
+		function hasWatchedVideo() {
+			return exportRoot.gameState.videosWatched.indexOf(CONFIG.videoId) !== -1;
+		}
+		
+		function markVideoWatched() {
+			if (!hasWatchedVideo()) {
+				exportRoot.gameState.videosWatched.push(CONFIG.videoId);
+				exportRoot.saveState();
+			}
+		}
+		
+		function lockPageScroll() {
+			document.body.style.overflow = "hidden";
+			document.documentElement.style.overflow = "hidden";
+		}
+		
+		function unlockPageScroll() {
+			document.body.style.overflow = "";
+			document.documentElement.style.overflow = "";
+		}
+		
+		function cleanup() {
+			unlockPageScroll();
+		
+			if (videoElement) {
+				try {
+					videoElement.pause();
+					videoElement.removeAttribute("src");
+					videoElement.load();
+				} catch (e) {}
+				videoElement = null;
+			}
+		
+			if (videoContainer && videoContainer.parentNode) {
+				videoContainer.parentNode.removeChild(videoContainer);
+				videoContainer = null;
+			}
+		
+			if (resizeHandler) {
+				window.removeEventListener("resize", resizeHandler);
+				resizeHandler = null;
+			}
+		}
+		
+		function updateContainerPosition() {
+			if (!videoContainer) return;
+		
+			var canvas = document.getElementById("canvas");
+			if (!canvas) return;
+		
+			var rect = canvas.getBoundingClientRect();
+		
+			videoContainer.style.left = rect.left + "px";
+			videoContainer.style.top = rect.top + "px";
+			videoContainer.style.width = rect.width + "px";
+			videoContainer.style.height = rect.height + "px";
+		}
+		
+		function goToNextExercise(reason) {
+			if (endedOrSkipped) return;
+			endedOrSkipped = true;
+		
+			if (CONFIG.autoMarkWatchedOnSkip) {
+				markVideoWatched();
+			}
+		
+			cleanup();
+		
+			exportRoot.gameState.currentFrame = CONFIG.nextFrame;
+			exportRoot.saveState();
+			exportRoot.gotoAndStop(CONFIG.nextFrame);
+		}
+		
+		function tryPlayVideo() {
+			if (!videoElement || started) return;
+			started = true;
+		
+			var playPromise = videoElement.play();
+		
+			if (playPromise && typeof playPromise.catch === "function") {
+				playPromise.catch(function(err) {
+					console.log("Video autoplay failed:", err);
+					goToNextExercise("autoplay_failed");
+				});
+			}
+		}
+		
+		// =====================================================
+		// MAIN
+		// =====================================================
+		function createSuccessVideo() {
+			var existingContainer = document.getElementById(CONFIG.containerId);
+			if (existingContainer && existingContainer.parentNode) {
+				existingContainer.parentNode.removeChild(existingContainer);
+			}
+		
+			var canvas = document.getElementById("canvas");
+			if (!canvas) {
+				goToNextExercise("canvas_missing");
+				return;
+			}
+		
+			if (hasWatchedVideo()) {
+				goToNextExercise("already_watched");
+				return;
+			}
+		
+			lockPageScroll();
+		
+			var rect = canvas.getBoundingClientRect();
+		
+			videoContainer = document.createElement("div");
+			videoContainer.id = CONFIG.containerId;
+			videoContainer.style.position = "fixed";
+			videoContainer.style.left = rect.left + "px";
+			videoContainer.style.top = rect.top + "px";
+			videoContainer.style.width = rect.width + "px";
+			videoContainer.style.height = rect.height + "px";
+			videoContainer.style.backgroundColor = CONFIG.backgroundColor;
+			videoContainer.style.zIndex = CONFIG.zIndex;
+			videoContainer.style.overflow = "hidden";
+			videoContainer.style.margin = "0";
+			videoContainer.style.padding = "0";
+			videoContainer.style.boxSizing = "border-box";
+		
+			videoElement = document.createElement("video");
+			videoElement.src = CONFIG.videoFile;
+			videoElement.style.width = "100%";
+			videoElement.style.height = "100%";
+			videoElement.style.objectFit = "contain";
+			videoElement.style.display = "block";
+			videoElement.preload = "auto";
+			videoElement.playsInline = true;
+			videoElement.setAttribute("playsinline", "true");
+			videoElement.setAttribute("webkit-playsinline", "true");
+		
+			// Зарим browser autoplay дээр дууг хаадаг.
+			// Хэрэв заавал sound-тай autoplay хэрэгтэй бол browser policy-оос хамаарна.
+			// Найдвартай ажиллуулахын тулд muted=true болгож болно.
+			videoElement.muted = false;
+			videoElement.autoplay = false;
+			videoElement.controls = false;
+		
+			videoContainer.appendChild(videoElement);
+			document.body.appendChild(videoContainer);
+		
+			videoElement.addEventListener("loadeddata", function() {
+				tryPlayVideo();
+			});
+		
+			videoElement.addEventListener("canplay", function() {
+				tryPlayVideo();
+			});
+		
+			videoElement.addEventListener("ended", function() {
+				markVideoWatched();
+				setTimeout(function() {
+					goToNextExercise("ended");
+				}, 500);
+			});
+		
+			videoElement.addEventListener("error", function() {
+				console.log("Video load error:", videoElement.error, CONFIG.videoFile);
+				if (CONFIG.autoSkipOnError) {
+					goToNextExercise("error");
+				}
+			});
+		
+			resizeHandler = function() {
+				updateContainerPosition();
+			};
+		
+			window.addEventListener("resize", resizeHandler);
+			updateContainerPosition();
+		
+			// Хэрэв ямар ч event trigger болохгүй гацвал fallback
+			setTimeout(function() {
+				if (!started && !endedOrSkipped) {
+					console.log("Video start timeout, skipping:", CONFIG.videoFile);
+					goToNextExercise("timeout");
+				}
+			}, 4000);
+		}
+		
+		exportRoot.on("removed", cleanup);
+		
+		createSuccessVideo();
+	}
+	this.frame_14 = function() {
+		var exportRoot = this;
+		exportRoot.stop();
+		
+		// =====================================================
+		// CONFIG
+		// =====================================
+		var CONFIG = {
+		    lessonId: "lesson6",
+		    exerciseId: "ex04",
+		    exerciseNumber: 4,
+		    storageKey: "lesson6_gameState",
+		    backFrame: 12, 
+		    nextFrame: 15, 
+		    autoNextDelay: 1500,
+		    soundPaths: {
+		        correct: "./sounds/voice_correct.mp3",
+		        wrong: "./sounds/voice_wrong.mp3",
+		        click: "./sounds/click.mp3",
+		        instruction: "./sounds/instruction_ex04.mp3"
+		    },
+		    // Чирэх объектуудын нэрс
+		    buttons: ["btn_4_1", "btn_4_2", "btn_4_3", "btn_4_4", "btn_4_5", "btn_4_6", "btn_4_7", "btn_4_8", "btn_4_9", "btn_4_10"],
+		    // Зөв холболтууд (Target: Button)
+		    correctMapping: {
+		        "target_4_1": "btn_4_2",
+		        "target_4_2": "btn_4_5",
+		        "target_4_3": "btn_4_9"
+		    }
+		};
+		
+		exportRoot.currentExerciseId = CONFIG.exerciseId;
+		exportRoot.backBtn = CONFIG.backFrame;
+		exportRoot.nextBtn = CONFIG.nextFrame;
+		CONFIG.completeKey = "exercise" + CONFIG.exerciseNumber + "Complete";
+		CONFIG.answersKey = "exercise" + CONFIG.exerciseNumber + "Answers";
+		
+		// =====================================================
+		// STATE & INIT
+		// =====================
+		if (!exportRoot.gameState) exportRoot.gameState = {};
+		if (!exportRoot.gameState[CONFIG.answersKey]) {
+		    exportRoot.gameState[CONFIG.answersKey] = {}; // Аль target дээр юу байгааг хадгална
+		}
+		
+		if (typeof exportRoot.gameState[CONFIG.completeKey] === "undefined") {
+		    exportRoot.gameState[CONFIG.completeKey] = false;
+		}
+		
+		exportRoot.saveState = function() {
+		    try { localStorage.setItem(CONFIG.storageKey, JSON.stringify(exportRoot.gameState)); } catch (e) {}
+		};
+		
+		function playSound(type) {
+		    try { new Audio(CONFIG.soundPaths[type]).play().catch(function(){}); } catch (e) {}
+		}
+		
+		// =====================================================
+		// DRAG AND DROP ENGINE
+		// =====================
+		var targetNames = Object.keys(CONFIG.correctMapping);
+		
+		function setupDragAndDrop() {
+		    CONFIG.buttons.forEach(function(btnName) {
+		        var btn = exportRoot[btnName];
+		        if (!btn) return;
+		
+		        btn.oldX = btn.x;
+		        btn.oldY = btn.y;
+		        btn.cursor = "pointer";
+		        btn.mouseChildren = false;
+		
+		        // Өмнөх төлөвийг сэргээх хэсэг (хэвээрээ үлдэнэ)
+		        targetNames.forEach(function(tName) {
+		            if (exportRoot.gameState[CONFIG.answersKey][tName] === btnName) {
+		                var target = exportRoot[tName];
+		                btn.x = target.x;
+		                btn.y = target.y;
+		                btn.mouseEnabled = false;
+		            }
+		        });
+		
+		        // ЧИРЭХ ЛОГИКИЙН ЗАСВАР (Масштаб тааруулах)
+		        btn.on("mousedown", function(evt) {
+		            if (exportRoot.gameState[CONFIG.completeKey]) return;
+		            exportRoot.addChild(btn);
+		            
+		            // globalToLocal ашиглаж масштабыг тооцоолох
+		            var localPos = btn.parent.globalToLocal(evt.stageX, evt.stageY);
+		            btn.offset = { x: btn.x - localPos.x, y: btn.y - localPos.y };
+		        });
+		
+		        btn.on("pressmove", function(evt) {
+		            if (exportRoot.gameState[CONFIG.completeKey]) return;
+		            
+		            // globalToLocal ашиглаж масштабыг тооцоолох
+		            var localPos = btn.parent.globalToLocal(evt.stageX, evt.stageY);
+		            btn.x = localPos.x + btn.offset.x;
+		            btn.y = localPos.y + btn.offset.y;
+		        });
+		
+		        // Тавих үйлдэл (хэвээрээ үлдэнэ)
+		        btn.on("pressup", function(evt) {
+		            if (exportRoot.gameState[CONFIG.completeKey]) return;
+		
+		            var hitTarget = null;
+		            targetNames.forEach(function(tName) {
+		                var target = exportRoot[tName];
+		                // hitTest хийхдээ мөн адил globalToLocal ашиглана
+		                var pt = target.globalToLocal(evt.stageX, evt.stageY);
+		                if (target.hitTest(pt.x, pt.y)) {
+		                    hitTarget = tName;
+		                }
+		            });
+		
+		            if (hitTarget && CONFIG.correctMapping[hitTarget] === btnName) {
+		                playSound("click");
+		                var targetMC = exportRoot[hitTarget];
+		                btn.x = targetMC.x;
+		                btn.y = targetMC.y;
+		                btn.mouseEnabled = false;
+						exportRoot.playCharacterAnimation("correct");
+		                exportRoot.gameState[CONFIG.answersKey][hitTarget] = btnName;
+		                exportRoot.saveState();
+		                checkCompletion();
+		            } else {
+		                exportRoot.playCharacterAnimation("wrong");
+		                createjs.Tween.get(btn).to({ x: btn.oldX, y: btn.oldY }, 500, createjs.Ease.backOut);
+		            }
+		        });
+		    });
+		}
+		
+		function checkCompletion() {
+		    var allCorrect = true;
+		    targetNames.forEach(function(tName) {
+		        if (exportRoot.gameState[CONFIG.answersKey][tName] !== CONFIG.correctMapping[tName]) {
+		            allCorrect = false;
+		        }
+		    });
+		
+		    if (allCorrect) {
+		        exportRoot.gameState[CONFIG.completeKey] = true;
+		        exportRoot.saveState();
+		        exportRoot.playCharacterAnimation("correct");
+		        
+		        if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
+		
+		        setTimeout(function() {
+		            exportRoot.gotoAndStop(CONFIG.nextFrame);
+		        }, CONFIG.autoNextDelay);
+		    }
+		}
+		
+		// =====================================================
+		// START
+		// =====================
+		setupDragAndDrop();
+		
+		if (exportRoot.help_popup) {
+		    exportRoot.help_popup.visible = false;
+		}
+		
+		if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
+		if (exportRoot.stopInstruction) exportRoot.stopInstruction();
+		if (!exportRoot.gameState[CONFIG.completeKey]) {
+		    setTimeout(function() { 
+		        if(exportRoot.playInstruction) exportRoot.playInstruction(); 
+		    }, 500);
+		}
+		
+		exportRoot.on("removed", function() { 
+		    if(exportRoot.stopInstruction) exportRoot.stopInstruction(); 
+		});
+		function applyTextStyling(textObj, opts) {
+			if (!textObj || !(textObj instanceof createjs.Text) || !textObj.parent) return;
+		
+			opts = opts || {};
+		
+			var outlineColor = opts.outlineColor || "#461A17";
+			var outlineSize = opts.outlineSize || 6;
+			var fillColor = opts.fillColor || "#FFFFFF";
+			var shadowColor = opts.shadowColor || "rgba(60, 20, 0, 0.4)";
+			var pad = opts.pad || 60;
+		
+			var savedX = textObj.x;
+			var savedY = textObj.y;
+			var parent = textObj.parent;
+			var cloneName = "__strokeClone_" + (textObj.name || "text");
+		
+			// Өмнө үлдсэн ижил clone-уудыг parent-оос цэвэрлэнэ
+			for (var i = parent.numChildren - 1; i >= 0; i--) {
+				var child = parent.getChildAt(i);
+				if (child && child.name === cloneName) {
+					if (child.cacheCanvas) child.uncache();
+					parent.removeChild(child);
+				}
+			}
+		
+			// Хуучин cache арилгана
+			if (textObj.cacheCanvas) {
+				textObj.uncache();
+			}
+		
+			textObj.outline = null;
+			textObj.color = fillColor;
+			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
+		
+			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
+			strokeText.name = cloneName;
+			strokeText.textAlign = textObj.textAlign;
+			strokeText.textBaseline = textObj.textBaseline;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+			strokeText.scaleX = textObj.scaleX;
+			strokeText.scaleY = textObj.scaleY;
+			strokeText.rotation = textObj.rotation;
+			strokeText.skewX = textObj.skewX;
+			strokeText.skewY = textObj.skewY;
+			strokeText.regX = textObj.regX;
+			strokeText.regY = textObj.regY;
+			strokeText.outline = outlineSize;
+			strokeText.shadow = null;
+			strokeText.mouseEnabled = false;
+		
+			var idx = parent.getChildIndex(textObj);
+			parent.addChildAt(strokeText, idx);
+		
+			textObj._strokeClone = strokeText;
+		
+			// cache хэрэглэх бол
+			var bounds = textObj.getBounds();
+			if (bounds) {
+				var cacheX = bounds.x - pad;
+				var cacheY = bounds.y - pad;
+				var cacheW = bounds.width + pad * 2;
+				var cacheH = bounds.height + pad * 2;
+		
+				if (strokeText.cacheCanvas) strokeText.uncache();
+				if (textObj.cacheCanvas) textObj.uncache();
+		
+				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+				textObj.cache(cacheX, cacheY, cacheW, cacheH);
+			}
+		
+			// frame солигдоход original text хасагдах үед clone-ыг хамт устгана
+			if (textObj._onRemovedCleanup) {
+				textObj.off("removed", textObj._onRemovedCleanup);
+			}
+		
+			textObj._onRemovedCleanup = function () {
+				if (strokeText) {
+					if (strokeText.cacheCanvas) strokeText.uncache();
+					if (strokeText.parent) {
+						strokeText.parent.removeChild(strokeText);
+					}
+				}
+		
+				if (textObj.cacheCanvas) {
+					textObj.uncache();
+				}
+		
+				textObj._strokeClone = null;
+			};
+		
+			textObj.on("removed", textObj._onRemovedCleanup);
+		
+			textObj.x = savedX;
+			textObj.y = savedY;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+		}
+		
+		var exerciseText = {
+			mn: {
+				title: "ХУВААРЬТ ЦАМХГУУД",
+				instruction: "Цамхгийн будагдсан хэсэгт тохирох энгийн бутархайг байршуулна уу."
+			},
+			kz: {
+				title: "БӨЛІНГЕН МҰНАРАЛАР",
+				instruction: "Мұнараның боялған бөлігіне сәйкес келетін жай бөлшекті орналастырыңыз."
+			},
+			tuva: {
+				title: "ҮЛЕЖИЛГЕН МҮНАРЛАР",
+				instruction: "Мүнарның өөделген кезээнге тааржыыр эңгин бөлүктү тургузуңар."
+			},
+			sign: {
+				title: "ХУВААРЬТ ЦАМХГУУД",
+				instruction: "Цамхгийн будагдсан хэсэгт тохирох энгийн бутархайг байршуулна уу."
+			}
+		};
+		
+		var lang = exportRoot.gameState.selectedLanguage || "mn";
+		var texts = exerciseText[lang];
+		
+		function findTextByContent(container, content) {
+			if (!container) return null;
+		
+			if (container instanceof createjs.Text && container.text === content) {
+				return container;
+			}
+		
+			if (!container.numChildren) return null;
+		
+			for (var i = 0; i < container.numChildren; i++) {
+				var found = findTextByContent(container.getChildAt(i), content);
+				if (found) return found;
+			}
+		
+			return null;
+		}
+		
+		var txt_title = findTextByContent(exportRoot, "txt_title");
+		var txt_instruction = findTextByContent(exportRoot, "txt_instruction");
+		
+		
+		console.log("exerciseText[lang]");
+		console.log(exerciseText[lang]);
+		console.log(exportRoot.txt_title);
+		if (txt_title) {
+			txt_title.text = texts.title;
+			applyTextStyling(txt_title, {
+				outlineSize: 15,
+				outlineColor: "#461A17",
+				fillColor: "#FFFFFF",
+				pad: 80
+			});
+		}else {
+			console.log("exportRoot.txt_title not found");
+		}
+		
+		console.log('--------------------------');
+		console.log(exportRoot);
+		console.log('--------------------------');
+		
+		if (txt_instruction) {
+			txt_instruction.text = texts.instruction;
+		}
+	}
+	this.frame_15 = function() {
+		var exportRoot = this;
+		exportRoot.stop();
+		
+		// =====================================================
+		// CONFIG
+		// =====================================================
+		var CONFIG = {
+			lessonId: "lesson6",
+			lessonFolder: "Lesson6",
+			videoId: "map04",
+			videoFile: "./videos/lesson6_map4.mp4",
+			containerId: "success-video-map04",
+			nextFrame: 16,
+			backgroundColor: "#6B4FBB",
+			zIndex: "9999",
+			autoSkipOnError: true,
+			autoMarkWatchedOnSkip: true
+		};
+		
+		// =====================================================
+		// INIT
+		// =====================================================
+		if (!exportRoot.gameState) {
+			exportRoot.gameState = {};
+		}
+		
+		if (!exportRoot.gameState.videosWatched) {
+			exportRoot.gameState.videosWatched = [];
+		}
+		
+		if (!exportRoot.saveState) {
+			exportRoot.saveState = function() {};
+		}
+		
+		var videoContainer = null;
+		var videoElement = null;
+		var resizeHandler = null;
+		var started = false;
+		var endedOrSkipped = false;
+		
+		// =====================================================
+		// HELPERS
+		// =====================================================
+		function hasWatchedVideo() {
+			return exportRoot.gameState.videosWatched.indexOf(CONFIG.videoId) !== -1;
+		}
+		
+		function markVideoWatched() {
+			if (!hasWatchedVideo()) {
+				exportRoot.gameState.videosWatched.push(CONFIG.videoId);
+				exportRoot.saveState();
+			}
+		}
+		
+		function lockPageScroll() {
+			document.body.style.overflow = "hidden";
+			document.documentElement.style.overflow = "hidden";
+		}
+		
+		function unlockPageScroll() {
+			document.body.style.overflow = "";
+			document.documentElement.style.overflow = "";
+		}
+		
+		function cleanup() {
+			unlockPageScroll();
+		
+			if (videoElement) {
+				try {
+					videoElement.pause();
+					videoElement.removeAttribute("src");
+					videoElement.load();
+				} catch (e) {}
+				videoElement = null;
+			}
+		
+			if (videoContainer && videoContainer.parentNode) {
+				videoContainer.parentNode.removeChild(videoContainer);
+				videoContainer = null;
+			}
+		
+			if (resizeHandler) {
+				window.removeEventListener("resize", resizeHandler);
+				resizeHandler = null;
+			}
+		}
+		
+		function updateContainerPosition() {
+			if (!videoContainer) return;
+		
+			var canvas = document.getElementById("canvas");
+			if (!canvas) return;
+		
+			var rect = canvas.getBoundingClientRect();
+		
+			videoContainer.style.left = rect.left + "px";
+			videoContainer.style.top = rect.top + "px";
+			videoContainer.style.width = rect.width + "px";
+			videoContainer.style.height = rect.height + "px";
+		}
+		
+		function goToNextExercise(reason) {
+			if (endedOrSkipped) return;
+			endedOrSkipped = true;
+		
+			if (CONFIG.autoMarkWatchedOnSkip) {
+				markVideoWatched();
+			}
+		
+			cleanup();
+		
+			exportRoot.gameState.currentFrame = CONFIG.nextFrame;
+			exportRoot.saveState();
+			exportRoot.gotoAndStop(CONFIG.nextFrame);
+		}
+		
+		function tryPlayVideo() {
+			if (!videoElement || started) return;
+			started = true;
+		
+			var playPromise = videoElement.play();
+		
+			if (playPromise && typeof playPromise.catch === "function") {
+				playPromise.catch(function(err) {
+					console.log("Video autoplay failed:", err);
+					goToNextExercise("autoplay_failed");
+				});
+			}
+		}
+		
+		// =====================================================
+		// MAIN
+		// =====================================================
+		function createSuccessVideo() {
+			var existingContainer = document.getElementById(CONFIG.containerId);
+			if (existingContainer && existingContainer.parentNode) {
+				existingContainer.parentNode.removeChild(existingContainer);
+			}
+		
+			var canvas = document.getElementById("canvas");
+			if (!canvas) {
+				goToNextExercise("canvas_missing");
+				return;
+			}
+		
+			if (hasWatchedVideo()) {
+				goToNextExercise("already_watched");
+				return;
+			}
+		
+			lockPageScroll();
+		
+			var rect = canvas.getBoundingClientRect();
+		
+			videoContainer = document.createElement("div");
+			videoContainer.id = CONFIG.containerId;
+			videoContainer.style.position = "fixed";
+			videoContainer.style.left = rect.left + "px";
+			videoContainer.style.top = rect.top + "px";
+			videoContainer.style.width = rect.width + "px";
+			videoContainer.style.height = rect.height + "px";
+			videoContainer.style.backgroundColor = CONFIG.backgroundColor;
+			videoContainer.style.zIndex = CONFIG.zIndex;
+			videoContainer.style.overflow = "hidden";
+			videoContainer.style.margin = "0";
+			videoContainer.style.padding = "0";
+			videoContainer.style.boxSizing = "border-box";
+		
+			videoElement = document.createElement("video");
+			videoElement.src = CONFIG.videoFile;
+			videoElement.style.width = "100%";
+			videoElement.style.height = "100%";
+			videoElement.style.objectFit = "contain";
+			videoElement.style.display = "block";
+			videoElement.preload = "auto";
+			videoElement.playsInline = true;
+			videoElement.setAttribute("playsinline", "true");
+			videoElement.setAttribute("webkit-playsinline", "true");
+		
+			// Зарим browser autoplay дээр дууг хаадаг.
+			// Хэрэв заавал sound-тай autoplay хэрэгтэй бол browser policy-оос хамаарна.
+			// Найдвартай ажиллуулахын тулд muted=true болгож болно.
+			videoElement.muted = false;
+			videoElement.autoplay = false;
+			videoElement.controls = false;
+		
+			videoContainer.appendChild(videoElement);
+			document.body.appendChild(videoContainer);
+		
+			videoElement.addEventListener("loadeddata", function() {
+				tryPlayVideo();
+			});
+		
+			videoElement.addEventListener("canplay", function() {
+				tryPlayVideo();
+			});
+		
+			videoElement.addEventListener("ended", function() {
+				markVideoWatched();
+				setTimeout(function() {
+					goToNextExercise("ended");
+				}, 500);
+			});
+		
+			videoElement.addEventListener("error", function() {
+				console.log("Video load error:", videoElement.error, CONFIG.videoFile);
+				if (CONFIG.autoSkipOnError) {
+					goToNextExercise("error");
+				}
+			});
+		
+			resizeHandler = function() {
+				updateContainerPosition();
+			};
+		
+			window.addEventListener("resize", resizeHandler);
+			updateContainerPosition();
+		
+			// Хэрэв ямар ч event trigger болохгүй гацвал fallback
+			setTimeout(function() {
+				if (!started && !endedOrSkipped) {
+					console.log("Video start timeout, skipping:", CONFIG.videoFile);
+					goToNextExercise("timeout");
+				}
+			}, 4000);
+		}
+		
+		exportRoot.on("removed", cleanup);
+		
+		createSuccessVideo();
+	}
+	this.frame_16 = function() {
+		var exportRoot = this;
+		exportRoot.stop();
+		
+		// =====================================================
+		// CONFIG
+		// =====================================================
+		var CONFIG = {
+		    lessonId: "lesson6",
+		    exerciseId: "ex05", // 5-р даалгавар
+		    exerciseNumber: 5,
+		    storageKey: "lesson6_gameState",
+		    backFrame: 14, 
+		    nextFrame: 17, 
+		    autoNextDelay: 1500,
+		    soundPaths: {
+		        correct: "./sounds/voice_correct.mp3",
+		        wrong: "./sounds/voice_wrong.mp3",
+		        click: "./sounds/click.mp3"
+		    },
+		    // Зөв хариултууд: 3/4 > 1/4, 4/8 < 7/8, 2/3 < 3/3, 4/5 > 3/5
+		    inputs: {
+		        input_5_1: ">",
+		        input_5_2: "<",
+		        input_5_3: "<",
+		        input_5_4: ">"
+		    }
+		};
+		
+		exportRoot.currentExerciseId = CONFIG.exerciseId;
+		exportRoot.backBtn = CONFIG.backFrame;
+		exportRoot.nextBtn = CONFIG.nextFrame;
+		CONFIG.positionsKey = "exercise" + CONFIG.exerciseNumber + "Positions";
+		CONFIG.completeKey = "exercise" + CONFIG.exerciseNumber + "Complete";
+		
+		// =====================================================
+		// STATE & INIT
+		// =====================================================
+		if (!exportRoot.gameState) exportRoot.gameState = {};
+		if (!exportRoot.gameState[CONFIG.positionsKey]) exportRoot.gameState[CONFIG.positionsKey] = {};
+		if (typeof exportRoot.gameState[CONFIG.completeKey] === "undefined") exportRoot.gameState[CONFIG.completeKey] = false;
+		
+		if (!exportRoot.saveState) {
+		    exportRoot.saveState = function() {
+		        try { localStorage.setItem(CONFIG.storageKey, JSON.stringify(exportRoot.gameState)); } catch (e) {}
+		    };
+		}
+		
+		var INPUT_NAMES = Object.keys(CONFIG.inputs);
+		var autoNextTriggered = !!exportRoot.gameState[CONFIG.completeKey];
+		
+		function playSound(type) {
+		    try { new Audio(CONFIG.soundPaths[type]).play().catch(function() {}); } catch (e) {}
+		}
+		
+		// =====================================================
+		// HTML INPUT HELPERS
+		// =====================================================
+		function getInputDomId(name) { return "html_" + CONFIG.lessonId + "_" + CONFIG.exerciseId + "_" + name; }
+		
+		function createOrGetHtmlInput(name) {
+		    var id = getInputDomId(name);
+		    var input = document.getElementById(id);
+		
+		    if (!input) {
+		        input = document.createElement("input");
+		        input.type = "text";
+		        input.id = id;
+		        // inputMode-г text болгож өөрчлөв (Тэмдэгт бичих тул)
+		        input.inputMode = "text"; 
+		        input.maxLength = 1;
+		
+		        input.style.position = "fixed";
+		        input.style.zIndex = "99999";
+		        input.style.boxSizing = "border-box";
+		        input.style.textAlign = "center";
+		        input.style.fontFamily = "'Rubik', Arial, sans-serif";
+		        input.style.fontWeight = "700";
+		        
+		        input.style.background = "transparent"; 
+		        input.style.border = "none";
+		        input.style.outline = "none";
+		        input.style.padding = "0";
+		        input.style.margin = "0";
+		
+		        document.body.appendChild(input);
+		    }
+		    input.style.opacity = "1";
+		    input.style.pointerEvents = "auto";
+		    
+		    return input;
+		}
+		
+		function hideAllHtmlInputs() {
+		    INPUT_NAMES.forEach(function(name) {
+		        var input = document.getElementById(getInputDomId(name));
+		        if (input) {
+		            input.style.opacity = "0";
+		            input.style.pointerEvents = "none";
+		        }
+		    });
+		}
+		
+		function positionHtmlInput(name) {
+		    var clip = exportRoot[name];
+		    var input = document.getElementById(getInputDomId(name));
+		    var canvas = exportRoot.stage ? exportRoot.stage.canvas : document.querySelector("canvas");
+		
+		    if (!clip || !input || !canvas || !exportRoot.stage) return;
+		
+		    var canvasRect = canvas.getBoundingClientRect();
+		    var stageScaleX = exportRoot.stage.scaleX || 1;
+		    var stageScaleY = exportRoot.stage.scaleY || 1;
+		    var browserScaleX = canvasRect.width / canvas.width;
+		    var browserScaleY = canvasRect.height / canvas.height;
+		
+		    var b = clip.getBounds() || clip.nominalBounds || {width: 46, height: 46};
+		    var size = { width: b.width, height: b.height };
+		    var globalPos = clip.localToGlobal(0, 0);
+		
+		    var width = (size.width * stageScaleX * browserScaleX) * 0.9;
+		    var height = (size.height * stageScaleY * browserScaleY) * 0.9;
+		
+		    var left = canvasRect.left + (globalPos.x * browserScaleX) - (width * 0.5);
+		    var top = canvasRect.top + (globalPos.y * browserScaleY) - (height * 0.5);
+		
+		    input.style.left = left + "px";
+		    input.style.top = top + "px";
+		    input.style.width = width + "px";
+		    input.style.height = height + "px";
+		    
+		    input.style.fontSize = Math.max(20, Math.floor(height * 0.8)) + "px";
+		    input.style.lineHeight = Math.floor(height) + "px";
+		}
+		
+		function positionAllHtmlInputs() {
+		    INPUT_NAMES.forEach(positionHtmlInput);
+		}
+		
+		function paintInputState(input, state) {
+		    if (!input) return;
+		    input.style.backgroundColor = "transparent";
+		    
+		    if (state === "correct") {
+		        input.style.color = "#1F5F1A"; // Зөв бол ногоон
+		    } else if (state === "wrong") {
+		        input.style.color = "#E54848"; // Буруу бол улаан
+		    } else {
+		        input.style.color = "#222222"; 
+		    }
+		}
+		
+		function isCorrect(name, value) { return String(value || "").trim() === String(CONFIG.inputs[name]); }
+		
+		function checkAllAnswers() {
+		    var allCorrect = true;
+		    INPUT_NAMES.forEach(function(name) {
+		        var input = document.getElementById(getInputDomId(name));
+		        if (!input) { allCorrect = false; return; }
+		        var value = String(input.value || "").trim();
+		        if (value === "" || !isCorrect(name, value)) allCorrect = false;
+		    });
+		
+		    if (allCorrect && !autoNextTriggered) {
+		        autoNextTriggered = true;
+		        exportRoot.gameState[CONFIG.completeKey] = true;
+		        exportRoot.saveState();
+		        exportRoot.playCharacterAnimation("correct");
+		        if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
+		
+		        INPUT_NAMES.forEach(function(n) {
+		            var locked = document.getElementById(getInputDomId(n));
+		            if (locked) locked.disabled = true;
+		        });
+		
+		        setTimeout(function() {
+		            hideAllHtmlInputs(); 
+		            exportRoot.gotoAndStop(CONFIG.nextFrame);
+		        }, CONFIG.autoNextDelay);
+		    }
+		}
+		
+		function setupSingleHtmlInput(name) {
+		    var clip = exportRoot[name];
+		    if (!clip) return;
+		
+		    var input = createOrGetHtmlInput(name);
+		    clip.alpha = 0.01;
+		    clip.mouseEnabled = false;
+		
+		    input.value = String(exportRoot.gameState[CONFIG.positionsKey][name] || "");
+		    input.disabled = !!exportRoot.gameState[CONFIG.completeKey];
+		
+		    if (input.value !== "") {
+		        paintInputState(input, isCorrect(name, input.value) ? "correct" : "wrong");
+		    } else {
+		        paintInputState(input, "default");
+		    }
+		
+		    input.oninput = function() {
+		        // Зөвхөн харьцуулах тэмдэгтүүдийг зөвшөөрөх шүүлтүүр
+		        this.value = this.value.replace(/[^><=]/g, "");
+		        exportRoot.gameState[CONFIG.positionsKey][name] = this.value;
+		        exportRoot.saveState();
+		        
+		        if (this.value !== "") {
+		            paintInputState(this, isCorrect(name, this.value) ? "correct" : "wrong");
+					exportRoot.playCharacterAnimation(isCorrect(name, input.value) ? "correct" : "wrong");
+		        } else {
+		            paintInputState(this, "default");
+		        }
+		        checkAllAnswers(); 
+		    };
+		
+		    input.onfocus = function() { playSound("click"); };
+		    positionHtmlInput(name);
+		}
+		
+		// =====================================================
+		// START
+		// =====================================================
+		INPUT_NAMES.forEach(setupSingleHtmlInput);
+		positionAllHtmlInputs();
+		
+		if (!exportRoot.resizeHandler) {
+		    exportRoot.resizeHandler = function() { positionAllHtmlInputs(); };
+		    window.addEventListener("resize", exportRoot.resizeHandler);
+		}
+		
+		if (exportRoot.help_popup) {
+		    exportRoot.help_popup.visible = false;
+		}
+		
+		if (!exportRoot.tickAttached && createjs && createjs.Ticker) {
+		    createjs.Ticker.addEventListener("tick", positionAllHtmlInputs);
+		    exportRoot.tickAttached = true;
+		}
+		
+		if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
+		if (exportRoot.stopInstruction) exportRoot.stopInstruction();
+		if (!exportRoot.gameState[CONFIG.completeKey]) {
+		    setTimeout(function() { 
+		        if(exportRoot.playInstruction) exportRoot.playInstruction(); 
+		    }, 500);
+		}
+		
+		exportRoot.on("removed", function() { 
+		    if(exportRoot.stopInstruction) exportRoot.stopInstruction(); 
+		    hideAllHtmlInputs(); 
+		});
+		function applyTextStyling(textObj, opts) {
+			if (!textObj || !(textObj instanceof createjs.Text)) return;
+			if (textObj._isStyled) return;
+			textObj._isStyled = true;
+			opts = opts || {};
+			var outlineColor = opts.outlineColor || "#461A17";
+			var outlineSize = opts.outlineSize || 6;
+			var fillColor = opts.fillColor || "#FFFFFF";
+			var shadowColor = opts.shadowColor || "rgba(60, 20, 0, 0.4)";
+			var pad = opts.pad || 60;
+			var savedX = textObj.x;
+			var savedY = textObj.y;
+			textObj.outline = null;
+			textObj.color = fillColor;
+			if (textObj._strokeClone && textObj._strokeClone.parent) {
+				textObj._strokeClone.parent.removeChild(textObj._strokeClone);
+				if (textObj._strokeClone.uncache) {
+					textObj._strokeClone.uncache();
+				}
+				textObj._strokeClone = null;
+			}
+			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
+			strokeText.textAlign = textObj.textAlign;
+			strokeText.textBaseline = textObj.textBaseline;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+			strokeText.outline = outlineSize;
+			strokeText.shadow = null;
+			var parent = textObj.parent;
+			if (parent) {
+				var idx = parent.getChildIndex(textObj);
+				parent.addChildAt(strokeText, idx);
+			}
+			textObj._strokeClone = strokeText;
+			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
+			var bounds = textObj.getBounds();
+			if (bounds) {
+				var cacheX = bounds.x - pad;
+				var cacheY = bounds.y - pad;
+				var cacheW = bounds.width + pad * 2;
+				var cacheH = bounds.height + pad * 2;
+				
+				if (strokeText.cacheCanvas) {
+					strokeText.uncache();
+				}
+				if (textObj.cacheCanvas) {
+					textObj.uncache();
+				}
+				
+				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+				textObj.cache(cacheX, cacheY, cacheW, cacheH);
+			}
+			textObj.x = savedX;
+			textObj.y = savedY;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+		}
+		
+		var exerciseText = {
+			mn: {
+				title: "УС ТҮГЭЭХ ТӨВ",
+				instruction: "Савтай шингэний эзлэхүүнийг харьцуулж, жишээрэй."
+			},
+			kz: {
+				title: "СУ ТАРАТУ ОРТАЛЫҒЫ",
+				instruction: "Ыдыстағы сұйықтықтардың көлемін салыстырып, теңестіріңіз."
+			},
+			tuva: {
+				title: "СУГ ҮЛЕЖИР ТӨВ",
+				instruction: "Савлар дахь шингэнниң көлемин деңнеп, жештириңер."
+			},
+			sign: {
+				title: "УС ТҮГЭЭХ ТӨВ",
+				instruction: "Савтай шингэний эзлэхүүнийг харьцуулж, жишээрэй."
+			}
+		};
+		
+		var lang = exportRoot.gameState.selectedLanguage || "mn";
+		var texts = exerciseText[lang];
+		
+		function findTextByContent(container, content) {
+			if (!container) return null;
+		
+			if (container instanceof createjs.Text && container.text === content) {
+				return container;
+			}
+		
+			if (!container.numChildren) return null;
+		
+			for (var i = 0; i < container.numChildren; i++) {
+				var found = findTextByContent(container.getChildAt(i), content);
+				if (found) return found;
+			}
+		
+			return null;
+		}
+		
+		var txt_title = findTextByContent(exportRoot, "txt_title");
+		var txt_instruction = findTextByContent(exportRoot, "txt_instruction");
+		
+		
+		console.log("exerciseText[lang]");
+		console.log(exerciseText[lang]);
+		console.log(exportRoot.txt_title);
+		if (txt_title) {
+			txt_title.text = texts.title;
+			applyTextStyling(txt_title, {
+				outlineSize: 15,
+				outlineColor: "#461A17",
+				fillColor: "#FFFFFF",
+				pad: 80
+			});
+		}else {
+			console.log("exportRoot.txt_title not found");
+		}
+		
+		console.log('--------------------------');
+		console.log(exportRoot);
+		console.log('--------------------------');
+		
+		if (txt_instruction) {
+			txt_instruction.text = texts.instruction;
+		}
+	}
+	this.frame_17 = function() {
+		var exportRoot = this;
+		exportRoot.stop();
+		
+		// =====================================================
+		// CONFIG
+		// =====================================================
+		var CONFIG = {
+			lessonId: "lesson6",
+			lessonFolder: "Lesson6",
+			videoId: "map05",
+			videoFile: "./videos/lesson6_map5.mp4",
+			containerId: "success-video-map05",
+			nextFrame: 18,
+			backgroundColor: "#6B4FBB",
+			zIndex: "9999",
+			autoSkipOnError: true,
+			autoMarkWatchedOnSkip: true
+		};
+		
+		// =====================================================
+		// INIT
+		// =====================================================
+		if (!exportRoot.gameState) {
+			exportRoot.gameState = {};
+		}
+		
+		if (!exportRoot.gameState.videosWatched) {
+			exportRoot.gameState.videosWatched = [];
+		}
+		
+		if (!exportRoot.saveState) {
+			exportRoot.saveState = function() {};
+		}
+		
+		var videoContainer = null;
+		var videoElement = null;
+		var resizeHandler = null;
+		var started = false;
+		var endedOrSkipped = false;
+		
+		// =====================================================
+		// HELPERS
+		// =====================================================
+		function hasWatchedVideo() {
+			return exportRoot.gameState.videosWatched.indexOf(CONFIG.videoId) !== -1;
+		}
+		
+		function markVideoWatched() {
+			if (!hasWatchedVideo()) {
+				exportRoot.gameState.videosWatched.push(CONFIG.videoId);
+				exportRoot.saveState();
+			}
+		}
+		
+		function lockPageScroll() {
+			document.body.style.overflow = "hidden";
+			document.documentElement.style.overflow = "hidden";
+		}
+		
+		function unlockPageScroll() {
+			document.body.style.overflow = "";
+			document.documentElement.style.overflow = "";
+		}
+		
+		function cleanup() {
+			unlockPageScroll();
+		
+			if (videoElement) {
+				try {
+					videoElement.pause();
+					videoElement.removeAttribute("src");
+					videoElement.load();
+				} catch (e) {}
+				videoElement = null;
+			}
+		
+			if (videoContainer && videoContainer.parentNode) {
+				videoContainer.parentNode.removeChild(videoContainer);
+				videoContainer = null;
+			}
+		
+			if (resizeHandler) {
+				window.removeEventListener("resize", resizeHandler);
+				resizeHandler = null;
+			}
+		}
+		
+		function updateContainerPosition() {
+			if (!videoContainer) return;
+		
+			var canvas = document.getElementById("canvas");
+			if (!canvas) return;
+		
+			var rect = canvas.getBoundingClientRect();
+		
+			videoContainer.style.left = rect.left + "px";
+			videoContainer.style.top = rect.top + "px";
+			videoContainer.style.width = rect.width + "px";
+			videoContainer.style.height = rect.height + "px";
+		}
+		
+		function goToNextExercise(reason) {
+			if (endedOrSkipped) return;
+			endedOrSkipped = true;
+		
+			if (CONFIG.autoMarkWatchedOnSkip) {
+				markVideoWatched();
+			}
+		
+			cleanup();
+		
+			exportRoot.gameState.currentFrame = CONFIG.nextFrame;
+			exportRoot.saveState();
+			exportRoot.gotoAndStop(CONFIG.nextFrame);
+		}
+		
+		function tryPlayVideo() {
+			if (!videoElement || started) return;
+			started = true;
+		
+			var playPromise = videoElement.play();
+		
+			if (playPromise && typeof playPromise.catch === "function") {
+				playPromise.catch(function(err) {
+					console.log("Video autoplay failed:", err);
+					goToNextExercise("autoplay_failed");
+				});
+			}
+		}
+		
+		// =====================================================
+		// MAIN
+		// =====================================================
+		function createSuccessVideo() {
+			var existingContainer = document.getElementById(CONFIG.containerId);
+			if (existingContainer && existingContainer.parentNode) {
+				existingContainer.parentNode.removeChild(existingContainer);
+			}
+		
+			var canvas = document.getElementById("canvas");
+			if (!canvas) {
+				goToNextExercise("canvas_missing");
+				return;
+			}
+		
+			if (hasWatchedVideo()) {
+				goToNextExercise("already_watched");
+				return;
+			}
+		
+			lockPageScroll();
+		
+			var rect = canvas.getBoundingClientRect();
+		
+			videoContainer = document.createElement("div");
+			videoContainer.id = CONFIG.containerId;
+			videoContainer.style.position = "fixed";
+			videoContainer.style.left = rect.left + "px";
+			videoContainer.style.top = rect.top + "px";
+			videoContainer.style.width = rect.width + "px";
+			videoContainer.style.height = rect.height + "px";
+			videoContainer.style.backgroundColor = CONFIG.backgroundColor;
+			videoContainer.style.zIndex = CONFIG.zIndex;
+			videoContainer.style.overflow = "hidden";
+			videoContainer.style.margin = "0";
+			videoContainer.style.padding = "0";
+			videoContainer.style.boxSizing = "border-box";
+		
+			videoElement = document.createElement("video");
+			videoElement.src = CONFIG.videoFile;
+			videoElement.style.width = "100%";
+			videoElement.style.height = "100%";
+			videoElement.style.objectFit = "contain";
+			videoElement.style.display = "block";
+			videoElement.preload = "auto";
+			videoElement.playsInline = true;
+			videoElement.setAttribute("playsinline", "true");
+			videoElement.setAttribute("webkit-playsinline", "true");
+		
+			// Зарим browser autoplay дээр дууг хаадаг.
+			// Хэрэв заавал sound-тай autoplay хэрэгтэй бол browser policy-оос хамаарна.
+			// Найдвартай ажиллуулахын тулд muted=true болгож болно.
+			videoElement.muted = false;
+			videoElement.autoplay = false;
+			videoElement.controls = false;
+		
+			videoContainer.appendChild(videoElement);
+			document.body.appendChild(videoContainer);
+		
+			videoElement.addEventListener("loadeddata", function() {
+				tryPlayVideo();
+			});
+		
+			videoElement.addEventListener("canplay", function() {
+				tryPlayVideo();
+			});
+		
+			videoElement.addEventListener("ended", function() {
+				markVideoWatched();
+				setTimeout(function() {
+					goToNextExercise("ended");
+				}, 500);
+			});
+		
+			videoElement.addEventListener("error", function() {
+				console.log("Video load error:", videoElement.error, CONFIG.videoFile);
+				if (CONFIG.autoSkipOnError) {
+					goToNextExercise("error");
+				}
+			});
+		
+			resizeHandler = function() {
+				updateContainerPosition();
+			};
+		
+			window.addEventListener("resize", resizeHandler);
+			updateContainerPosition();
+		
+			// Хэрэв ямар ч event trigger болохгүй гацвал fallback
+			setTimeout(function() {
+				if (!started && !endedOrSkipped) {
+					console.log("Video start timeout, skipping:", CONFIG.videoFile);
+					goToNextExercise("timeout");
+				}
+			}, 4000);
+		}
+		
+		exportRoot.on("removed", cleanup);
+		
+		createSuccessVideo();
+	}
+	this.frame_18 = function() {
+		var exportRoot = this;
+		exportRoot.stop();
+		
+		// =====================================================
+		// CONFIG
+		// =====================================
+		var CONFIG = {
+		    lessonId: "lesson6",
 		    exerciseId: "ex06",
 		    exerciseNumber: 6,
 		    storageKey: "lesson6_gameState",
-		    backFrame: 10, 
-		    nextFrame: 13,  // Code frame 13 = Timeline frame 14 (video)
-		    autoNextDelay: 800,
+		    backFrame: 16, 
+		    nextFrame: 19,  // Code frame 13 = Timeline frame 14 (video)
+		    autoNextDelay: 1500,
 		    soundPaths: {
 		        correct: "./sounds/voice_correct.mp3",
 		        wrong: "./sounds/voice_wrong.mp3",
@@ -7352,9 +11487,11 @@ if (reversed == null) { reversed = false; }
 		            exportRoot.saveState();
 		            
 		            if (this.value === CONFIG.selectedVariant.inputs[name]) {
+						exportRoot.playCharacterAnimation("correct");
 		                this.style.color = "#1F5F1A";
 		                checkCompletion();
 		            } else {
+						exportRoot.playCharacterAnimation("wrong");
 		                this.style.color = (this.value === "") ? "#222" : "#E54848";
 		            }
 		        };
@@ -7376,7 +11513,7 @@ if (reversed == null) { reversed = false; }
 		
 		    if (allCorrect) {
 		        completionInProgress = true;
-		        playSound("correct");
+		        exportRoot.playCharacterAnimation("correct");
 		        console.log("✅ Exercise complete! Going to video frame:", CONFIG.nextFrame);
 		        
 		        // Disable inputs
@@ -7453,7 +11590,7 @@ if (reversed == null) { reversed = false; }
 		    createjs.Ticker.addEventListener("tick", exportRoot.tickHandler);
 		    exportRoot.tickAttached = true;
 		}
-		
+		if (exportRoot.stopInstruction) exportRoot.stopInstruction();
 		if (!exportRoot.gameState[CONFIG.completeKey]) {
 		    setTimeout(function() { 
 		        if(exportRoot.playInstruction) exportRoot.playInstruction(); 
@@ -7479,8 +11616,131 @@ if (reversed == null) { reversed = false; }
 		        if (el) el.style.display = "none";
 		    });
 		});
+		function applyTextStyling(textObj, opts) {
+			if (!textObj || !(textObj instanceof createjs.Text)) return;
+			if (textObj._isStyled) return;
+			textObj._isStyled = true;
+			opts = opts || {};
+			var outlineColor = opts.outlineColor || "#461A17";
+			var outlineSize = opts.outlineSize || 6;
+			var fillColor = opts.fillColor || "#FFFFFF";
+			var shadowColor = opts.shadowColor || "rgba(60, 20, 0, 0.4)";
+			var pad = opts.pad || 60;
+			var savedX = textObj.x;
+			var savedY = textObj.y;
+			textObj.outline = null;
+			textObj.color = fillColor;
+			if (textObj._strokeClone && textObj._strokeClone.parent) {
+				textObj._strokeClone.parent.removeChild(textObj._strokeClone);
+				if (textObj._strokeClone.uncache) {
+					textObj._strokeClone.uncache();
+				}
+				textObj._strokeClone = null;
+			}
+			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
+			strokeText.textAlign = textObj.textAlign;
+			strokeText.textBaseline = textObj.textBaseline;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+			strokeText.outline = outlineSize;
+			strokeText.shadow = null;
+			var parent = textObj.parent;
+			if (parent) {
+				var idx = parent.getChildIndex(textObj);
+				parent.addChildAt(strokeText, idx);
+			}
+			textObj._strokeClone = strokeText;
+			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
+			var bounds = textObj.getBounds();
+			if (bounds) {
+				var cacheX = bounds.x - pad;
+				var cacheY = bounds.y - pad;
+				var cacheW = bounds.width + pad * 2;
+				var cacheH = bounds.height + pad * 2;
+				
+				if (strokeText.cacheCanvas) {
+					strokeText.uncache();
+				}
+				if (textObj.cacheCanvas) {
+					textObj.uncache();
+				}
+				
+				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+				textObj.cache(cacheX, cacheY, cacheW, cacheH);
+			}
+			textObj.x = savedX;
+			textObj.y = savedY;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+		}
+		
+		var exerciseText = {
+			mn: {
+				title: "ХЯНАХ САМБАР",
+				instruction: "Хянах самбарын будсан хэсэгт тохирох энгийн бутархайг бичээд жишээрэй."
+			},
+			kz: {
+				title: "БАҚЫЛАУ ТАҚТАСЫ",
+				instruction: "Бақылау тақтасындағы боялған бөлікке сәйкес келетін жай бөлшекті жазып, салыстырыңыз."
+			},
+			tuva: {
+				title: "ХЫНААР САМБАЗЫ",
+				instruction: "Хынаар самбазының өөделген кезээнге тааржыыр эңгин бөлүктү бижип, деңнеп көрүңер."
+			},
+			sign: {
+				title: "ХЯНАХ САМБАР",
+				instruction: "Хянах самбарын будсан хэсэгт тохирох энгийн бутархайг бичээд жишээрэй."
+			}
+		};
+		
+		var lang = exportRoot.gameState.selectedLanguage || "mn";
+		var texts = exerciseText[lang];
+		
+		function findTextByContent(container, content) {
+			if (!container) return null;
+		
+			if (container instanceof createjs.Text && container.text === content) {
+				return container;
+			}
+		
+			if (!container.numChildren) return null;
+		
+			for (var i = 0; i < container.numChildren; i++) {
+				var found = findTextByContent(container.getChildAt(i), content);
+				if (found) return found;
+			}
+		
+			return null;
+		}
+		
+		var txt_title = findTextByContent(exportRoot, "txt_title");
+		var txt_instruction = findTextByContent(exportRoot, "txt_instruction");
+		
+		
+		console.log("exerciseText[lang]");
+		console.log(exerciseText[lang]);
+		console.log(exportRoot.txt_title);
+		if (txt_title) {
+			txt_title.text = texts.title;
+			applyTextStyling(txt_title, {
+				outlineSize: 15,
+				outlineColor: "#461A17",
+				fillColor: "#FFFFFF",
+				pad: 80
+			});
+		}else {
+			console.log("exportRoot.txt_title not found");
+		}
+		
+		console.log('--------------------------');
+		console.log(exportRoot);
+		console.log('--------------------------');
+		
+		if (txt_instruction) {
+			txt_instruction.text = texts.instruction;
+		}
 	}
-	this.frame_13 = function() {
+	this.frame_19 = function() {
 		var exportRoot = this;
 		exportRoot.stop();
 		
@@ -7494,1245 +11754,6 @@ if (reversed == null) { reversed = false; }
 		    videoId: "map06",
 		    videoFile: "./videos/lesson6_map6.mp4",
 		    containerId: "success-video-map06",
-		    nextFrame: 14,
-		    backgroundColor: "#6B4FBB",
-		    zIndex: "9999",
-		    autoSkipOnError: true,
-		    autoMarkWatchedOnSkip: true
-		};
-		
-		// =====================================================
-		// INIT
-		// =====================================================
-		if (!exportRoot.gameState) {
-		    exportRoot.gameState = {};
-		}
-		
-		if (!exportRoot.gameState.videosWatched) {
-		    exportRoot.gameState.videosWatched = [];
-		}
-		
-		if (!exportRoot.saveState) {
-		    exportRoot.saveState = function() {};
-		}
-		
-		var videoContainer = null;
-		var videoElement = null;
-		var resizeHandler = null;
-		var started = false;
-		var endedOrSkipped = false;
-		
-		// =====================================================
-		// HELPERS
-		// =====================================================
-		function hasWatchedVideo() {
-		    return exportRoot.gameState.videosWatched.indexOf(CONFIG.videoId) !== -1;
-		}
-		
-		function markVideoWatched() {
-		    if (!hasWatchedVideo()) {
-		        exportRoot.gameState.videosWatched.push(CONFIG.videoId);
-		        exportRoot.saveState();
-		    }
-		}
-		
-		function lockPageScroll() {
-		    document.body.style.overflow = "hidden";
-		    document.documentElement.style.overflow = "hidden";
-		}
-		
-		function unlockPageScroll() {
-		    document.body.style.overflow = "";
-		    document.documentElement.style.overflow = "";
-		}
-		
-		function cleanup() {
-		    unlockPageScroll();
-		
-		    if (videoElement) {
-		        try {
-		            videoElement.pause();
-		            videoElement.removeAttribute("src");
-		            videoElement.load();
-		        } catch (e) {}
-		        videoElement = null;
-		    }
-		
-		    if (videoContainer && videoContainer.parentNode) {
-		        videoContainer.parentNode.removeChild(videoContainer);
-		        videoContainer = null;
-		    }
-		
-		    if (resizeHandler) {
-		        window.removeEventListener("resize", resizeHandler);
-		        resizeHandler = null;
-		    }
-		}
-		
-		function updateContainerPosition() {
-		    if (!videoContainer) return;
-		
-		    var canvas = document.getElementById("canvas");
-		    if (!canvas) return;
-		
-		    var rect = canvas.getBoundingClientRect();
-		
-		    videoContainer.style.left = rect.left + "px";
-		    videoContainer.style.top = rect.top + "px";
-		    videoContainer.style.width = rect.width + "px";
-		    videoContainer.style.height = rect.height + "px";
-		}
-		
-		function goToNextExercise(reason) {
-		    if (endedOrSkipped) return;
-		    endedOrSkipped = true;
-		
-		    if (CONFIG.autoMarkWatchedOnSkip) {
-		        markVideoWatched();
-		    }
-		
-		    cleanup();
-		
-		    exportRoot.gameState.currentFrame = CONFIG.nextFrame;
-		    exportRoot.saveState();
-		    exportRoot.gotoAndStop(CONFIG.nextFrame);
-		}
-		
-		function tryPlayVideo() {
-		    if (!videoElement || started) return;
-		    started = true;
-		
-		    var playPromise = videoElement.play();
-		
-		    if (playPromise && typeof playPromise.catch === "function") {
-		        playPromise.catch(function(err) {
-		            console.log("Video autoplay failed:", err);
-		            goToNextExercise("autoplay_failed");
-		        });
-		    }
-		}
-		
-		// =====================================================
-		// MAIN
-		// =====================================================
-		function createSuccessVideo() {
-		    var existingContainer = document.getElementById(CONFIG.containerId);
-		    if (existingContainer && existingContainer.parentNode) {
-		        existingContainer.parentNode.removeChild(existingContainer);
-		    }
-		
-		    var canvas = document.getElementById("canvas");
-		    if (!canvas) {
-		        goToNextExercise("canvas_missing");
-		        return;
-		    }
-		
-		    if (hasWatchedVideo()) {
-		        goToNextExercise("already_watched");
-		        return;
-		    }
-		
-		    lockPageScroll();
-		
-		    var rect = canvas.getBoundingClientRect();
-		
-		    videoContainer = document.createElement("div");
-		    videoContainer.id = CONFIG.containerId;
-		    videoContainer.style.position = "fixed";
-		    videoContainer.style.left = rect.left + "px";
-		    videoContainer.style.top = rect.top + "px";
-		    videoContainer.style.width = rect.width + "px";
-		    videoContainer.style.height = rect.height + "px";
-		    videoContainer.style.backgroundColor = CONFIG.backgroundColor;
-		    videoContainer.style.zIndex = CONFIG.zIndex;
-		    videoContainer.style.overflow = "hidden";
-		    videoContainer.style.margin = "0";
-		    videoContainer.style.padding = "0";
-		    videoContainer.style.boxSizing = "border-box";
-		
-		    videoElement = document.createElement("video");
-		    videoElement.src = CONFIG.videoFile;
-		    videoElement.style.width = "100%";
-		    videoElement.style.height = "100%";
-		    videoElement.style.objectFit = "contain";
-		    videoElement.style.display = "block";
-		    videoElement.preload = "auto";
-		    videoElement.playsInline = true;
-		    videoElement.setAttribute("playsinline", "true");
-		    videoElement.setAttribute("webkit-playsinline", "true");
-		
-		    // Зарим browser autoplay дээр дууг хаадаг.
-		    // Хэрэв заавал sound-тай autoplay хэрэгтэй бол browser policy-оос хамаарна.
-		    // Найдвартай ажиллуулахын тулд muted=true болгож болно.
-		    videoElement.muted = false;
-		    videoElement.autoplay = false;
-		    videoElement.controls = false;
-		
-		    videoContainer.appendChild(videoElement);
-		    document.body.appendChild(videoContainer);
-		
-		    videoElement.addEventListener("loadeddata", function() {
-		        tryPlayVideo();
-		    });
-		
-		    videoElement.addEventListener("canplay", function() {
-		        tryPlayVideo();
-		    });
-		
-		    videoElement.addEventListener("ended", function() {
-		        markVideoWatched();
-		        setTimeout(function() {
-		            goToNextExercise("ended");
-		        }, 500);
-		    });
-		
-		    videoElement.addEventListener("error", function() {
-		        console.log("Video load error:", videoElement.error, CONFIG.videoFile);
-		        if (CONFIG.autoSkipOnError) {
-		            goToNextExercise("error");
-		        }
-		    });
-		
-		    resizeHandler = function() {
-		        updateContainerPosition();
-		    };
-		
-		    window.addEventListener("resize", resizeHandler);
-		    updateContainerPosition();
-		
-		    // Хэрэв ямар ч event trigger болохгүй гацвал fallback
-		    setTimeout(function() {
-		        if (!started && !endedOrSkipped) {
-		            console.log("Video start timeout, skipping:", CONFIG.videoFile);
-		            goToNextExercise("timeout");
-		        }
-		    }, 4000);
-		}
-		
-		exportRoot.on("removed", cleanup);
-		
-		createSuccessVideo();
-	}
-	this.frame_14 = function() {
-		var exportRoot = this;
-		exportRoot.stop();
-		
-		// =====================================================
-		// CONFIG
-		// =====================================
-		var CONFIG = {
-		    lessonId: "lesson6",
-		    exerciseId: "ex07",
-		    exerciseNumber: 7,
-		    storageKey: "lesson6_gameState",
-		    backFrame: 12, 
-		    nextFrame: 15, 
-		    autoNextDelay: 1500,
-		    soundPaths: {
-		        correct: "./sounds/voice_correct.mp3",
-		        wrong: "./sounds/voice_wrong.mp3",
-		        click: "./sounds/click.mp3"
-		    },
-		    cars: ["img_7_1", "img_7_2", "img_7_3", "img_7_4"],
-		    correctOrder: ["img_7_1", "img_7_3", "img_7_4", "img_7_2"]
-		};
-		
-		// --- Чиний байнга бичигддэг Common хэсгүүд ---
-		exportRoot.currentExerciseId = CONFIG.exerciseId;
-		exportRoot.backBtn = CONFIG.backFrame;
-		exportRoot.nextBtn = CONFIG.nextFrame;
-		CONFIG.completeKey = "exercise" + CONFIG.exerciseNumber + "Complete";
-		CONFIG.posKey = "exercise" + CONFIG.exerciseNumber + "CarPositions";
-		
-		// =====================================================
-		// STATE & INIT
-		// =====================
-		if (!exportRoot.gameState) exportRoot.gameState = {};
-		if (typeof exportRoot.gameState[CONFIG.completeKey] === "undefined") exportRoot.gameState[CONFIG.completeKey] = false;
-		
-		var SLOTS = []; // Машинуудын зогсох цэгүүд
-		
-		function playSound(type) {
-		    try { new Audio(CONFIG.soundPaths[type]).play().catch(function(){}); } catch (e) {}
-		}
-		
-		// =====================================================
-		// SWAP ENGINE
-		// =====================
-		function initSwapExercise() {
-		    // 1. Слот цэгүүдийг бүртгэх
-		    CONFIG.cars.forEach(function(name) {
-		        var car = exportRoot[name];
-		        if (car) {
-		            SLOTS.push({ x: car.x, y: car.y });
-		            car.currentSlotIdx = SLOTS.length - 1;
-		        }
-		    });
-		
-		    // 2. Хадгалагдсан байршлыг сэргээх
-		    if (exportRoot.gameState[CONFIG.posKey]) {
-		        var savedPos = exportRoot.gameState[CONFIG.posKey];
-		        CONFIG.cars.forEach(function(name) {
-		            if (savedPos[name] !== undefined) {
-		                var car = exportRoot[name];
-		                var slotIdx = savedPos[name];
-		                car.x = SLOTS[slotIdx].x;
-		                car.y = SLOTS[slotIdx].y;
-		                car.currentSlotIdx = slotIdx;
-		            }
-		        });
-		    }
-		
-		    // 3. Drag & Swap Logic
-		    CONFIG.cars.forEach(function(name) {
-		        var car = exportRoot[name];
-		        if (!car) return;
-		
-		        car.cursor = "pointer";
-		        car.mouseChildren = false;
-		
-		        car.on("mousedown", function(evt) {
-		            if (exportRoot.gameState[CONFIG.completeKey]) return;
-		            exportRoot.addChild(car); // Хамгийн дээр гаргах
-		            var localPos = car.parent.globalToLocal(evt.stageX, evt.stageY);
-		            car.offset = { x: car.x - localPos.x, y: car.y - localPos.y };
-		        });
-		
-		        car.on("pressmove", function(evt) {
-		            if (exportRoot.gameState[CONFIG.completeKey]) return;
-		            var localPos = car.parent.globalToLocal(evt.stageX, evt.stageY);
-		            car.x = localPos.x + car.offset.x;
-		            car.y = localPos.y + car.offset.y;
-		        });
-		
-		        car.on("pressup", function(evt) {
-		            if (exportRoot.gameState[CONFIG.completeKey]) return;
-		
-		            var targetCar = null;
-		            CONFIG.cars.forEach(function(otherName) {
-		                if (otherName === name) return;
-		                var otherCar = exportRoot[otherName];
-		                var dx = car.x - otherCar.x;
-		                var dy = car.y - otherCar.y;
-		                var dist = Math.sqrt(dx*dx + dy*dy);
-		                if (dist < 70) { targetCar = otherCar; }
-		            });
-		
-		            if (targetCar) {
-		                // SWAP
-		                playSound("click");
-		                var oldIdx = car.currentSlotIdx;
-		                var newIdx = targetCar.currentSlotIdx;
-		
-		                car.currentSlotIdx = newIdx;
-		                createjs.Tween.get(car).to({ x: SLOTS[newIdx].x, y: SLOTS[newIdx].y }, 300, createjs.Ease.backOut);
-		
-		                targetCar.currentSlotIdx = oldIdx;
-		                createjs.Tween.get(targetCar).to({ x: SLOTS[oldIdx].x, y: SLOTS[oldIdx].y }, 300, createjs.Ease.backOut);
-		                
-		                checkWin();
-		            } else {
-		                // Return to own slot
-		                createjs.Tween.get(car).to({ x: SLOTS[car.currentSlotIdx].x, y: SLOTS[car.currentSlotIdx].y }, 300);
-		            }
-		        });
-		    });
-		}
-		
-		function checkWin() {
-		    var currentPositions = {};
-		    CONFIG.cars.forEach(function(name) {
-		        currentPositions[name] = exportRoot[name].currentSlotIdx;
-		    });
-		    exportRoot.gameState[CONFIG.posKey] = currentPositions;
-		    
-		    // Зөв дараалал шалгах
-		    var isWin = (exportRoot[CONFIG.correctOrder[0]].currentSlotIdx === 0 &&
-		                 exportRoot[CONFIG.correctOrder[1]].currentSlotIdx === 1 &&
-		                 exportRoot[CONFIG.correctOrder[2]].currentSlotIdx === 2 &&
-		                 exportRoot[CONFIG.correctOrder[3]].currentSlotIdx === 3);
-		
-		    if (isWin) {
-		        exportRoot.gameState[CONFIG.completeKey] = true;
-		        try { localStorage.setItem(CONFIG.storageKey, JSON.stringify(exportRoot.gameState)); } catch (e) {}
-		        playSound("correct");
-		        if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
-		        setTimeout(function() { exportRoot.gotoAndStop(CONFIG.nextFrame); }, 1500);
-		    }
-		}
-		
-		// =====================================================
-		// COMMON HELP & NAVIGATION RESTORED
-		// =====================
-		if (exportRoot.help_popup) {
-		    exportRoot.help_popup.visible = false;
-		    exportRoot.help_popup.stop();
-		    var currentLang = exportRoot.gameState.selectedLanguage || "mn";
-		    exportRoot.help_popup.gotoAndStop(currentLang);
-		}
-		
-		if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
-		
-		// Start
-		initSwapExercise();
-		
-		if (!exportRoot.gameState[CONFIG.completeKey]) {
-		    setTimeout(function() { if(exportRoot.playInstruction) exportRoot.playInstruction(); }, 500);
-		}
-		
-		exportRoot.on("removed", function() {
-		    if(exportRoot.stopInstruction) exportRoot.stopInstruction(); 
-		});
-	}
-	this.frame_15 = function() {
-		var exportRoot = this;
-		exportRoot.stop();
-		
-		// =====================================================
-		// CONFIG
-		// =====================================================
-		var CONFIG = {
-		    lessonId: "lesson6",
-		    lessonFolder: "Lesson6",
-		    videoId: "map07",
-		    videoFile: "./videos/lesson6_map7.mp4",
-		    containerId: "success-video-map07",
-		    nextFrame: 16,
-		    backgroundColor: "#6B4FBB",
-		    zIndex: "9999",
-		    autoSkipOnError: true,
-		    autoMarkWatchedOnSkip: true
-		};
-		
-		// =====================================================
-		// INIT
-		// =====================================================
-		if (!exportRoot.gameState) {
-		    exportRoot.gameState = {};
-		}
-		
-		if (!exportRoot.gameState.videosWatched) {
-		    exportRoot.gameState.videosWatched = [];
-		}
-		
-		if (!exportRoot.saveState) {
-		    exportRoot.saveState = function() {};
-		}
-		
-		var videoContainer = null;
-		var videoElement = null;
-		var resizeHandler = null;
-		var started = false;
-		var endedOrSkipped = false;
-		
-		// =====================================================
-		// HELPERS
-		// =====================================================
-		function hasWatchedVideo() {
-		    return exportRoot.gameState.videosWatched.indexOf(CONFIG.videoId) !== -1;
-		}
-		
-		function markVideoWatched() {
-		    if (!hasWatchedVideo()) {
-		        exportRoot.gameState.videosWatched.push(CONFIG.videoId);
-		        exportRoot.saveState();
-		    }
-		}
-		
-		function lockPageScroll() {
-		    document.body.style.overflow = "hidden";
-		    document.documentElement.style.overflow = "hidden";
-		}
-		
-		function unlockPageScroll() {
-		    document.body.style.overflow = "";
-		    document.documentElement.style.overflow = "";
-		}
-		
-		function cleanup() {
-		    unlockPageScroll();
-		
-		    if (videoElement) {
-		        try {
-		            videoElement.pause();
-		            videoElement.removeAttribute("src");
-		            videoElement.load();
-		        } catch (e) {}
-		        videoElement = null;
-		    }
-		
-		    if (videoContainer && videoContainer.parentNode) {
-		        videoContainer.parentNode.removeChild(videoContainer);
-		        videoContainer = null;
-		    }
-		
-		    if (resizeHandler) {
-		        window.removeEventListener("resize", resizeHandler);
-		        resizeHandler = null;
-		    }
-		}
-		
-		function updateContainerPosition() {
-		    if (!videoContainer) return;
-		
-		    var canvas = document.getElementById("canvas");
-		    if (!canvas) return;
-		
-		    var rect = canvas.getBoundingClientRect();
-		
-		    videoContainer.style.left = rect.left + "px";
-		    videoContainer.style.top = rect.top + "px";
-		    videoContainer.style.width = rect.width + "px";
-		    videoContainer.style.height = rect.height + "px";
-		}
-		
-		function goToNextExercise(reason) {
-		    if (endedOrSkipped) return;
-		    endedOrSkipped = true;
-		
-		    if (CONFIG.autoMarkWatchedOnSkip) {
-		        markVideoWatched();
-		    }
-		
-		    cleanup();
-		
-		    exportRoot.gameState.currentFrame = CONFIG.nextFrame;
-		    exportRoot.saveState();
-		    exportRoot.gotoAndStop(CONFIG.nextFrame);
-		}
-		
-		function tryPlayVideo() {
-		    if (!videoElement || started) return;
-		    started = true;
-		
-		    var playPromise = videoElement.play();
-		
-		    if (playPromise && typeof playPromise.catch === "function") {
-		        playPromise.catch(function(err) {
-		            console.log("Video autoplay failed:", err);
-		            goToNextExercise("autoplay_failed");
-		        });
-		    }
-		}
-		
-		// =====================================================
-		// MAIN
-		// =====================================================
-		function createSuccessVideo() {
-		    var existingContainer = document.getElementById(CONFIG.containerId);
-		    if (existingContainer && existingContainer.parentNode) {
-		        existingContainer.parentNode.removeChild(existingContainer);
-		    }
-		
-		    var canvas = document.getElementById("canvas");
-		    if (!canvas) {
-		        goToNextExercise("canvas_missing");
-		        return;
-		    }
-		
-		    if (hasWatchedVideo()) {
-		        goToNextExercise("already_watched");
-		        return;
-		    }
-		
-		    lockPageScroll();
-		
-		    var rect = canvas.getBoundingClientRect();
-		
-		    videoContainer = document.createElement("div");
-		    videoContainer.id = CONFIG.containerId;
-		    videoContainer.style.position = "fixed";
-		    videoContainer.style.left = rect.left + "px";
-		    videoContainer.style.top = rect.top + "px";
-		    videoContainer.style.width = rect.width + "px";
-		    videoContainer.style.height = rect.height + "px";
-		    videoContainer.style.backgroundColor = CONFIG.backgroundColor;
-		    videoContainer.style.zIndex = CONFIG.zIndex;
-		    videoContainer.style.overflow = "hidden";
-		    videoContainer.style.margin = "0";
-		    videoContainer.style.padding = "0";
-		    videoContainer.style.boxSizing = "border-box";
-		
-		    videoElement = document.createElement("video");
-		    videoElement.src = CONFIG.videoFile;
-		    videoElement.style.width = "100%";
-		    videoElement.style.height = "100%";
-		    videoElement.style.objectFit = "contain";
-		    videoElement.style.display = "block";
-		    videoElement.preload = "auto";
-		    videoElement.playsInline = true;
-		    videoElement.setAttribute("playsinline", "true");
-		    videoElement.setAttribute("webkit-playsinline", "true");
-		
-		    // Зарим browser autoplay дээр дууг хаадаг.
-		    // Хэрэв заавал sound-тай autoplay хэрэгтэй бол browser policy-оос хамаарна.
-		    // Найдвартай ажиллуулахын тулд muted=true болгож болно.
-		    videoElement.muted = false;
-		    videoElement.autoplay = false;
-		    videoElement.controls = false;
-		
-		    videoContainer.appendChild(videoElement);
-		    document.body.appendChild(videoContainer);
-		
-		    videoElement.addEventListener("loadeddata", function() {
-		        tryPlayVideo();
-		    });
-		
-		    videoElement.addEventListener("canplay", function() {
-		        tryPlayVideo();
-		    });
-		
-		    videoElement.addEventListener("ended", function() {
-		        markVideoWatched();
-		        setTimeout(function() {
-		            goToNextExercise("ended");
-		        }, 500);
-		    });
-		
-		    videoElement.addEventListener("error", function() {
-		        console.log("Video load error:", videoElement.error, CONFIG.videoFile);
-		        if (CONFIG.autoSkipOnError) {
-		            goToNextExercise("error");
-		        }
-		    });
-		
-		    resizeHandler = function() {
-		        updateContainerPosition();
-		    };
-		
-		    window.addEventListener("resize", resizeHandler);
-		    updateContainerPosition();
-		
-		    // Хэрэв ямар ч event trigger болохгүй гацвал fallback
-		    setTimeout(function() {
-		        if (!started && !endedOrSkipped) {
-		            console.log("Video start timeout, skipping:", CONFIG.videoFile);
-		            goToNextExercise("timeout");
-		        }
-		    }, 4000);
-		}
-		
-		exportRoot.on("removed", cleanup);
-		
-		createSuccessVideo();
-	}
-	this.frame_16 = function() {
-		var exportRoot = this;
-		exportRoot.stop();
-		
-		// =====================================================
-		// CONFIG
-		// =====================================
-		var CONFIG = {
-			lessonId: "lesson6",
-			exerciseId: "ex08",
-			exerciseNumber: 8,
-			storageKey: "lesson6_gameState",
-			backFrame: 14, 
-			nextFrame: 17, 
-			autoNextDelay: 1500,
-			soundPaths: {
-				correct: "./sounds/voice_correct.mp3",
-				wrong: "./sounds/voice_wrong.mp3",
-				click: "./sounds/click.mp3"
-			},
-			// Чирэх объектууд
-			items: ["txt_8_1", "txt_8_2", "txt_8_3", "txt_8_4"],
-			// Чиний өгсөн зөв хариултын зураглал:
-			correctMapping: {
-				"target_8_1": "txt_8_3",
-				"target_8_2": "txt_8_1",
-				"target_8_3": "txt_8_4",
-				"target_8_4": "txt_8_2"
-			}
-		};
-		
-		// --- Common хэсгүүд ---
-		exportRoot.currentExerciseId = CONFIG.exerciseId;
-		exportRoot.backBtn = CONFIG.backFrame;
-		exportRoot.nextBtn = CONFIG.nextFrame;
-		CONFIG.completeKey = "exercise" + CONFIG.exerciseNumber + "Complete";
-		CONFIG.answersKey = "exercise" + CONFIG.exerciseNumber + "Answers";
-		
-		// =====================================================
-		// STATE & INIT
-		// =====================
-		if (!exportRoot.gameState) exportRoot.gameState = {};
-		if (!exportRoot.gameState[CONFIG.answersKey]) exportRoot.gameState[CONFIG.answersKey] = {};
-		if (typeof exportRoot.gameState[CONFIG.completeKey] === "undefined") exportRoot.gameState[CONFIG.completeKey] = false;
-		
-		exportRoot.saveState = function() {
-			try { localStorage.setItem(CONFIG.storageKey, JSON.stringify(exportRoot.gameState)); } catch (e) {}
-		};
-		
-		function playSound(type) {
-			try { new Audio(CONFIG.soundPaths[type]).play().catch(function(){}); } catch (e) {}
-		}
-		
-		// =====================================================
-		// DRAG AND DROP LOGIC
-		// =====================
-		var targetNames = Object.keys(CONFIG.correctMapping);
-		
-		function setupDragAndDrop() {
-			CONFIG.items.forEach(function(itemName) {
-				var item = exportRoot[itemName];
-				if (!item) return;
-		
-				item.oldX = item.x;
-				item.oldY = item.y;
-				item.cursor = "pointer";
-				item.mouseChildren = false;
-		
-				// 1. Хадгалагдсан төлөвийг сэргээх
-				targetNames.forEach(function(tName) {
-					if (exportRoot.gameState[CONFIG.answersKey][tName] === itemName) {
-						var target = exportRoot[tName];
-						if (target) {
-							item.x = target.x;
-							item.y = target.y;
-							item.mouseEnabled = false;
-						}
-					}
-				});
-		
-				// 2. Чирж эхлэх
-				item.on("mousedown", function(evt) {
-					if (exportRoot.gameState[CONFIG.completeKey]) return;
-					exportRoot.addChild(item); // Хамгийн дээр гаргах
-					var localPos = item.parent.globalToLocal(evt.stageX, evt.stageY);
-					item.offset = { x: item.x - localPos.x, y: item.y - localPos.y };
-				});
-		
-				// 3. Чирэх үйлдэл
-				item.on("pressmove", function(evt) {
-					if (exportRoot.gameState[CONFIG.completeKey]) return;
-					var localPos = item.parent.globalToLocal(evt.stageX, evt.stageY);
-					item.x = localPos.x + item.offset.x;
-					item.y = localPos.y + item.offset.y;
-				});
-		
-				// 4. Тавих үйлдэл
-				item.on("pressup", function(evt) {
-					if (exportRoot.gameState[CONFIG.completeKey]) return;
-		
-					var hitTargetName = null;
-					targetNames.forEach(function(tName) {
-						var target = exportRoot[tName];
-						if (!target) return;
-						
-						// Зай болон HitTest шалгах
-						var pt = target.globalToLocal(evt.stageX, evt.stageY);
-						var dist = Math.sqrt(Math.pow(item.x - target.x, 2) + Math.pow(item.y - target.y, 2));
-						
-						if (target.hitTest(pt.x, pt.y) || dist < 60) {
-							hitTargetName = tName;
-						}
-					});
-		
-					if (hitTargetName && CONFIG.correctMapping[hitTargetName] === itemName) {
-						// ЗӨВ БАЙРЛАЛ
-						playSound("click");
-						item.x = exportRoot[hitTargetName].x;
-						item.y = exportRoot[hitTargetName].y;
-						item.mouseEnabled = false;
-						
-						exportRoot.gameState[CONFIG.answersKey][hitTargetName] = itemName;
-						exportRoot.saveState();
-						checkWin();
-					} else {
-						// БУРУУ БАЙРЛАЛ - Буцааж үсэргэх
-						if (hitTargetName) playSound("wrong");
-						createjs.Tween.get(item).to({ x: item.oldX, y: item.oldY }, 500, createjs.Ease.backOut);
-					}
-				});
-			});
-		}
-		
-		function checkWin() {
-			var allDone = true;
-			targetNames.forEach(function(tName) {
-				if (exportRoot.gameState[CONFIG.answersKey][tName] !== CONFIG.correctMapping[tName]) {
-					allDone = false;
-				}
-			});
-		
-			if (allDone) {
-				exportRoot.gameState[CONFIG.completeKey] = true;
-				exportRoot.saveState();
-				playSound("correct");
-				if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
-				setTimeout(function() {
-					exportRoot.gotoAndStop(CONFIG.nextFrame);
-				}, CONFIG.autoNextDelay);
-			}
-		}
-		
-		// =====================================================
-		// COMMON ELEMENTS
-		// =====================
-		if (exportRoot.help_popup) {
-			exportRoot.help_popup.visible = false;
-			exportRoot.help_popup.stop();
-			var currentLang = exportRoot.gameState.selectedLanguage || "mn";
-			exportRoot.help_popup.gotoAndStop(currentLang);
-		}
-		
-		if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
-		
-		// Start
-		setupDragAndDrop();
-		
-		if (!exportRoot.gameState[CONFIG.completeKey]) {
-			setTimeout(function() { if(exportRoot.playInstruction) exportRoot.playInstruction(); }, 500);
-		}
-		
-		exportRoot.on("removed", function() {
-			if(exportRoot.stopInstruction) exportRoot.stopInstruction(); 
-		});
-	}
-	this.frame_17 = function() {
-		var exportRoot = this;
-		exportRoot.stop();
-		
-		// =====================================================
-		// CONFIG
-		// =====================================================
-		var CONFIG = {
-		    lessonId: "lesson6",
-		    lessonFolder: "Lesson6",
-		    videoId: "map08",
-		    videoFile: "./videos/lesson6_map8.mp4",
-		    containerId: "success-video-map08",
-		    nextFrame: 18,
-		    backgroundColor: "#6B4FBB",
-		    zIndex: "9999",
-		    autoSkipOnError: true,
-		    autoMarkWatchedOnSkip: true
-		};
-		
-		// =====================================================
-		// INIT
-		// =====================================================
-		if (!exportRoot.gameState) {
-		    exportRoot.gameState = {};
-		}
-		
-		if (!exportRoot.gameState.videosWatched) {
-		    exportRoot.gameState.videosWatched = [];
-		}
-		
-		if (!exportRoot.saveState) {
-		    exportRoot.saveState = function() {};
-		}
-		
-		var videoContainer = null;
-		var videoElement = null;
-		var resizeHandler = null;
-		var started = false;
-		var endedOrSkipped = false;
-		
-		// =====================================================
-		// HELPERS
-		// =====================================================
-		function hasWatchedVideo() {
-		    return exportRoot.gameState.videosWatched.indexOf(CONFIG.videoId) !== -1;
-		}
-		
-		function markVideoWatched() {
-		    if (!hasWatchedVideo()) {
-		        exportRoot.gameState.videosWatched.push(CONFIG.videoId);
-		        exportRoot.saveState();
-		    }
-		}
-		
-		function lockPageScroll() {
-		    document.body.style.overflow = "hidden";
-		    document.documentElement.style.overflow = "hidden";
-		}
-		
-		function unlockPageScroll() {
-		    document.body.style.overflow = "";
-		    document.documentElement.style.overflow = "";
-		}
-		
-		function cleanup() {
-		    unlockPageScroll();
-		
-		    if (videoElement) {
-		        try {
-		            videoElement.pause();
-		            videoElement.removeAttribute("src");
-		            videoElement.load();
-		        } catch (e) {}
-		        videoElement = null;
-		    }
-		
-		    if (videoContainer && videoContainer.parentNode) {
-		        videoContainer.parentNode.removeChild(videoContainer);
-		        videoContainer = null;
-		    }
-		
-		    if (resizeHandler) {
-		        window.removeEventListener("resize", resizeHandler);
-		        resizeHandler = null;
-		    }
-		}
-		
-		function updateContainerPosition() {
-		    if (!videoContainer) return;
-		
-		    var canvas = document.getElementById("canvas");
-		    if (!canvas) return;
-		
-		    var rect = canvas.getBoundingClientRect();
-		
-		    videoContainer.style.left = rect.left + "px";
-		    videoContainer.style.top = rect.top + "px";
-		    videoContainer.style.width = rect.width + "px";
-		    videoContainer.style.height = rect.height + "px";
-		}
-		
-		function goToNextExercise(reason) {
-		    if (endedOrSkipped) return;
-		    endedOrSkipped = true;
-		
-		    if (CONFIG.autoMarkWatchedOnSkip) {
-		        markVideoWatched();
-		    }
-		
-		    cleanup();
-		
-		    exportRoot.gameState.currentFrame = CONFIG.nextFrame;
-		    exportRoot.saveState();
-		    exportRoot.gotoAndStop(CONFIG.nextFrame);
-		}
-		
-		function tryPlayVideo() {
-		    if (!videoElement || started) return;
-		    started = true;
-		
-		    var playPromise = videoElement.play();
-		
-		    if (playPromise && typeof playPromise.catch === "function") {
-		        playPromise.catch(function(err) {
-		            console.log("Video autoplay failed:", err);
-		            goToNextExercise("autoplay_failed");
-		        });
-		    }
-		}
-		
-		// =====================================================
-		// MAIN
-		// =====================================================
-		function createSuccessVideo() {
-		    var existingContainer = document.getElementById(CONFIG.containerId);
-		    if (existingContainer && existingContainer.parentNode) {
-		        existingContainer.parentNode.removeChild(existingContainer);
-		    }
-		
-		    var canvas = document.getElementById("canvas");
-		    if (!canvas) {
-		        goToNextExercise("canvas_missing");
-		        return;
-		    }
-		
-		    if (hasWatchedVideo()) {
-		        goToNextExercise("already_watched");
-		        return;
-		    }
-		
-		    lockPageScroll();
-		
-		    var rect = canvas.getBoundingClientRect();
-		
-		    videoContainer = document.createElement("div");
-		    videoContainer.id = CONFIG.containerId;
-		    videoContainer.style.position = "fixed";
-		    videoContainer.style.left = rect.left + "px";
-		    videoContainer.style.top = rect.top + "px";
-		    videoContainer.style.width = rect.width + "px";
-		    videoContainer.style.height = rect.height + "px";
-		    videoContainer.style.backgroundColor = CONFIG.backgroundColor;
-		    videoContainer.style.zIndex = CONFIG.zIndex;
-		    videoContainer.style.overflow = "hidden";
-		    videoContainer.style.margin = "0";
-		    videoContainer.style.padding = "0";
-		    videoContainer.style.boxSizing = "border-box";
-		
-		    videoElement = document.createElement("video");
-		    videoElement.src = CONFIG.videoFile;
-		    videoElement.style.width = "100%";
-		    videoElement.style.height = "100%";
-		    videoElement.style.objectFit = "contain";
-		    videoElement.style.display = "block";
-		    videoElement.preload = "auto";
-		    videoElement.playsInline = true;
-		    videoElement.setAttribute("playsinline", "true");
-		    videoElement.setAttribute("webkit-playsinline", "true");
-		
-		    // Зарим browser autoplay дээр дууг хаадаг.
-		    // Хэрэв заавал sound-тай autoplay хэрэгтэй бол browser policy-оос хамаарна.
-		    // Найдвартай ажиллуулахын тулд muted=true болгож болно.
-		    videoElement.muted = false;
-		    videoElement.autoplay = false;
-		    videoElement.controls = false;
-		
-		    videoContainer.appendChild(videoElement);
-		    document.body.appendChild(videoContainer);
-		
-		    videoElement.addEventListener("loadeddata", function() {
-		        tryPlayVideo();
-		    });
-		
-		    videoElement.addEventListener("canplay", function() {
-		        tryPlayVideo();
-		    });
-		
-		    videoElement.addEventListener("ended", function() {
-		        markVideoWatched();
-		        setTimeout(function() {
-		            goToNextExercise("ended");
-		        }, 500);
-		    });
-		
-		    videoElement.addEventListener("error", function() {
-		        console.log("Video load error:", videoElement.error, CONFIG.videoFile);
-		        if (CONFIG.autoSkipOnError) {
-		            goToNextExercise("error");
-		        }
-		    });
-		
-		    resizeHandler = function() {
-		        updateContainerPosition();
-		    };
-		
-		    window.addEventListener("resize", resizeHandler);
-		    updateContainerPosition();
-		
-		    // Хэрэв ямар ч event trigger болохгүй гацвал fallback
-		    setTimeout(function() {
-		        if (!started && !endedOrSkipped) {
-		            console.log("Video start timeout, skipping:", CONFIG.videoFile);
-		            goToNextExercise("timeout");
-		        }
-		    }, 4000);
-		}
-		
-		exportRoot.on("removed", cleanup);
-		
-		createSuccessVideo();
-	}
-	this.frame_18 = function() {
-		var exportRoot = this;
-		exportRoot.stop();
-		
-		// =====================================================
-		// CONFIG
-		// =====================================
-		var CONFIG = {
-			lessonId: "lesson6",
-			exerciseId: "ex09",
-			exerciseNumber: 9,
-			storageKey: "lesson6_gameState",
-			backFrame: 16, 
-			nextFrame: 19, 
-			autoNextDelay: 1500,
-			soundPaths: {
-				correct: "./sounds/voice_correct.mp3",
-				wrong: "./sounds/voice_wrong.mp3",
-				click: "./sounds/click.mp3"
-			},
-			// Бичих нүхнүүдийн нэрс
-			inputs: [
-				"input_9_1_1", "input_9_1_2", // Бутархай 1
-				"input_9_2_1", "input_9_2_2", // Бутархай 2
-				"input_9_3_1", "input_9_3_2"  // Бутархай 3
-			]
-		};
-		
-		exportRoot.currentExerciseId = CONFIG.exerciseId;
-		exportRoot.backBtn = CONFIG.backFrame;
-		exportRoot.nextBtn = CONFIG.nextFrame;
-		CONFIG.positionsKey = "exercise" + CONFIG.exerciseNumber + "Positions";
-		CONFIG.completeKey = "exercise" + CONFIG.exerciseNumber + "Complete";
-		
-		// =====================================================
-		// STATE & INIT
-		// =====================
-		if (!exportRoot.gameState) exportRoot.gameState = {};
-		if (!exportRoot.gameState[CONFIG.positionsKey]) exportRoot.gameState[CONFIG.positionsKey] = {};
-		if (typeof exportRoot.gameState[CONFIG.completeKey] === "undefined") exportRoot.gameState[CONFIG.completeKey] = false;
-		
-		exportRoot.saveState = function() {
-			try { localStorage.setItem(CONFIG.storageKey, JSON.stringify(exportRoot.gameState)); } catch (e) {}
-		};
-		
-		function playSound(type) {
-			try { new Audio(CONFIG.soundPaths[type]).play().catch(function(){}); } catch (e) {}
-		}
-		
-		// =====================================================
-		// HTML INPUT HELPERS
-		// =====================
-		function getInputDomId(name) { return "html_" + CONFIG.lessonId + "_" + CONFIG.exerciseId + "_" + name; }
-		
-		function createOrGetHtmlInput(name) {
-			var id = getInputDomId(name);
-			var input = document.getElementById(id);
-		
-			if (!input) {
-				input = document.createElement("input");
-				input.type = "text";
-				input.id = id;
-				input.inputMode = "numeric"; 
-				input.maxLength = 2;
-		
-				input.style.position = "fixed";
-				input.style.zIndex = "99999";
-				input.style.textAlign = "center";
-				input.style.fontFamily = "'Rubik', Arial, sans-serif";
-				input.style.fontWeight = "700";
-				input.style.background = "transparent"; 
-				input.style.border = "none";
-				input.style.outline = "none";
-				document.body.appendChild(input);
-			}
-			input.style.display = "block";
-			return input;
-		}
-		
-		function positionInput(name) {
-			var clip = exportRoot[name];
-			var input = document.getElementById(getInputDomId(name));
-			if (!clip || !input || !exportRoot.stage) return;
-		
-			var canvasRect = exportRoot.stage.canvas.getBoundingClientRect();
-			var sX = exportRoot.stage.scaleX;
-			var sY = exportRoot.stage.scaleY;
-			var bX = canvasRect.width / exportRoot.stage.canvas.width;
-			var bY = canvasRect.height / exportRoot.stage.canvas.height;
-		
-			var b = clip.getBounds() || clip.nominalBounds || {width: 40, height: 40};
-			var globalPos = clip.localToGlobal(0, 0);
-		
-			var w = b.width * sX * bX;
-			var h = b.height * sY * bY;
-		
-			input.style.left = (canvasRect.left + (globalPos.x * bX) - (w * 0.5)) + "px";
-			input.style.top = (canvasRect.top + (globalPos.y * bY) - (h * 0.5)) + "px";
-			input.style.width = w + "px";
-			input.style.height = h + "px";
-			input.style.fontSize = Math.floor(h * 0.7) + "px";
-		}
-		
-		function hideAllInputs() {
-			CONFIG.inputs.forEach(function(name) {
-				var el = document.getElementById(getInputDomId(name));
-				if (el) el.style.display = "none";
-			});
-		}
-		
-		// =====================================================
-		// LOGIC
-		// =====================
-		function checkAllAnswers() {
-			var vals = {};
-			var allFilled = true;
-		
-			CONFIG.inputs.forEach(function(name) {
-				var el = document.getElementById(getInputDomId(name));
-				var v = parseInt(el.value);
-				if (isNaN(v)) allFilled = false;
-				vals[name] = v;
-			});
-		
-			if (!allFilled) return;
-		
-			// Тэнцэтгэл бишийг шалгах: 1/4 < f1 < f2 < f3
-			var f0 = 1/4;
-			var f1 = vals.input_9_1_1 / vals.input_9_1_2;
-			var f2 = vals.input_9_2_1 / vals.input_9_2_2;
-			var f3 = vals.input_9_3_1 / vals.input_9_3_2;
-		
-			// Хуваарь 0 байж болохгүй
-			if (vals.input_9_1_2 === 0 || vals.input_9_2_2 === 0 || vals.input_9_3_2 === 0) return;
-		
-			if (f0 < f1 && f1 < f2 && f2 < f3) {
-				// ЗӨВ
-				exportRoot.gameState[CONFIG.completeKey] = true;
-				exportRoot.saveState();
-				playSound("correct");
-				CONFIG.inputs.forEach(function(n) {
-					document.getElementById(getInputDomId(n)).disabled = true;
-					document.getElementById(getInputDomId(n)).style.color = "#1F5F1A";
-				});
-				if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
-				setTimeout(function() {
-					hideAllInputs();
-					exportRoot.gotoAndStop(CONFIG.nextFrame);
-				}, CONFIG.autoNextDelay);
-			}
-		}
-		
-		// Start Setup
-		CONFIG.inputs.forEach(function(name) {
-			var clip = exportRoot[name];
-			if (!clip) return;
-			clip.alpha = 0.01;
-		
-			var input = createOrGetHtmlInput(name);
-			input.value = exportRoot.gameState[CONFIG.positionsKey][name] || "";
-			input.disabled = !!exportRoot.gameState[CONFIG.completeKey];
-		
-			input.oninput = function() {
-				this.value = this.value.replace(/[^0-9]/g, "");
-				exportRoot.gameState[CONFIG.positionsKey][name] = this.value;
-				exportRoot.saveState();
-				checkAllAnswers();
-			};
-			positionInput(name);
-		});
-		
-		// =====================================================
-		// COMMON ELEMENTS
-		// =====================
-		if (exportRoot.help_popup) {
-			exportRoot.help_popup.visible = false;
-			exportRoot.help_popup.stop();
-		}
-		
-		if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
-		
-		if (!exportRoot.tickAttached && createjs && createjs.Ticker) {
-			createjs.Ticker.addEventListener("tick", function() {
-				CONFIG.inputs.forEach(positionInput);
-			});
-			exportRoot.tickAttached = true;
-		}
-		
-		if (!exportRoot.gameState[CONFIG.completeKey]) {
-			setTimeout(function() { if(exportRoot.playInstruction) exportRoot.playInstruction(); }, 500);
-		}
-		
-		exportRoot.on("removed", function() {
-			if(exportRoot.stopInstruction) exportRoot.stopInstruction(); 
-			hideAllInputs();
-		});
-	}
-	this.frame_19 = function() {
-		var exportRoot = this;
-		exportRoot.stop();
-		
-		// =====================================================
-		// CONFIG
-		// =====================================================
-		var CONFIG = {
-		    lessonId: "lesson6",
-		    lessonFolder: "Lesson6",
-		    videoId: "map09",
-		    videoFile: "./videos/lesson6_map09.mp4",
-		    containerId: "success-video-map09",
 		    nextFrame: 20,
 		    backgroundColor: "#6B4FBB",
 		    zIndex: "9999",
@@ -8958,170 +11979,415 @@ if (reversed == null) { reversed = false; }
 		
 		// =====================================================
 		// CONFIG
-		// =====================================
+		// =====================================================
 		var CONFIG = {
 		    lessonId: "lesson6",
-		    exerciseId: "ex10",
-		    exerciseNumber: 10,
+		    exerciseId: "ex07",
+		    exerciseNumber: 7,
 		    storageKey: "lesson6_gameState",
-		    backFrame: 18, 
-		    nextFrame: 21, 
+		    backFrame: 18,
+		    nextFrame: 21,
 		    autoNextDelay: 1500,
 		    soundPaths: {
 		        correct: "./sounds/voice_correct.mp3",
 		        wrong: "./sounds/voice_wrong.mp3",
 		        click: "./sounds/click.mp3"
 		    },
-		    // Чирэх цагны нэрс
-		    items: ["img_10_1", "img_10_2", "img_10_3", "img_10_4", "img_10_5", "img_10_6"],
-		    // Зөв эрэмбэ (Тавиур 1-ээс 6 хүртэл)
-		    correctMapping: {
-		        "target_10_1": "img_10_3", // 2/12 (Хамгийн бага)
-		        "target_10_2": "img_10_5", // 3/12
-		        "target_10_3": "img_10_2", // 4/12
-		        "target_10_4": "img_10_6", // 6/12
-		        "target_10_5": "img_10_1", // 8/12
-		        "target_10_6": "img_10_4"  // 10/12 (Хамгийн их)
-		    }
+		    cars: ["img_7_1", "img_7_2", "img_7_3", "img_7_4"],
+		    correctOrder: ["img_7_1", "img_7_3", "img_7_4", "img_7_2"]
 		};
 		
-		// --- Common хэсгүүд ---
 		exportRoot.currentExerciseId = CONFIG.exerciseId;
 		exportRoot.backBtn = CONFIG.backFrame;
 		exportRoot.nextBtn = CONFIG.nextFrame;
 		CONFIG.completeKey = "exercise" + CONFIG.exerciseNumber + "Complete";
-		CONFIG.answersKey = "exercise" + CONFIG.exerciseNumber + "Answers";
+		CONFIG.posKey = "exercise" + CONFIG.exerciseNumber + "CarPositions";
+		CONFIG.slotKey = "exercise" + CONFIG.exerciseNumber + "SlotPositions";
 		
-		// =====================================================
-		// STATE & INIT
-		// =====================
-		if (!exportRoot.gameState) exportRoot.gameState = {};
-		if (!exportRoot.gameState[CONFIG.answersKey]) exportRoot.gameState[CONFIG.answersKey] = {};
-		if (typeof exportRoot.gameState[CONFIG.completeKey] === "undefined") exportRoot.gameState[CONFIG.completeKey] = false;
-		
-		exportRoot.saveState = function() {
-		    try { localStorage.setItem(CONFIG.storageKey, JSON.stringify(exportRoot.gameState)); } catch (e) {}
-		};
-		
-		function playSound(type) {
-		    try { new Audio(CONFIG.soundPaths[type]).play().catch(function(){}); } catch (e) {}
+		// Машин бүрийн зөв slot index
+		var CORRECT_SLOT_BY_CAR = {};
+		for (var i = 0; i < CONFIG.correctOrder.length; i++) {
+		    CORRECT_SLOT_BY_CAR[CONFIG.correctOrder[i]] = i;
 		}
 		
 		// =====================================================
-		// DRAG AND DROP LOGIC
-		// =====================
-		var targetNames = Object.keys(CONFIG.correctMapping);
+		// STATE & INIT
+		// =====================================================
+		if (!exportRoot.gameState) exportRoot.gameState = {};
+		if (typeof exportRoot.gameState[CONFIG.completeKey] === "undefined") {
+		    exportRoot.gameState[CONFIG.completeKey] = false;
+		}
 		
-		function setupDragAndDrop() {
-		    CONFIG.items.forEach(function(itemName) {
-		        var item = exportRoot[itemName];
-		        if (!item) return;
+		var SLOTS = [];
 		
-		        item.oldX = item.x;
-		        item.oldY = item.y;
-		        item.cursor = "pointer";
-		        item.mouseChildren = false;
+		function playSound(type) {
+		    try {
+		        new Audio(CONFIG.soundPaths[type]).play().catch(function(){});
+		    } catch (e) {}
+		}
 		
-		        // 1. Хадгалагдсан төлөвийг сэргээх
-		        targetNames.forEach(function(tName) {
-		            if (exportRoot.gameState[CONFIG.answersKey][tName] === itemName) {
-		                var target = exportRoot[tName];
-		                if (target) {
-		                    item.x = target.x;
-		                    item.y = target.y;
-		                    item.mouseEnabled = false;
-		                }
-		            }
+		function saveStateToLocal() {
+		    try {
+		        localStorage.setItem(CONFIG.storageKey, JSON.stringify(exportRoot.gameState));
+		    } catch (e) {}
+		}
+		
+		function savePositions() {
+		    var currentPositions = {};
+		    CONFIG.cars.forEach(function(name) {
+		        var car = exportRoot[name];
+		        if (car) currentPositions[name] = car.currentSlotIdx;
+		    });
+		    exportRoot.gameState[CONFIG.posKey] = currentPositions;
+		    saveStateToLocal();
+		}
+		
+		function saveSlotsOnce() {
+		    if (exportRoot.gameState[CONFIG.slotKey] && exportRoot.gameState[CONFIG.slotKey].length === CONFIG.cars.length) {
+		        SLOTS = exportRoot.gameState[CONFIG.slotKey].slice();
+		        return;
+		    }
+		
+		    var fixedSlots = [];
+		    CONFIG.cars.forEach(function(name) {
+		        var car = exportRoot[name];
+		        if (car) {
+		            fixedSlots.push({ x: car.x, y: car.y });
+		        }
+		    });
+		
+		    exportRoot.gameState[CONFIG.slotKey] = fixedSlots;
+		    SLOTS = fixedSlots.slice();
+		    saveStateToLocal();
+		}
+		
+		function setCarLocked(car, locked) {
+		    car.isLocked = locked;
+		    car.mouseEnabled = !locked;
+		    car.mouseChildren = false;
+		    car.cursor = locked ? "default" : "pointer";
+		    car.alpha = locked ? 0.8 : 1;
+		}
+		
+		function updateLocks() {
+		    CONFIG.cars.forEach(function(name) {
+		        var car = exportRoot[name];
+		        if (!car) return;
+		
+		        var correctIdx = CORRECT_SLOT_BY_CAR[name];
+		        var shouldLock = (car.currentSlotIdx === correctIdx);
+		
+		        setCarLocked(car, shouldLock);
+		    });
+		}
+		
+		function isAllLockedCorrect() {
+		    for (var i = 0; i < CONFIG.cars.length; i++) {
+		        var name = CONFIG.cars[i];
+		        var car = exportRoot[name];
+		        if (!car) return false;
+		        if (car.currentSlotIdx !== CORRECT_SLOT_BY_CAR[name]) return false;
+		    }
+		    return true;
+		}
+		
+		function moveCarsToSavedSlots() {
+		    var savedPos = exportRoot.gameState[CONFIG.posKey];
+		
+		    if (!savedPos) {
+		        CONFIG.cars.forEach(function(name, idx) {
+		            var car = exportRoot[name];
+		            if (!car) return;
+		            car.currentSlotIdx = idx;
+		            car.x = SLOTS[idx].x;
+		            car.y = SLOTS[idx].y;
+		        });
+		        return;
+		    }
+		
+		    CONFIG.cars.forEach(function(name, idx) {
+		        var car = exportRoot[name];
+		        if (!car) return;
+		
+		        var slotIdx = savedPos[name];
+		        if (typeof slotIdx !== "number" || !SLOTS[slotIdx]) {
+		            slotIdx = idx;
+		        }
+		
+		        car.currentSlotIdx = slotIdx;
+		        car.x = SLOTS[slotIdx].x;
+		        car.y = SLOTS[slotIdx].y;
+		    });
+		}
+		
+		// =====================================================
+		// SWAP ENGINE
+		// =====================================================
+		function initSwapExercise() {
+		    // 1. Slot-уудыг зөвхөн нэг удаа тогтмол хадгална
+		    saveSlotsOnce();
+		
+		    // 2. Машинуудыг хадгалсан slot дээр тавина
+		    moveCarsToSavedSlots();
+		
+		    // 3. Зөв байрлал дээрээ байгаа машинуудыг lock хийнэ
+		    CONFIG.cars.forEach(function(name) {
+		        var car = exportRoot[name];
+		        if (car) car.isLocked = false;
+		    });
+		    updateLocks();
+		
+		    // 4. Drag & Swap Logic
+		    CONFIG.cars.forEach(function(name) {
+		        var car = exportRoot[name];
+		        if (!car) return;
+		
+		        car.cursor = "pointer";
+		        car.mouseChildren = false;
+		
+		        car.on("mousedown", function(evt) {
+		            if (exportRoot.gameState[CONFIG.completeKey]) return;
+		            if (car.isLocked) return;
+		
+		            exportRoot.addChild(car);
+		
+		            var localPos = car.parent.globalToLocal(evt.stageX, evt.stageY);
+		            car.offset = {
+		                x: car.x - localPos.x,
+		                y: car.y - localPos.y
+		            };
 		        });
 		
-		        // 2. Чирж эхлэх
-		        item.on("mousedown", function(evt) {
+		        car.on("pressmove", function(evt) {
 		            if (exportRoot.gameState[CONFIG.completeKey]) return;
-		            exportRoot.addChild(item); 
-		            var localPos = item.parent.globalToLocal(evt.stageX, evt.stageY);
-		            item.offset = { x: item.x - localPos.x, y: item.y - localPos.y };
+		            if (car.isLocked) return;
+		
+		            var localPos = car.parent.globalToLocal(evt.stageX, evt.stageY);
+		            car.x = localPos.x + car.offset.x;
+		            car.y = localPos.y + car.offset.y;
 		        });
 		
-		        // 3. Чирэх
-		        item.on("pressmove", function(evt) {
+		        car.on("pressup", function(evt) {
 		            if (exportRoot.gameState[CONFIG.completeKey]) return;
-		            var localPos = item.parent.globalToLocal(evt.stageX, evt.stageY);
-		            item.x = localPos.x + item.offset.x;
-		            item.y = localPos.y + item.offset.y;
-		        });
+		            if (car.isLocked) return;
 		
-		        // 4. Тавих
-		        item.on("pressup", function(evt) {
-		            if (exportRoot.gameState[CONFIG.completeKey]) return;
+		            var targetCar = null;
 		
-		            var hitTargetName = null;
-		            targetNames.forEach(function(tName) {
-		                var target = exportRoot[tName];
-		                if (!target) return;
-		                
-		                var pt = target.globalToLocal(evt.stageX, evt.stageY);
-		                var dist = Math.sqrt(Math.pow(item.x - target.x, 2) + Math.pow(item.y - target.y, 2));
-		                
-		                if (target.hitTest(pt.x, pt.y) || dist < 60) {
-		                    hitTargetName = tName;
+		            CONFIG.cars.forEach(function(otherName) {
+		                if (otherName === name) return;
+		
+		                var otherCar = exportRoot[otherName];
+		                if (!otherCar) return;
+		                if (otherCar.isLocked) return;
+		
+		                var dx = car.x - otherCar.x;
+		                var dy = car.y - otherCar.y;
+		                var dist = Math.sqrt(dx * dx + dy * dy);
+		
+		                if (dist < 70) {
+		                    targetCar = otherCar;
 		                }
 		            });
 		
-		            if (hitTargetName && CONFIG.correctMapping[hitTargetName] === itemName) {
+		            if (targetCar) {
 		                playSound("click");
-		                item.x = exportRoot[hitTargetName].x;
-		                item.y = exportRoot[hitTargetName].y;
-		                item.mouseEnabled = false;
-		                
-		                exportRoot.gameState[CONFIG.answersKey][hitTargetName] = itemName;
-		                exportRoot.saveState();
-		                checkWin();
+		
+		                var oldIdx = car.currentSlotIdx;
+		                var newIdx = targetCar.currentSlotIdx;
+		
+		                car.currentSlotIdx = newIdx;
+		                targetCar.currentSlotIdx = oldIdx;
+		
+		                createjs.Tween.get(car).to(
+		                    { x: SLOTS[newIdx].x, y: SLOTS[newIdx].y },
+		                    300,
+		                    createjs.Ease.backOut
+		                );
+		
+		                createjs.Tween.get(targetCar).to(
+		                    { x: SLOTS[oldIdx].x, y: SLOTS[oldIdx].y },
+		                    300,
+		                    createjs.Ease.backOut
+		                ).call(function() {
+		                    updateLocks();
+		                    savePositions();
+		                    checkWin();
+		                });
 		            } else {
-		                if (hitTargetName) playSound("wrong");
-		                createjs.Tween.get(item).to({ x: item.oldX, y: item.oldY }, 500, createjs.Ease.backOut);
+		                createjs.Tween.get(car).to(
+		                    { x: SLOTS[car.currentSlotIdx].x, y: SLOTS[car.currentSlotIdx].y },
+		                    300
+		                ).call(function() {
+		                    updateLocks();
+		                    savePositions();
+		                    checkWin();
+		                });
 		            }
 		        });
 		    });
 		}
 		
 		function checkWin() {
-		    var allDone = true;
-		    targetNames.forEach(function(tName) {
-		        if (exportRoot.gameState[CONFIG.answersKey][tName] !== CONFIG.correctMapping[tName]) {
-		            allDone = false;
-		        }
-		    });
+		    if (!isAllLockedCorrect()) return;
 		
-		    if (allDone) {
-		        exportRoot.gameState[CONFIG.completeKey] = true;
-		        exportRoot.saveState();
-		        playSound("correct");
-		        if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
-		        setTimeout(function() {
-		            exportRoot.gotoAndStop(CONFIG.nextFrame);
-		        }, CONFIG.autoNextDelay);
-		    }
+		    exportRoot.gameState[CONFIG.completeKey] = true;
+		    savePositions();
+		
+		    exportRoot.playCharacterAnimation("correct");
+		    if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
+		
+		    setTimeout(function() {
+		        exportRoot.gotoAndStop(CONFIG.nextFrame);
+		    }, CONFIG.autoNextDelay);
 		}
 		
 		// =====================================================
-		// COMMON ELEMENTS
-		// =====================
+		// COMMON HELP & NAVIGATION
+		// =====================================================
 		if (exportRoot.help_popup) {
 		    exportRoot.help_popup.visible = false;
 		    exportRoot.help_popup.stop();
+		    var currentLang = exportRoot.gameState.selectedLanguage || "mn";
+		    exportRoot.help_popup.gotoAndStop(currentLang);
 		}
 		
 		if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
 		
-		setupDragAndDrop();
+		initSwapExercise();
 		
+		if (exportRoot.stopInstruction) exportRoot.stopInstruction();
 		if (!exportRoot.gameState[CONFIG.completeKey]) {
-		    setTimeout(function() { if(exportRoot.playInstruction) exportRoot.playInstruction(); }, 500);
+		    setTimeout(function() {
+		        if (exportRoot.playInstruction) exportRoot.playInstruction();
+		    }, 500);
 		}
 		
 		exportRoot.on("removed", function() {
-		    if(exportRoot.stopInstruction) exportRoot.stopInstruction(); 
+		    if (exportRoot.stopInstruction) exportRoot.stopInstruction();
 		});
+		function applyTextStyling(textObj, opts) {
+			if (!textObj || !(textObj instanceof createjs.Text)) return;
+			if (textObj._isStyled) return;
+			textObj._isStyled = true;
+			opts = opts || {};
+			var outlineColor = opts.outlineColor || "#461A17";
+			var outlineSize = opts.outlineSize || 6;
+			var fillColor = opts.fillColor || "#FFFFFF";
+			var shadowColor = opts.shadowColor || "rgba(60, 20, 0, 0.4)";
+			var pad = opts.pad || 60;
+			var savedX = textObj.x;
+			var savedY = textObj.y;
+			textObj.outline = null;
+			textObj.color = fillColor;
+			if (textObj._strokeClone && textObj._strokeClone.parent) {
+				textObj._strokeClone.parent.removeChild(textObj._strokeClone);
+				if (textObj._strokeClone.uncache) {
+					textObj._strokeClone.uncache();
+				}
+				textObj._strokeClone = null;
+			}
+			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
+			strokeText.textAlign = textObj.textAlign;
+			strokeText.textBaseline = textObj.textBaseline;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+			strokeText.outline = outlineSize;
+			strokeText.shadow = null;
+			var parent = textObj.parent;
+			if (parent) {
+				var idx = parent.getChildIndex(textObj);
+				parent.addChildAt(strokeText, idx);
+			}
+			textObj._strokeClone = strokeText;
+			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
+			var bounds = textObj.getBounds();
+			if (bounds) {
+				var cacheX = bounds.x - pad;
+				var cacheY = bounds.y - pad;
+				var cacheW = bounds.width + pad * 2;
+				var cacheH = bounds.height + pad * 2;
+				
+				if (strokeText.cacheCanvas) {
+					strokeText.uncache();
+				}
+				if (textObj.cacheCanvas) {
+					textObj.uncache();
+				}
+				
+				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+				textObj.cache(cacheX, cacheY, cacheW, cacheH);
+			}
+			textObj.x = savedX;
+			textObj.y = savedY;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+		}
+		
+		var exerciseText = {
+			mn: {
+				title: "УРАЛДААНЫ ЗАМ",
+				instruction: "Дараах энгийн бутархайнуудыг өсөх эрэмбээр уралдааны зам дээр байрлуулна уу."
+			},
+			kz: {
+				title: "ЖАРЫС ЖОЛЫ",
+				instruction: "Төмендегі жай бөлшектерді өсу ретімен жарыс жолына орналастырыңыз."
+			},
+			tuva: {
+				title: "УРАЛДААН ЧОЛУ",
+				instruction: "Дорудагы эңгин бөлүктерни өске эрээри-биле уралдаан чолга тургузуңар."
+			},
+			sign: {
+				title: "УРАЛДААНЫ ЗАМ",
+				instruction: "Дараах энгийн бутархайнуудыг өсөх эрэмбээр уралдааны зам дээр байрлуулна уу."
+			}
+		};
+		
+		var lang = exportRoot.gameState.selectedLanguage || "mn";
+		var texts = exerciseText[lang];
+		
+		function findTextByContent(container, content) {
+			if (!container) return null;
+		
+			if (container instanceof createjs.Text && container.text === content) {
+				return container;
+			}
+		
+			if (!container.numChildren) return null;
+		
+			for (var i = 0; i < container.numChildren; i++) {
+				var found = findTextByContent(container.getChildAt(i), content);
+				if (found) return found;
+			}
+		
+			return null;
+		}
+		
+		var txt_title = findTextByContent(exportRoot, "txt_title");
+		var txt_instruction = findTextByContent(exportRoot, "txt_instruction");
+		
+		
+		console.log("exerciseText[lang]");
+		console.log(exerciseText[lang]);
+		console.log(exportRoot.txt_title);
+		if (txt_title) {
+			txt_title.text = texts.title;
+			applyTextStyling(txt_title, {
+				outlineSize: 15,
+				outlineColor: "#461A17",
+				fillColor: "#FFFFFF",
+				pad: 80
+			});
+		}else {
+			console.log("exportRoot.txt_title not found");
+		}
+		
+		console.log('--------------------------');
+		console.log(exportRoot);
+		console.log('--------------------------');
+		
+		if (txt_instruction) {
+			txt_instruction.text = texts.instruction;
+		}
 	}
 	this.frame_21 = function() {
 		var exportRoot = this;
@@ -9133,9 +12399,9 @@ if (reversed == null) { reversed = false; }
 		var CONFIG = {
 		    lessonId: "lesson6",
 		    lessonFolder: "Lesson6",
-		    videoId: "map10",
-		    videoFile: "./videos/lesson6_map10.mp4",
-		    containerId: "success-video-map10",
+		    videoId: "map07",
+		    videoFile: "./videos/lesson6_map7.mp4",
+		    containerId: "success-video-map07",
 		    nextFrame: 22,
 		    backgroundColor: "#6B4FBB",
 		    zIndex: "9999",
@@ -9363,12 +12629,1619 @@ if (reversed == null) { reversed = false; }
 		// CONFIG
 		// =====================================
 		var CONFIG = {
+			lessonId: "lesson6",
+			exerciseId: "ex08",
+			exerciseNumber: 8,
+			storageKey: "lesson6_gameState",
+			backFrame: 20, 
+			nextFrame: 23, 
+			autoNextDelay: 1500,
+			soundPaths: {
+				correct: "./sounds/voice_correct.mp3",
+				wrong: "./sounds/voice_wrong.mp3",
+				click: "./sounds/click.mp3"
+			},
+			// Чирэх объектууд
+			items: ["txt_8_1", "txt_8_2", "txt_8_3", "txt_8_4"],
+			// Чиний өгсөн зөв хариултын зураглал:
+			correctMapping: {
+				"target_8_1": "txt_8_3",
+				"target_8_2": "txt_8_1",
+				"target_8_3": "txt_8_4",
+				"target_8_4": "txt_8_2"
+			}
+		};
+		
+		// --- Common хэсгүүд ---
+		exportRoot.currentExerciseId = CONFIG.exerciseId;
+		exportRoot.backBtn = CONFIG.backFrame;
+		exportRoot.nextBtn = CONFIG.nextFrame;
+		CONFIG.completeKey = "exercise" + CONFIG.exerciseNumber + "Complete";
+		CONFIG.answersKey = "exercise" + CONFIG.exerciseNumber + "Answers";
+		
+		// =====================================================
+		// STATE & INIT
+		// =====================
+		if (!exportRoot.gameState) exportRoot.gameState = {};
+		if (!exportRoot.gameState[CONFIG.answersKey]) exportRoot.gameState[CONFIG.answersKey] = {};
+		if (typeof exportRoot.gameState[CONFIG.completeKey] === "undefined") exportRoot.gameState[CONFIG.completeKey] = false;
+		
+		exportRoot.saveState = function() {
+			try { localStorage.setItem(CONFIG.storageKey, JSON.stringify(exportRoot.gameState)); } catch (e) {}
+		};
+		
+		function playSound(type) {
+			try { new Audio(CONFIG.soundPaths[type]).play().catch(function(){}); } catch (e) {}
+		}
+		
+		// =====================================================
+		// DRAG AND DROP LOGIC
+		// =====================
+		var targetNames = Object.keys(CONFIG.correctMapping);
+		
+		function setupDragAndDrop() {
+			CONFIG.items.forEach(function(itemName) {
+				var item = exportRoot[itemName];
+				if (!item) return;
+		
+				item.oldX = item.x;
+				item.oldY = item.y;
+				item.cursor = "pointer";
+				item.mouseChildren = false;
+		
+				// 1. Хадгалагдсан төлөвийг сэргээх
+				targetNames.forEach(function(tName) {
+					if (exportRoot.gameState[CONFIG.answersKey][tName] === itemName) {
+						var target = exportRoot[tName];
+						if (target) {
+							item.x = target.x;
+							item.y = target.y;
+							item.mouseEnabled = false;
+						}
+					}
+				});
+		
+				// 2. Чирж эхлэх
+				item.on("mousedown", function(evt) {
+					if (exportRoot.gameState[CONFIG.completeKey]) return;
+					exportRoot.addChild(item); // Хамгийн дээр гаргах
+					var localPos = item.parent.globalToLocal(evt.stageX, evt.stageY);
+					item.offset = { x: item.x - localPos.x, y: item.y - localPos.y };
+				});
+		
+				// 3. Чирэх үйлдэл
+				item.on("pressmove", function(evt) {
+					if (exportRoot.gameState[CONFIG.completeKey]) return;
+					var localPos = item.parent.globalToLocal(evt.stageX, evt.stageY);
+					item.x = localPos.x + item.offset.x;
+					item.y = localPos.y + item.offset.y;
+				});
+		
+				// 4. Тавих үйлдэл
+				item.on("pressup", function(evt) {
+					if (exportRoot.gameState[CONFIG.completeKey]) return;
+		
+					var hitTargetName = null;
+					targetNames.forEach(function(tName) {
+						var target = exportRoot[tName];
+						if (!target) return;
+						
+						// Зай болон HitTest шалгах
+						var pt = target.globalToLocal(evt.stageX, evt.stageY);
+						var dist = Math.sqrt(Math.pow(item.x - target.x, 2) + Math.pow(item.y - target.y, 2));
+						
+						if (target.hitTest(pt.x, pt.y) || dist < 60) {
+							hitTargetName = tName;
+						}
+					});
+		
+					if (hitTargetName && CONFIG.correctMapping[hitTargetName] === itemName) {
+						// ЗӨВ БАЙРЛАЛ
+						playSound("click");
+						item.x = exportRoot[hitTargetName].x;
+						item.y = exportRoot[hitTargetName].y;
+						item.mouseEnabled = false;
+						
+						exportRoot.gameState[CONFIG.answersKey][hitTargetName] = itemName;
+						exportRoot.saveState();
+						checkWin();
+					} else {
+						// БУРУУ БАЙРЛАЛ - Буцааж үсэргэх
+						if (hitTargetName) exportRoot.playCharacterAnimation("wrong");
+						createjs.Tween.get(item).to({ x: item.oldX, y: item.oldY }, 500, createjs.Ease.backOut);
+					}
+				});
+			});
+		}
+		
+		function checkWin() {
+			var allDone = true;
+			targetNames.forEach(function(tName) {
+				if (exportRoot.gameState[CONFIG.answersKey][tName] !== CONFIG.correctMapping[tName]) {
+					allDone = false;
+				}
+			});
+		
+			if (allDone) {
+				exportRoot.gameState[CONFIG.completeKey] = true;
+				exportRoot.saveState();
+				exportRoot.playCharacterAnimation("correct");
+				if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
+				setTimeout(function() {
+					exportRoot.gotoAndStop(CONFIG.nextFrame);
+				}, CONFIG.autoNextDelay);
+			}
+		}
+		
+		// =====================================================
+		// COMMON ELEMENTS
+		// =====================
+		if (exportRoot.help_popup) {
+			exportRoot.help_popup.visible = false;
+			exportRoot.help_popup.stop();
+			var currentLang = exportRoot.gameState.selectedLanguage || "mn";
+			exportRoot.help_popup.gotoAndStop(currentLang);
+		}
+		
+		if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
+		
+		// Start
+		setupDragAndDrop();
+		if (exportRoot.stopInstruction) exportRoot.stopInstruction();
+		if (!exportRoot.gameState[CONFIG.completeKey]) {
+			setTimeout(function() { if(exportRoot.playInstruction) exportRoot.playInstruction(); }, 500);
+		}
+		
+		exportRoot.on("removed", function() {
+			if(exportRoot.stopInstruction) exportRoot.stopInstruction(); 
+		});
+		function applyTextStyling(textObj, opts) {
+			if (!textObj || !(textObj instanceof createjs.Text)) return;
+			if (textObj._isStyled) return;
+			textObj._isStyled = true;
+			opts = opts || {};
+			var outlineColor = opts.outlineColor || "#461A17";
+			var outlineSize = opts.outlineSize || 6;
+			var fillColor = opts.fillColor || "#FFFFFF";
+			var shadowColor = opts.shadowColor || "rgba(60, 20, 0, 0.4)";
+			var pad = opts.pad || 60;
+			var savedX = textObj.x;
+			var savedY = textObj.y;
+			textObj.outline = null;
+			textObj.color = fillColor;
+			if (textObj._strokeClone && textObj._strokeClone.parent) {
+				textObj._strokeClone.parent.removeChild(textObj._strokeClone);
+				if (textObj._strokeClone.uncache) {
+					textObj._strokeClone.uncache();
+				}
+				textObj._strokeClone = null;
+			}
+			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
+			strokeText.textAlign = textObj.textAlign;
+			strokeText.textBaseline = textObj.textBaseline;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+			strokeText.outline = outlineSize;
+			strokeText.shadow = null;
+			var parent = textObj.parent;
+			if (parent) {
+				var idx = parent.getChildIndex(textObj);
+				parent.addChildAt(strokeText, idx);
+			}
+			textObj._strokeClone = strokeText;
+			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
+			var bounds = textObj.getBounds();
+			if (bounds) {
+				var cacheX = bounds.x - pad;
+				var cacheY = bounds.y - pad;
+				var cacheW = bounds.width + pad * 2;
+				var cacheH = bounds.height + pad * 2;
+				
+				if (strokeText.cacheCanvas) {
+					strokeText.uncache();
+				}
+				if (textObj.cacheCanvas) {
+					textObj.uncache();
+				}
+				
+				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+				textObj.cache(cacheX, cacheY, cacheW, cacheH);
+			}
+			textObj.x = savedX;
+			textObj.y = savedY;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+		}
+		
+		var exerciseText = {
+			mn: {
+				title: "БУУХ ЦАМХАГ",
+				instruction: "Дараах энгийн бутархайнуудыг буурах эрэмбээр байрлуулна уу."
+			},
+			kz: {
+				title: "ТӨМЕНДЕУ МҰНАРАСЫ",
+				instruction: "Төмендегі жай бөлшектерді кему ретімен орналастырыңыз."
+			},
+			tuva: {
+				title: "ДООРААР МҮНАР",
+				instruction: "Дорудагы эңгин бөлүктерни буураар эрээри-биле тургузуңар."
+			},
+			sign: {
+				title: "БУУХ ЦАМХАГ",
+				instruction: "Дараах энгийн бутархайнуудыг буурах эрэмбээр байрлуулна уу."
+			}
+		};
+		
+		var lang = exportRoot.gameState.selectedLanguage || "mn";
+		var texts = exerciseText[lang];
+		
+		function findTextByContent(container, content) {
+			if (!container) return null;
+		
+			if (container instanceof createjs.Text && container.text === content) {
+				return container;
+			}
+		
+			if (!container.numChildren) return null;
+		
+			for (var i = 0; i < container.numChildren; i++) {
+				var found = findTextByContent(container.getChildAt(i), content);
+				if (found) return found;
+			}
+		
+			return null;
+		}
+		
+		var txt_title = findTextByContent(exportRoot, "txt_title");
+		var txt_instruction = findTextByContent(exportRoot, "txt_instruction");
+		
+		
+		console.log("exerciseText[lang]");
+		console.log(exerciseText[lang]);
+		console.log(exportRoot.txt_title);
+		if (txt_title) {
+			txt_title.text = texts.title;
+			applyTextStyling(txt_title, {
+				outlineSize: 15,
+				outlineColor: "#461A17",
+				fillColor: "#FFFFFF",
+				pad: 80
+			});
+		}else {
+			console.log("exportRoot.txt_title not found");
+		}
+		
+		console.log('--------------------------');
+		console.log(exportRoot);
+		console.log('--------------------------');
+		
+		if (txt_instruction) {
+			txt_instruction.text = texts.instruction;
+		}
+	}
+	this.frame_23 = function() {
+		var exportRoot = this;
+		exportRoot.stop();
+		
+		// =====================================================
+		// CONFIG
+		// =====================================================
+		var CONFIG = {
+		    lessonId: "lesson6",
+		    lessonFolder: "Lesson6",
+		    videoId: "map08",
+		    videoFile: "./videos/lesson6_map8.mp4",
+		    containerId: "success-video-map08",
+		    nextFrame: 24,
+		    backgroundColor: "#6B4FBB",
+		    zIndex: "9999",
+		    autoSkipOnError: true,
+		    autoMarkWatchedOnSkip: true
+		};
+		
+		// =====================================================
+		// INIT
+		// =====================================================
+		if (!exportRoot.gameState) {
+		    exportRoot.gameState = {};
+		}
+		
+		if (!exportRoot.gameState.videosWatched) {
+		    exportRoot.gameState.videosWatched = [];
+		}
+		
+		if (!exportRoot.saveState) {
+		    exportRoot.saveState = function() {};
+		}
+		
+		var videoContainer = null;
+		var videoElement = null;
+		var resizeHandler = null;
+		var started = false;
+		var endedOrSkipped = false;
+		
+		// =====================================================
+		// HELPERS
+		// =====================================================
+		function hasWatchedVideo() {
+		    return exportRoot.gameState.videosWatched.indexOf(CONFIG.videoId) !== -1;
+		}
+		
+		function markVideoWatched() {
+		    if (!hasWatchedVideo()) {
+		        exportRoot.gameState.videosWatched.push(CONFIG.videoId);
+		        exportRoot.saveState();
+		    }
+		}
+		
+		function lockPageScroll() {
+		    document.body.style.overflow = "hidden";
+		    document.documentElement.style.overflow = "hidden";
+		}
+		
+		function unlockPageScroll() {
+		    document.body.style.overflow = "";
+		    document.documentElement.style.overflow = "";
+		}
+		
+		function cleanup() {
+		    unlockPageScroll();
+		
+		    if (videoElement) {
+		        try {
+		            videoElement.pause();
+		            videoElement.removeAttribute("src");
+		            videoElement.load();
+		        } catch (e) {}
+		        videoElement = null;
+		    }
+		
+		    if (videoContainer && videoContainer.parentNode) {
+		        videoContainer.parentNode.removeChild(videoContainer);
+		        videoContainer = null;
+		    }
+		
+		    if (resizeHandler) {
+		        window.removeEventListener("resize", resizeHandler);
+		        resizeHandler = null;
+		    }
+		}
+		
+		function updateContainerPosition() {
+		    if (!videoContainer) return;
+		
+		    var canvas = document.getElementById("canvas");
+		    if (!canvas) return;
+		
+		    var rect = canvas.getBoundingClientRect();
+		
+		    videoContainer.style.left = rect.left + "px";
+		    videoContainer.style.top = rect.top + "px";
+		    videoContainer.style.width = rect.width + "px";
+		    videoContainer.style.height = rect.height + "px";
+		}
+		
+		function goToNextExercise(reason) {
+		    if (endedOrSkipped) return;
+		    endedOrSkipped = true;
+		
+		    if (CONFIG.autoMarkWatchedOnSkip) {
+		        markVideoWatched();
+		    }
+		
+		    cleanup();
+		
+		    exportRoot.gameState.currentFrame = CONFIG.nextFrame;
+		    exportRoot.saveState();
+		    exportRoot.gotoAndStop(CONFIG.nextFrame);
+		}
+		
+		function tryPlayVideo() {
+		    if (!videoElement || started) return;
+		    started = true;
+		
+		    var playPromise = videoElement.play();
+		
+		    if (playPromise && typeof playPromise.catch === "function") {
+		        playPromise.catch(function(err) {
+		            console.log("Video autoplay failed:", err);
+		            goToNextExercise("autoplay_failed");
+		        });
+		    }
+		}
+		
+		// =====================================================
+		// MAIN
+		// =====================================================
+		function createSuccessVideo() {
+		    var existingContainer = document.getElementById(CONFIG.containerId);
+		    if (existingContainer && existingContainer.parentNode) {
+		        existingContainer.parentNode.removeChild(existingContainer);
+		    }
+		
+		    var canvas = document.getElementById("canvas");
+		    if (!canvas) {
+		        goToNextExercise("canvas_missing");
+		        return;
+		    }
+		
+		    if (hasWatchedVideo()) {
+		        goToNextExercise("already_watched");
+		        return;
+		    }
+		
+		    lockPageScroll();
+		
+		    var rect = canvas.getBoundingClientRect();
+		
+		    videoContainer = document.createElement("div");
+		    videoContainer.id = CONFIG.containerId;
+		    videoContainer.style.position = "fixed";
+		    videoContainer.style.left = rect.left + "px";
+		    videoContainer.style.top = rect.top + "px";
+		    videoContainer.style.width = rect.width + "px";
+		    videoContainer.style.height = rect.height + "px";
+		    videoContainer.style.backgroundColor = CONFIG.backgroundColor;
+		    videoContainer.style.zIndex = CONFIG.zIndex;
+		    videoContainer.style.overflow = "hidden";
+		    videoContainer.style.margin = "0";
+		    videoContainer.style.padding = "0";
+		    videoContainer.style.boxSizing = "border-box";
+		
+		    videoElement = document.createElement("video");
+		    videoElement.src = CONFIG.videoFile;
+		    videoElement.style.width = "100%";
+		    videoElement.style.height = "100%";
+		    videoElement.style.objectFit = "contain";
+		    videoElement.style.display = "block";
+		    videoElement.preload = "auto";
+		    videoElement.playsInline = true;
+		    videoElement.setAttribute("playsinline", "true");
+		    videoElement.setAttribute("webkit-playsinline", "true");
+		
+		    // Зарим browser autoplay дээр дууг хаадаг.
+		    // Хэрэв заавал sound-тай autoplay хэрэгтэй бол browser policy-оос хамаарна.
+		    // Найдвартай ажиллуулахын тулд muted=true болгож болно.
+		    videoElement.muted = false;
+		    videoElement.autoplay = false;
+		    videoElement.controls = false;
+		
+		    videoContainer.appendChild(videoElement);
+		    document.body.appendChild(videoContainer);
+		
+		    videoElement.addEventListener("loadeddata", function() {
+		        tryPlayVideo();
+		    });
+		
+		    videoElement.addEventListener("canplay", function() {
+		        tryPlayVideo();
+		    });
+		
+		    videoElement.addEventListener("ended", function() {
+		        markVideoWatched();
+		        setTimeout(function() {
+		            goToNextExercise("ended");
+		        }, 500);
+		    });
+		
+		    videoElement.addEventListener("error", function() {
+		        console.log("Video load error:", videoElement.error, CONFIG.videoFile);
+		        if (CONFIG.autoSkipOnError) {
+		            goToNextExercise("error");
+		        }
+		    });
+		
+		    resizeHandler = function() {
+		        updateContainerPosition();
+		    };
+		
+		    window.addEventListener("resize", resizeHandler);
+		    updateContainerPosition();
+		
+		    // Хэрэв ямар ч event trigger болохгүй гацвал fallback
+		    setTimeout(function() {
+		        if (!started && !endedOrSkipped) {
+		            console.log("Video start timeout, skipping:", CONFIG.videoFile);
+		            goToNextExercise("timeout");
+		        }
+		    }, 4000);
+		}
+		
+		exportRoot.on("removed", cleanup);
+		
+		createSuccessVideo();
+	}
+	this.frame_24 = function() {
+		var exportRoot = this;
+		exportRoot.stop();
+		
+		// =====================================================
+		// CONFIG
+		// =====================================
+		var CONFIG = {
+			lessonId: "lesson6",
+			exerciseId: "ex09",
+			exerciseNumber: 9,
+			storageKey: "lesson6_gameState",
+			backFrame: 22, 
+			nextFrame: 25, 
+			autoNextDelay: 1500,
+			soundPaths: {
+				correct: "./sounds/voice_correct.mp3",
+				wrong: "./sounds/voice_wrong.mp3",
+				click: "./sounds/click.mp3"
+			},
+			// Бичих нүхнүүдийн нэрс
+			inputs: [
+				"input_9_1_1", "input_9_1_2", // Бутархай 1
+				"input_9_2_1", "input_9_2_2", // Бутархай 2
+				"input_9_3_1", "input_9_3_2"  // Бутархай 3
+			]
+		};
+		
+		exportRoot.currentExerciseId = CONFIG.exerciseId;
+		exportRoot.backBtn = CONFIG.backFrame;
+		exportRoot.nextBtn = CONFIG.nextFrame;
+		CONFIG.positionsKey = "exercise" + CONFIG.exerciseNumber + "Positions";
+		CONFIG.completeKey = "exercise" + CONFIG.exerciseNumber + "Complete";
+		
+		// =====================================================
+		// STATE & INIT
+		// =====================
+		if (!exportRoot.gameState) exportRoot.gameState = {};
+		if (!exportRoot.gameState[CONFIG.positionsKey]) exportRoot.gameState[CONFIG.positionsKey] = {};
+		if (typeof exportRoot.gameState[CONFIG.completeKey] === "undefined") exportRoot.gameState[CONFIG.completeKey] = false;
+		
+		exportRoot.saveState = function() {
+			try { localStorage.setItem(CONFIG.storageKey, JSON.stringify(exportRoot.gameState)); } catch (e) {}
+		};
+		
+		function playSound(type) {
+			try { new Audio(CONFIG.soundPaths[type]).play().catch(function(){}); } catch (e) {}
+		}
+		
+		// =====================================================
+		// HTML INPUT HELPERS
+		// =====================
+		function getInputDomId(name) { return "html_" + CONFIG.lessonId + "_" + CONFIG.exerciseId + "_" + name; }
+		
+		function createOrGetHtmlInput(name) {
+			var id = getInputDomId(name);
+			var input = document.getElementById(id);
+		
+			if (!input) {
+				input = document.createElement("input");
+				input.type = "text";
+				input.id = id;
+				input.inputMode = "numeric"; 
+				input.maxLength = 2;
+		
+				input.style.position = "fixed";
+				input.style.zIndex = "99999";
+				input.style.textAlign = "center";
+				input.style.fontFamily = "'Rubik', Arial, sans-serif";
+				input.style.fontWeight = "700";
+				input.style.background = "transparent"; 
+				input.style.border = "none";
+				input.style.outline = "none";
+				document.body.appendChild(input);
+			}
+			input.style.display = "block";
+			return input;
+		}
+		
+		function positionInput(name) {
+			var clip = exportRoot[name];
+			var input = document.getElementById(getInputDomId(name));
+			if (!clip || !input || !exportRoot.stage) return;
+		
+			var canvasRect = exportRoot.stage.canvas.getBoundingClientRect();
+			var sX = exportRoot.stage.scaleX;
+			var sY = exportRoot.stage.scaleY;
+			var bX = canvasRect.width / exportRoot.stage.canvas.width;
+			var bY = canvasRect.height / exportRoot.stage.canvas.height;
+		
+			var b = clip.getBounds() || clip.nominalBounds || {width: 40, height: 40};
+			var globalPos = clip.localToGlobal(0, 0);
+		
+			var w = b.width * sX * bX;
+			var h = b.height * sY * bY;
+		
+			input.style.left = (canvasRect.left + (globalPos.x * bX) - (w * 0.5)) + "px";
+			input.style.top = (canvasRect.top + (globalPos.y * bY) - (h * 0.5)) + "px";
+			input.style.width = w + "px";
+			input.style.height = h + "px";
+			input.style.fontSize = Math.floor(h * 0.7) + "px";
+		}
+		
+		function hideAllInputs() {
+			CONFIG.inputs.forEach(function(name) {
+				var el = document.getElementById(getInputDomId(name));
+				if (el) el.style.display = "none";
+			});
+		}
+		
+		// =====================================================
+		// LOGIC
+		// =====================
+		function checkAllAnswers() {
+			var vals = {};
+			var allFilled = true;
+		
+			CONFIG.inputs.forEach(function(name) {
+				var el = document.getElementById(getInputDomId(name));
+				var v = parseInt(el.value);
+				if (isNaN(v)) allFilled = false;
+				vals[name] = v;
+			});
+		
+			if (!allFilled) return;
+		
+			// Тэнцэтгэл бишийг шалгах: 1/4 < f1 < f2 < f3
+			var f0 = 1/4;
+			var f1 = vals.input_9_1_1 / vals.input_9_1_2;
+			var f2 = vals.input_9_2_1 / vals.input_9_2_2;
+			var f3 = vals.input_9_3_1 / vals.input_9_3_2;
+		
+			// Хуваарь 0 байж болохгүй
+			if (vals.input_9_1_2 === 0 || vals.input_9_2_2 === 0 || vals.input_9_3_2 === 0) return;
+		
+			if (f0 < f1 && f1 < f2 && f2 < f3) {
+				// ЗӨВ
+				exportRoot.gameState[CONFIG.completeKey] = true;
+				exportRoot.saveState();
+				exportRoot.playCharacterAnimation("correct");
+				CONFIG.inputs.forEach(function(n) {
+					document.getElementById(getInputDomId(n)).disabled = true;
+					document.getElementById(getInputDomId(n)).style.color = "#1F5F1A";
+				});
+				if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
+				setTimeout(function() {
+					hideAllInputs();
+					exportRoot.gotoAndStop(CONFIG.nextFrame);
+				}, CONFIG.autoNextDelay);
+			}
+		}
+		
+		// Start Setup
+		CONFIG.inputs.forEach(function(name) {
+			var clip = exportRoot[name];
+			if (!clip) return;
+			clip.alpha = 0.01;
+		
+			var input = createOrGetHtmlInput(name);
+			input.value = exportRoot.gameState[CONFIG.positionsKey][name] || "";
+			input.disabled = !!exportRoot.gameState[CONFIG.completeKey];
+		
+			input.oninput = function() {
+				this.value = this.value.replace(/[^0-9]/g, "");
+				exportRoot.gameState[CONFIG.positionsKey][name] = this.value;
+				exportRoot.saveState();
+				checkAllAnswers();
+			};
+			positionInput(name);
+		});
+		
+		// =====================================================
+		// COMMON ELEMENTS
+		// =====================
+		if (exportRoot.help_popup) {
+			exportRoot.help_popup.visible = false;
+			exportRoot.help_popup.stop();
+		}
+		
+		if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
+		
+		if (!exportRoot.tickAttached && createjs && createjs.Ticker) {
+			createjs.Ticker.addEventListener("tick", function() {
+				CONFIG.inputs.forEach(positionInput);
+			});
+			exportRoot.tickAttached = true;
+		}
+		if (exportRoot.stopInstruction) exportRoot.stopInstruction();
+		if (!exportRoot.gameState[CONFIG.completeKey]) {
+			setTimeout(function() { if(exportRoot.playInstruction) exportRoot.playInstruction(); }, 500);
+		}
+		
+		exportRoot.on("removed", function() {
+			if(exportRoot.stopInstruction) exportRoot.stopInstruction(); 
+			hideAllInputs();
+		});
+		function applyTextStyling(textObj, opts) {
+			if (!textObj || !(textObj instanceof createjs.Text)) return;
+			if (textObj._isStyled) return;
+			textObj._isStyled = true;
+			opts = opts || {};
+			var outlineColor = opts.outlineColor || "#461A17";
+			var outlineSize = opts.outlineSize || 6;
+			var fillColor = opts.fillColor || "#FFFFFF";
+			var shadowColor = opts.shadowColor || "rgba(60, 20, 0, 0.4)";
+			var pad = opts.pad || 60;
+			var savedX = textObj.x;
+			var savedY = textObj.y;
+			textObj.outline = null;
+			textObj.color = fillColor;
+			if (textObj._strokeClone && textObj._strokeClone.parent) {
+				textObj._strokeClone.parent.removeChild(textObj._strokeClone);
+				if (textObj._strokeClone.uncache) {
+					textObj._strokeClone.uncache();
+				}
+				textObj._strokeClone = null;
+			}
+			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
+			strokeText.textAlign = textObj.textAlign;
+			strokeText.textBaseline = textObj.textBaseline;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+			strokeText.outline = outlineSize;
+			strokeText.shadow = null;
+			var parent = textObj.parent;
+			if (parent) {
+				var idx = parent.getChildIndex(textObj);
+				parent.addChildAt(strokeText, idx);
+			}
+			textObj._strokeClone = strokeText;
+			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
+			var bounds = textObj.getBounds();
+			if (bounds) {
+				var cacheX = bounds.x - pad;
+				var cacheY = bounds.y - pad;
+				var cacheW = bounds.width + pad * 2;
+				var cacheH = bounds.height + pad * 2;
+				
+				if (strokeText.cacheCanvas) {
+					strokeText.uncache();
+				}
+				if (textObj.cacheCanvas) {
+					textObj.uncache();
+				}
+				
+				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+				textObj.cache(cacheX, cacheY, cacheW, cacheH);
+			}
+			textObj.x = savedX;
+			textObj.y = savedY;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+		}
+		var exerciseText = {
+			mn: {
+				title: "ТУУЗАН ДАРААЛАЛ",
+				instruction: "Дараах тэнцэтгэл бишийг үнэн болгох энгийн бутархайнуудыг олж, хоосон зайд бичээрэй. Дараа нь үүссэн дарааллыг уншаарай."
+			},
+			kz: {
+				title: "ЖОЛАҚ ТІЗБЕГІ",
+				instruction: "Төмендегі теңсіздікті дұрыс ететін жай бөлшектерді тауып, бос орынға жазыңыз. Содан кейін шыққан тізбекті оқыңыз."
+			},
+			tuva: {
+				title: "ЛЕНТА ДАРААЛАЛЫ",
+				instruction: "Дорудагы тең болбасын чөптүг болурунга тааржыыр эңгин бөлүктерни таап, хооңгай турар черге бижиңер. Сонуң соонда үүскен дараалалды унууңар."
+			},
+			sign: {
+				title: "ТУУЗАН ДАРААЛАЛ",
+				instruction: "Дараах тэнцэтгэл бишийг үнэн болгох энгийн бутархайнуудыг олж, хоосон зайд бичээрэй. Дараа нь үүссэн дарааллыг уншаарай."
+			}
+		};
+		
+		var lang = exportRoot.gameState.selectedLanguage || "mn";
+		var texts = exerciseText[lang];
+		
+		function findTextByContent(container, content) {
+			if (!container) return null;
+		
+			if (container instanceof createjs.Text && container.text === content) {
+				return container;
+			}
+		
+			if (!container.numChildren) return null;
+		
+			for (var i = 0; i < container.numChildren; i++) {
+				var found = findTextByContent(container.getChildAt(i), content);
+				if (found) return found;
+			}
+		
+			return null;
+		}
+		
+		var txt_title = findTextByContent(exportRoot, "txt_title");
+		var txt_instruction = findTextByContent(exportRoot, "txt_instruction");
+		
+		
+		console.log("exerciseText[lang]");
+		console.log(exerciseText[lang]);
+		console.log(exportRoot.txt_title);
+		if (txt_title) {
+			txt_title.text = texts.title;
+			applyTextStyling(txt_title, {
+				outlineSize: 15,
+				outlineColor: "#461A17",
+				fillColor: "#FFFFFF",
+				pad: 80
+			});
+		}else {
+			console.log("exportRoot.txt_title not found");
+		}
+		
+		console.log('--------------------------');
+		console.log(exportRoot);
+		console.log('--------------------------');
+		
+		if (txt_instruction) {
+			txt_instruction.text = texts.instruction;
+		}
+	}
+	this.frame_25 = function() {
+		var exportRoot = this;
+		exportRoot.stop();
+		
+		// =====================================================
+		// CONFIG
+		// =====================================================
+		var CONFIG = {
+		    lessonId: "lesson6",
+		    lessonFolder: "Lesson6",
+		    videoId: "map09",
+		    videoFile: "./videos/lesson6_map09.mp4",
+		    containerId: "success-video-map09",
+		    nextFrame: 26,
+		    backgroundColor: "#6B4FBB",
+		    zIndex: "9999",
+		    autoSkipOnError: true,
+		    autoMarkWatchedOnSkip: true
+		};
+		
+		// =====================================================
+		// INIT
+		// =====================================================
+		if (!exportRoot.gameState) {
+		    exportRoot.gameState = {};
+		}
+		
+		if (!exportRoot.gameState.videosWatched) {
+		    exportRoot.gameState.videosWatched = [];
+		}
+		
+		if (!exportRoot.saveState) {
+		    exportRoot.saveState = function() {};
+		}
+		
+		var videoContainer = null;
+		var videoElement = null;
+		var resizeHandler = null;
+		var started = false;
+		var endedOrSkipped = false;
+		
+		// =====================================================
+		// HELPERS
+		// =====================================================
+		function hasWatchedVideo() {
+		    return exportRoot.gameState.videosWatched.indexOf(CONFIG.videoId) !== -1;
+		}
+		
+		function markVideoWatched() {
+		    if (!hasWatchedVideo()) {
+		        exportRoot.gameState.videosWatched.push(CONFIG.videoId);
+		        exportRoot.saveState();
+		    }
+		}
+		
+		function lockPageScroll() {
+		    document.body.style.overflow = "hidden";
+		    document.documentElement.style.overflow = "hidden";
+		}
+		
+		function unlockPageScroll() {
+		    document.body.style.overflow = "";
+		    document.documentElement.style.overflow = "";
+		}
+		
+		function cleanup() {
+		    unlockPageScroll();
+		
+		    if (videoElement) {
+		        try {
+		            videoElement.pause();
+		            videoElement.removeAttribute("src");
+		            videoElement.load();
+		        } catch (e) {}
+		        videoElement = null;
+		    }
+		
+		    if (videoContainer && videoContainer.parentNode) {
+		        videoContainer.parentNode.removeChild(videoContainer);
+		        videoContainer = null;
+		    }
+		
+		    if (resizeHandler) {
+		        window.removeEventListener("resize", resizeHandler);
+		        resizeHandler = null;
+		    }
+		}
+		
+		function updateContainerPosition() {
+		    if (!videoContainer) return;
+		
+		    var canvas = document.getElementById("canvas");
+		    if (!canvas) return;
+		
+		    var rect = canvas.getBoundingClientRect();
+		
+		    videoContainer.style.left = rect.left + "px";
+		    videoContainer.style.top = rect.top + "px";
+		    videoContainer.style.width = rect.width + "px";
+		    videoContainer.style.height = rect.height + "px";
+		}
+		
+		function goToNextExercise(reason) {
+		    if (endedOrSkipped) return;
+		    endedOrSkipped = true;
+		
+		    if (CONFIG.autoMarkWatchedOnSkip) {
+		        markVideoWatched();
+		    }
+		
+		    cleanup();
+		
+		    exportRoot.gameState.currentFrame = CONFIG.nextFrame;
+		    exportRoot.saveState();
+		    exportRoot.gotoAndStop(CONFIG.nextFrame);
+		}
+		
+		function tryPlayVideo() {
+		    if (!videoElement || started) return;
+		    started = true;
+		
+		    var playPromise = videoElement.play();
+		
+		    if (playPromise && typeof playPromise.catch === "function") {
+		        playPromise.catch(function(err) {
+		            console.log("Video autoplay failed:", err);
+		            goToNextExercise("autoplay_failed");
+		        });
+		    }
+		}
+		
+		// =====================================================
+		// MAIN
+		// =====================================================
+		function createSuccessVideo() {
+		    var existingContainer = document.getElementById(CONFIG.containerId);
+		    if (existingContainer && existingContainer.parentNode) {
+		        existingContainer.parentNode.removeChild(existingContainer);
+		    }
+		
+		    var canvas = document.getElementById("canvas");
+		    if (!canvas) {
+		        goToNextExercise("canvas_missing");
+		        return;
+		    }
+		
+		    if (hasWatchedVideo()) {
+		        goToNextExercise("already_watched");
+		        return;
+		    }
+		
+		    lockPageScroll();
+		
+		    var rect = canvas.getBoundingClientRect();
+		
+		    videoContainer = document.createElement("div");
+		    videoContainer.id = CONFIG.containerId;
+		    videoContainer.style.position = "fixed";
+		    videoContainer.style.left = rect.left + "px";
+		    videoContainer.style.top = rect.top + "px";
+		    videoContainer.style.width = rect.width + "px";
+		    videoContainer.style.height = rect.height + "px";
+		    videoContainer.style.backgroundColor = CONFIG.backgroundColor;
+		    videoContainer.style.zIndex = CONFIG.zIndex;
+		    videoContainer.style.overflow = "hidden";
+		    videoContainer.style.margin = "0";
+		    videoContainer.style.padding = "0";
+		    videoContainer.style.boxSizing = "border-box";
+		
+		    videoElement = document.createElement("video");
+		    videoElement.src = CONFIG.videoFile;
+		    videoElement.style.width = "100%";
+		    videoElement.style.height = "100%";
+		    videoElement.style.objectFit = "contain";
+		    videoElement.style.display = "block";
+		    videoElement.preload = "auto";
+		    videoElement.playsInline = true;
+		    videoElement.setAttribute("playsinline", "true");
+		    videoElement.setAttribute("webkit-playsinline", "true");
+		
+		    // Зарим browser autoplay дээр дууг хаадаг.
+		    // Хэрэв заавал sound-тай autoplay хэрэгтэй бол browser policy-оос хамаарна.
+		    // Найдвартай ажиллуулахын тулд muted=true болгож болно.
+		    videoElement.muted = false;
+		    videoElement.autoplay = false;
+		    videoElement.controls = false;
+		
+		    videoContainer.appendChild(videoElement);
+		    document.body.appendChild(videoContainer);
+		
+		    videoElement.addEventListener("loadeddata", function() {
+		        tryPlayVideo();
+		    });
+		
+		    videoElement.addEventListener("canplay", function() {
+		        tryPlayVideo();
+		    });
+		
+		    videoElement.addEventListener("ended", function() {
+		        markVideoWatched();
+		        setTimeout(function() {
+		            goToNextExercise("ended");
+		        }, 500);
+		    });
+		
+		    videoElement.addEventListener("error", function() {
+		        console.log("Video load error:", videoElement.error, CONFIG.videoFile);
+		        if (CONFIG.autoSkipOnError) {
+		            goToNextExercise("error");
+		        }
+		    });
+		
+		    resizeHandler = function() {
+		        updateContainerPosition();
+		    };
+		
+		    window.addEventListener("resize", resizeHandler);
+		    updateContainerPosition();
+		
+		    // Хэрэв ямар ч event trigger болохгүй гацвал fallback
+		    setTimeout(function() {
+		        if (!started && !endedOrSkipped) {
+		            console.log("Video start timeout, skipping:", CONFIG.videoFile);
+		            goToNextExercise("timeout");
+		        }
+		    }, 4000);
+		}
+		
+		exportRoot.on("removed", cleanup);
+		
+		createSuccessVideo();
+	}
+	this.frame_26 = function() {
+		var exportRoot = this;
+		exportRoot.stop();
+		
+		// =====================================================
+		// CONFIG
+		// =====================================
+		var CONFIG = {
+		    lessonId: "lesson6",
+		    exerciseId: "ex10",
+		    exerciseNumber: 10,
+		    storageKey: "lesson6_gameState",
+		    backFrame: 24, 
+		    nextFrame: 27, 
+		    autoNextDelay: 1500,
+		    soundPaths: {
+		        correct: "./sounds/voice_correct.mp3",
+		        wrong: "./sounds/voice_wrong.mp3",
+		        click: "./sounds/click.mp3"
+		    },
+		    // Чирэх цагны нэрс
+		    items: ["img_10_1", "img_10_2", "img_10_3", "img_10_4", "img_10_5", "img_10_6"],
+		    // Зөв эрэмбэ (Тавиур 1-ээс 6 хүртэл)
+		    correctMapping: {
+		        "target_10_1": "img_10_3", // 2/12 (Хамгийн бага)
+		        "target_10_2": "img_10_5", // 3/12
+		        "target_10_3": "img_10_2", // 4/12
+		        "target_10_4": "img_10_6", // 6/12
+		        "target_10_5": "img_10_1", // 8/12
+		        "target_10_6": "img_10_4"  // 10/12 (Хамгийн их)
+		    }
+		};
+		
+		// --- Common хэсгүүд ---
+		exportRoot.currentExerciseId = CONFIG.exerciseId;
+		exportRoot.backBtn = CONFIG.backFrame;
+		exportRoot.nextBtn = CONFIG.nextFrame;
+		CONFIG.completeKey = "exercise" + CONFIG.exerciseNumber + "Complete";
+		CONFIG.answersKey = "exercise" + CONFIG.exerciseNumber + "Answers";
+		
+		// =====================================================
+		// STATE & INIT
+		// =====================
+		if (!exportRoot.gameState) exportRoot.gameState = {};
+		if (!exportRoot.gameState[CONFIG.answersKey]) exportRoot.gameState[CONFIG.answersKey] = {};
+		if (typeof exportRoot.gameState[CONFIG.completeKey] === "undefined") exportRoot.gameState[CONFIG.completeKey] = false;
+		
+		exportRoot.saveState = function() {
+		    try { localStorage.setItem(CONFIG.storageKey, JSON.stringify(exportRoot.gameState)); } catch (e) {}
+		};
+		
+		function playSound(type) {
+		    try { new Audio(CONFIG.soundPaths[type]).play().catch(function(){}); } catch (e) {}
+		}
+		
+		// =====================================================
+		// DRAG AND DROP LOGIC
+		// =====================
+		var targetNames = Object.keys(CONFIG.correctMapping);
+		
+		function setupDragAndDrop() {
+		    CONFIG.items.forEach(function(itemName) {
+		        var item = exportRoot[itemName];
+		        if (!item) return;
+		
+		        item.oldX = item.x;
+		        item.oldY = item.y;
+		        item.cursor = "pointer";
+		        item.mouseChildren = false;
+		
+		        // 1. Хадгалагдсан төлөвийг сэргээх
+		        targetNames.forEach(function(tName) {
+		            if (exportRoot.gameState[CONFIG.answersKey][tName] === itemName) {
+		                var target = exportRoot[tName];
+		                if (target) {
+		                    item.x = target.x;
+		                    item.y = target.y;
+		                    item.mouseEnabled = false;
+		                }
+		            }
+		        });
+		
+		        // 2. Чирж эхлэх
+		        item.on("mousedown", function(evt) {
+		            if (exportRoot.gameState[CONFIG.completeKey]) return;
+		            exportRoot.addChild(item); 
+		            var localPos = item.parent.globalToLocal(evt.stageX, evt.stageY);
+		            item.offset = { x: item.x - localPos.x, y: item.y - localPos.y };
+		        });
+		
+		        // 3. Чирэх
+		        item.on("pressmove", function(evt) {
+		            if (exportRoot.gameState[CONFIG.completeKey]) return;
+		            var localPos = item.parent.globalToLocal(evt.stageX, evt.stageY);
+		            item.x = localPos.x + item.offset.x;
+		            item.y = localPos.y + item.offset.y;
+		        });
+		
+		        // 4. Тавих
+		        item.on("pressup", function(evt) {
+		            if (exportRoot.gameState[CONFIG.completeKey]) return;
+		
+		            var hitTargetName = null;
+		            targetNames.forEach(function(tName) {
+		                var target = exportRoot[tName];
+		                if (!target) return;
+		                
+		                var pt = target.globalToLocal(evt.stageX, evt.stageY);
+		                var dist = Math.sqrt(Math.pow(item.x - target.x, 2) + Math.pow(item.y - target.y, 2));
+		                
+		                if (target.hitTest(pt.x, pt.y) || dist < 60) {
+		                    hitTargetName = tName;
+		                }
+		            });
+		
+		            if (hitTargetName && CONFIG.correctMapping[hitTargetName] === itemName) {
+		                playSound("click");
+		                item.x = exportRoot[hitTargetName].x;
+		                item.y = exportRoot[hitTargetName].y;
+		                item.mouseEnabled = false;
+		                
+		                exportRoot.gameState[CONFIG.answersKey][hitTargetName] = itemName;
+		                exportRoot.saveState();
+		                checkWin();
+		            } else {
+		                if (hitTargetName) exportRoot.playCharacterAnimation("wrong");
+		                createjs.Tween.get(item).to({ x: item.oldX, y: item.oldY }, 500, createjs.Ease.backOut);
+		            }
+		        });
+		    });
+		}
+		
+		function checkWin() {
+		    var allDone = true;
+		    targetNames.forEach(function(tName) {
+		        if (exportRoot.gameState[CONFIG.answersKey][tName] !== CONFIG.correctMapping[tName]) {
+		            allDone = false;
+		        }
+		    });
+		
+		    if (allDone) {
+		        exportRoot.gameState[CONFIG.completeKey] = true;
+		        exportRoot.saveState();
+		        exportRoot.playCharacterAnimation("correct");
+		        if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
+		        setTimeout(function() {
+		            exportRoot.gotoAndStop(CONFIG.nextFrame);
+		        }, CONFIG.autoNextDelay);
+		    }
+		}
+		
+		// =====================================================
+		// COMMON ELEMENTS
+		// =====================
+		if (exportRoot.help_popup) {
+		    exportRoot.help_popup.visible = false;
+		    exportRoot.help_popup.stop();
+		}
+		
+		if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
+		
+		setupDragAndDrop();
+		if (exportRoot.stopInstruction) exportRoot.stopInstruction();
+		if (!exportRoot.gameState[CONFIG.completeKey]) {
+		    setTimeout(function() { if(exportRoot.playInstruction) exportRoot.playInstruction(); }, 500);
+		}
+		
+		exportRoot.on("removed", function() {
+		    if(exportRoot.stopInstruction) exportRoot.stopInstruction(); 
+		});
+		function applyTextStyling(textObj, opts) {
+			if (!textObj || !(textObj instanceof createjs.Text)) return;
+			if (textObj._isStyled) return;
+			textObj._isStyled = true;
+			opts = opts || {};
+			var outlineColor = opts.outlineColor || "#461A17";
+			var outlineSize = opts.outlineSize || 6;
+			var fillColor = opts.fillColor || "#FFFFFF";
+			var shadowColor = opts.shadowColor || "rgba(60, 20, 0, 0.4)";
+			var pad = opts.pad || 60;
+			var savedX = textObj.x;
+			var savedY = textObj.y;
+			textObj.outline = null;
+			textObj.color = fillColor;
+			if (textObj._strokeClone && textObj._strokeClone.parent) {
+				textObj._strokeClone.parent.removeChild(textObj._strokeClone);
+				if (textObj._strokeClone.uncache) {
+					textObj._strokeClone.uncache();
+				}
+				textObj._strokeClone = null;
+			}
+			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
+			strokeText.textAlign = textObj.textAlign;
+			strokeText.textBaseline = textObj.textBaseline;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+			strokeText.outline = outlineSize;
+			strokeText.shadow = null;
+			var parent = textObj.parent;
+			if (parent) {
+				var idx = parent.getChildIndex(textObj);
+				parent.addChildAt(strokeText, idx);
+			}
+			textObj._strokeClone = strokeText;
+			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
+			var bounds = textObj.getBounds();
+			if (bounds) {
+				var cacheX = bounds.x - pad;
+				var cacheY = bounds.y - pad;
+				var cacheW = bounds.width + pad * 2;
+				var cacheH = bounds.height + pad * 2;
+				
+				if (strokeText.cacheCanvas) {
+					strokeText.uncache();
+				}
+				if (textObj.cacheCanvas) {
+					textObj.uncache();
+				}
+				
+				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+				textObj.cache(cacheX, cacheY, cacheW, cacheH);
+			}
+			textObj.x = savedX;
+			textObj.y = savedY;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+		}
+		
+		var exerciseText = {
+			mn: {
+				title: "ТОГЛОХ ЦАГ",
+				instruction: "Тоглоомын хотод хүүхдүүд дараах хугацааг өнгөрөөжээ.\nХүүхдүүдийн тоглосон хугацааг өсөх эрэмбээр байрлуулна уу."
+			},
+			kz: {
+				title: "ОЙЫН УАҚЫТЫ",
+				instruction: "Ойын қаласында балалар төмендегі уақыттарды өткізді.\nБалалардың ойнаған уақыттарын өсу ретімен орналастырыңыз."
+			},
+			tuva: {
+				title: "НААДААР ҮЕ",
+				instruction: "Наадам хоорайда уруглар дорудагы үелерни өткөрген.\nУругларның наадаан үелерин өске эрээри-биле тургузуңар."
+			},
+			sign: {
+				title: "ТОГЛОХ ЦАГ",
+				instruction: "Тоглоомын хотод хүүхдүүд дараах хугацааг өнгөрөөжээ.\nХүүхдүүдийн тоглосон хугацааг өсөх эрэмбээр байрлуулна уу."
+			}
+		};
+		
+		var lang = exportRoot.gameState.selectedLanguage || "mn";
+		var texts = exerciseText[lang];
+		
+		function findTextByContent(container, content) {
+			if (!container) return null;
+		
+			if (container instanceof createjs.Text && container.text === content) {
+				return container;
+			}
+		
+			if (!container.numChildren) return null;
+		
+			for (var i = 0; i < container.numChildren; i++) {
+				var found = findTextByContent(container.getChildAt(i), content);
+				if (found) return found;
+			}
+		
+			return null;
+		}
+		
+		var txt_title = findTextByContent(exportRoot, "txt_title");
+		var txt_instruction = findTextByContent(exportRoot, "txt_instruction");
+		
+		
+		console.log("exerciseText[lang]");
+		console.log(exerciseText[lang]);
+		console.log(exportRoot.txt_title);
+		if (txt_title) {
+			txt_title.text = texts.title;
+			applyTextStyling(txt_title, {
+				outlineSize: 15,
+				outlineColor: "#461A17",
+				fillColor: "#FFFFFF",
+				pad: 80
+			});
+		}else {
+			console.log("exportRoot.txt_title not found");
+		}
+		
+		console.log('--------------------------');
+		console.log(exportRoot);
+		console.log('--------------------------');
+		
+		if (txt_instruction) {
+			txt_instruction.text = texts.instruction;
+		}
+	}
+	this.frame_27 = function() {
+		var exportRoot = this;
+		exportRoot.stop();
+		
+		// =====================================================
+		// CONFIG
+		// =====================================================
+		var CONFIG = {
+		    lessonId: "lesson6",
+		    lessonFolder: "Lesson6",
+		    videoId: "map10",
+		    videoFile: "./videos/lesson6_map10.mp4",
+		    containerId: "success-video-map10",
+		    nextFrame: 28,
+		    backgroundColor: "#6B4FBB",
+		    zIndex: "9999",
+		    autoSkipOnError: true,
+		    autoMarkWatchedOnSkip: true
+		};
+		
+		// =====================================================
+		// INIT
+		// =====================================================
+		if (!exportRoot.gameState) {
+		    exportRoot.gameState = {};
+		}
+		
+		if (!exportRoot.gameState.videosWatched) {
+		    exportRoot.gameState.videosWatched = [];
+		}
+		
+		if (!exportRoot.saveState) {
+		    exportRoot.saveState = function() {};
+		}
+		
+		var videoContainer = null;
+		var videoElement = null;
+		var resizeHandler = null;
+		var started = false;
+		var endedOrSkipped = false;
+		
+		// =====================================================
+		// HELPERS
+		// =====================================================
+		function hasWatchedVideo() {
+		    return exportRoot.gameState.videosWatched.indexOf(CONFIG.videoId) !== -1;
+		}
+		
+		function markVideoWatched() {
+		    if (!hasWatchedVideo()) {
+		        exportRoot.gameState.videosWatched.push(CONFIG.videoId);
+		        exportRoot.saveState();
+		    }
+		}
+		
+		function lockPageScroll() {
+		    document.body.style.overflow = "hidden";
+		    document.documentElement.style.overflow = "hidden";
+		}
+		
+		function unlockPageScroll() {
+		    document.body.style.overflow = "";
+		    document.documentElement.style.overflow = "";
+		}
+		
+		function cleanup() {
+		    unlockPageScroll();
+		
+		    if (videoElement) {
+		        try {
+		            videoElement.pause();
+		            videoElement.removeAttribute("src");
+		            videoElement.load();
+		        } catch (e) {}
+		        videoElement = null;
+		    }
+		
+		    if (videoContainer && videoContainer.parentNode) {
+		        videoContainer.parentNode.removeChild(videoContainer);
+		        videoContainer = null;
+		    }
+		
+		    if (resizeHandler) {
+		        window.removeEventListener("resize", resizeHandler);
+		        resizeHandler = null;
+		    }
+		}
+		
+		function updateContainerPosition() {
+		    if (!videoContainer) return;
+		
+		    var canvas = document.getElementById("canvas");
+		    if (!canvas) return;
+		
+		    var rect = canvas.getBoundingClientRect();
+		
+		    videoContainer.style.left = rect.left + "px";
+		    videoContainer.style.top = rect.top + "px";
+		    videoContainer.style.width = rect.width + "px";
+		    videoContainer.style.height = rect.height + "px";
+		}
+		
+		function goToNextExercise(reason) {
+		    if (endedOrSkipped) return;
+		    endedOrSkipped = true;
+		
+		    if (CONFIG.autoMarkWatchedOnSkip) {
+		        markVideoWatched();
+		    }
+		
+		    cleanup();
+		
+		    exportRoot.gameState.currentFrame = CONFIG.nextFrame;
+		    exportRoot.saveState();
+		    exportRoot.gotoAndStop(CONFIG.nextFrame);
+		}
+		
+		function tryPlayVideo() {
+		    if (!videoElement || started) return;
+		    started = true;
+		
+		    var playPromise = videoElement.play();
+		
+		    if (playPromise && typeof playPromise.catch === "function") {
+		        playPromise.catch(function(err) {
+		            console.log("Video autoplay failed:", err);
+		            goToNextExercise("autoplay_failed");
+		        });
+		    }
+		}
+		
+		// =====================================================
+		// MAIN
+		// =====================================================
+		function createSuccessVideo() {
+		    var existingContainer = document.getElementById(CONFIG.containerId);
+		    if (existingContainer && existingContainer.parentNode) {
+		        existingContainer.parentNode.removeChild(existingContainer);
+		    }
+		
+		    var canvas = document.getElementById("canvas");
+		    if (!canvas) {
+		        goToNextExercise("canvas_missing");
+		        return;
+		    }
+		
+		    if (hasWatchedVideo()) {
+		        goToNextExercise("already_watched");
+		        return;
+		    }
+		
+		    lockPageScroll();
+		
+		    var rect = canvas.getBoundingClientRect();
+		
+		    videoContainer = document.createElement("div");
+		    videoContainer.id = CONFIG.containerId;
+		    videoContainer.style.position = "fixed";
+		    videoContainer.style.left = rect.left + "px";
+		    videoContainer.style.top = rect.top + "px";
+		    videoContainer.style.width = rect.width + "px";
+		    videoContainer.style.height = rect.height + "px";
+		    videoContainer.style.backgroundColor = CONFIG.backgroundColor;
+		    videoContainer.style.zIndex = CONFIG.zIndex;
+		    videoContainer.style.overflow = "hidden";
+		    videoContainer.style.margin = "0";
+		    videoContainer.style.padding = "0";
+		    videoContainer.style.boxSizing = "border-box";
+		
+		    videoElement = document.createElement("video");
+		    videoElement.src = CONFIG.videoFile;
+		    videoElement.style.width = "100%";
+		    videoElement.style.height = "100%";
+		    videoElement.style.objectFit = "contain";
+		    videoElement.style.display = "block";
+		    videoElement.preload = "auto";
+		    videoElement.playsInline = true;
+		    videoElement.setAttribute("playsinline", "true");
+		    videoElement.setAttribute("webkit-playsinline", "true");
+		
+		    // Зарим browser autoplay дээр дууг хаадаг.
+		    // Хэрэв заавал sound-тай autoplay хэрэгтэй бол browser policy-оос хамаарна.
+		    // Найдвартай ажиллуулахын тулд muted=true болгож болно.
+		    videoElement.muted = false;
+		    videoElement.autoplay = false;
+		    videoElement.controls = false;
+		
+		    videoContainer.appendChild(videoElement);
+		    document.body.appendChild(videoContainer);
+		
+		    videoElement.addEventListener("loadeddata", function() {
+		        tryPlayVideo();
+		    });
+		
+		    videoElement.addEventListener("canplay", function() {
+		        tryPlayVideo();
+		    });
+		
+		    videoElement.addEventListener("ended", function() {
+		        markVideoWatched();
+		        setTimeout(function() {
+		            goToNextExercise("ended");
+		        }, 500);
+		    });
+		
+		    videoElement.addEventListener("error", function() {
+		        console.log("Video load error:", videoElement.error, CONFIG.videoFile);
+		        if (CONFIG.autoSkipOnError) {
+		            goToNextExercise("error");
+		        }
+		    });
+		
+		    resizeHandler = function() {
+		        updateContainerPosition();
+		    };
+		
+		    window.addEventListener("resize", resizeHandler);
+		    updateContainerPosition();
+		
+		    // Хэрэв ямар ч event trigger болохгүй гацвал fallback
+		    setTimeout(function() {
+		        if (!started && !endedOrSkipped) {
+		            console.log("Video start timeout, skipping:", CONFIG.videoFile);
+		            goToNextExercise("timeout");
+		        }
+		    }, 4000);
+		}
+		
+		exportRoot.on("removed", cleanup);
+		
+		createSuccessVideo();
+	}
+	this.frame_28 = function() {
+		var exportRoot = this;
+		exportRoot.stop();
+		
+		// =====================================================
+		// CONFIG
+		// =====================================
+		var CONFIG = {
 		    lessonId: "lesson6",
 		    exerciseId: "ex11",
 		    exerciseNumber: 11,
 		    storageKey: "lesson6_gameState",
-		    backFrame: 20, 
-		    nextFrame: 23, 
+		    backFrame: 26, 
+		    nextFrame: 29, 
 		    autoNextDelay: 1500,
 		    soundPaths: {
 		        correct: "./sounds/voice_correct.mp3",
@@ -9488,7 +14361,7 @@ if (reversed == null) { reversed = false; }
 		        // ЗӨВ
 		        exportRoot.gameState[CONFIG.completeKey] = true;
 		        exportRoot.saveState();
-		        playSound("correct");
+		        exportRoot.playCharacterAnimation("correct");
 		        
 		        CONFIG.inputs.forEach(function(n) {
 		            var el = document.getElementById(getInputDomId(n));
@@ -9552,7 +14425,7 @@ if (reversed == null) { reversed = false; }
 		    });
 		    exportRoot.tickAttached = true;
 		}
-		
+		if (exportRoot.stopInstruction) exportRoot.stopInstruction();
 		if (!exportRoot.gameState[CONFIG.completeKey]) {
 		    setTimeout(function() { if(exportRoot.playInstruction) exportRoot.playInstruction(); }, 500);
 		}
@@ -9561,8 +14434,127 @@ if (reversed == null) { reversed = false; }
 		    if(exportRoot.stopInstruction) exportRoot.stopInstruction(); 
 		    hideAllInputs();
 		});
+		function applyTextStyling(textObj, opts) {
+			if (!textObj || !(textObj instanceof createjs.Text)) return;
+			if (textObj._isStyled) return;
+			textObj._isStyled = true;
+			opts = opts || {};
+			var outlineColor = opts.outlineColor || "#461A17";
+			var outlineSize = opts.outlineSize || 6;
+			var fillColor = opts.fillColor || "#FFFFFF";
+			var shadowColor = opts.shadowColor || "rgba(60, 20, 0, 0.4)";
+			var pad = opts.pad || 60;
+			var savedX = textObj.x;
+			var savedY = textObj.y;
+			textObj.outline = null;
+			textObj.color = fillColor;
+			if (textObj._strokeClone && textObj._strokeClone.parent) {
+				textObj._strokeClone.parent.removeChild(textObj._strokeClone);
+				if (textObj._strokeClone.uncache) {
+					textObj._strokeClone.uncache();
+				}
+				textObj._strokeClone = null;
+			}
+			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
+			strokeText.textAlign = textObj.textAlign;
+			strokeText.textBaseline = textObj.textBaseline;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+			strokeText.outline = outlineSize;
+			strokeText.shadow = null;
+			var parent = textObj.parent;
+			if (parent) {
+				var idx = parent.getChildIndex(textObj);
+				parent.addChildAt(strokeText, idx);
+			}
+			textObj._strokeClone = strokeText;
+			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
+			var bounds = textObj.getBounds();
+			if (bounds) {
+				var cacheX = bounds.x - pad;
+				var cacheY = bounds.y - pad;
+				var cacheW = bounds.width + pad * 2;
+				var cacheH = bounds.height + pad * 2;
+				
+				if (strokeText.cacheCanvas) {
+					strokeText.uncache();
+				}
+				if (textObj.cacheCanvas) {
+					textObj.uncache();
+				}
+				
+				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+				textObj.cache(cacheX, cacheY, cacheW, cacheH);
+			}
+			textObj.x = savedX;
+			textObj.y = savedY;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+		}
+		
+		var exerciseText = {
+			mn: {
+				title: "ШААР ХАГАЛАХ ТЭМЦЭЭН",
+				instruction: "Эгнээ бүрд бүтэн үлдсэн шааруудын тоо ямар зүй тогтлоор өөрчлөгдөж байгааг олж харна уу. Дунд эгнээнд тохирох энгийн бутархайг олж бичээрэй."
+			},
+			kz: {
+				title: "ШАР ЖАРУ САЙЫЖЫ",
+				instruction: "Хатар бүрүзүндө бүтүн артып калган шарларның тоозу кандыг ёзулал-биле өскерип турганын ажыглаңар. Ортакы хатарга тааржыыр эңгин бөлүктү таап бижиңер."
+			},
+			tuva: {
+				title: "ШАР ЖАРУ САЙЫЖЫ",
+				instruction: "Хатар бүрүзүндө бүтүн артып калган шарларның тоозу кандыг ёзулал-биле өскерип турганын ажыглаңар. Ортакы хатарга тааржыыр эңгин бөлүктү таап бижиңер."
+			},
+			sign: {
+				title: "ШААР ХАГАЛАХ ТЭМЦЭЭН",
+				instruction: "Эгнээ бүрд бүтэн үлдсэн шааруудын тоо ямар зүй тогтлоор өөрчлөгдөж байгааг олж харна уу. Дунд эгнээнд тохирох энгийн бутархайг олж бичээрэй."
+			}
+		};
+		
+		var lang = exportRoot.gameState.selectedLanguage || "mn";
+		var texts = exerciseText[lang];
+		
+		function findTextByContent(container, content) {
+			if (!container) return null;
+		
+			if (container instanceof createjs.Text && container.text === content) {
+				return container;
+			}
+		
+			if (!container.numChildren) return null;
+		
+			for (var i = 0; i < container.numChildren; i++) {
+				var found = findTextByContent(container.getChildAt(i), content);
+				if (found) return found;
+			}
+		
+			return null;
+		}
+		
+		var txt_title = findTextByContent(exportRoot, "txt_title");
+		var txt_instruction = findTextByContent(exportRoot, "txt_instruction");
+		
+		
+		console.log("exerciseText[lang]");
+		console.log(exerciseText[lang]);
+		console.log(exportRoot.txt_title);
+		if (txt_title) {
+			txt_title.text = texts.title;
+			applyTextStyling(txt_title, {
+				outlineSize: 15,
+				outlineColor: "#461A17",
+				fillColor: "#FFFFFF",
+				pad: 80
+			});
+		}else {
+			console.log("exportRoot.txt_title not found");
+		}
+		
+		if (txt_instruction) {
+			txt_instruction.text = texts.instruction;
+		}
 	}
-	this.frame_23 = function() {
+	this.frame_29 = function() {
 		var exportRoot = this;
 		exportRoot.stop();
 		
@@ -9812,7 +14804,7 @@ if (reversed == null) { reversed = false; }
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1).call(this.frame_3).wait(1).call(this.frame_4).wait(1).call(this.frame_5).wait(1).call(this.frame_6).wait(1).call(this.frame_7).wait(1).call(this.frame_8).wait(1).call(this.frame_9).wait(1).call(this.frame_10).wait(1).call(this.frame_11).wait(1).call(this.frame_12).wait(1).call(this.frame_13).wait(1).call(this.frame_14).wait(1).call(this.frame_15).wait(1).call(this.frame_16).wait(1).call(this.frame_17).wait(1).call(this.frame_18).wait(1).call(this.frame_19).wait(1).call(this.frame_20).wait(1).call(this.frame_21).wait(1).call(this.frame_22).wait(1).call(this.frame_23).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1).call(this.frame_3).wait(1).call(this.frame_4).wait(1).call(this.frame_5).wait(1).call(this.frame_6).wait(1).call(this.frame_7).wait(1).call(this.frame_8).wait(1).call(this.frame_9).wait(1).call(this.frame_10).wait(1).call(this.frame_11).wait(1).call(this.frame_12).wait(1).call(this.frame_13).wait(1).call(this.frame_14).wait(1).call(this.frame_15).wait(1).call(this.frame_16).wait(1).call(this.frame_17).wait(1).call(this.frame_18).wait(1).call(this.frame_19).wait(1).call(this.frame_20).wait(1).call(this.frame_21).wait(1).call(this.frame_22).wait(1).call(this.frame_23).wait(1).call(this.frame_24).wait(1).call(this.frame_25).wait(1).call(this.frame_26).wait(1).call(this.frame_27).wait(1).call(this.frame_28).wait(1).call(this.frame_29).wait(1));
 
 	// help
 	this.help_popup = new lib.help_popup();
@@ -9823,7 +14815,7 @@ if (reversed == null) { reversed = false; }
 	this.instance.setTransform(1646.75,290.5,1.3295,1.4245,0,0,0,0.1,-0.1);
 	this.instance.visible = false;
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance},{t:this.help_popup}]},2).wait(22));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance},{t:this.help_popup}]},8).wait(22));
 
 	// kids
 	this.Emoji_result = new lib.MC_result();
@@ -9831,7 +14823,7 @@ if (reversed == null) { reversed = false; }
 	this.Emoji_result.setTransform(-792.15,10.25,1.7495,1.7498,0,0,0,-0.1,0.1);
 	this.Emoji_result._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.Emoji_result).wait(2).to({_off:false},0).wait(22));
+	this.timeline.addTween(cjs.Tween.get(this.Emoji_result).wait(8).to({_off:false},0).wait(22));
 
 	// btn_main_new
 	this.btn_next = new lib.btn_next();
@@ -9859,83 +14851,84 @@ if (reversed == null) { reversed = false; }
 	this.voice_btn.setTransform(1823.5,391);
 	new cjs.ButtonHelper(this.voice_btn, 0, 1, 1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.voice_btn},{t:this.help_btn},{t:this.home_btn},{t:this.btn_back},{t:this.btn_next}]},2).wait(22));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.voice_btn},{t:this.help_btn},{t:this.home_btn},{t:this.btn_back},{t:this.btn_next}]},7).wait(23));
 
 	// text
-	this.text = new cjs.Text("Тоглоомын зам", "bold 50px 'Rubik'", "#FFFFFF");
+	this.text = new cjs.Text("Тэнцүү биш хэсэгт \nхуваасан", "42px 'Roboto'");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 61;
+	this.text.lineHeight = 51;
+	this.text.lineWidth = 812;
 	this.text.parent = this;
-	this.text.setTransform(1009.1,111.7);
-	this.text.shadow = new cjs.Shadow("rgba(101,10,5,1)",0,0,7);
+	this.text.setTransform(1173,234);
 
-	this.text_1 = new cjs.Text("Тоглоомын замын будсан хэсгүүдийг ажиглаарай. \n1 метр замын хэдэн хэсэг нь ягаан өнгөтэй байна вэ?  \nТохирох энгийн бутархайг нөхөж бичээрэй.", "35px 'Roboto'");
+	this.text_1 = new cjs.Text("Тэнцүү хэсэгт хуваасан", "42px 'Roboto'");
 	this.text_1.textAlign = "center";
-	this.text_1.lineHeight = 43;
-	this.text_1.lineWidth = 905;
+	this.text_1.lineHeight = 51;
+	this.text_1.lineWidth = 812;
 	this.text_1.parent = this;
-	this.text_1.setTransform(1008,346.5);
+	this.text_1.setTransform(525.3,234);
 
-	this.text_2 = new cjs.Text("Дөрөвний хоёр", "30px 'Roboto'");
+	this.text_2 = new cjs.Text("Дөрөвний дөрөв", "30px 'Times'");
 	this.text_2.textAlign = "center";
-	this.text_2.lineHeight = 35;
-	this.text_2.lineWidth = 221;
+	this.text_2.lineHeight = 30;
+	this.text_2.lineWidth = 239;
 	this.text_2.parent = this;
-	this.text_2.setTransform(1536.3,615.7);
+	this.text_2.setTransform(1546.6,776.45);
 
-	this.text_3 = new cjs.Text("Дөрөвний нэг", "30px 'Roboto'");
+	this.text_3 = new cjs.Text("Дөрөвний гурав", "30px 'Times'");
 	this.text_3.textAlign = "center";
-	this.text_3.lineHeight = 35;
-	this.text_3.lineWidth = 203;
+	this.text_3.lineHeight = 30;
+	this.text_3.lineWidth = 231;
 	this.text_3.parent = this;
-	this.text_3.setTransform(1535.15,538.25);
+	this.text_3.setTransform(1543.9,698.15);
 
-	this.text_4 = new cjs.Text("Гурван бүхэл", "30px 'Roboto'");
+	this.text_4 = new cjs.Text("Дөрөвний хоёр", "30px 'Times'");
 	this.text_4.textAlign = "center";
-	this.text_4.lineHeight = 35;
-	this.text_4.lineWidth = 217;
+	this.text_4.lineHeight = 30;
+	this.text_4.lineWidth = 221;
 	this.text_4.parent = this;
-	this.text_4.setTransform(851.5,774.3);
+	this.text_4.setTransform(1536.3,615.7);
 
-	this.text_5 = new cjs.Text("Гуравны гурав", "30px 'Roboto'");
+	this.text_5 = new cjs.Text("Дөрөвний нэг", "30px 'Times'");
 	this.text_5.textAlign = "center";
-	this.text_5.lineHeight = 35;
-	this.text_5.lineWidth = 217;
+	this.text_5.lineHeight = 30;
+	this.text_5.lineWidth = 203;
 	this.text_5.parent = this;
-	this.text_5.setTransform(852.55,696);
+	this.text_5.setTransform(1535.15,538.25);
 
-	this.text_6 = new cjs.Text("Гуравны хоёр", "30px 'Roboto'");
+	this.text_6 = new cjs.Text("Гурван бүхэл", "30px 'Times'");
 	this.text_6.textAlign = "center";
-	this.text_6.lineHeight = 35;
-	this.text_6.lineWidth = 203;
+	this.text_6.lineHeight = 30;
+	this.text_6.lineWidth = 217;
 	this.text_6.parent = this;
-	this.text_6.setTransform(849.9,615.7);
+	this.text_6.setTransform(851.5,774.3);
 
-	this.text_7 = new cjs.Text("Гуравны нэг", "30px 'Roboto'");
+	this.text_7 = new cjs.Text("Гуравны гурав", "30px 'Times'");
 	this.text_7.textAlign = "center";
-	this.text_7.lineHeight = 35;
-	this.text_7.lineWidth = 203;
+	this.text_7.lineHeight = 30;
+	this.text_7.lineWidth = 217;
 	this.text_7.parent = this;
-	this.text_7.setTransform(850.95,538.25);
+	this.text_7.setTransform(852.55,696);
 
-	this.text_8 = new cjs.Text("Эргэдэг хүрд", "bold 50px 'Rubik'", "#FFFFFF");
+	this.text_8 = new cjs.Text("Гуравны хоёр", "30px 'Times'");
 	this.text_8.textAlign = "center";
-	this.text_8.lineHeight = 61;
+	this.text_8.lineHeight = 30;
+	this.text_8.lineWidth = 203;
 	this.text_8.parent = this;
-	this.text_8.setTransform(1008.3,112.15);
-	this.text_8.shadow = new cjs.Shadow("rgba(101,10,5,1)",0,0,7);
+	this.text_8.setTransform(849.9,615.7);
 
-	this.text_9 = new cjs.Text("Хүрдний будагдаагүй хэсэгт тохирох хариултыг сонгоно уу.", "35px 'Roboto'");
+	this.text_9 = new cjs.Text("Гуравны нэг", "30px 'Times'");
 	this.text_9.textAlign = "center";
-	this.text_9.lineHeight = 43;
+	this.text_9.lineHeight = 30;
+	this.text_9.lineWidth = 203;
 	this.text_9.parent = this;
-	this.text_9.setTransform(1008.15,365.85);
+	this.text_9.setTransform(850.95,538.25);
 
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1).p("ABtEKIjYAAIAAoTIDYAA");
 	this.shape.setTransform(387.05,740.025);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.text_1,p:{x:1008,y:346.5,text:"Тоглоомын замын будсан хэсгүүдийг ажиглаарай. \n1 метр замын хэдэн хэсэг нь ягаан өнгөтэй байна вэ?  \nТохирох энгийн бутархайг нөхөж бичээрэй.",font:"35px 'Roboto'",lineHeight:43,lineWidth:905,color:"#000000"}},{t:this.text,p:{x:1009.1,y:111.7,text:"Тоглоомын зам",font:"bold 50px 'Rubik'",color:"#FFFFFF",lineHeight:61.25,lineWidth:391}}]},2).to({state:[{t:this.text_9},{t:this.text_8},{t:this.text_7},{t:this.text_6},{t:this.text_5},{t:this.text_4},{t:this.text_3},{t:this.text_2},{t:this.text_1,p:{x:1543.9,y:698.15,text:"Дөрөвний гурав",font:"30px 'Roboto'",lineHeight:35.15,lineWidth:231,color:"#000000"}},{t:this.text,p:{x:1546.6,y:776.45,text:"Дөрөвний дөрөв",font:"30px 'Roboto'",color:"#000000",lineHeight:35.15,lineWidth:239}}]},2).to({state:[{t:this.shape},{t:this.text_1,p:{x:1004.5,y:346.5,text:"Амьтны хүрээлэн дэх амьтдыг ажиглаарай. Нийт амьтдын дотор шар өнгөтэй амьтад хэдэн хэсэг болж байгааг олоод тохирох туузан дээрх хэсгийг будаарай. ",font:"35px 'Roboto'",lineHeight:43,lineWidth:1309,color:"#000000"}},{t:this.text,p:{x:1007.85,y:115.65,text:"Амьтны хүрээлэн",font:"bold 50px 'Rubik'",color:"#FFFFFF",lineHeight:61.25,lineWidth:454}}]},2).to({state:[{t:this.text_1,p:{x:1010.5,y:369,text:"Цамхгийн будагдсан хэсэгт тохирох энгийн бутархайг байршуулна уу.",font:"35px 'Roboto'",lineHeight:43,lineWidth:1147,color:"#000000"}},{t:this.text,p:{x:1008.55,y:115.4,text:"Хуваарьт цамхгууд",font:"bold 50px 'Rubik'",color:"#FFFFFF",lineHeight:61.25,lineWidth:494}}]},2).to({state:[{t:this.text_1,p:{x:1006.25,y:379,text:"Савтай шингэний эзлэхүүнийг харьцуулж,  жишээрэй.",font:"35px 'Roboto'",lineHeight:43,lineWidth:890,color:"#000000"}},{t:this.text,p:{x:1006.85,y:116.05,text:"ус түгээх төв",font:"bold 50px 'Rubik'",color:"#FFFFFF",lineHeight:61.25,lineWidth:337}}]},2).to({state:[{t:this.text_1,p:{x:1008.55,y:115.2,text:"Хянах самбар",font:"bold 50px 'Rubik'",lineHeight:61.25,lineWidth:353,color:"#FFFFFF"}},{t:this.text,p:{x:1008.45,y:371.45,text:"Хянах самбарын будсан хэсэгт тохирох энгийн бутархайг бичээд жишээрэй.",font:"35px 'Roboto'",color:"#000000",lineHeight:43,lineWidth:1293}}]},2).to({state:[{t:this.text_1,p:{x:1008,y:346.5,text:"Дараах энгийн бутархайнуудыг өсөх эрэмбээр \nуралдааны зам дээр байрлуулна уу.",font:"35px 'Roboto'",lineHeight:43,lineWidth:777,color:"#000000"}},{t:this.text,p:{x:1008.65,y:116,text:"Уралдааны зам",font:"bold 50px 'Rubik'",color:"#FFFFFF",lineHeight:61.25,lineWidth:394}}]},2).to({state:[{t:this.text_1,p:{x:1008.65,y:117.35,text:"Буух цамхаг",font:"bold 50px 'Rubik'",lineHeight:61.25,lineWidth:313,color:"#FFFFFF"}},{t:this.text,p:{x:1133.5,y:381,text:"Дараах энгийн бутархайнуудыг буурах эрэмбээр байрлуулна уу.",font:"35px 'Roboto'",color:"#000000",lineHeight:43,lineWidth:833}}]},2).to({state:[{t:this.text_1,p:{x:1049.85,y:343,text:"Дараах тэнцэтгэл бишийг үнэн болгох энгийн бутархайнуудыг олж, хоосон зайд бичээрэй. Дараа нь үүссэн дарааллыг уншаарай.",font:"35px 'Roboto'",lineHeight:43,lineWidth:1180,color:"#000000"}},{t:this.text,p:{x:1008.65,y:116.9,text:"Туузан дараалал",font:"bold 50px 'Rubik'",color:"#FFFFFF",lineHeight:61.25,lineWidth:436}}]},2).to({state:[{t:this.text_1,p:{x:1006.35,y:336,text:"Тоглоомын хотод хүүдүүд дараах хугацааг өнгөрөөжээ.\nХүүхдүүдийн тоглосон хугацааг өсөх эрэмбээр байрлуулна уу.",font:"35px 'Roboto'",lineHeight:43,lineWidth:1224,color:"#000000"}},{t:this.text,p:{x:1006.9,y:116.5,text:"Тоглох цаг",font:"bold 50px 'Rubik'",color:"#FFFFFF",lineHeight:61.25,lineWidth:272}}]},2).to({state:[{t:this.text_1,p:{x:1006.35,y:336,text:"Эгнээ бүрд бүтэн үлдсэн шааруудын тоо ямар зүй тогтлоор өөрчлөгдөж байгааг олж харна уу. Дунд эгнээнд тохирох энгийн бутархайг олж бичээрэй.",font:"35px 'Roboto'",lineHeight:43,lineWidth:1224,color:"#000000"}},{t:this.text,p:{x:1006.9,y:116.5,text:"Шаар хагалах тэмцээн",font:"bold 50px 'Rubik'",color:"#FFFFFF",lineHeight:61.25,lineWidth:581}}]},2).wait(2));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.text_1,p:{x:525.3,y:234,text:"Тэнцүү хэсэгт хуваасан",font:"42px 'Roboto'",color:"#000000",lineHeight:51.2,lineWidth:812}},{t:this.text,p:{x:1173,y:234,text:"Тэнцүү биш хэсэгт \nхуваасан",lineWidth:812,font:"42px 'Roboto'",lineHeight:51.2}}]},2).to({state:[]},1).to({state:[{t:this.text,p:{x:949.85,y:222.25,text:"Дугуй дүрсний 2/4 хэсгийг будъя.\nАль хэсгийг будахаа өөрсдөө сонгоорой.",lineWidth:1395,font:"42px 'Roboto'",lineHeight:51.2}}]},1).to({state:[]},1).to({state:[{t:this.text,p:{x:949.85,y:151.85,text:"Харин дөрвөн тэнцүү хуваасан тэгш өнцөгтийн 2/4-ыг  будах хэдэн өөр боломж байна вэ? \nНайзууд аа. Үүнийг бие дааж хийгээрэй. ",lineWidth:1395,font:"42px 'Roboto'",lineHeight:51.2}}]},1).to({state:[]},1).to({state:[{t:this.text_1,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text,p:{x:1010.6,y:360.55,text:"txt_instruction",lineWidth:1398,font:"35px 'Times'",lineHeight:37}}]},1).to({state:[{t:this.text_9},{t:this.text_8},{t:this.text_7},{t:this.text_6},{t:this.text_5},{t:this.text_4,p:{x:1536.3,y:615.7,text:"Дөрөвний хоёр",font:"30px 'Times'",color:"#000000",lineHeight:30,lineWidth:221}},{t:this.text_3,p:{x:1543.9,y:698.15,text:"Дөрөвний гурав",font:"30px 'Times'",color:"#000000",lineHeight:30,lineWidth:231}},{t:this.text_2,p:{x:1546.6,y:776.45,text:"Дөрөвний дөрөв",font:"30px 'Times'",color:"#000000",lineHeight:30,lineWidth:239}},{t:this.text_1,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text,p:{x:1010.6,y:360.55,text:"txt_instruction",lineWidth:1398,font:"35px 'Times'",lineHeight:37}}]},2).to({state:[{t:this.shape},{t:this.text_1,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text,p:{x:1010.6,y:360.55,text:"txt_instruction",lineWidth:1398,font:"35px 'Times'",lineHeight:37}}]},2).to({state:[{t:this.text_1,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text,p:{x:1010.6,y:360.55,text:"txt_instruction",lineWidth:1398,font:"35px 'Times'",lineHeight:37}}]},2).to({state:[{t:this.shape},{t:this.text_2,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text_1,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text,p:{x:1010.6,y:360.55,text:"txt_instruction",lineWidth:1398,font:"35px 'Times'",lineHeight:37}}]},2).to({state:[{t:this.shape},{t:this.text_3,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text_2,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text_1,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text,p:{x:1010.6,y:360.55,text:"txt_instruction",lineWidth:1398,font:"35px 'Times'",lineHeight:37}}]},2).to({state:[{t:this.shape},{t:this.text_3,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text_2,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text_1,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text,p:{x:1010.6,y:360.55,text:"txt_instruction",lineWidth:1398,font:"35px 'Times'",lineHeight:37}}]},2).to({state:[{t:this.shape},{t:this.text_3,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text_2,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text_1,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text,p:{x:1219.5,y:360.55,text:"txt_instruction",lineWidth:980,font:"35px 'Times'",lineHeight:37}}]},2).to({state:[{t:this.shape},{t:this.text_4,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text_3,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text_2,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text_1,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text,p:{x:1178.55,y:360.55,text:"txt_instruction",lineWidth:1062,font:"35px 'Times'",lineHeight:37}}]},2).to({state:[{t:this.shape},{t:this.text_4,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text_3,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text_2,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text_1,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text,p:{x:751.7,y:360.55,text:"txt_instruction",lineWidth:880,font:"35px 'Times'",lineHeight:37}}]},2).to({state:[{t:this.shape},{t:this.text_4,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text_3,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text_2,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text_1,p:{x:1012.65,y:110.3,text:"txt_title",font:"50px 'Times'",color:"#FFFFFF",lineHeight:52,lineWidth:843}},{t:this.text,p:{x:1167.55,y:360.55,text:"txt_instruction",lineWidth:1084,font:"35px 'Times'",lineHeight:37}}]},2).wait(2));
 
 	// hariult
 	this.input_1_14 = new lib.input_1();
@@ -10068,9 +15061,111 @@ if (reversed == null) { reversed = false; }
 	this.input_11_1.setTransform(1021.9,816.45,0.8885,0.8275);
 	this.input_11_1.visible = false;
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.input_1_1},{t:this.input_1_2},{t:this.input_1_3},{t:this.input_1_4},{t:this.input_1_5},{t:this.input_1_6},{t:this.input_1_7},{t:this.input_1_8},{t:this.input_1_9},{t:this.input_1_10},{t:this.input_1_11},{t:this.input_1_12},{t:this.input_1_13},{t:this.input_1_14}]},2).to({state:[]},2).to({state:[{t:this.input_5_1},{t:this.input_5_2},{t:this.input_5_3},{t:this.input_5_4}]},6).to({state:[]},2).to({state:[{t:this.input_9_1_1},{t:this.input_9_1_2},{t:this.input_9_2_1},{t:this.input_9_2_2},{t:this.input_9_3_1},{t:this.input_9_3_2}]},6).to({state:[]},2).to({state:[{t:this.input_11_1},{t:this.input_11_2}]},2).wait(2));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.input_1_1},{t:this.input_1_2},{t:this.input_1_3},{t:this.input_1_4},{t:this.input_1_5},{t:this.input_1_6},{t:this.input_1_7},{t:this.input_1_8},{t:this.input_1_9},{t:this.input_1_10},{t:this.input_1_11},{t:this.input_1_12},{t:this.input_1_13},{t:this.input_1_14}]},8).to({state:[]},2).to({state:[{t:this.input_5_1},{t:this.input_5_2},{t:this.input_5_3},{t:this.input_5_4}]},6).to({state:[]},2).to({state:[{t:this.input_9_1_1},{t:this.input_9_1_2},{t:this.input_9_2_1},{t:this.input_9_2_2},{t:this.input_9_3_1},{t:this.input_9_3_2}]},6).to({state:[]},2).to({state:[{t:this.input_11_1},{t:this.input_11_2}]},2).wait(2));
 
 	// btn
+	this.unequal_slot_6 = new lib.Symbol1();
+	this.unequal_slot_6.name = "unequal_slot_6";
+	this.unequal_slot_6.setTransform(1315.5,549.35,0.6234,2.239,0,0,0,-0.1,-0.2);
+	this.unequal_slot_6.alpha = 0.0117;
+
+	this.unequal_slot_5 = new lib.Symbol1();
+	this.unequal_slot_5.name = "unequal_slot_5";
+	this.unequal_slot_5.setTransform(1175.55,549.35,0.6234,2.239,0,0,0,-0.1,-0.2);
+	this.unequal_slot_5.alpha = 0.0117;
+
+	this.unequal_slot_4 = new lib.Symbol1();
+	this.unequal_slot_4.name = "unequal_slot_4";
+	this.unequal_slot_4.setTransform(1033.6,549.35,0.6234,2.239,0,0,0,-0.1,-0.2);
+	this.unequal_slot_4.alpha = 0.0117;
+
+	this.unequal_slot_3 = new lib.Symbol1();
+	this.unequal_slot_3.name = "unequal_slot_3";
+	this.unequal_slot_3.setTransform(1325.5,421.4,0.6234,2.239,0,0,0,-0.1,-0.2);
+	this.unequal_slot_3.alpha = 0.0117;
+
+	this.unequal_slot_2 = new lib.Symbol1();
+	this.unequal_slot_2.name = "unequal_slot_2";
+	this.unequal_slot_2.setTransform(1175.55,421.4,0.6234,2.239,0,0,0,-0.1,-0.2);
+	this.unequal_slot_2.alpha = 0.0117;
+
+	this.unequal_slot_1 = new lib.Symbol1();
+	this.unequal_slot_1.name = "unequal_slot_1";
+	this.unequal_slot_1.setTransform(1033.6,421.4,0.6234,2.239,0,0,0,-0.1,-0.2);
+	this.unequal_slot_1.alpha = 0.0117;
+
+	this.equal_slot_4 = new lib.Symbol1();
+	this.equal_slot_4.name = "equal_slot_4";
+	this.equal_slot_4.setTransform(583.25,549.35,0.6234,2.239,0,0,0,-0.1,-0.2);
+	this.equal_slot_4.alpha = 0.0117;
+
+	this.equal_slot_3 = new lib.Symbol1();
+	this.equal_slot_3.name = "equal_slot_3";
+	this.equal_slot_3.setTransform(629.25,443.4,0.6234,2.239,0,0,0,-0.1,-0.2);
+	this.equal_slot_3.alpha = 0.0117;
+
+	this.equal_slot_2 = new lib.Symbol1();
+	this.equal_slot_2.name = "equal_slot_2";
+	this.equal_slot_2.setTransform(419.3,549.35,0.6234,2.239,0,0,0,-0.1,-0.2);
+	this.equal_slot_2.alpha = 0.0117;
+
+	this.equal_slot_1 = new lib.Symbol1();
+	this.equal_slot_1.name = "equal_slot_1";
+	this.equal_slot_1.setTransform(440.6,421.4,0.6234,2.239,0,0,0,-0.1,-0.2);
+	this.equal_slot_1.alpha = 0.0117;
+
+	this.btn_prev_1_8 = new lib.btn_prev_8();
+	this.btn_prev_1_8.name = "btn_prev_1_8";
+	this.btn_prev_1_8.setTransform(1460.5,913.5,1,1,0,0,0,113.5,62.5);
+
+	this.btn_prev_1_7 = new lib.btn_prev_7();
+	this.btn_prev_1_7.name = "btn_prev_1_7";
+	this.btn_prev_1_7.setTransform(1294,770.5,1,1,0,0,0,132,71.5);
+
+	this.btn_prev_1_6 = new lib.btn_prev_6();
+	this.btn_prev_1_6.name = "btn_prev_1_6";
+	this.btn_prev_1_6.setTransform(1123,917.5,1,1,0,0,0,114,58.5);
+
+	this.btn_prev_1_5 = new lib.btn_prev_5();
+	this.btn_prev_1_5.name = "btn_prev_1_5";
+	this.btn_prev_1_5.setTransform(964.5,769.5,1,1,0,0,0,111.5,71.5);
+
+	this.btn_prev_1_4 = new lib.btn_prev_4();
+	this.btn_prev_1_4.name = "btn_prev_1_4";
+	this.btn_prev_1_4.setTransform(841,916,1,1,0,0,0,71,72);
+
+	this.btn_prev_1_3 = new lib.btn_prev_3();
+	this.btn_prev_1_3.name = "btn_prev_1_3";
+	this.btn_prev_1_3.setTransform(682,768.5,1,1,0,0,0,95,95.5);
+
+	this.btn_prev_1_2 = new lib.btn_prev_2();
+	this.btn_prev_1_2.name = "btn_prev_1_2";
+	this.btn_prev_1_2.setTransform(494.5,734,1,1,0,0,0,76.5,79);
+
+	this.btn_prev_1_1 = new lib.btn_prev_1();
+	this.btn_prev_1_1.name = "btn_prev_1_1";
+	this.btn_prev_1_1.setTransform(394,874.5,1,1,0,0,0,89,86.5);
+
+	this.part_prev_4 = new lib.part_prev_1();
+	this.part_prev_4.name = "part_prev_4";
+	this.part_prev_4.setTransform(879.9,502.95,1,1,-90,0,0,74,73);
+
+	this.part_prev_3 = new lib.part_prev_1();
+	this.part_prev_3.name = "part_prev_3";
+	this.part_prev_3.setTransform(878.95,650,1,1,180,0,0,74,73);
+
+	this.part_prev_2 = new lib.part_prev_1();
+	this.part_prev_2.name = "part_prev_2";
+	this.part_prev_2.setTransform(1026,651.65,1,1,90,0,0,74,73);
+
+	this.part_prev_1 = new lib.part_prev_1();
+	this.part_prev_1.name = "part_prev_1";
+	this.part_prev_1.setTransform(1027,503.9,1,1,0,0,0,74,73);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f().s("#000000").ss(1,1,1).p("AAAglIAABL");
+	this.shape_1.setTransform(950.975,577.4);
+
 	this.btn_2_2_4 = new lib.btn_2_2_4();
 	this.btn_2_2_4.name = "btn_2_2_4";
 	this.btn_2_2_4.setTransform(1538.1,794.05,1,1,0,0,0,137.3,32.5);
@@ -10295,9 +15390,122 @@ if (reversed == null) { reversed = false; }
 	this.img_10_1.name = "img_10_1";
 	this.img_10_1.setTransform(1291.2,539.5,1,1,0,0,0,81.2,80.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.btn_2_1_1},{t:this.btn_2_1_2},{t:this.btn_2_1_3},{t:this.btn_2_1_4},{t:this.btn_2_2_1},{t:this.btn_2_2_2},{t:this.btn_2_2_3},{t:this.btn_2_2_4}]},4).to({state:[{t:this.target_3_1_1},{t:this.target_3_1_2},{t:this.target_3_2_1},{t:this.target_3_2_2},{t:this.target_3_2_3},{t:this.target_3_2_4},{t:this.target_3_2_5},{t:this.target_3_3_1},{t:this.target_3_3_2},{t:this.target_3_3_3},{t:this.target_3_4_1},{t:this.target_3_4_2}]},2).to({state:[{t:this.btn_4_1},{t:this.btn_4_2},{t:this.btn_4_3},{t:this.btn_4_4},{t:this.btn_4_5},{t:this.btn_4_6},{t:this.btn_4_7},{t:this.btn_4_8},{t:this.btn_4_9},{t:this.btn_4_10}]},2).to({state:[{t:this.instance_1}]},2).to({state:[]},2).to({state:[{t:this.img_7_1},{t:this.img_7_2},{t:this.img_7_3},{t:this.img_7_4}]},2).to({state:[{t:this.target_8_3},{t:this.target_8_2},{t:this.target_8_4},{t:this.txt_8_1},{t:this.txt_8_2},{t:this.txt_8_3},{t:this.txt_8_4}]},2).to({state:[]},2).to({state:[{t:this.img_10_1},{t:this.img_10_2},{t:this.img_10_3},{t:this.img_10_4},{t:this.img_10_5},{t:this.img_10_6},{t:this.target_10_1},{t:this.target_10_2},{t:this.target_10_3},{t:this.target_10_4},{t:this.target_10_5},{t:this.target_10_6}]},2).to({state:[]},2).wait(2));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.btn_prev_1_1},{t:this.btn_prev_1_2},{t:this.btn_prev_1_3},{t:this.btn_prev_1_4},{t:this.btn_prev_1_5},{t:this.btn_prev_1_6},{t:this.btn_prev_1_7},{t:this.btn_prev_1_8},{t:this.equal_slot_1},{t:this.equal_slot_2},{t:this.equal_slot_3},{t:this.equal_slot_4},{t:this.unequal_slot_1},{t:this.unequal_slot_2},{t:this.unequal_slot_3},{t:this.unequal_slot_4},{t:this.unequal_slot_5},{t:this.unequal_slot_6}]},2).to({state:[]},1).to({state:[{t:this.shape_1},{t:this.part_prev_1},{t:this.part_prev_2},{t:this.part_prev_3},{t:this.part_prev_4}]},1).to({state:[]},1).to({state:[{t:this.btn_2_1_1},{t:this.btn_2_1_2},{t:this.btn_2_1_3},{t:this.btn_2_1_4},{t:this.btn_2_2_1},{t:this.btn_2_2_2},{t:this.btn_2_2_3},{t:this.btn_2_2_4}]},5).to({state:[{t:this.target_3_1_1},{t:this.target_3_1_2},{t:this.target_3_2_1},{t:this.target_3_2_2},{t:this.target_3_2_3},{t:this.target_3_2_4},{t:this.target_3_2_5},{t:this.target_3_3_1},{t:this.target_3_3_2},{t:this.target_3_3_3},{t:this.target_3_4_1},{t:this.target_3_4_2}]},2).to({state:[{t:this.btn_4_1},{t:this.btn_4_2},{t:this.btn_4_3},{t:this.btn_4_4},{t:this.btn_4_5},{t:this.btn_4_6},{t:this.btn_4_7},{t:this.btn_4_8},{t:this.btn_4_9},{t:this.btn_4_10}]},2).to({state:[{t:this.instance_1}]},2).to({state:[]},2).to({state:[{t:this.img_7_1},{t:this.img_7_2},{t:this.img_7_3},{t:this.img_7_4}]},2).to({state:[{t:this.target_8_3},{t:this.target_8_2},{t:this.target_8_4},{t:this.txt_8_1},{t:this.txt_8_2},{t:this.txt_8_3},{t:this.txt_8_4}]},2).to({state:[]},2).to({state:[{t:this.img_10_1},{t:this.img_10_2},{t:this.img_10_3},{t:this.img_10_4},{t:this.img_10_5},{t:this.img_10_6},{t:this.target_10_1},{t:this.target_10_2},{t:this.target_10_3},{t:this.target_10_4},{t:this.target_10_5},{t:this.target_10_6}]},2).to({state:[]},2).wait(2));
 
 	// target
+	this.drop_unequal = new lib.Symbol1();
+	this.drop_unequal.name = "drop_unequal";
+	this.drop_unequal.setTransform(1178.1,495.5,3.3861,8.9426);
+	this.drop_unequal.alpha = 0.0117;
+
+	this.drop_equal = new lib.Symbol1();
+	this.drop_equal.name = "drop_equal";
+	this.drop_equal.setTransform(529.05,495.5,3.3861,8.9427);
+	this.drop_equal.alpha = 0.0117;
+
+	this.instance_2 = new lib.Layer1();
+	this.instance_2.setTransform(297,350);
+
+	this.symb_1_6_4 = new lib.symb_1_6_4();
+	this.symb_1_6_4.name = "symb_1_6_4";
+	this.symb_1_6_4.setTransform(1170.4,786.1,1,1,0,0,0,63.5,32.5);
+
+	this.symb_1_6_3 = new lib.symb_1_6_3();
+	this.symb_1_6_3.name = "symb_1_6_3";
+	this.symb_1_6_3.setTransform(1043.35,786.15,1,1,0,0,0,63.5,32.5);
+
+	this.symb_1_6_2 = new lib.symb_1_6_2();
+	this.symb_1_6_2.name = "symb_1_6_2";
+	this.symb_1_6_2.setTransform(1170.4,721.1,1,1,0,0,0,63.5,32.5);
+
+	this.symb_1_6_1 = new lib.symb_1_6_1();
+	this.symb_1_6_1.name = "symb_1_6_1";
+	this.symb_1_6_1.setTransform(1043.4,721.1,1,1,0,0,0,63.5,32.5);
+
+	this.symb_1_5_4 = new lib.symb_1_5_4();
+	this.symb_1_5_4.name = "symb_1_5_4";
+	this.symb_1_5_4.setTransform(819.1,786.1,1,1,0,0,0,63.5,32.5);
+
+	this.symb_1_5_3 = new lib.symb_1_5_3();
+	this.symb_1_5_3.name = "symb_1_5_3";
+	this.symb_1_5_3.setTransform(692.05,786.15,1,1,0,0,0,63.5,32.5);
+
+	this.symb_1_5_2 = new lib.symb_1_5_2();
+	this.symb_1_5_2.name = "symb_1_5_2";
+	this.symb_1_5_2.setTransform(819.1,721.1,1,1,0,0,0,63.5,32.5);
+
+	this.symb_1_5_1 = new lib.symb_1_5_1();
+	this.symb_1_5_1.name = "symb_1_5_1";
+	this.symb_1_5_1.setTransform(692.1,721.1,1,1,0,0,0,63.5,32.5);
+
+	this.symb_1_4_4 = new lib.symb_1_4_4();
+	this.symb_1_4_4.name = "symb_1_4_4";
+	this.symb_1_4_4.setTransform(1170.35,616.95,1,1,0,0,0,63.5,32.5);
+
+	this.symb_1_4_3 = new lib.symb_1_4_3();
+	this.symb_1_4_3.name = "symb_1_4_3";
+	this.symb_1_4_3.setTransform(1043.3,617,1,1,0,0,0,63.5,32.5);
+
+	this.symb_1_4_2 = new lib.symb_1_4_2();
+	this.symb_1_4_2.name = "symb_1_4_2";
+	this.symb_1_4_2.setTransform(1170.35,551.95,1,1,0,0,0,63.5,32.5);
+
+	this.symb_1_4_1 = new lib.symb_1_4_1();
+	this.symb_1_4_1.name = "symb_1_4_1";
+	this.symb_1_4_1.setTransform(1043.35,551.95,1,1,0,0,0,63.5,32.5);
+
+	this.symb_1_3_4 = new lib.symb_1_3_4();
+	this.symb_1_3_4.name = "symb_1_3_4";
+	this.symb_1_3_4.setTransform(819.05,616.95,1,1,0,0,0,63.5,32.5);
+
+	this.symb_1_3_3 = new lib.symb_1_3_3();
+	this.symb_1_3_3.name = "symb_1_3_3";
+	this.symb_1_3_3.setTransform(692,617,1,1,0,0,0,63.5,32.5);
+
+	this.symb_1_3_2 = new lib.symb_1_3_2();
+	this.symb_1_3_2.name = "symb_1_3_2";
+	this.symb_1_3_2.setTransform(819.05,551.95,1,1,0,0,0,63.5,32.5);
+
+	this.symb_1_3_1 = new lib.symb_1_3_1();
+	this.symb_1_3_1.name = "symb_1_3_1";
+	this.symb_1_3_1.setTransform(692.05,551.95,1,1,0,0,0,63.5,32.5);
+
+	this.symb_1_2_4 = new lib.symb_1_2_4();
+	this.symb_1_2_4.name = "symb_1_2_4";
+	this.symb_1_2_4.setTransform(1170.3,449.9,1,1,0,0,0,63.5,32.5);
+
+	this.symb_1_2_3 = new lib.symb_1_2_3();
+	this.symb_1_2_3.name = "symb_1_2_3";
+	this.symb_1_2_3.setTransform(1043.25,449.95,1,1,0,0,0,63.5,32.5);
+
+	this.symb_1_2_2 = new lib.symb_1_2_2();
+	this.symb_1_2_2.name = "symb_1_2_2";
+	this.symb_1_2_2.setTransform(1170.3,384.9,1,1,0,0,0,63.5,32.5);
+
+	this.symb_1_2_1 = new lib.symb_1_2_1();
+	this.symb_1_2_1.name = "symb_1_2_1";
+	this.symb_1_2_1.setTransform(1043.3,384.9,1,1,0,0,0,63.5,32.5);
+
+	this.symb_1_1_4 = new lib.symb_1_1_4();
+	this.symb_1_1_4.name = "symb_1_1_4";
+	this.symb_1_1_4.setTransform(819.05,449.9,1,1,0,0,0,63.5,32.5);
+	this.symb_1_1_4.cache(-3,-3,133,71);
+
+	this.symb_1_1_3 = new lib.symb_1_1_3();
+	this.symb_1_1_3.name = "symb_1_1_3";
+	this.symb_1_1_3.setTransform(692,449.95,1,1,0,0,0,63.5,32.5);
+	this.symb_1_1_3.cache(-3,-3,133,71);
+
+	this.symb_1_1_2 = new lib.symb_1_1_2();
+	this.symb_1_1_2.name = "symb_1_1_2";
+	this.symb_1_1_2.setTransform(819.05,384.9,1,1,0,0,0,63.5,32.5);
+	this.symb_1_1_2.cache(-3,-3,133,71);
+
+	this.symb_1_1_1 = new lib.symb_1_1_1();
+	this.symb_1_1_1.name = "symb_1_1_1";
+	this.symb_1_1_1.setTransform(692.05,384.9,1,1,0,0,0,63.5,32.5);
+	this.symb_1_1_1.cache(-3,-3,133,71);
+
 	this.btn_3_4_5 = new lib.Symbol1();
 	this.btn_3_4_5.name = "btn_3_4_5";
 	this.btn_3_4_5.setTransform(1630,789.5,0.2392,2.239,0,0,0,0,-0.2);
@@ -10443,8 +15651,8 @@ if (reversed == null) { reversed = false; }
 	this.btn_3_1_1.setTransform(390.7,788.5,0.2392,2.239,0,0,0,0,-0.2);
 	this.btn_3_1_1.alpha = 0.0117;
 
-	this.instance_2 = new lib.lesson6_3_1();
-	this.instance_2.setTransform(371,753);
+	this.instance_3 = new lib.lesson6_3_1();
+	this.instance_3.setTransform(371,753);
 
 	this.target_4_3 = new lib.target_4_3();
 	this.target_4_3.name = "target_4_3";
@@ -10458,38 +15666,38 @@ if (reversed == null) { reversed = false; }
 	this.target_4_1.name = "target_4_1";
 	this.target_4_1.setTransform(698.7,622,1,1,0,0,0,36.5,61);
 
-	this.instance_3 = new lib.target44();
-	this.instance_3.setTransform(871.5,875.05,1,1,0,0,0,156.5,27);
+	this.instance_4 = new lib.target44();
+	this.instance_4.setTransform(871.5,875.05,1,1,0,0,0,156.5,27);
 
-	this.instance_4 = new lib.target33();
-	this.instance_4.setTransform(871.5,772.55,1,1,0,0,0,156.5,27);
+	this.instance_5 = new lib.target33();
+	this.instance_5.setTransform(871.5,772.55,1,1,0,0,0,156.5,27);
 
-	this.instance_5 = new lib.target22();
-	this.instance_5.setTransform(871.5,669,1,1,0,0,0,156.5,27);
+	this.instance_6 = new lib.target22();
+	this.instance_6.setTransform(871.5,669,1,1,0,0,0,156.5,27);
 
 	this.target_8_1 = new lib.target11();
 	this.target_8_1.name = "target_8_1";
 	this.target_8_1.setTransform(871.4,567.6,1,1,0,0,0,156.5,27);
 
-	this.instance_6 = new lib.target6();
-	this.instance_6.setTransform(1012.5,754.5,1,1,0,0,0,80.5,79.5);
+	this.instance_7 = new lib.target6();
+	this.instance_7.setTransform(1012.5,754.5,1,1,0,0,0,80.5,79.5);
 
-	this.instance_7 = new lib.target5();
-	this.instance_7.setTransform(806.5,759.05,1,1,0,0,0,80.5,79.5);
+	this.instance_8 = new lib.target5();
+	this.instance_8.setTransform(806.5,759.05,1,1,0,0,0,80.5,79.5);
 
-	this.instance_8 = new lib.target4();
-	this.instance_8.setTransform(604.5,759.5,1,1,0,0,0,80.5,79.5);
+	this.instance_9 = new lib.target4();
+	this.instance_9.setTransform(604.5,759.5,1,1,0,0,0,80.5,79.5);
 
-	this.instance_9 = new lib.target3();
-	this.instance_9.setTransform(1013.9,583.5,1,1,0,0,0,80.5,79.5);
+	this.instance_10 = new lib.target3();
+	this.instance_10.setTransform(1013.9,583.5,1,1,0,0,0,80.5,79.5);
 
-	this.instance_10 = new lib.target2();
-	this.instance_10.setTransform(806.9,585.5,1,1,0,0,0,80.5,79.5);
+	this.instance_11 = new lib.target2();
+	this.instance_11.setTransform(806.9,585.5,1,1,0,0,0,80.5,79.5);
 
-	this.instance_11 = new lib.target1();
-	this.instance_11.setTransform(604.75,585.4,1,1,0,0,0,80.5,79.5);
+	this.instance_12 = new lib.target1();
+	this.instance_12.setTransform(604.75,585.4,1,1,0,0,0,80.5,79.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_2},{t:this.btn_3_1_1},{t:this.btn_3_1_2},{t:this.btn_3_1_3},{t:this.btn_3_1_4},{t:this.btn_3_1_5},{t:this.btn_3_1_6},{t:this.btn_3_2_1},{t:this.btn_3_2_2},{t:this.btn_3_2_3},{t:this.btn_3_2_4},{t:this.btn_3_2_5},{t:this.btn_3_2_6},{t:this.btn_3_2_7},{t:this.btn_3_2_8},{t:this.btn_3_2_9},{t:this.btn_3_2_10},{t:this.btn_3_3_1},{t:this.btn_3_3_2},{t:this.btn_3_3_3},{t:this.btn_3_3_4},{t:this.btn_3_3_5},{t:this.btn_3_3_6},{t:this.btn_3_3_7},{t:this.btn_3_3_8},{t:this.btn_3_4_1},{t:this.btn_3_4_2},{t:this.btn_3_4_3},{t:this.btn_3_4_4},{t:this.btn_3_4_5}]},6).to({state:[{t:this.target_4_1},{t:this.target_4_2},{t:this.target_4_3}]},2).to({state:[]},2).to({state:[{t:this.target_8_1},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3}]},6).to({state:[]},2).to({state:[{t:this.instance_11},{t:this.instance_10},{t:this.instance_9},{t:this.instance_8},{t:this.instance_7},{t:this.instance_6}]},2).to({state:[]},2).wait(2));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_2},{t:this.drop_equal},{t:this.drop_unequal}]},2).to({state:[]},1).to({state:[{t:this.symb_1_1_1},{t:this.symb_1_1_2},{t:this.symb_1_1_3},{t:this.symb_1_1_4},{t:this.symb_1_2_1},{t:this.symb_1_2_2},{t:this.symb_1_2_3},{t:this.symb_1_2_4},{t:this.symb_1_3_1},{t:this.symb_1_3_2},{t:this.symb_1_3_3},{t:this.symb_1_3_4},{t:this.symb_1_4_1},{t:this.symb_1_4_2},{t:this.symb_1_4_3},{t:this.symb_1_4_4},{t:this.symb_1_5_1},{t:this.symb_1_5_2},{t:this.symb_1_5_3},{t:this.symb_1_5_4},{t:this.symb_1_6_1},{t:this.symb_1_6_2},{t:this.symb_1_6_3},{t:this.symb_1_6_4}]},3).to({state:[]},1).to({state:[{t:this.instance_3},{t:this.btn_3_1_1},{t:this.btn_3_1_2},{t:this.btn_3_1_3},{t:this.btn_3_1_4},{t:this.btn_3_1_5},{t:this.btn_3_1_6},{t:this.btn_3_2_1},{t:this.btn_3_2_2},{t:this.btn_3_2_3},{t:this.btn_3_2_4},{t:this.btn_3_2_5},{t:this.btn_3_2_6},{t:this.btn_3_2_7},{t:this.btn_3_2_8},{t:this.btn_3_2_9},{t:this.btn_3_2_10},{t:this.btn_3_3_1},{t:this.btn_3_3_2},{t:this.btn_3_3_3},{t:this.btn_3_3_4},{t:this.btn_3_3_5},{t:this.btn_3_3_6},{t:this.btn_3_3_7},{t:this.btn_3_3_8},{t:this.btn_3_4_1},{t:this.btn_3_4_2},{t:this.btn_3_4_3},{t:this.btn_3_4_4},{t:this.btn_3_4_5}]},5).to({state:[{t:this.target_4_1},{t:this.target_4_2},{t:this.target_4_3}]},2).to({state:[]},2).to({state:[{t:this.target_8_1},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4}]},6).to({state:[]},2).to({state:[{t:this.instance_12},{t:this.instance_11},{t:this.instance_10},{t:this.instance_9},{t:this.instance_8},{t:this.instance_7}]},2).to({state:[]},2).wait(2));
 
 	// reshresh4
 	this.img_6_4 = new lib.img_6_4();
@@ -10497,7 +15705,7 @@ if (reversed == null) { reversed = false; }
 	this.img_6_4.setTransform(1016,754.1,1,1,0,0,0,482,123.1);
 	this.img_6_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.img_6_4).wait(12).to({_off:false},0).to({_off:true},2).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.img_6_4).wait(18).to({_off:false},0).to({_off:true},2).wait(10));
 
 	// reshresh3
 	this.img_6_3 = new lib.img_6_3();
@@ -10505,7 +15713,7 @@ if (reversed == null) { reversed = false; }
 	this.img_6_3.setTransform(1001,743,1,1,0,0,0,294,128);
 	this.img_6_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.img_6_3).wait(12).to({_off:false},0).to({_off:true},2).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.img_6_3).wait(18).to({_off:false},0).to({_off:true},2).wait(10));
 
 	// reshresh2
 	this.img_6_2 = new lib.img_6_2();
@@ -10513,7 +15721,7 @@ if (reversed == null) { reversed = false; }
 	this.img_6_2.setTransform(1006,742.4,1,1,0,0,0,264,186.4);
 	this.img_6_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.img_6_2).wait(12).to({_off:false},0).to({_off:true},2).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.img_6_2).wait(18).to({_off:false},0).to({_off:true},2).wait(10));
 
 	// refresh1
 	this.input_6_4_5 = new lib.input_1();
@@ -10616,7 +15824,7 @@ if (reversed == null) { reversed = false; }
 	this.input_6_1_5.setTransform(1141.9,895.75,0.8885,0.8275);
 	this.input_6_1_5.visible = false;
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.input_6_1_5},{t:this.input_6_1_2},{t:this.input_6_1_3},{t:this.input_6_1_4},{t:this.input_6_1_1},{t:this.input_6_2_1},{t:this.input_6_2_2},{t:this.input_6_2_3},{t:this.input_6_2_4},{t:this.input_6_2_5},{t:this.input_6_3_1},{t:this.input_6_3_2},{t:this.input_6_3_3},{t:this.input_6_3_4},{t:this.input_6_3_5},{t:this.input_6_4_1},{t:this.input_6_4_2},{t:this.input_6_4_3},{t:this.input_6_4_4},{t:this.input_6_4_5}]},12).to({state:[]},2).wait(10));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.input_6_1_5},{t:this.input_6_1_2},{t:this.input_6_1_3},{t:this.input_6_1_4},{t:this.input_6_1_1},{t:this.input_6_2_1},{t:this.input_6_2_2},{t:this.input_6_2_3},{t:this.input_6_2_4},{t:this.input_6_2_5},{t:this.input_6_3_1},{t:this.input_6_3_2},{t:this.input_6_3_3},{t:this.input_6_3_4},{t:this.input_6_3_5},{t:this.input_6_4_1},{t:this.input_6_4_2},{t:this.input_6_4_3},{t:this.input_6_4_4},{t:this.input_6_4_5}]},18).to({state:[]},2).wait(10));
 
 	// dasgal_img
 	this.hitarea_sign = new lib.Symbol1();
@@ -10748,84 +15956,91 @@ if (reversed == null) { reversed = false; }
 	this.txt_subtitle.parent = this;
 	this.txt_subtitle.setTransform(974.45,485.9);
 
-	this.txt_title = new cjs.Text("ТОГЛООМЫН ХОТ", "bold 72px 'Rubik'", "#38019A");
-	this.txt_title.name = "txt_title";
-	this.txt_title.textAlign = "center";
-	this.txt_title.lineHeight = 87;
-	this.txt_title.lineWidth = 941;
-	this.txt_title.parent = this;
-	this.txt_title.setTransform(971.25,389.05);
+	this.main_txt_title = new cjs.Text("ТОГЛООМЫН ХОТ", "bold 72px 'Rubik'", "#38019A");
+	this.main_txt_title.name = "main_txt_title";
+	this.main_txt_title.textAlign = "center";
+	this.main_txt_title.lineHeight = 87;
+	this.main_txt_title.lineWidth = 941;
+	this.main_txt_title.parent = this;
+	this.main_txt_title.setTransform(971.25,389.05);
 
-	this.instance_12 = new lib.MC_Od_1();
-	this.instance_12.setTransform(1611.2,899.35,0.4077,0.4078,0,0,0,1.9,0.2);
+	this.instance_13 = new lib.MC_Od_1();
+	this.instance_13.setTransform(1611.2,899.35,0.4077,0.4078,0,0,0,1.9,0.2);
 
-	this.instance_13 = new lib.MC_Od_2();
-	this.instance_13.setTransform(169.05,517.8,0.7798,0.7791,0,0,180,0.2,0.5);
-
-	this.instance_14 = new lib.lesson_bg();
+	this.instance_14 = new lib.MC_Od_2();
+	this.instance_14.setTransform(169.05,517.8,0.7798,0.7791,0,0,180,0.2,0.5);
 
 	this.instance_15 = new lib.lesson_bg();
 
-	this.instance_16 = new lib.lesson6_1();
-	this.instance_16.setTransform(326,479,0.9257,0.9257);
+	this.instance_16 = new lib.lesson_bg();
 
-	this.instance_17 = new lib.lesson6_2();
-	this.instance_17.setTransform(294,491);
+	this.instance_17 = new lib.lesson6_inter_bg3_02618();
 
-	this.instance_18 = new lib.lesson6_3();
-	this.instance_18.setTransform(333,555);
+	this.instance_18 = new lib.lesson6_inter_bg4_03532();
 
-	this.instance_19 = new lib.lesson6_4();
-	this.instance_19.setTransform(351,429,0.9812,0.9812);
+	this.instance_19 = new lib.lesson6_1();
+	this.instance_19.setTransform(326,479,0.9257,0.9257);
 
-	this.instance_20 = new lib.lesson6_5();
-	this.instance_20.setTransform(335,459);
+	this.instance_20 = new lib.lesson6_2();
+	this.instance_20.setTransform(294,491);
+
+	this.instance_21 = new lib.lesson6_3();
+	this.instance_21.setTransform(333,555);
+
+	this.instance_22 = new lib.lesson6_4();
+	this.instance_22.setTransform(351,429,0.9812,0.9812);
+
+	this.instance_23 = new lib.lesson6_5();
+	this.instance_23.setTransform(335,459);
 
 	this.img_6_1 = new lib.img_6_1();
 	this.img_6_1.name = "img_6_1";
 	this.img_6_1.setTransform(1013,691.7,1,1,0,0,0,517,249.7);
 
-	this.instance_21 = new lib.lesson6_7();
-	this.instance_21.setTransform(277,424,0.9697,0.9697);
+	this.instance_24 = new lib.lesson6_7();
+	this.instance_24.setTransform(277,424,0.9697,0.9697);
 
 	this.target_8_1_1 = new lib.Symbol1();
 	this.target_8_1_1.name = "target_8_1_1";
 	this.target_8_1_1.setTransform(875.4,561.35,2.2516,2.239,0,0,0,-0.1,-0.2);
 	this.target_8_1_1.alpha = 0.0117;
 
-	this.instance_22 = new lib.lesson6_8();
-	this.instance_22.setTransform(385,379,0.9669,0.9668);
+	this.instance_25 = new lib.lesson6_8();
+	this.instance_25.setTransform(385,379,0.9669,0.9668);
 
-	this.instance_23 = new lib.lesson6_9Group2copy9();
-	this.instance_23.setTransform(631,724,1.0998,1.0998);
+	this.instance_26 = new lib.lesson6_9Group2copy9();
+	this.instance_26.setTransform(631,724,1.0998,1.0998);
 
-	this.instance_24 = new lib.lesson6_9pngcopy();
-	this.instance_24.setTransform(288,453,1.1122,1.112);
+	this.instance_27 = new lib.lesson6_9pngcopy();
+	this.instance_27.setTransform(288,453,1.1122,1.112);
 
-	this.instance_25 = new lib.lesson6_10();
-	this.instance_25.setTransform(291,445,0.9142,0.9143);
+	this.instance_28 = new lib.lesson6_10();
+	this.instance_28.setTransform(291,445,0.9142,0.9143);
 
-	this.instance_26 = new lib.lesson6_11();
-	this.instance_26.setTransform(375,443,1.1256,1.1255);
+	this.instance_29 = new lib.lesson6_11();
+	this.instance_29.setTransform(375,443,1.1256,1.1255);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_15},{t:this.instance_14},{t:this.instance_13},{t:this.instance_12},{t:this.txt_title},{t:this.txt_subtitle},{t:this.btn_start},{t:this.txt_start},{t:this.txt_mn},{t:this.txt_kz},{t:this.txt_tuva},{t:this.txt_sign},{t:this.txt_subject},{t:this.txt_grade},{t:this.btn_voice},{t:this.btn_mn},{t:this.btn_kz},{t:this.btn_tuva},{t:this.btn_sign},{t:this.checkmark},{t:this.hitarea_mn_1},{t:this.hitarea_kz_1},{t:this.hitarea_tuva_1},{t:this.hitarea_sign_1},{t:this.hitarea_mn},{t:this.hitarea_kz},{t:this.hitarea_tuva},{t:this.hitarea_sign}]}).to({state:[]},1).to({state:[{t:this.instance_16}]},1).to({state:[{t:this.instance_17}]},2).to({state:[{t:this.instance_18}]},2).to({state:[{t:this.instance_19}]},2).to({state:[{t:this.instance_20}]},2).to({state:[{t:this.img_6_1}]},2).to({state:[{t:this.instance_21}]},2).to({state:[{t:this.instance_22},{t:this.target_8_1_1}]},2).to({state:[{t:this.instance_24},{t:this.instance_23}]},2).to({state:[{t:this.instance_25}]},2).to({state:[{t:this.instance_26}]},2).wait(2));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_16},{t:this.instance_15},{t:this.instance_14},{t:this.instance_13},{t:this.main_txt_title},{t:this.txt_subtitle},{t:this.btn_start},{t:this.txt_start},{t:this.txt_mn},{t:this.txt_kz},{t:this.txt_tuva},{t:this.txt_sign},{t:this.txt_subject},{t:this.txt_grade},{t:this.btn_voice},{t:this.btn_mn},{t:this.btn_kz},{t:this.btn_tuva},{t:this.btn_sign},{t:this.checkmark},{t:this.hitarea_mn_1},{t:this.hitarea_kz_1},{t:this.hitarea_tuva_1},{t:this.hitarea_sign_1},{t:this.hitarea_mn},{t:this.hitarea_kz},{t:this.hitarea_tuva},{t:this.hitarea_sign}]}).to({state:[]},1).to({state:[{t:this.instance_17}]},3).to({state:[]},1).to({state:[{t:this.instance_18}]},1).to({state:[]},1).to({state:[{t:this.instance_19}]},1).to({state:[{t:this.instance_20}]},2).to({state:[{t:this.instance_21}]},2).to({state:[{t:this.instance_22}]},2).to({state:[{t:this.instance_23}]},2).to({state:[{t:this.img_6_1}]},2).to({state:[{t:this.instance_24}]},2).to({state:[{t:this.instance_25},{t:this.target_8_1_1}]},2).to({state:[{t:this.instance_27},{t:this.instance_26}]},2).to({state:[{t:this.instance_28}]},2).to({state:[{t:this.instance_29}]},2).wait(2));
 
 	// bg
-	this.instance_27 = new lib.bg_lessonnhiih();
-	this.instance_27._off = true;
+	this.instance_30 = new lib._06storyinteractive();
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_27).wait(2).to({_off:false},0).wait(22));
+	this.instance_31 = new lib.bg_lessonnhiih();
+	this.instance_31._off = true;
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_30}]},2).to({state:[]},1).to({state:[{t:this.instance_31}]},5).to({state:[{t:this.instance_31}]},2).to({state:[{t:this.instance_31}]},2).to({state:[{t:this.instance_31}]},2).to({state:[{t:this.instance_31}]},2).to({state:[{t:this.instance_31}]},2).to({state:[{t:this.instance_31}]},2).to({state:[{t:this.instance_31}]},2).to({state:[{t:this.instance_31}]},2).to({state:[{t:this.instance_31}]},2).to({state:[{t:this.instance_31}]},2).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.instance_31).wait(8).to({_off:false},0).wait(22));
 
 	// shar
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1).p("AkckrII5AAIAAJXIo5AAg");
-	this.shape_1.setTransform(748.55,263);
-
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#FFCF29").s().p("AkcEsIAApXII5AAIAAJXg");
+	this.shape_2.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1).p("AkckrII5AAIAAJXIo5AAg");
 	this.shape_2.setTransform(748.55,263);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_2,p:{x:748.55}},{t:this.shape_1,p:{x:748.55}}]},2).to({state:[{t:this.shape_2,p:{x:806.2}},{t:this.shape_1,p:{x:806.2}}]},2).to({state:[{t:this.shape_2,p:{x:864.5}},{t:this.shape_1,p:{x:864.5}}]},2).to({state:[{t:this.shape_2,p:{x:921.8}},{t:this.shape_1,p:{x:921.8}}]},2).to({state:[{t:this.shape_2,p:{x:979.8}},{t:this.shape_1,p:{x:979.8}}]},2).to({state:[{t:this.shape_2,p:{x:1038.15}},{t:this.shape_1,p:{x:1038.15}}]},2).to({state:[{t:this.shape_2,p:{x:1096.15}},{t:this.shape_1,p:{x:1096.15}}]},2).to({state:[{t:this.shape_2,p:{x:1154.5}},{t:this.shape_1,p:{x:1154.5}}]},2).to({state:[{t:this.shape_2,p:{x:1212.5}},{t:this.shape_1,p:{x:1212.5}}]},2).to({state:[{t:this.shape_2,p:{x:1269.15}},{t:this.shape_1,p:{x:1269.15}}]},2).to({state:[{t:this.shape_2,p:{x:1327.2}},{t:this.shape_1,p:{x:1327.2}}]},2).wait(2));
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("#FFCF29").s().p("AkcEsIAApXII5AAIAAJXg");
+	this.shape_3.setTransform(748.55,263);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_3,p:{x:748.55}},{t:this.shape_2,p:{x:748.55}}]},8).to({state:[{t:this.shape_3,p:{x:806.2}},{t:this.shape_2,p:{x:806.2}}]},2).to({state:[{t:this.shape_3,p:{x:864.5}},{t:this.shape_2,p:{x:864.5}}]},2).to({state:[{t:this.shape_3,p:{x:921.8}},{t:this.shape_2,p:{x:921.8}}]},2).to({state:[{t:this.shape_3,p:{x:979.8}},{t:this.shape_2,p:{x:979.8}}]},2).to({state:[{t:this.shape_3,p:{x:1038.15}},{t:this.shape_2,p:{x:1038.15}}]},2).to({state:[{t:this.shape_3,p:{x:1096.15}},{t:this.shape_2,p:{x:1096.15}}]},2).to({state:[{t:this.shape_3,p:{x:1154.5}},{t:this.shape_2,p:{x:1154.5}}]},2).to({state:[{t:this.shape_3,p:{x:1212.5}},{t:this.shape_2,p:{x:1212.5}}]},2).to({state:[{t:this.shape_3,p:{x:1269.15}},{t:this.shape_2,p:{x:1269.15}}]},2).to({state:[{t:this.shape_3,p:{x:1327.2}},{t:this.shape_2,p:{x:1327.2}}]},2).wait(2));
 
 	this._renderFirstFrame();
 
@@ -10849,7 +16064,11 @@ lib.properties = {
 		{src:"images/lesson_06_atlas_7.png", id:"lesson_06_atlas_7"},
 		{src:"images/lesson_06_atlas_8.png", id:"lesson_06_atlas_8"},
 		{src:"images/lesson_06_atlas_9.png", id:"lesson_06_atlas_9"},
-		{src:"images/lesson_06_atlas_10.png", id:"lesson_06_atlas_10"}
+		{src:"images/lesson_06_atlas_10.png", id:"lesson_06_atlas_10"},
+		{src:"images/lesson_06_atlas_11.png", id:"lesson_06_atlas_11"},
+		{src:"images/lesson_06_atlas_12.png", id:"lesson_06_atlas_12"},
+		{src:"images/lesson_06_atlas_13.png", id:"lesson_06_atlas_13"},
+		{src:"images/lesson_06_atlas_14.png", id:"lesson_06_atlas_14"}
 	],
 	preloads: []
 };
