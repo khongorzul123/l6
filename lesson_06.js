@@ -11,7 +11,7 @@ lib.ssMetadata = [
 		{name:"lesson_06_atlas_1", frames: [[590,75,313,294],[2015,95,24,47],[745,516,32,48],[1966,530,32,48],[2000,530,32,48],[1204,537,32,48],[2015,144,24,47],[2015,193,24,47],[2015,242,23,46],[2015,47,25,46],[2015,290,23,46],[554,516,189,127],[0,258,411,107],[1930,344,118,112],[779,371,118,111],[1549,345,184,182],[370,367,182,182],[0,367,183,182],[185,367,183,182],[1744,344,184,185],[1363,345,184,183],[590,0,1279,73],[0,0,588,256],[1190,75,281,267],[1744,75,269,267],[1473,75,269,268],[905,75,283,266],[532,258,40,78],[779,488,178,173],[959,488,153,158],[1171,344,190,191],[1822,531,142,144],[554,371,223,143],[905,343,264,143],[1592,531,228,117],[1363,530,227,125],[1969,0,54,45],[1871,0,96,72],[1930,458,97,70],[1114,537,88,68],[413,258,117,106]]},
 		{name:"lesson_06_atlas_2", frames: [[968,1335,415,389],[1385,1335,457,338],[1385,1675,457,338],[0,1740,1368,198],[1452,964,492,369],[1452,580,541,382],[0,0,482,578],[0,580,482,578],[0,1160,482,578],[484,0,482,578],[968,0,482,578],[1452,0,482,578],[484,580,482,578],[484,1160,482,578],[968,580,482,578]]},
 		{name:"lesson_06_atlas_3", frames: [[0,0,482,578],[0,580,482,578],[0,1160,482,578],[484,0,482,578],[968,0,482,578],[1452,0,482,578],[484,580,482,578],[484,1160,482,578],[968,580,482,578],[1452,580,482,578],[968,1160,482,578],[1452,1160,482,578]]},
-		{name:"lesson_06_atlas_4", frames: [[34420596,32656,-1040187284,-788529043],[0,0,482,578],[0,580,482,578],[0,1160,482,578],[484,0,482,578],[968,0,482,578],[1452,0,482,578],[484,580,482,578],[484,1160,482,578],[968,580,482,578],[1452,580,482,578],[968,1160,482,578],[1452,1160,482,578]]},
+		{name:"lesson_06_atlas_4", frames: [[0,0,482,578],[0,580,482,578],[0,1160,482,578],[484,0,482,578],[968,0,482,578],[1452,0,482,578],[484,580,482,578],[484,1160,482,578],[968,580,482,578],[1452,580,482,578],[968,1160,482,578],[1452,1160,482,578]]},
 		{name:"lesson_06_atlas_5", frames: [[0,374,1111,294],[0,0,1277,372],[0,670,1100,281],[1279,0,482,578],[1113,580,482,578],[0,1160,482,578],[484,953,482,578],[968,1160,482,578],[1452,1160,482,578]]},
 		{name:"lesson_06_atlas_6", frames: [[0,534,1194,520],[0,0,1178,532],[0,1539,1269,449],[0,1056,1284,481]]},
 		{name:"lesson_06_atlas_7", frames: [[0,0,1453,533],[0,535,1242,600],[0,1137,1239,588]]},
@@ -586,49 +586,49 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 (lib.nud0006 = function() {
 	this.initialize(ss["lesson_06_atlas_4"]);
-	this.gotoAndStop(1);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.nud0007 = function() {
 	this.initialize(ss["lesson_06_atlas_4"]);
-	this.gotoAndStop(2);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.nud0008 = function() {
 	this.initialize(ss["lesson_06_atlas_4"]);
-	this.gotoAndStop(3);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.nud0009 = function() {
 	this.initialize(ss["lesson_06_atlas_4"]);
-	this.gotoAndStop(4);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.nud0010 = function() {
 	this.initialize(ss["lesson_06_atlas_4"]);
-	this.gotoAndStop(5);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.nud0011 = function() {
 	this.initialize(ss["lesson_06_atlas_4"]);
-	this.gotoAndStop(6);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.nud0012 = function() {
 	this.initialize(ss["lesson_06_atlas_4"]);
-	this.gotoAndStop(7);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -656,35 +656,35 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 (lib.true0000 = function() {
 	this.initialize(ss["lesson_06_atlas_4"]);
-	this.gotoAndStop(8);
+	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.true0001 = function() {
 	this.initialize(ss["lesson_06_atlas_4"]);
-	this.gotoAndStop(9);
+	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.true0002 = function() {
 	this.initialize(ss["lesson_06_atlas_4"]);
-	this.gotoAndStop(10);
+	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.true0003 = function() {
 	this.initialize(ss["lesson_06_atlas_4"]);
-	this.gotoAndStop(11);
+	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.true0004 = function() {
 	this.initialize(ss["lesson_06_atlas_4"]);
-	this.gotoAndStop(12);
+	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2181,6 +2181,201 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(719,251,482,578);
 
 
+(lib.mc_ex4_tex1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {mn:0,kz:1,tuva:2,sign:3,visual:4,blind:5};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.text = new cjs.Text("Дөрөвний дөрөв", "normal 400 30px 'Roboto'");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 40;
+	this.text.lineWidth = 239;
+	this.text.parent = this;
+	this.text.setTransform(805.55,240.2);
+	if(!lib.properties.webfonts['Roboto']) {
+		lib.webFontTxtInst['Roboto'] = lib.webFontTxtInst['Roboto'] || [];
+		lib.webFontTxtInst['Roboto'].push(this.text);
+	}
+
+	this.text_1 = new cjs.Text("Дөрөвний гурав", "normal 400 30px 'Roboto'");
+	this.text_1.textAlign = "center";
+	this.text_1.lineHeight = 40;
+	this.text_1.lineWidth = 231;
+	this.text_1.parent = this;
+	this.text_1.setTransform(802.85,161.9);
+	if(!lib.properties.webfonts['Roboto']) {
+		lib.webFontTxtInst['Roboto'] = lib.webFontTxtInst['Roboto'] || [];
+		lib.webFontTxtInst['Roboto'].push(this.text_1);
+	}
+
+	this.text_2 = new cjs.Text("Дөрөвний хоёр", "normal 400 30px 'Roboto'");
+	this.text_2.textAlign = "center";
+	this.text_2.lineHeight = 40;
+	this.text_2.lineWidth = 221;
+	this.text_2.parent = this;
+	this.text_2.setTransform(795.25,81.45);
+	if(!lib.properties.webfonts['Roboto']) {
+		lib.webFontTxtInst['Roboto'] = lib.webFontTxtInst['Roboto'] || [];
+		lib.webFontTxtInst['Roboto'].push(this.text_2);
+	}
+
+	this.text_3 = new cjs.Text("Дөрөвний нэг", "normal 400 30px 'Roboto'");
+	this.text_3.textAlign = "center";
+	this.text_3.lineHeight = 40;
+	this.text_3.lineWidth = 203;
+	this.text_3.parent = this;
+	this.text_3.setTransform(794.1,4);
+	if(!lib.properties.webfonts['Roboto']) {
+		lib.webFontTxtInst['Roboto'] = lib.webFontTxtInst['Roboto'] || [];
+		lib.webFontTxtInst['Roboto'].push(this.text_3);
+	}
+
+	this.text_4 = new cjs.Text("Гурван бүхэл", "normal 400 30px 'Roboto'");
+	this.text_4.textAlign = "center";
+	this.text_4.lineHeight = 40;
+	this.text_4.lineWidth = 217;
+	this.text_4.parent = this;
+	this.text_4.setTransform(110.45,238.05);
+	if(!lib.properties.webfonts['Roboto']) {
+		lib.webFontTxtInst['Roboto'] = lib.webFontTxtInst['Roboto'] || [];
+		lib.webFontTxtInst['Roboto'].push(this.text_4);
+	}
+
+	this.text_5 = new cjs.Text("Гуравны гурав", "normal 400 30px 'Roboto'");
+	this.text_5.textAlign = "center";
+	this.text_5.lineHeight = 40;
+	this.text_5.lineWidth = 217;
+	this.text_5.parent = this;
+	this.text_5.setTransform(111.5,159.75);
+	if(!lib.properties.webfonts['Roboto']) {
+		lib.webFontTxtInst['Roboto'] = lib.webFontTxtInst['Roboto'] || [];
+		lib.webFontTxtInst['Roboto'].push(this.text_5);
+	}
+
+	this.text_6 = new cjs.Text("Гуравны хоёр", "normal 400 30px 'Roboto'");
+	this.text_6.textAlign = "center";
+	this.text_6.lineHeight = 40;
+	this.text_6.lineWidth = 203;
+	this.text_6.parent = this;
+	this.text_6.setTransform(108.85,79.45);
+	if(!lib.properties.webfonts['Roboto']) {
+		lib.webFontTxtInst['Roboto'] = lib.webFontTxtInst['Roboto'] || [];
+		lib.webFontTxtInst['Roboto'].push(this.text_6);
+	}
+
+	this.text_7 = new cjs.Text("Гуравны нэг", "normal 400 30px 'Roboto'");
+	this.text_7.lineHeight = 40;
+	this.text_7.lineWidth = 203;
+	this.text_7.parent = this;
+	this.text_7.setTransform(8.3,2);
+	if(!lib.properties.webfonts['Roboto']) {
+		lib.webFontTxtInst['Roboto'] = lib.webFontTxtInst['Roboto'] || [];
+		lib.webFontTxtInst['Roboto'].push(this.text_7);
+	}
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text_7,p:{text:"Гуравны нэг",lineHeight:39.85}},{t:this.text_6,p:{text:"Гуравны хоёр",lineHeight:39.85}},{t:this.text_5,p:{text:"Гуравны гурав",lineHeight:39.85}},{t:this.text_4,p:{text:"Гурван бүхэл",lineHeight:39.85}},{t:this.text_3,p:{text:"Дөрөвний нэг",lineHeight:39.85}},{t:this.text_2,p:{text:"Дөрөвний хоёр",lineHeight:39.85}},{t:this.text_1,p:{text:"Дөрөвний гурав",lineHeight:39.85}},{t:this.text,p:{text:"Дөрөвний дөрөв",lineHeight:39.85}}]}).to({state:[{t:this.text_7,p:{text:"   Үштен бірі",lineHeight:35.55}},{t:this.text_6,p:{text:"Үштен екі",lineHeight:35.55}},{t:this.text_5,p:{text:"Үштен үші",lineHeight:30}},{t:this.text_4,p:{text:"Үш бүтін",lineHeight:30}},{t:this.text_3,p:{text:"Төрттен бірі",lineHeight:30}},{t:this.text_2,p:{text:"Төрттен екі",lineHeight:30}},{t:this.text_1,p:{text:"Төрттен үші",lineHeight:30}},{t:this.text,p:{text:"Төрттен төрті",lineHeight:30}}]},1).to({state:[{t:this.text_7,p:{text:"   Үш чүс бир",lineHeight:30}},{t:this.text_6,p:{text:"Үш чүс ийи",lineHeight:30}},{t:this.text_5,p:{text:"Үш чүс үш",lineHeight:30}},{t:this.text_4,p:{text:"Үш бүдүн",lineHeight:30}},{t:this.text_3,p:{text:"Дөрт чүс бир",lineHeight:30}},{t:this.text_2,p:{text:"Дөрт чүс ийи",lineHeight:35.55}},{t:this.text_1,p:{text:"Дөрт чүс үш",lineHeight:35.55}},{t:this.text,p:{text:"Дөрт чүс дөрт",lineHeight:35.55}}]},1).to({state:[{t:this.text_7,p:{text:"Гуравны нэг",lineHeight:30}},{t:this.text_6,p:{text:"Гуравны хоёр",lineHeight:30}},{t:this.text_5,p:{text:"Гуравны гурав",lineHeight:30}},{t:this.text_4,p:{text:"Гурван бүхэл",lineHeight:30}},{t:this.text_3,p:{text:"Дөрөвний нэг",lineHeight:30}},{t:this.text_2,p:{text:"Дөрөвний хоёр",lineHeight:30}},{t:this.text_1,p:{text:"Дөрөвний гурав",lineHeight:30}},{t:this.text,p:{text:"Дөрөвний дөрөв",lineHeight:30}}]},1).to({state:[{t:this.text_7,p:{text:"Гуравны нэг",lineHeight:30}},{t:this.text_6,p:{text:"Гуравны хоёр",lineHeight:30}},{t:this.text_5,p:{text:"Гуравны гурав",lineHeight:30}},{t:this.text_4,p:{text:"Гурван бүхэл",lineHeight:30}},{t:this.text_3,p:{text:"Дөрөвний нэг",lineHeight:30}},{t:this.text_2,p:{text:"Дөрөвний хоёр",lineHeight:30}},{t:this.text_1,p:{text:"Дөрөвний гурав",lineHeight:30}},{t:this.text,p:{text:"Дөрөвний дөрөв",lineHeight:30}}]},1).to({state:[{t:this.text_7,p:{text:"Гуравны нэг",lineHeight:30}},{t:this.text_6,p:{text:"Гуравны хоёр",lineHeight:30}},{t:this.text_5,p:{text:"Гуравны гурав",lineHeight:30}},{t:this.text_4,p:{text:"Гурван бүхэл",lineHeight:30}},{t:this.text_3,p:{text:"Дөрөвний нэг",lineHeight:30}},{t:this.text_2,p:{text:"Дөрөвний хоёр",lineHeight:30}},{t:this.text_1,p:{text:"Дөрөвний гурав",lineHeight:30}},{t:this.text,p:{text:"Дөрөвний дөрөв",lineHeight:30}}]},1).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,927,288.2);
+
+
+(lib.mc_ex3_tex1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {"mn":0,"kz":1,"tuva":2,"sign":3,"visual":4,"blind":5};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.text = new cjs.Text("Харин дөрвөн тэнцүү хуваасан тэгш өнцөгтийн 2/4-ыг  будах хэдэн өөр боломж байна вэ? \nНайзууд аа. Үүнийг бие дааж хийгээрэй. ", "42px 'Roboto'");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 51;
+	this.text.lineWidth = 1395;
+	this.text.parent = this;
+	this.text.setTransform(699.4,2);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1).to({text:"Ал төрт тең бөлікке бөлінген тіктөртбұрыштың 2/4 бөлігін бояудың неше түрлі тәсілі бар?\nДостар. Мұны өз беттеріңізше орындаңыздар."},0).wait(1).to({text:"Арткан дөрт тең кезектерге чарган шын булуңнуг дөрбөлжүннүң \n2/4 кезиин бояар каш аңгы арга бар-дыр?\nӨңнүктер. Мону боттарыңар кылыңар. "},0).wait(1).to({text:"Харин дөрвөн тэнцүү хуваасан тэгш өнцөгтийн 2/4-ыг  будах хэдэн өөр боломж байна вэ? \nНайзууд аа. Үүнийг бие дааж хийгээрэй. "},0).wait(3));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,1398.8,159.2);
+
+
+(lib.mc_ex2_tex1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {"mn":0,"kz":1,"tuva":2,"sign":3,"visual":4,"blind":5};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.text = new cjs.Text("Дугуй дүрсний 2/4 хэсгийг будъя.\nАль хэсгийг будахаа өөрсдөө сонгоорой.", "42px 'Roboto'");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 51;
+	this.text.lineWidth = 1395;
+	this.text.parent = this;
+	this.text.setTransform(699.4,2);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1).to({text:"Дөңгелек фигураның 2/4 бөлігін бояйық.Қай бөлігін бояуды өздеріңіз таңдаңыздар."},0).wait(1).to({text:"Төгерик дүрзүнүң 2/4 кезиин бояалыңар.Кайы кезиин бояарын боттарыңар шилип алыңар."},0).wait(1).to({text:"Дугуй дүрсний 2/4 хэсгийг будъя.\nАль хэсгийг будахаа өөрсдөө сонгоорой."},0).wait(3));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,1398.8,159.2);
+
+
+(lib.mc_ex1_tex1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {"mn":0,"kz":1,"tuva":2,"sign":3,"visual":4,"blind":5};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.text = new cjs.Text("Тэнцүү биш хэсэгт \nхуваасан", "42px 'Roboto'");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 51;
+	this.text.lineWidth = 812;
+	this.text.parent = this;
+	this.text.setTransform(1055.6,2);
+
+	this.text_1 = new cjs.Text("Тэнцүү хэсэгт хуваасан", "42px 'Roboto'");
+	this.text_1.textAlign = "center";
+	this.text_1.lineHeight = 51;
+	this.text_1.lineWidth = 812;
+	this.text_1.parent = this;
+	this.text_1.setTransform(407.9,2);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text_1,p:{text:"Тэнцүү хэсэгт хуваасан"}},{t:this.text,p:{text:"Тэнцүү биш хэсэгт \nхуваасан"}}]}).to({state:[{t:this.text_1,p:{text:"Тең бөліктерге бөлінген"}},{t:this.text,p:{text:"Тең емес бөліктерге \nбөлінген"}}]},1).to({state:[{t:this.text_1,p:{text:"Тең кезектерге чарган"}},{t:this.text,p:{text:"Тең эвес кезектерге чарган"}}]},1).to({state:[{t:this.text_1,p:{text:"Тэнцүү хэсэгт хуваасан"}},{t:this.text,p:{text:"Тэнцүү биш хэсэгт \nхуваасан"}}]},1).to({state:[{t:this.text_1,p:{text:"Тэнцүү хэсэгт хуваасан"}},{t:this.text,p:{text:"Тэнцүү биш хэсэгт \nхуваасан"}}]},1).to({state:[{t:this.text_1,p:{text:"Тэнцүү хэсэгт хуваасан"}},{t:this.text,p:{text:"Тэнцүү биш хэсэгт \nхуваасан"}}]},1).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,1463.5,159.2);
+
+
 (lib.MC_Blink = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -2864,7 +3059,7 @@ if (reversed == null) { reversed = false; }
 	var props = new Object();
 	props.mode = mode;
 	props.startPosition = startPosition;
-	props.labels = {};
+	props.labels = {"mn":0,"kz":1,"tuva":2,"sign":3,"visual":4,"blind":5};
 	props.loop = loop;
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
@@ -2885,11 +3080,12 @@ if (reversed == null) { reversed = false; }
 	this.shape_1.graphics.f("rgba(255,255,255,0)").s().p("A4SEOQgKAAAAgKIAAoHQAAgKAKAAMAwlAAAQAKAAAAAKIAAIHQAAAKgKAAg");
 	this.shape_1.setTransform(156.5,32.7);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text,p:{text:"аравны нэг"}}]}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text,p:{text:"онның бірі"}}]},1).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text,p:{text:"оннуң бири"}}]},1).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text,p:{text:"аравны нэг"}}]},1).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text,p:{text:"аравны нэг"}}]},1).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text,p:{text:"аравны нэг"}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.drag44, new cjs.Rectangle(-1,0,315,60.7), null);
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-1,0,315,60.7);
 
 
 (lib.drag33 = function(mode,startPosition,loop,reversed) {
@@ -2898,7 +3094,7 @@ if (reversed == null) { reversed = false; }
 	var props = new Object();
 	props.mode = mode;
 	props.startPosition = startPosition;
-	props.labels = {};
+	props.labels = {"mn":0,"kz":1,"tuva":2,visal:3,"sign":4,"blind":5};
 	props.loop = loop;
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
@@ -2919,11 +3115,12 @@ if (reversed == null) { reversed = false; }
 	this.shape_1.graphics.f("rgba(255,255,255,0)").s().p("A4SEOQgKAAAAgKIAAoHQAAgKAKAAMAwlAAAQAKAAAAAKIAAIHQAAAKgKAAg");
 	this.shape_1.setTransform(156.5,31.4);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text,p:{text:"аравны гурав"}}]}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text,p:{text:"онның үші"}}]},1).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text,p:{text:"оннуң үшү"}}]},1).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text,p:{text:"аравны гурав"}}]},1).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text,p:{text:"аравны гурав"}}]},1).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text,p:{text:"аравны гурав"}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.drag33, new cjs.Rectangle(-1,0,315,59.4), null);
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-1,0,315,59.4);
 
 
 (lib.drag22 = function(mode,startPosition,loop,reversed) {
@@ -2932,7 +3129,7 @@ if (reversed == null) { reversed = false; }
 	var props = new Object();
 	props.mode = mode;
 	props.startPosition = startPosition;
-	props.labels = {};
+	props.labels = {"mn":0,"kz":1,"tuva":2,"sign":3,"blind":4,"visual":5};
 	props.loop = loop;
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
@@ -2953,11 +3150,12 @@ if (reversed == null) { reversed = false; }
 	this.shape_1.graphics.f("rgba(255,255,255,0)").s().p("A4SEOQgKAAAAgKIAAoHQAAgKAKAAMAwlAAAQAKAAAAAKIAAIHQAAAKgKAAg");
 	this.shape_1.setTransform(156.5,30.75);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text,p:{text:"аравны дөрөв   "}}]}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text,p:{text:"онның төрті"}}]},1).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text,p:{text:"оннуң дөртү"}}]},1).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text,p:{text:"аравны дөрөв   "}}]},1).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text,p:{text:"аравны дөрөв   "}}]},1).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text,p:{text:"аравны дөрөв   "}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.drag22, new cjs.Rectangle(-1,0,315,58.8), null);
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-1,0,315,58.8);
 
 
 (lib.drag11 = function(mode,startPosition,loop,reversed) {
@@ -2966,7 +3164,7 @@ if (reversed == null) { reversed = false; }
 	var props = new Object();
 	props.mode = mode;
 	props.startPosition = startPosition;
-	props.labels = {};
+	props.labels = {"mn":0,"kz":1,"tuva":2,"blind":3,"sign":4,"visal":5};
 	props.loop = loop;
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
@@ -2987,11 +3185,12 @@ if (reversed == null) { reversed = false; }
 	this.shape_1.graphics.f("rgba(255,255,255,0)").s().p("A4SEOQgKAAAAgKIAAoHQAAgKAKAAMAwlAAAQAKAAAAAKIAAIHQAAAKgKAAg");
 	this.shape_1.setTransform(156.5,30.3);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text,p:{text:"аравны зургаа"}}]}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text,p:{text:"онның алтысы"}}]},1).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text,p:{text:"оннуң алтызы"}}]},1).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text,p:{text:"аравны зургаа"}}]},1).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text,p:{text:"аравны зургаа"}}]},1).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text,p:{text:"аравны зургаа"}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.drag11, new cjs.Rectangle(-1,0,315,58.3), null);
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-1,0,315,58.3);
 
 
 (lib.drag6 = function(mode,startPosition,loop,reversed) {
@@ -3640,7 +3839,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-205.5,-53.5,411,107);
+p.nominalBounds = new cjs.Rectangle(-205.5,-53.5,411,112.5);
 
 
 (lib.btn_prev_8 = function(mode,startPosition,loop,reversed) {
@@ -4349,7 +4548,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.Blue();
 	this.instance.setTransform(0.25,0.2,0.3034,0.3034,0,0,0,205.8,205.3);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{regX:205.8,regY:205.3,scaleX:0.3034,scaleY:0.3034,x:0.25,y:0.2}},{t:this.shape,p:{regX:0.2,regY:0.2,scaleX:0.95,scaleY:0.95,x:0.2,y:0.2}}]}).to({state:[{t:this.instance,p:{regX:201.3,regY:200.8,scaleX:0.2377,scaleY:0.2377,x:0.2,y:0.15}},{t:this.shape,p:{regX:0.8,regY:1.9,scaleX:0.7452,scaleY:0.7452,x:0.15,y:0.25}}]},1).to({state:[{t:this.instance,p:{regX:205.8,regY:205.3,scaleX:0.3034,scaleY:0.3034,x:0.25,y:0.2}},{t:this.shape,p:{regX:0.2,regY:0.2,scaleX:0.95,scaleY:0.95,x:0.2,y:0.2}}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{regX:205.8,regY:205.3,scaleX:0.3034,scaleY:0.3034,x:0.25,y:0.2}},{t:this.shape,p:{regX:0.2,regY:0.2,scaleX:0.95,scaleY:0.95,x:0.2,y:0.2}}]}).to({state:[{t:this.instance,p:{regX:200.9,regY:200.5,scaleX:0.2377,scaleY:0.2377,x:0.2,y:0.15}},{t:this.shape,p:{regX:0.8,regY:2,scaleX:0.7452,scaleY:0.7452,x:0.15,y:0.25}}]},1).to({state:[{t:this.instance,p:{regX:205.8,regY:205.3,scaleX:0.3034,scaleY:0.3034,x:0.25,y:0.2}},{t:this.shape,p:{regX:0.2,regY:0.2,scaleX:0.95,scaleY:0.95,x:0.2,y:0.2}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -4784,7 +4983,7 @@ if (reversed == null) { reversed = false; }
 	var props = new Object();
 	props.mode = mode;
 	props.startPosition = startPosition;
-	props.labels = {mn:0,kz:1,tuva:2};
+	props.labels = {"mn":0,"kz":1,"tuva":2};
 	props.loop = loop;
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
@@ -4948,7 +5147,7 @@ if (reversed == null) { reversed = false; }
 		exportRoot.loadAudio("title_mn", SOUND_PATH + "title_mn.mp3");
 		exportRoot.loadAudio("title_kz", SOUND_PATH + "title_kz.mp3");
 		exportRoot.loadAudio("title_tuva", SOUND_PATH + "title_tuva.mp3");
-		exportRoot.loadAudio("title_sign", SOUND_PATH + "title_sign.mp3");
+		exportRoot.preloadVideo("./videos/sign/lesson06_title_dohio.mp4");
 		exportRoot.loadAudio("title_visual", SOUND_PATH + "title_mn.mp3");
 		exportRoot.loadAudio("click", "./sounds/click.mp3");
 		exportRoot.loadAudio("start", "./sounds/start.mp3");
@@ -4962,15 +5161,15 @@ if (reversed == null) { reversed = false; }
 				start: "ЭХЛЭХ"
 			},
 			kz: {
-				title: "ӨЛШЕУ ҚАЛАСЫ",
-				subtitle: "Масса мен көлемді өлшеу",
+				title: "ОЙЫН ҚАЛАСЫ",
+				subtitle: "Жай бөлшектерді кескіндеу, оқу, жазу және салыстыру",
 				subject: "МАТЕМАТИКА",
 				grade: "3 СЫНЫП",
 				start: "БАСТАУ"
 			},
 			tuva: {
-				title: "ХЕМЧЭЭР ХООРАЙ",
-				subtitle: "Масс болгаш эзлэхүүнү хемчээри",
+				title: "ОЮН ХООРАЙ",
+				subtitle: "Наам үүрмек саннарны дүрсүлээри, номчууру, бижиири болгаш деңнээри.",
 				subject: "МАТЕМАТИКА",
 				grade: "3 КЛАСС",
 				start: "ЭГЕЛЭЭРИ"
@@ -4997,9 +5196,43 @@ if (reversed == null) { reversed = false; }
 			if (exportRoot.txt_subtitle) exportRoot.txt_subtitle.text = texts.subtitle;
 			if (exportRoot.txt_subject) exportRoot.txt_subject.text = texts.subject;
 			if (exportRoot.txt_grade) exportRoot.txt_grade.text = texts.grade;
-			if (exportRoot.txt_start) exportRoot.txt_start.text = texts.start;
+			if (exportRoot.btn_start.txt_start) exportRoot.btn_start.txt_start.text = texts.start;
 		}
-		console.log(exportRoot.gameState.selectedLanguage)
+				
+		// =====================================================
+		// PLAY sign video
+		// =====================================================
+		const playSignVideo = function () {
+			// Remove old video if exists
+			let oldVideo = document.getElementById("signVideoPlayer");
+			if (oldVideo) {
+				oldVideo.pause();
+				oldVideo.remove();
+			}
+			// Always create a fresh video element
+			let video = document.createElement("video");
+			video.src = "./videos/sign/lesson06_title_dohio.mp4";
+			video.id = "signVideoPlayer";
+			video.autoplay = true;
+			video.controls = true;
+			video.currentTime = 0;
+			// Style (bottom right corner)
+			video.style.position = "fixed";
+			video.style.bottom = "20px";
+			video.style.right = "20px";
+			video.style.width = "300px";
+			video.style.height = "auto";
+			video.style.zIndex = "9999";
+			video.style.borderRadius = "12px";
+			video.style.boxShadow = "0 4px 12px rgba(0,0,0,0.3)";
+			video.style.background = "#000";
+			// Add to document
+			document.body.appendChild(video);
+			// Remove when finished
+			video.onended = function () {
+				video.remove();
+			};
+		};
 		function updateCheckmark() {
 			if (!exportRoot.checkmark) return;
 			var targetBtn = exportRoot["btn_" + exportRoot.gameState.selectedLanguage];
@@ -5057,6 +5290,10 @@ if (reversed == null) { reversed = false; }
 			});
 			
 			exportRoot.btn_voice.on("click", function() {
+				if (exportRoot.gameState.selectedLanguage === 'sign') {
+					playSignVideo();
+					return;
+				}
 				exportRoot.playAudio("title_" + exportRoot.gameState.selectedLanguage);
 			});
 		}
@@ -5087,6 +5324,353 @@ if (reversed == null) { reversed = false; }
 			exportRoot.btn_start.on("click", function() {
 				exportRoot.playAudio("start");
 				exportRoot.stopAudio("title_" + exportRoot.gameState.selectedLanguage);
+				let signVideo = document.getElementById("signVideoPlayer");
+				if (signVideo) {
+					signVideo.pause();
+					signVideo.remove();
+				}
+				exportRoot.gameState.currentFrame = 1;
+				saveState();
+				createjs.Tween.get(exportRoot).to({alpha: 0}, 80).call(function() {
+					exportRoot.alpha = 1;
+					exportRoot.gotoAndStop(10);
+				});
+			});
+		}
+		
+		exportRoot.cleanupAllExercises = function() {
+			var inputNames = [
+				"ex1_input_1", "ex1_input_2", "ex1_input_3", "ex1_input_4",
+				"ex1_input_5", "ex1_input_6", "ex1_input_7", "ex1_input_8",
+				"ex2_input_1", "ex2_input_2", "ex2_input_3", "ex2_input_4",
+				"ex2_input_5", "ex2_input_6", "ex2_input_7", "ex2_input_8",
+				"ex3_input_1", "ex3_input_2", "ex3_input_3", "ex3_input_4",
+				"ex7_input_1", "ex7_input_2", "ex7_input_3", "ex7_input_4",
+				"ex8_input_1a", "ex8_input_1b", "ex8_input_2a", "ex8_input_2b",
+				"ex8_input_3a", "ex8_input_3b", "ex8_input_4a", "ex8_input_4b",
+				"ex10_input_1a", "ex10_input_1b", "ex10_input_2a", "ex10_input_2b",
+				"ex10_input_3a", "ex10_input_3b", "ex10_input_4a", "ex10_input_4b",
+				"ex11_input_middle", "ex11_input_final"
+			];
+			
+			inputNames.forEach(function(name) {
+				var el = document.getElementById("html_" + name);
+				if (el && el.parentNode) el.parentNode.removeChild(el);
+			});
+			
+			function cleanupTextObject(textObj) {
+				if (!textObj) return;
+				if (textObj._strokeClone && textObj._strokeClone.parent) {
+					textObj._strokeClone.parent.removeChild(textObj._strokeClone);
+					if (textObj._strokeClone.uncache) {
+						textObj._strokeClone.uncache();
+					}
+					textObj._strokeClone = null;
+				}
+				if (textObj._isStyled) {
+					textObj._isStyled = false;
+				}
+				if (textObj.uncache) {
+					textObj.uncache();
+				}
+				if (textObj.outline) {
+					textObj.outline = 0;
+				}
+				if (textObj.shadow) {
+					textObj.shadow = null;
+				}
+			}
+			
+			var textFields = ["main_txt_title", "main_txt_instruction"];
+			textFields.forEach(function(name) {
+				if (exportRoot[name]) {
+					cleanupTextObject(exportRoot[name]);
+				}
+			});
+			
+			function recursiveCleanup(container) {
+				if (!container || !container.children) return;
+				for (var i = container.children.length - 1; i >= 0; i--) {
+					var child = container.children[i];
+					if (child instanceof createjs.Text) {
+						cleanupTextObject(child);
+					}
+					if (child.children && child.children.length > 0) {
+						recursiveCleanup(child);
+					}
+				}
+			}
+			
+			recursiveCleanup(exportRoot);
+		};
+		
+		updateHomeText();
+		updateCheckmark();
+		
+		window.addEventListener("beforeunload", function() {
+			saveState();
+		});
+		
+		console.log("🚀 " + LESSON_NAME + " initialized!");var exportRoot = this;
+		exportRoot.stop();
+		
+		// ============================================
+		// LESSON CONFIG
+		// ============================================
+		var LESSON_ID = "Lesson06";
+		var LESSON_NAME = "Lesson 06 - Тоглоомын хот";
+		var STORAGE_KEY = LESSON_ID + "_gameState";
+		var SOUND_PATH = "./sounds/" + LESSON_ID + "_";
+		
+		// Reset state if needed
+		sessionStorage.removeItem(STORAGE_KEY);
+		
+		if (stage) stage.enableMouseOver(20);
+		
+		function loadState() {
+			try {
+				var saved = sessionStorage.getItem(STORAGE_KEY);
+				if (saved) {
+					return JSON.parse(saved);
+				}
+			} catch(e) {}
+			return null;
+		}
+		
+		function saveState() {
+			try {
+				exportRoot.gameState.timestamp = Date.now();
+				sessionStorage.setItem(STORAGE_KEY, JSON.stringify(exportRoot.gameState));
+			} catch(e) {}
+		}
+		
+		var savedState = loadState();
+		
+		if (!exportRoot.gameState) {
+			if (savedState) {
+				exportRoot.gameState = savedState;
+			} else {
+				exportRoot.gameState = {
+					timestamp: Date.now(),
+					currentFrame: 0,
+					selectedLanguage: "mn",
+					accessibilityMode: false,
+					exercise1Complete: false,
+					exercise1Matches: [],
+					exercise2Complete: false,
+					exercise2Matches: [],
+					exercise3Complete: false,
+					exercise3Values: {},
+					exercise4Complete: false,
+					exercise4Values: {},
+					exercise5Complete: false,
+					exercise5Values: {},
+					exercise6Complete: false,
+					exercise7Complete: false,
+					exercise7Values: {},
+					exercise8Complete: false,
+					exercise8Values: {}
+				};
+			}
+		}
+		
+		exportRoot.saveState = saveState;
+		
+		if (!exportRoot.audioPool) exportRoot.audioPool = {};
+		exportRoot.loadAudio = function(key, src) {
+			if (!this.audioPool[key]) {
+				this.audioPool[key] = new Audio(src);
+				this.audioPool[key].preload = "auto";
+			}
+			return this.audioPool[key];
+		};
+		
+		exportRoot.playAudio = function(key) {
+			var audio = this.audioPool[key];
+			if (audio) {
+				audio.pause();
+				audio.currentTime = 0;
+				audio.play().catch(function() {});
+			}
+		};
+		
+		exportRoot.stopAudio = function(key) {
+			var audio = this.audioPool[key];
+			if (audio) {
+				audio.pause();
+				audio.currentTime = 0;
+			}
+		};
+		
+		if (!exportRoot.videoCache) exportRoot.videoCache = {};
+		exportRoot.preloadVideo = function(path) {
+			if (this.videoCache[path]) return;
+			var vid = document.createElement("video");
+			vid.preload = "metadata";
+			vid.src = path;
+			vid.style.display = "none";
+			document.body.appendChild(vid);
+			this.videoCache[path] = vid;
+		};
+		
+		var lang = exportRoot.gameState.selectedLanguage;
+		
+		// Audio preload
+		exportRoot.loadAudio("title_mn", SOUND_PATH + "title_mn.mp3");
+		exportRoot.loadAudio("title_kz", SOUND_PATH + "title_kz.mp3");
+		exportRoot.loadAudio("title_tuva", SOUND_PATH + "title_tuva.mp3");
+		exportRoot.preloadVideo("./videos/sign/lesson06_title_dohio.mp4");
+		exportRoot.loadAudio("title_visual", SOUND_PATH + "title_mn.mp3");
+		exportRoot.loadAudio("click", "./sounds/click.mp3");
+		exportRoot.loadAudio("start", "./sounds/start.mp3");
+		
+		var homeText = {
+			mn: {
+				title: "ТОГЛООМЫН ХОТ",
+				subtitle: "Энгийн бутархайг дүрслэх, унших, бичих, жиших",
+				subject: "МАТЕМАТИК",
+				grade: "3 ДУГААР АНГИ",
+				start: "ЭХЛЭХ"
+			},
+			kz: {
+				title: "ОЙЫН ҚАЛАСЫ",
+				subtitle: "Жай бөлшектерді кескіндеу, оқу, жазу және салыстыру",
+				subject: "МАТЕМАТИКА",
+				grade: "3 СЫНЫП",
+				start: "БАСТАУ"
+			},
+			tuva: {
+				title: "ОЮН ХООРАЙ",
+				subtitle: "Наам үүрмек саннарны дүрсүлээри, номчууру, бижиири болгаш деңнээри.",
+				subject: "МАТЕМАТИКА",
+				grade: "3 КЛАСС",
+				start: "ЭГЕЛЭЭРИ"
+			},
+			sign: {
+				title: "ТОГЛООМЫН ХОТ",
+				subtitle: "Энгийн бутархайг дүрслэх, унших, бичих, жиших",
+				subject: "МАТЕМАТИК",
+				grade: "3 ДУГААР АНГИ",
+				start: "ЭХЛЭХ"
+			},
+			visual: {
+				title: "ТОГЛООМЫН ХОТ",
+				subtitle: "Энгийн бутархайг дүрслэх, унших, бичих, жиших",
+				subject: "МАТЕМАТИК",
+				grade: "3 ДУГААР АНГИ",
+				start: "ЭХЛЭХ"
+			}
+		};
+		
+		function updateHomeText() {
+			var texts = homeText[exportRoot.gameState.selectedLanguage];
+			if (exportRoot.main_txt_title) exportRoot.main_txt_title.text = texts.title;
+			if (exportRoot.txt_subtitle) exportRoot.txt_subtitle.text = texts.subtitle;
+			if (exportRoot.txt_subject) exportRoot.txt_subject.text = texts.subject;
+			if (exportRoot.txt_grade) exportRoot.txt_grade.text = texts.grade;
+			if (exportRoot.btn_start.txt_start) exportRoot.btn_start.txt_start.text = texts.start;
+		}
+				
+		// =====================================================
+		// PLAY sign video
+		// =====================================================
+		
+		function updateCheckmark() {
+			if (!exportRoot.checkmark) return;
+			var targetBtn = exportRoot["btn_" + exportRoot.gameState.selectedLanguage];
+			if (targetBtn) {
+				createjs.Tween.removeTweens(exportRoot.checkmark);
+				createjs.Tween.get(exportRoot.checkmark).to(
+					{x: targetBtn.x + 10, y: targetBtn.y - 20},
+					200,
+					createjs.Ease.quadOut
+				);
+			}
+		}
+		
+		function selectLanguage(l) {
+			exportRoot.playAudio("click");
+			exportRoot.stopAudio("title_" + exportRoot.gameState.selectedLanguage);
+			exportRoot.gameState.selectedLanguage = l;
+			exportRoot.loadAudio("title_" + l, SOUND_PATH + "title_" + l + ".mp3");
+			updateHomeText();
+			updateCheckmark();
+			saveState();
+		}
+		
+		["mn", "kz", "tuva", "sign", "visual"].forEach(function(l) {
+			if (exportRoot["btn_" + l]) exportRoot["btn_" + l].mouseEnabled = false;
+			if (exportRoot["txt_" + l]) exportRoot["txt_" + l].mouseEnabled = false;
+			if (exportRoot["hitarea_" + l]) {
+				var ha = exportRoot["hitarea_" + l];
+				ha.alpha = 0.01;
+				ha.cursor = "pointer";
+				ha.removeAllEventListeners("click");
+				ha.on("click", function() { selectLanguage(l); });
+			}
+		});
+		
+		if (exportRoot.btn_voice) {
+			exportRoot.btn_voice.cursor = "pointer";
+			exportRoot.btn_voice.scaleX = 1;
+			exportRoot.btn_voice.scaleY = 1;
+			exportRoot.btn_voice.removeAllEventListeners();
+			
+			exportRoot.btn_voice.on("mousedown", function() {
+				createjs.Tween.removeTweens(this);
+				createjs.Tween.get(this).to({scaleX: 0.9, scaleY: 0.9}, 100);
+			});
+			
+			exportRoot.btn_voice.on("pressup", function() {
+				createjs.Tween.removeTweens(this);
+				createjs.Tween.get(this).to({scaleX: 1, scaleY: 1}, 100);
+			});
+			
+			exportRoot.btn_voice.on("mouseout", function() {
+				createjs.Tween.removeTweens(this);
+				createjs.Tween.get(this).to({scaleX: 1, scaleY: 1}, 100);
+			});
+			
+			exportRoot.btn_voice.on("click", function() {
+				if (exportRoot.gameState.selectedLanguage === 'sign') {
+					playSignVideo();
+					return;
+				}
+				exportRoot.playAudio("title_" + exportRoot.gameState.selectedLanguage);
+			});
+		}
+		
+		if (exportRoot.btn_start) {
+			if (exportRoot.txt_start) exportRoot.txt_start.mouseEnabled = false;
+			exportRoot.btn_start.cursor = "pointer";
+			exportRoot.btn_start.mouseEnabled = true;
+			exportRoot.btn_start.mouseChildren = false;
+			exportRoot.btn_start.removeAllEventListeners();
+			
+			exportRoot.btn_start.on("mouseover", function() {
+				createjs.Tween.removeTweens(exportRoot.btn_start);
+				createjs.Tween.get(exportRoot.btn_start).to({scaleX: 0.95, scaleY: 0.95}, 150);
+				if (exportRoot.txt_start) {
+					createjs.Tween.get(exportRoot.txt_start).to({scaleX: 0.95, scaleY: 0.95}, 150);
+				}
+			});
+			
+			exportRoot.btn_start.on("mouseout", function() {
+				createjs.Tween.removeTweens(exportRoot.btn_start);
+				createjs.Tween.get(exportRoot.btn_start).to({scaleX: 1, scaleY: 1}, 150);
+				if (exportRoot.txt_start) {
+					createjs.Tween.get(exportRoot.txt_start).to({scaleX: 1, scaleY: 1}, 150);
+				}
+			});
+			
+			exportRoot.btn_start.on("click", function() {
+				exportRoot.playAudio("start");
+				exportRoot.stopAudio("title_" + exportRoot.gameState.selectedLanguage);
+				let signVideo = document.getElementById("signVideoPlayer");
+				if (signVideo) {
+					signVideo.pause();
+					signVideo.remove();
+				}
 				exportRoot.gameState.currentFrame = 1;
 				saveState();
 				createjs.Tween.get(exportRoot).to({alpha: 0}, 80).call(function() {
@@ -5185,7 +5769,7 @@ if (reversed == null) { reversed = false; }
 			exportRoot.gameState.videosWatched = [];
 		}
 		if (!exportRoot.saveState) {
-			exportRoot.saveState = function() {};
+			exportRoot.saveState = function () {};
 		}
 		
 		var videoContainer = null;
@@ -5246,6 +5830,12 @@ if (reversed == null) { reversed = false; }
 				tuva: "ЭРТЕР ▶",
 				sign: "АЛГАСАХ ▶"
 			};
+			var loadingLabels = {
+				mn: "Ачаалж байна...",
+				kz: "Жүктелуде...",
+				tuva: "Чүдүрүп тур...",
+				sign: "Ачаалж байна..."
+			};
 		
 			var existingContainer = document.getElementById("video-container-main");
 			if (existingContainer && existingContainer.parentNode) {
@@ -5297,7 +5887,7 @@ if (reversed == null) { reversed = false; }
 			spinner.style.animation = "spin 1s linear infinite";
 		
 			var loadingText = document.createElement("div");
-			loadingText.textContent = currentLang === "mn" ? "Ачаалж байна..." : "Жүктелуде...";
+			loadingText.textContent = loadingLabels[currentLang] || loadingLabels.mn;
 			loadingText.style.color = "#fff";
 			loadingText.style.fontSize = "18px";
 			loadingText.style.fontFamily = "'Rubik', sans-serif";
@@ -5317,7 +5907,13 @@ if (reversed == null) { reversed = false; }
 			// VIDEO ELEMENT
 			// =====================================================
 			videoElement = document.createElement("video");
-			videoElement.src = "./videos/Lesson6_main_story.mp4";
+			var videoFiles = {
+				mn: "./videos/Lesson6_main_story_mn.webm",
+				kz: "./videos/Lesson6_main_story_kz.webm",
+				tuva: "./videos/Lesson6_main_story_tuva.webm",
+				sign: "./videos/Lesson6_main_story_dohio.webm"
+			};
+			videoElement.src = videoFiles[currentLang] || videoFiles.mn;
 			videoElement.style.width = "100%";
 			videoElement.style.height = "100%";
 			videoElement.style.objectFit = "contain";
@@ -5328,7 +5924,7 @@ if (reversed == null) { reversed = false; }
 			videoElement.autoplay = true;
 			videoElement.setAttribute("webkit-playsinline", "true");
 		
-			videoElement.addEventListener("error", function() {
+			videoElement.addEventListener("error", function () {
 				console.log("VIDEO ERROR:", videoElement.error);
 			});
 		
@@ -5362,16 +5958,17 @@ if (reversed == null) { reversed = false; }
 			function showFlash(icon) {
 				flashIcon.textContent = icon;
 				flashIcon.style.opacity = "1";
-				setTimeout(function() {
+				setTimeout(function () {
 					flashIcon.style.opacity = "0";
 				}, 400);
 			}
 		
-			clickOverlay.addEventListener("click", function() {
+			clickOverlay.addEventListener("click", function () {
 				if (!videoElement) return;
 				if (videoElement.paused) {
 					videoElement.muted = false;
-					videoElement.play().catch(function() {});
+					videoElement.play().
+					catch (function () {});
 					if (playPauseBtn) playPauseBtn.innerHTML = "⏸️";
 					showFlash("▶");
 				} else {
@@ -5511,28 +6108,29 @@ if (reversed == null) { reversed = false; }
 			// =====================================================
 			// VIDEO EVENTS
 			// =====================================================
-			videoElement.addEventListener("loadeddata", function() {
+			videoElement.addEventListener("loadeddata", function () {
 				if (loadingIndicator) loadingIndicator.style.display = "none";
 				videoElement.style.display = "block";
 				controlsBar.style.display = "flex";
 				clickOverlay.style.display = "block";
 				if (!videoWatched) skipButton.style.display = "block";
 		
-				videoElement.play().then(function() {
+				videoElement.play().then(function () {
 					playPauseBtn.innerHTML = "⏸️";
-				}).catch(function(err) {
+				}).
+				catch (function (err) {
 					console.log("Play failed:", err);
 					playPauseBtn.innerHTML = "▶️";
 				});
 			});
 		
-			videoElement.addEventListener("loadedmetadata", function() {
+			videoElement.addEventListener("loadedmetadata", function () {
 				if (timeDisplay) {
 					timeDisplay.textContent = "0:00 / " + formatTime(videoElement.duration);
 				}
 			});
 		
-			videoElement.addEventListener("timeupdate", function() {
+			videoElement.addEventListener("timeupdate", function () {
 				if (progressFill && timeDisplay && videoElement.duration) {
 					var percent = (videoElement.currentTime / videoElement.duration) * 100;
 					progressFill.style.width = percent + "%";
@@ -5540,7 +6138,7 @@ if (reversed == null) { reversed = false; }
 				}
 			});
 		
-			videoElement.addEventListener("ended", function() {
+			videoElement.addEventListener("ended", function () {
 				if (playPauseBtn) playPauseBtn.innerHTML = "▶️";
 				if (exportRoot.gameState.videosWatched.indexOf("mainStory") === -1) {
 					exportRoot.gameState.videosWatched.push("mainStory");
@@ -5552,7 +6150,7 @@ if (reversed == null) { reversed = false; }
 			// =====================================================
 			// CONTROLS EVENTS
 			// =====================================================
-			playPauseBtn.addEventListener("click", function(e) {
+			playPauseBtn.addEventListener("click", function (e) {
 				e.stopPropagation();
 				if (videoElement.paused) {
 					videoElement.muted = false;
@@ -5564,34 +6162,42 @@ if (reversed == null) { reversed = false; }
 				}
 			});
 		
-			progressContainer.addEventListener("click", function(e) {
+			progressContainer.addEventListener("click", function (e) {
 				e.stopPropagation();
 				var r = progressContainer.getBoundingClientRect();
 				var pos = (e.clientX - r.left) / r.width;
 				videoElement.currentTime = pos * videoElement.duration;
 			});
 		
-			volumeSlider.addEventListener("input", function(e) {
+			volumeSlider.addEventListener("input", function (e) {
 				e.stopPropagation();
 				videoElement.volume = this.value / 100;
 				if (this.value > 0) videoElement.muted = false;
 			});
 		
-			downloadBtn.addEventListener("click", function(e) {
+			downloadBtn.addEventListener("click", function (e) {
 				e.stopPropagation();
+				var downloadFiles = {
+					mn: "Lesson6_main_story_mn.webm",
+					kz: "Lesson6_main_story_kz.webm",
+					tuva: "Lesson6_main_story_tuva.webm",
+					sign: "Lesson6_main_story_dohio.webm"
+				};
+		
 				var a = document.createElement("a");
 				a.href = videoElement.src;
-				a.download = "Lesson6_main_story.mp4";
+				a.download = downloadFiles[currentLang] || downloadFiles.mn;
 				a.click();
 			});
 		
 			// =====================================================
 			// FULLSCREEN EVENTS ← NEW
 			// =====================================================
-			fullscreenBtn.addEventListener("click", function(e) {
+			fullscreenBtn.addEventListener("click", function (e) {
 				e.stopPropagation();
 				if (!document.fullscreenElement) {
-					videoContainer.requestFullscreen().catch(function(err) {
+					videoContainer.requestFullscreen().
+					catch (function (err) {
 						console.log("Fullscreen error:", err);
 					});
 				} else {
@@ -5601,7 +6207,7 @@ if (reversed == null) { reversed = false; }
 		
 			document.addEventListener("fullscreenchange", fullscreenChangeHandler);
 		
-			skipButton.addEventListener("click", function(e) {
+			skipButton.addEventListener("click", function (e) {
 				e.stopPropagation();
 				goToExercise1();
 			});
@@ -5609,14 +6215,14 @@ if (reversed == null) { reversed = false; }
 			// =====================================================
 			// RESIZE
 			// =====================================================
-			resizeHandler = function() {
+			resizeHandler = function () {
 				if (!videoContainer) return;
 				var canvas = document.getElementById("canvas");
 				if (!canvas) return;
 				var r = canvas.getBoundingClientRect();
-				videoContainer.style.left   = r.left   + "px";
-				videoContainer.style.top    = r.top    + "px";
-				videoContainer.style.width  = r.width  + "px";
+				videoContainer.style.left = r.left + "px";
+				videoContainer.style.top = r.top + "px";
+				videoContainer.style.width = r.width + "px";
 				videoContainer.style.height = r.height + "px";
 			};
 			window.addEventListener("resize", resizeHandler);
@@ -5652,50 +6258,53 @@ if (reversed == null) { reversed = false; }
 		// CONFIG
 		// =====================================================
 		var CONFIG = {
-		    backFrame: null,
-		    nextFrame: 3,
-		    autoNextDelay: 3500,
-		    soundPaths: {
-		        correct: "./sounds/voice_correct.mp3",
-		        wrong: "./sounds/voice_wrong.mp3",
-		        click: "./sounds/click.mp3"
-		    }
+			backFrame: null,
+			nextFrame: 3,
+			autoNextDelay: 2500
 		};
 		
 		// =====================================================
-		// GLOBAL STATE
+		// SOUND (standalone - no common.js)
 		// =====================================================
-		if (!exportRoot.audioPool) {
-		    exportRoot.audioPool = {};
-		}
+		if (!exportRoot.audioPool) exportRoot.audioPool = {};
 		
-		// =====================================================
-		// AUDIO
-		// =====================================================
 		function loadSound(type) {
-		    if (!CONFIG.soundPaths[type]) return null;
-		
-		    if (!exportRoot.audioPool[type]) {
-		        var audio = new Audio(CONFIG.soundPaths[type]);
-		        audio.preload = "auto";
-		        exportRoot.audioPool[type] = audio;
-		    }
-		    return exportRoot.audioPool[type];
+			var lang = exportRoot.gameState.selectedLanguage || "mn";
+			var key = type + "_ex_" + lang;
+			
+			// Determine language suffix for correct/wrong sounds
+			var soundLang = (lang === "kz" || lang === "tuva") ? lang : "mn";
+			
+			var paths = {
+				correct: "./sounds/voice_correct_" + soundLang + ".mp3",
+				wrong: "./sounds/voice_wrong_" + soundLang + ".mp3",
+				click: "./sounds/click.mp3"
+			};
+			
+			if (!exportRoot.audioPool[key]) {
+				exportRoot.audioPool[key] = new Audio(paths[type]);
+				exportRoot.audioPool[key].preload = "metadata";
+			}
+			return exportRoot.audioPool[key];
 		}
 		
 		function playSound(type) {
-		    var base = loadSound(type);
-		    if (!base) return;
-		
-		    try {
-		        var a = base.cloneNode();
-		        a.play().catch(function () {});
-		    } catch (e) {}
+			var sound = loadSound(type);
+			if (sound) {
+				sound.pause();
+				sound.currentTime = 0;
+				sound.play().catch(function() {});
+			}
 		}
 		
-		loadSound("correct");
-		loadSound("wrong");
-		loadSound("click");
+		// =====================================================
+		// LANGUAGE SUPPORT
+		// =====================================================
+		var lang = (exportRoot.gameState && exportRoot.gameState.selectedLanguage) || "mn";
+		
+		if (exportRoot.mc_ex1_tex1) {
+			exportRoot.mc_ex1_tex1.gotoAndStop(lang);
+		}
 		
 		// =====================================================
 		// REFERENCES
@@ -5707,14 +6316,14 @@ if (reversed == null) { reversed = false; }
 		// equal   = 1, 3, 5, 7
 		// unequal = 2, 4, 6, 8
 		var items = [
-		    { mc: exportRoot.btn_prev_1_1, correctZone: "equal"   },
-		    { mc: exportRoot.btn_prev_1_2, correctZone: "unequal" },
-		    { mc: exportRoot.btn_prev_1_3, correctZone: "equal"   },
-		    { mc: exportRoot.btn_prev_1_4, correctZone: "unequal" },
-		    { mc: exportRoot.btn_prev_1_5, correctZone: "equal"   },
-		    { mc: exportRoot.btn_prev_1_6, correctZone: "unequal" },
-		    { mc: exportRoot.btn_prev_1_7, correctZone: "equal"   },
-		    { mc: exportRoot.btn_prev_1_8, correctZone: "unequal" }
+			{ mc: exportRoot.btn_prev_1_1, correctZone: "equal"   },
+			{ mc: exportRoot.btn_prev_1_2, correctZone: "unequal" },
+			{ mc: exportRoot.btn_prev_1_3, correctZone: "equal"   },
+			{ mc: exportRoot.btn_prev_1_4, correctZone: "unequal" },
+			{ mc: exportRoot.btn_prev_1_5, correctZone: "equal"   },
+			{ mc: exportRoot.btn_prev_1_6, correctZone: "unequal" },
+			{ mc: exportRoot.btn_prev_1_7, correctZone: "equal"   },
+			{ mc: exportRoot.btn_prev_1_8, correctZone: "unequal" }
 		];
 		
 		var placedInEqual = [];
@@ -5723,231 +6332,204 @@ if (reversed == null) { reversed = false; }
 		var totalCount = 0;
 		
 		for (var i = 0; i < items.length; i++) {
-		    if (items[i].mc) {
-		        totalCount++;
-		    } else {
-		        console.log("Missing item:", i + 1);
-		    }
+			if (items[i].mc) {
+				totalCount++;
+			}
 		}
-		
-		if (!dropEqual) console.log("drop_equal not found");
-		if (!dropUnequal) console.log("drop_unequal not found");
 		
 		// =====================================================
 		// HELPERS
 		// =====================================================
 		function isPointInsideMovieClip(globalX, globalY, target) {
-		    if (!target) return false;
-		    var pt = target.globalToLocal(globalX, globalY);
-		    return target.hitTest(pt.x, pt.y);
+			if (!target) return false;
+			var pt = target.globalToLocal(globalX, globalY);
+			return target.hitTest(pt.x, pt.y);
 		}
 		
 		function detectDroppedZoneByPointer(stageX, stageY) {
-		    if (isPointInsideMovieClip(stageX, stageY, dropEqual)) {
-		        return "equal";
-		    }
-		    if (isPointInsideMovieClip(stageX, stageY, dropUnequal)) {
-		        return "unequal";
-		    }
-		    return null;
+			if (isPointInsideMovieClip(stageX, stageY, dropEqual)) {
+				return "equal";
+			}
+			if (isPointInsideMovieClip(stageX, stageY, dropUnequal)) {
+				return "unequal";
+			}
+			return null;
 		}
 		
 		function getSlotsForZone(zoneName) {
-		    if (zoneName === "equal") {
-		        return [
-		            exportRoot.equal_slot_1,
-		            exportRoot.equal_slot_2,
-		            exportRoot.equal_slot_3,
-		            exportRoot.equal_slot_4
-		        ];
-		    }
+			if (zoneName === "equal") {
+				return [
+					exportRoot.equal_slot_1,
+					exportRoot.equal_slot_2,
+					exportRoot.equal_slot_3,
+					exportRoot.equal_slot_4
+				];
+			}
 		
-		    return [
-		        exportRoot.unequal_slot_1,
-		        exportRoot.unequal_slot_2,
-		        exportRoot.unequal_slot_3,
-		        exportRoot.unequal_slot_4
-		    ];
+			return [
+				exportRoot.unequal_slot_1,
+				exportRoot.unequal_slot_2,
+				exportRoot.unequal_slot_3,
+				exportRoot.unequal_slot_4
+			];
 		}
 		
 		function snapItemToSlot(item, slot) {
-		    if (!item || !slot) return;
+			if (!item || !slot) return;
 		
-		    // slot-ийн registration point-ийг GLOBAL дээр авна
-		    var g = slot.localToGlobal(0, 0);
+			var g = slot.localToGlobal(0, 0);
+			var target = item.parent.globalToLocal(g.x, g.y);
 		
-		    // item-ийн parent coordinate руу хөрвүүлнэ
-		    var target = item.parent.globalToLocal(g.x, g.y);
-		
-		    createjs.Tween.removeTweens(item);
-		    createjs.Tween.get(item).to({
-		        x: target.x,
-		        y: target.y,
-		        alpha: 0.82
-		    }, 180);
+			createjs.Tween.removeTweens(item);
+			createjs.Tween.get(item).to({
+				x: target.x,
+				y: target.y,
+				alpha: 0.82
+			}, 180);
 		}
 		
 		function layoutZoneItems(zoneName) {
-		    var list = zoneName === "equal" ? placedInEqual : placedInUnequal;
-		    var slots = getSlotsForZone(zoneName);
+			var list = zoneName === "equal" ? placedInEqual : placedInUnequal;
+			var slots = getSlotsForZone(zoneName);
 		
-		    if (!list.length || !slots.length) return;
+			if (!list.length || !slots.length) return;
 		
-		    for (var i = 0; i < list.length; i++) {
-		        var item = list[i];
-		        var slot = slots[i];
+			for (var i = 0; i < list.length; i++) {
+				var item = list[i];
+				var slot = slots[i];
 		
-		        if (!item || !slot) continue;
+				if (!item || !slot) continue;
 		
-		        snapItemToSlot(item, slot);
-		    }
+				snapItemToSlot(item, slot);
+			}
 		}
 		
 		function shakeWrong(item, callback) {
-		    var ox = item.x;
+			var ox = item.x;
 		
-		    createjs.Tween.removeTweens(item);
-		    createjs.Tween.get(item)
-		        .to({ x: ox - 8 }, 50)
-		        .to({ x: ox + 8 }, 50)
-		        .to({ x: ox - 5 }, 50)
-		        .to({ x: ox + 5 }, 50)
-		        .to({ x: ox }, 50)
-		        .call(function () {
-		            if (callback) callback();
-		        });
+			createjs.Tween.removeTweens(item);
+			createjs.Tween.get(item)
+				.to({ x: ox - 8 }, 50)
+				.to({ x: ox + 8 }, 50)
+				.to({ x: ox - 5 }, 50)
+				.to({ x: ox + 5 }, 50)
+				.to({ x: ox }, 50)
+				.call(function () {
+					if (callback) callback();
+				});
 		}
 		
 		function returnToStart(item) {
-		    createjs.Tween.removeTweens(item);
-		    createjs.Tween.get(item).to({
-		        x: item.startX,
-		        y: item.startY,
-		        scaleX: item.startScaleX,
-		        scaleY: item.startScaleY,
-		        rotation: item.startRotation,
-		        alpha: 1
-		    }, 200);
+			createjs.Tween.removeTweens(item);
+			createjs.Tween.get(item).to({
+				x: item.startX,
+				y: item.startY,
+				scaleX: item.startScaleX,
+				scaleY: item.startScaleY,
+				rotation: item.startRotation,
+				alpha: 1
+			}, 200);
 		}
 		
 		function lockItem(item) {
-		    item.isLocked = true;
-		    item.mouseEnabled = false;
-		    item.mouseChildren = false;
-		    item.cursor = "default";
-		    item.alpha = 0.82;
+			item.isLocked = true;
+			item.mouseEnabled = false;
+			item.mouseChildren = false;
+			item.cursor = "default";
+			item.alpha = 0.82;
 		}
 		
 		function addItemToZone(item, zoneName) {
-		    var list = zoneName === "equal" ? placedInEqual : placedInUnequal;
+			var list = zoneName === "equal" ? placedInEqual : placedInUnequal;
 		
-		    if (list.indexOf(item) === -1) {
-		        list.push(item);
-		    }
+			if (list.indexOf(item) === -1) {
+				list.push(item);
+			}
 		
-		    layoutZoneItems(zoneName);
+			layoutZoneItems(zoneName);
 		}
 		
 		function finishExercise() {
-		    exportRoot.saveState();
-		    setTimeout(function () {
-		        if (CONFIG.nextFrame != null) {
-		            exportRoot.gotoAndStop(CONFIG.nextFrame);
-		        }
-		    }, CONFIG.autoNextDelay);
+			if (exportRoot.saveState) exportRoot.saveState();
+			setTimeout(function () {
+				if (CONFIG.nextFrame != null) {
+					exportRoot.gotoAndStop(CONFIG.nextFrame);
+				}
+			}, CONFIG.autoNextDelay);
 		}
 		
 		// =====================================================
 		// DRAG LOGIC
 		// =====================================================
 		items.forEach(function (entry) {
-		    var item = entry.mc;
-		    if (!item) return;
+			var item = entry.mc;
+			if (!item) return;
 		
-		    item.mouseChildren = false;
-		    item.cursor = "pointer";
+			item.mouseChildren = false;
+			item.cursor = "pointer";
 		
-		    item.startX = item.x;
-		    item.startY = item.y;
-		    item.startScaleX = item.scaleX;
-		    item.startScaleY = item.scaleY;
-		    item.startRotation = item.rotation || 0;
-		    item.isLocked = false;
+			item.startX = item.x;
+			item.startY = item.y;
+			item.startScaleX = item.scaleX;
+			item.startScaleY = item.scaleY;
+			item.startRotation = item.rotation || 0;
+			item.isLocked = false;
 		
-		    item.on("mousedown", function (evt) {
-		        if (this.isLocked) return;
+			item.on("mousedown", function (evt) {
+				if (this.isLocked) return;
 		
-		        playSound("click");
+				playSound("click");
 		
-		        this.parent.addChild(this);
+				this.parent.addChild(this);
 		
-		        var pt = this.parent.globalToLocal(evt.stageX, evt.stageY);
-		        this.dragOffsetX = this.x - pt.x;
-		        this.dragOffsetY = this.y - pt.y;
+				var pt = this.parent.globalToLocal(evt.stageX, evt.stageY);
+				this.dragOffsetX = this.x - pt.x;
+				this.dragOffsetY = this.y - pt.y;
 		
-		        createjs.Tween.removeTweens(this);
-		        this.alpha = 1;
-		    });
+				createjs.Tween.removeTweens(this);
+				this.alpha = 1;
+			});
 		
-		    item.on("pressmove", function (evt) {
-		        if (this.isLocked) return;
+			item.on("pressmove", function (evt) {
+				if (this.isLocked) return;
 		
-		        var pt = this.parent.globalToLocal(evt.stageX, evt.stageY);
-		        this.x = pt.x + this.dragOffsetX;
-		        this.y = pt.y + this.dragOffsetY;
-		    });
+				var pt = this.parent.globalToLocal(evt.stageX, evt.stageY);
+				this.x = pt.x + this.dragOffsetX;
+				this.y = pt.y + this.dragOffsetY;
+			});
 		
-		    item.on("pressup", function (evt) {
-		        if (this.isLocked) return;
+			item.on("pressup", function (evt) {
+				if (this.isLocked) return;
 		
-		        var droppedZone = detectDroppedZoneByPointer(evt.stageX, evt.stageY);
+				var droppedZone = detectDroppedZoneByPointer(evt.stageX, evt.stageY);
 		
-		        if (!droppedZone) {
-		            returnToStart(this);
-		            return;
-		        }
+				if (!droppedZone) {
+					returnToStart(this);
+					return;
+				}
 		
-		        if (droppedZone === entry.correctZone) {
-		            lockItem(this);
-		            addItemToZone(this, droppedZone);
-		            playSound("correct");
+				if (droppedZone === entry.correctZone) {
+					lockItem(this);
+					addItemToZone(this, droppedZone);
+					playSound("correct");
 		
-		            solvedCount++;
+					solvedCount++;
 		
-		            if (solvedCount >= totalCount) {
-		                finishExercise();
-		            }
-		        } else {
-		            playSound("wrong");
+					if (solvedCount >= totalCount) {
+						finishExercise();
+					}
+				} else {
+					playSound("wrong");
 		
-		            var self = this;
-		            shakeWrong(this, function () {
-		                returnToStart(self);
-		            });
-		        }
-		    });
+					var self = this;
+					shakeWrong(this, function () {
+						returnToStart(self);
+					});
+				}
+			});
 		});
 		
-		// =====================================================
-		// OPTIONAL NAV BUTTONS
-		// =====================================================
-		if (exportRoot.btn_next) {
-		    exportRoot.btn_next.visible = false;
-		    exportRoot.btn_next.mouseEnabled = false;
-		}
-		
-		if (exportRoot.btn_back) {
-		    exportRoot.btn_back.visible = CONFIG.backFrame != null;
-		    exportRoot.btn_back.mouseEnabled = CONFIG.backFrame != null;
-		
-		    if (CONFIG.backFrame != null) {
-		        exportRoot.btn_back.cursor = "pointer";
-		        exportRoot.btn_back.on("click", function () {
-		            playSound("click");
-		            exportRoot.gotoAndStop(CONFIG.backFrame);
-		        });
-		    }
-		}
+		console.log("🚀 Animation frame initialized!");
 	}
 	this.frame_3 = function() {
 		var exportRoot = this;
@@ -5963,7 +6545,7 @@ if (reversed == null) { reversed = false; }
 			exportRoot.gameState.videosWatched = [];
 		}
 		if (!exportRoot.saveState) {
-			exportRoot.saveState = function() {};
+			exportRoot.saveState = function () {};
 		}
 		
 		var videoContainer = null;
@@ -6024,6 +6606,12 @@ if (reversed == null) { reversed = false; }
 				tuva: "ЭРТЕР ▶",
 				sign: "АЛГАСАХ ▶"
 			};
+			var loadingLabels = {
+				mn: "Ачаалж байна...",
+				kz: "Жүктелуде...",
+				tuva: "Чүдүрүп тур...",
+				sign: "Ачаалж байна..."
+			};
 		
 			var existingContainer = document.getElementById("video-container-main");
 			if (existingContainer && existingContainer.parentNode) {
@@ -6075,7 +6663,7 @@ if (reversed == null) { reversed = false; }
 			spinner.style.animation = "spin 1s linear infinite";
 		
 			var loadingText = document.createElement("div");
-			loadingText.textContent = currentLang === "mn" ? "Ачаалж байна..." : "Жүктелуде...";
+			loadingText.textContent = loadingLabels[currentLang] || loadingLabels.mn;
 			loadingText.style.color = "#fff";
 			loadingText.style.fontSize = "18px";
 			loadingText.style.fontFamily = "'Rubik', sans-serif";
@@ -6095,7 +6683,15 @@ if (reversed == null) { reversed = false; }
 			// VIDEO ELEMENT
 			// =====================================================
 			videoElement = document.createElement("video");
-			videoElement.src = "./videos/lesson6_intro2_mn.mp4";
+		
+			var videoFiles = {
+				mn: "./videos/lesson6_intro2_mn.webm",
+				kz: "./videos/lesson6_intro2_kz.webm",
+				tuva: "./videos/lesson6_intro2_tuva.webm",
+				sign: "./videos/lesson6_intro2_dohio.webm"
+			};
+			videoElement.src = videoFiles[currentLang] || videoFiles.mn;
+		
 			videoElement.style.width = "100%";
 			videoElement.style.height = "100%";
 			videoElement.style.objectFit = "contain";
@@ -6106,7 +6702,7 @@ if (reversed == null) { reversed = false; }
 			videoElement.autoplay = true;
 			videoElement.setAttribute("webkit-playsinline", "true");
 		
-			videoElement.addEventListener("error", function() {
+			videoElement.addEventListener("error", function () {
 				console.log("VIDEO ERROR:", videoElement.error);
 			});
 		
@@ -6140,16 +6736,17 @@ if (reversed == null) { reversed = false; }
 			function showFlash(icon) {
 				flashIcon.textContent = icon;
 				flashIcon.style.opacity = "1";
-				setTimeout(function() {
+				setTimeout(function () {
 					flashIcon.style.opacity = "0";
 				}, 400);
 			}
 		
-			clickOverlay.addEventListener("click", function() {
+			clickOverlay.addEventListener("click", function () {
 				if (!videoElement) return;
 				if (videoElement.paused) {
 					videoElement.muted = false;
-					videoElement.play().catch(function() {});
+					videoElement.play().
+					catch (function () {});
 					if (playPauseBtn) playPauseBtn.innerHTML = "⏸️";
 					showFlash("▶");
 				} else {
@@ -6289,28 +6886,29 @@ if (reversed == null) { reversed = false; }
 			// =====================================================
 			// VIDEO EVENTS
 			// =====================================================
-			videoElement.addEventListener("loadeddata", function() {
+			videoElement.addEventListener("loadeddata", function () {
 				if (loadingIndicator) loadingIndicator.style.display = "none";
 				videoElement.style.display = "block";
 				controlsBar.style.display = "flex";
 				clickOverlay.style.display = "block";
 				if (!videoWatched) skipButton.style.display = "block";
 		
-				videoElement.play().then(function() {
+				videoElement.play().then(function () {
 					playPauseBtn.innerHTML = "⏸️";
-				}).catch(function(err) {
+				}).
+				catch (function (err) {
 					console.log("Play failed:", err);
 					playPauseBtn.innerHTML = "▶️";
 				});
 			});
 		
-			videoElement.addEventListener("loadedmetadata", function() {
+			videoElement.addEventListener("loadedmetadata", function () {
 				if (timeDisplay) {
 					timeDisplay.textContent = "0:00 / " + formatTime(videoElement.duration);
 				}
 			});
 		
-			videoElement.addEventListener("timeupdate", function() {
+			videoElement.addEventListener("timeupdate", function () {
 				if (progressFill && timeDisplay && videoElement.duration) {
 					var percent = (videoElement.currentTime / videoElement.duration) * 100;
 					progressFill.style.width = percent + "%";
@@ -6318,7 +6916,7 @@ if (reversed == null) { reversed = false; }
 				}
 			});
 		
-			videoElement.addEventListener("ended", function() {
+			videoElement.addEventListener("ended", function () {
 				if (playPauseBtn) playPauseBtn.innerHTML = "▶️";
 				if (exportRoot.gameState.videosWatched.indexOf("mainStory") === -1) {
 					exportRoot.gameState.videosWatched.push("mainStory");
@@ -6330,7 +6928,7 @@ if (reversed == null) { reversed = false; }
 			// =====================================================
 			// CONTROLS EVENTS
 			// =====================================================
-			playPauseBtn.addEventListener("click", function(e) {
+			playPauseBtn.addEventListener("click", function (e) {
 				e.stopPropagation();
 				if (videoElement.paused) {
 					videoElement.muted = false;
@@ -6342,34 +6940,43 @@ if (reversed == null) { reversed = false; }
 				}
 			});
 		
-			progressContainer.addEventListener("click", function(e) {
+			progressContainer.addEventListener("click", function (e) {
 				e.stopPropagation();
 				var r = progressContainer.getBoundingClientRect();
 				var pos = (e.clientX - r.left) / r.width;
 				videoElement.currentTime = pos * videoElement.duration;
 			});
 		
-			volumeSlider.addEventListener("input", function(e) {
+			volumeSlider.addEventListener("input", function (e) {
 				e.stopPropagation();
 				videoElement.volume = this.value / 100;
 				if (this.value > 0) videoElement.muted = false;
 			});
 		
-			downloadBtn.addEventListener("click", function(e) {
+			downloadBtn.addEventListener("click", function (e) {
 				e.stopPropagation();
+				var downloadFiles = {
+					mn: "lesson6_intro2_mn.webm",
+					kz: "lesson6_intro2_kz.webm",
+					tuva: "lesson6_intro2_tuva.webm",
+					sign: "lesson6_intro2_dohio.webm"
+				};
+		
 				var a = document.createElement("a");
 				a.href = videoElement.src;
-				a.download = "lesson6_intro2_mn.mp4";
+				a.download = downloadFiles[currentLang] || downloadFiles.mn;
 				a.click();
 			});
+		
 		
 			// =====================================================
 			// FULLSCREEN EVENTS ← NEW
 			// =====================================================
-			fullscreenBtn.addEventListener("click", function(e) {
+			fullscreenBtn.addEventListener("click", function (e) {
 				e.stopPropagation();
 				if (!document.fullscreenElement) {
-					videoContainer.requestFullscreen().catch(function(err) {
+					videoContainer.requestFullscreen().
+					catch (function (err) {
 						console.log("Fullscreen error:", err);
 					});
 				} else {
@@ -6379,7 +6986,7 @@ if (reversed == null) { reversed = false; }
 		
 			document.addEventListener("fullscreenchange", fullscreenChangeHandler);
 		
-			skipButton.addEventListener("click", function(e) {
+			skipButton.addEventListener("click", function (e) {
 				e.stopPropagation();
 				goToExercise1();
 			});
@@ -6387,14 +6994,14 @@ if (reversed == null) { reversed = false; }
 			// =====================================================
 			// RESIZE
 			// =====================================================
-			resizeHandler = function() {
+			resizeHandler = function () {
 				if (!videoContainer) return;
 				var canvas = document.getElementById("canvas");
 				if (!canvas) return;
 				var r = canvas.getBoundingClientRect();
-				videoContainer.style.left   = r.left   + "px";
-				videoContainer.style.top    = r.top    + "px";
-				videoContainer.style.width  = r.width  + "px";
+				videoContainer.style.left = r.left + "px";
+				videoContainer.style.top = r.top + "px";
+				videoContainer.style.width = r.width + "px";
 				videoContainer.style.height = r.height + "px";
 			};
 			window.addEventListener("resize", resizeHandler);
@@ -6430,65 +7037,65 @@ if (reversed == null) { reversed = false; }
 		// CONFIG
 		// =====================================================
 		var CONFIG = {
-		    backFrame: null,
-		    nextFrame: 5, // хэрэгтэй frame-ээ энд тавь
-		    autoNextDelay: 3500,
-		    requiredCount: 2,
-		    selectedAlpha: 1,
-		    normalAlpha: 0.01,
-		    soundPaths: {
-		        correct: "./sounds/voice_correct.mp3",
-		        wrong: "./sounds/voice_wrong.mp3",
-		        click: "./sounds/click.mp3"
-		    }
+			backFrame: null,
+			nextFrame: 5,
+			autoNextDelay: 2500,
+			requiredCount: 2,
+			selectedAlpha: 1,
+			normalAlpha: 0.01
 		};
 		
 		// =====================================================
-		// GLOBAL STATE
+		// SOUND (standalone - no common.js)
 		// =====================================================
-		if (!exportRoot.audioPool) {
-		    exportRoot.audioPool = {};
-		}
-		if (!exportRoot.saveState) {
-		    exportRoot.saveState = function () {};
-		}
+		if (!exportRoot.audioPool) exportRoot.audioPool = {};
 		
-		// =====================================================
-		// AUDIO
-		// =====================================================
 		function loadSound(type) {
-		    if (!CONFIG.soundPaths[type]) return null;
-		
-		    if (!exportRoot.audioPool[type]) {
-		        var audio = new Audio(CONFIG.soundPaths[type]);
-		        audio.preload = "auto";
-		        exportRoot.audioPool[type] = audio;
-		    }
-		    return exportRoot.audioPool[type];
+			var lang = exportRoot.gameState.selectedLanguage || "mn";
+			var key = type + "_ex_" + lang;
+			
+			// Determine language suffix for correct/wrong sounds
+			var soundLang = (lang === "kz" || lang === "tuva") ? lang : "mn";
+			
+			var paths = {
+				correct: "./sounds/voice_correct_" + soundLang + ".mp3",
+				wrong: "./sounds/voice_wrong_" + soundLang + ".mp3",
+				click: "./sounds/click.mp3"
+			};
+			
+			if (!exportRoot.audioPool[key]) {
+				exportRoot.audioPool[key] = new Audio(paths[type]);
+				exportRoot.audioPool[key].preload = "metadata";
+			}
+			return exportRoot.audioPool[key];
 		}
 		
 		function playSound(type) {
-		    var base = loadSound(type);
-		    if (!base) return;
-		
-		    try {
-		        var a = base.cloneNode();
-		        a.play().catch(function () {});
-		    } catch (e) {}
+			var sound = loadSound(type);
+			if (sound) {
+				sound.pause();
+				sound.currentTime = 0;
+				sound.play().catch(function() {});
+			}
 		}
 		
-		loadSound("correct");
-		loadSound("wrong");
-		loadSound("click");
+		// =====================================================
+		// LANGUAGE SUPPORT
+		// =====================================================
+		var lang = (exportRoot.gameState && exportRoot.gameState.selectedLanguage) || "mn";
+		
+		if (exportRoot.mc_ex2_tex1) {
+			exportRoot.mc_ex2_tex1.gotoAndStop(lang);
+		}
 		
 		// =====================================================
 		// REFERENCES
 		// =====================================================
 		var parts = [
-		    exportRoot.part_prev_1,
-		    exportRoot.part_prev_2,
-		    exportRoot.part_prev_3,
-		    exportRoot.part_prev_4
+			exportRoot.part_prev_1,
+			exportRoot.part_prev_2,
+			exportRoot.part_prev_3,
+			exportRoot.part_prev_4
 		];
 		
 		// =====================================================
@@ -6498,113 +7105,96 @@ if (reversed == null) { reversed = false; }
 		var finished = false;
 		
 		for (var i = 0; i < parts.length; i++) {
-		    if (!parts[i]) {
-		        console.log("Missing part_prev_" + (i + 1));
-		    }
+			if (!parts[i]) {
+				console.log("Missing part_prev_" + (i + 1));
+			}
 		}
 		
 		// =====================================================
 		// HELPERS
 		// =====================================================
 		function setSelected(part, isSelected) {
-		    if (!part) return;
+			if (!part) return;
 		
-		    part.isSelected = isSelected;
+			part.isSelected = isSelected;
 		
-		    if (isSelected) {
-		        part.alpha = CONFIG.selectedAlpha;
-		    } else {
-		        part.alpha = CONFIG.normalAlpha;
-		    }
+			if (isSelected) {
+				part.alpha = CONFIG.selectedAlpha;
+			} else {
+				part.alpha = CONFIG.normalAlpha;
+			}
 		}
 		
 		function pulseWrong(part) {
-		    if (!part) return;
+			if (!part) return;
 		
-		    var baseScaleX = part.baseScaleX || 1;
-		    var baseScaleY = part.baseScaleY || 1;
+			var baseScaleX = part.baseScaleX || 1;
+			var baseScaleY = part.baseScaleY || 1;
 		
-		    createjs.Tween.removeTweens(part);
-		    createjs.Tween.get(part)
-		        .to({ scaleX: baseScaleX * 1.06, scaleY: baseScaleY * 1.06 }, 70)
-		        .to({ scaleX: baseScaleX, scaleY: baseScaleY }, 70)
-		        .to({ scaleX: baseScaleX * 1.04, scaleY: baseScaleY * 1.04 }, 60)
-		        .to({ scaleX: baseScaleX, scaleY: baseScaleY }, 60);
+			createjs.Tween.removeTweens(part);
+			createjs.Tween.get(part)
+				.to({ scaleX: baseScaleX * 1.06, scaleY: baseScaleY * 1.06 }, 70)
+				.to({ scaleX: baseScaleX, scaleY: baseScaleY }, 70)
+				.to({ scaleX: baseScaleX * 1.04, scaleY: baseScaleY * 1.04 }, 60)
+				.to({ scaleX: baseScaleX, scaleY: baseScaleY }, 60);
 		}
 		
 		function finishExercise() {
-		    if (finished) return;
-		    finished = true;
+			if (finished) return;
+			finished = true;
 		
-		    playSound("correct");
+			playSound("correct");
 		
-		    setTimeout(function () {
-		        if (CONFIG.nextFrame != null) {
-		            exportRoot.gotoAndStop(CONFIG.nextFrame);
-		        }
-		    }, CONFIG.autoNextDelay);
+			if (exportRoot.saveState) exportRoot.saveState();
+		
+			setTimeout(function () {
+				if (CONFIG.nextFrame != null) {
+					exportRoot.gotoAndStop(CONFIG.nextFrame);
+				}
+			}, CONFIG.autoNextDelay);
 		}
 		
 		// =====================================================
 		// INIT
 		// =====================================================
 		parts.forEach(function (part, index) {
-		    if (!part) return;
+			if (!part) return;
 		
-		    part.mouseChildren = false;
-		    part.mouseEnabled = true;
-		    part.cursor = "pointer";
-		    part.isSelected = false;
-		    part.alpha = CONFIG.normalAlpha;
-		    part.baseScaleX = part.scaleX;
-		    part.baseScaleY = part.scaleY;
+			part.mouseChildren = false;
+			part.mouseEnabled = true;
+			part.cursor = "pointer";
+			part.isSelected = false;
+			part.alpha = CONFIG.normalAlpha;
+			part.baseScaleX = part.scaleX;
+			part.baseScaleY = part.scaleY;
 		
-		    part.on("mousedown", function () {
-		        if (finished) return;
+			part.on("mousedown", function () {
+				if (finished) return;
 		
-		        playSound("click");
+				playSound("click");
 		
-		        if (this.isSelected) {
-		            setSelected(this, false);
-		            selectedCount--;
-		            return;
-		        }
+				if (this.isSelected) {
+					setSelected(this, false);
+					selectedCount--;
+					return;
+				}
 		
-		        if (selectedCount >= CONFIG.requiredCount) {
-		            playSound("wrong");
-		            pulseWrong(this);
-		            return;
-		        }
+				if (selectedCount >= CONFIG.requiredCount) {
+					playSound("wrong");
+					pulseWrong(this);
+					return;
+				}
 		
-		        setSelected(this, true);
-		        selectedCount++;
+				setSelected(this, true);
+				selectedCount++;
 		
-		        if (selectedCount === CONFIG.requiredCount) {
-		            finishExercise();
-		        }
-		    });
+				if (selectedCount === CONFIG.requiredCount) {
+					finishExercise();
+				}
+			});
 		});
 		
-		// =====================================================
-		// OPTIONAL NAV BUTTONS
-		// =====================================================
-		if (exportRoot.btn_next) {
-		    exportRoot.btn_next.visible = false;
-		    exportRoot.btn_next.mouseEnabled = false;
-		}
-		
-		if (exportRoot.btn_back) {
-		    exportRoot.btn_back.visible = CONFIG.backFrame != null;
-		    exportRoot.btn_back.mouseEnabled = CONFIG.backFrame != null;
-		
-		    if (CONFIG.backFrame != null) {
-		        exportRoot.btn_back.cursor = "pointer";
-		        exportRoot.btn_back.on("click", function () {
-		            playSound("click");
-		            exportRoot.gotoAndStop(CONFIG.backFrame);
-		        });
-		    }
-		}
+		console.log("🚀 Animation frame 2 initialized!");
 	}
 	this.frame_5 = function() {
 		var exportRoot = this;
@@ -6620,7 +7210,7 @@ if (reversed == null) { reversed = false; }
 			exportRoot.gameState.videosWatched = [];
 		}
 		if (!exportRoot.saveState) {
-			exportRoot.saveState = function() {};
+			exportRoot.saveState = function () {};
 		}
 		
 		var videoContainer = null;
@@ -6682,6 +7272,13 @@ if (reversed == null) { reversed = false; }
 				sign: "АЛГАСАХ ▶"
 			};
 		
+			var loadingLabels = {
+				mn: "Ачаалж байна...",
+				kz: "Жүктелуде...",
+				tuva: "Чүдүрүп тур...",
+				sign: "Ачаалж байна..."
+			};
+		
 			var existingContainer = document.getElementById("video-container-main");
 			if (existingContainer && existingContainer.parentNode) {
 				existingContainer.parentNode.removeChild(existingContainer);
@@ -6732,7 +7329,7 @@ if (reversed == null) { reversed = false; }
 			spinner.style.animation = "spin 1s linear infinite";
 		
 			var loadingText = document.createElement("div");
-			loadingText.textContent = currentLang === "mn" ? "Ачаалж байна..." : "Жүктелуде...";
+			loadingText.textContent = loadingLabels[currentLang] || loadingLabels.mn;
 			loadingText.style.color = "#fff";
 			loadingText.style.fontSize = "18px";
 			loadingText.style.fontFamily = "'Rubik', sans-serif";
@@ -6752,7 +7349,14 @@ if (reversed == null) { reversed = false; }
 			// VIDEO ELEMENT
 			// =====================================================
 			videoElement = document.createElement("video");
-			videoElement.src = "./videos/lesson6_intro3_mn.mp4";
+			var videoFiles = {
+				mn: "./videos/lesson6_intro3_mn.webm",
+				kz: "./videos/lesson6_intro3_kz.webm",
+				tuva: "./videos/lesson6_intro3_tuva.webm",
+				sign: "./videos/lesson6_intro3_dohio.webm"
+			};
+			videoElement.src = videoFiles[currentLang] || videoFiles.mn;
+		
 			videoElement.style.width = "100%";
 			videoElement.style.height = "100%";
 			videoElement.style.objectFit = "contain";
@@ -6763,7 +7367,7 @@ if (reversed == null) { reversed = false; }
 			videoElement.autoplay = true;
 			videoElement.setAttribute("webkit-playsinline", "true");
 		
-			videoElement.addEventListener("error", function() {
+			videoElement.addEventListener("error", function () {
 				console.log("VIDEO ERROR:", videoElement.error);
 			});
 		
@@ -6797,16 +7401,17 @@ if (reversed == null) { reversed = false; }
 			function showFlash(icon) {
 				flashIcon.textContent = icon;
 				flashIcon.style.opacity = "1";
-				setTimeout(function() {
+				setTimeout(function () {
 					flashIcon.style.opacity = "0";
 				}, 400);
 			}
 		
-			clickOverlay.addEventListener("click", function() {
+			clickOverlay.addEventListener("click", function () {
 				if (!videoElement) return;
 				if (videoElement.paused) {
 					videoElement.muted = false;
-					videoElement.play().catch(function() {});
+					videoElement.play().
+					catch (function () {});
 					if (playPauseBtn) playPauseBtn.innerHTML = "⏸️";
 					showFlash("▶");
 				} else {
@@ -6946,28 +7551,29 @@ if (reversed == null) { reversed = false; }
 			// =====================================================
 			// VIDEO EVENTS
 			// =====================================================
-			videoElement.addEventListener("loadeddata", function() {
+			videoElement.addEventListener("loadeddata", function () {
 				if (loadingIndicator) loadingIndicator.style.display = "none";
 				videoElement.style.display = "block";
 				controlsBar.style.display = "flex";
 				clickOverlay.style.display = "block";
 				if (!videoWatched) skipButton.style.display = "block";
 		
-				videoElement.play().then(function() {
+				videoElement.play().then(function () {
 					playPauseBtn.innerHTML = "⏸️";
-				}).catch(function(err) {
+				}).
+				catch (function (err) {
 					console.log("Play failed:", err);
 					playPauseBtn.innerHTML = "▶️";
 				});
 			});
 		
-			videoElement.addEventListener("loadedmetadata", function() {
+			videoElement.addEventListener("loadedmetadata", function () {
 				if (timeDisplay) {
 					timeDisplay.textContent = "0:00 / " + formatTime(videoElement.duration);
 				}
 			});
 		
-			videoElement.addEventListener("timeupdate", function() {
+			videoElement.addEventListener("timeupdate", function () {
 				if (progressFill && timeDisplay && videoElement.duration) {
 					var percent = (videoElement.currentTime / videoElement.duration) * 100;
 					progressFill.style.width = percent + "%";
@@ -6975,7 +7581,7 @@ if (reversed == null) { reversed = false; }
 				}
 			});
 		
-			videoElement.addEventListener("ended", function() {
+			videoElement.addEventListener("ended", function () {
 				if (playPauseBtn) playPauseBtn.innerHTML = "▶️";
 				if (exportRoot.gameState.videosWatched.indexOf("mainStory") === -1) {
 					exportRoot.gameState.videosWatched.push("mainStory");
@@ -6987,7 +7593,7 @@ if (reversed == null) { reversed = false; }
 			// =====================================================
 			// CONTROLS EVENTS
 			// =====================================================
-			playPauseBtn.addEventListener("click", function(e) {
+			playPauseBtn.addEventListener("click", function (e) {
 				e.stopPropagation();
 				if (videoElement.paused) {
 					videoElement.muted = false;
@@ -6999,34 +7605,43 @@ if (reversed == null) { reversed = false; }
 				}
 			});
 		
-			progressContainer.addEventListener("click", function(e) {
+			progressContainer.addEventListener("click", function (e) {
 				e.stopPropagation();
 				var r = progressContainer.getBoundingClientRect();
 				var pos = (e.clientX - r.left) / r.width;
 				videoElement.currentTime = pos * videoElement.duration;
 			});
 		
-			volumeSlider.addEventListener("input", function(e) {
+			volumeSlider.addEventListener("input", function (e) {
 				e.stopPropagation();
 				videoElement.volume = this.value / 100;
 				if (this.value > 0) videoElement.muted = false;
 			});
 		
-			downloadBtn.addEventListener("click", function(e) {
+		
+			downloadBtn.addEventListener("click", function (e) {
 				e.stopPropagation();
+				var downloadFiles = {
+					mn: "lesson6_intro3_mn.webm",
+					kz: "lesson6_intro3_kz.webm",
+					tuva: "lesson6_intro3_tuva.webm",
+					sign: "lesson6_intro3_dohio.webm"
+				};
+		
 				var a = document.createElement("a");
 				a.href = videoElement.src;
-				a.download = "lesson6_intro3_mn.mp4";
+				a.download = downloadFiles[currentLang] || downloadFiles.mn;
 				a.click();
 			});
 		
 			// =====================================================
 			// FULLSCREEN EVENTS ← NEW
 			// =====================================================
-			fullscreenBtn.addEventListener("click", function(e) {
+			fullscreenBtn.addEventListener("click", function (e) {
 				e.stopPropagation();
 				if (!document.fullscreenElement) {
-					videoContainer.requestFullscreen().catch(function(err) {
+					videoContainer.requestFullscreen().
+					catch (function (err) {
 						console.log("Fullscreen error:", err);
 					});
 				} else {
@@ -7036,7 +7651,7 @@ if (reversed == null) { reversed = false; }
 		
 			document.addEventListener("fullscreenchange", fullscreenChangeHandler);
 		
-			skipButton.addEventListener("click", function(e) {
+			skipButton.addEventListener("click", function (e) {
 				e.stopPropagation();
 				goToExercise1();
 			});
@@ -7044,14 +7659,14 @@ if (reversed == null) { reversed = false; }
 			// =====================================================
 			// RESIZE
 			// =====================================================
-			resizeHandler = function() {
+			resizeHandler = function () {
 				if (!videoContainer) return;
 				var canvas = document.getElementById("canvas");
 				if (!canvas) return;
 				var r = canvas.getBoundingClientRect();
-				videoContainer.style.left   = r.left   + "px";
-				videoContainer.style.top    = r.top    + "px";
-				videoContainer.style.width  = r.width  + "px";
+				videoContainer.style.left = r.left + "px";
+				videoContainer.style.top = r.top + "px";
+				videoContainer.style.width = r.width + "px";
 				videoContainer.style.height = r.height + "px";
 			};
 			window.addEventListener("resize", resizeHandler);
@@ -7087,126 +7702,137 @@ if (reversed == null) { reversed = false; }
 		// CONFIG
 		// =====================================================
 		var CONFIG = {
-		    backFrame: null,
-		    nextFrame: 7,
-		    autoNextDelay: 3500,
-		    requiredCountPerGroup: 2,
-		    selectedAlpha: 0.5,
-		    normalAlpha: 0.01,
-		    doneAlpha: 0.5,
-		    soundPaths: {
-		        correct: "./sounds/voice_correct.mp3",
-		        wrong: "./sounds/voice_wrong.mp3",
-		        click: "./sounds/click.mp3"
-		    }
+			backFrame: null,
+			nextFrame: 7,
+			autoNextDelay: 2500,
+			requiredCountPerGroup: 2,
+			selectedAlpha: 0.5,
+			normalAlpha: 0.01,
+			doneAlpha: 0.5
 		};
 		
 		// =====================================================
 		// GLOBAL STATE
 		// =====================================================
 		if (!exportRoot.audioPool) {
-		    exportRoot.audioPool = {};
+			exportRoot.audioPool = {};
 		}
 		if (!exportRoot.saveState) {
-		    exportRoot.saveState = function () {};
+			exportRoot.saveState = function () {};
 		}
 		
 		// =====================================================
 		// AUDIO
 		// =====================================================
 		function loadSound(type) {
-		    if (!CONFIG.soundPaths[type]) return null;
-		
-		    if (!exportRoot.audioPool[type]) {
-		        var audio = new Audio(CONFIG.soundPaths[type]);
-		        audio.preload = "auto";
-		        exportRoot.audioPool[type] = audio;
-		    }
-		    return exportRoot.audioPool[type];
+			var lang = (exportRoot.gameState && exportRoot.gameState.selectedLanguage) || "mn";
+			var soundLang = (lang === "kz" || lang === "tuva") ? lang : "mn";
+			
+			var key = type + "_" + soundLang;
+			
+			var paths = {
+				correct: "./sounds/voice_correct_" + soundLang + ".mp3",
+				wrong: "./sounds/voice_wrong_" + soundLang + ".mp3",
+				click: "./sounds/click.mp3"
+			};
+			
+			if (!paths[type]) return null;
+			
+			if (!exportRoot.audioPool[key]) {
+				var audio = new Audio(paths[type]);
+				audio.preload = "auto";
+				exportRoot.audioPool[key] = audio;
+			}
+			return exportRoot.audioPool[key];
 		}
 		
 		function playSound(type) {
-		    var base = loadSound(type);
-		    if (!base) return;
+			var base = loadSound(type);
+			if (!base) return;
 		
-		    try {
-		        var a = base.cloneNode();
-		        a.play().catch(function () {});
-		    } catch (e) {}
+			try {
+				var a = base.cloneNode();
+				a.play().catch(function () {});
+			} catch (e) {}
 		}
 		
-		loadSound("correct");
-		loadSound("wrong");
-		loadSound("click");
+		// =====================================================
+		// LANGUAGE SUPPORT
+		// =====================================================
+		var lang = (exportRoot.gameState && exportRoot.gameState.selectedLanguage) || "mn";
+		
+		if (exportRoot.mc_ex3_tex1) {
+			exportRoot.mc_ex3_tex1.gotoAndStop(lang);
+		}
 		
 		// =====================================================
 		// GROUPS
 		// =====================================================
 		var groups = [
-		    {
-		        id: "g1",
-		        parts: [
-		            exportRoot.symb_1_1_1,
-		            exportRoot.symb_1_1_2,
-		            exportRoot.symb_1_1_3,
-		            exportRoot.symb_1_1_4
-		        ]
-		    },
-		    {
-		        id: "g2",
-		        parts: [
-		            exportRoot.symb_1_2_1,
-		            exportRoot.symb_1_2_2,
-		            exportRoot.symb_1_2_3,
-		            exportRoot.symb_1_2_4
-		        ]
-		    },
-		    {
-		        id: "g3",
-		        parts: [
-		            exportRoot.symb_1_3_1,
-		            exportRoot.symb_1_3_2,
-		            exportRoot.symb_1_3_3,
-		            exportRoot.symb_1_3_4
-		        ]
-		    },
-		    {
-		        id: "g4",
-		        parts: [
-		            exportRoot.symb_1_4_1,
-		            exportRoot.symb_1_4_2,
-		            exportRoot.symb_1_4_3,
-		            exportRoot.symb_1_4_4
-		        ]
-		    },
-		    {
-		        id: "g5",
-		        parts: [
-		            exportRoot.symb_1_5_1,
-		            exportRoot.symb_1_5_2,
-		            exportRoot.symb_1_5_3,
-		            exportRoot.symb_1_5_4
-		        ]
-		    },
-		    {
-		        id: "g6",
-		        parts: [
-		            exportRoot.symb_1_6_1,
-		            exportRoot.symb_1_6_2,
-		            exportRoot.symb_1_6_3,
-		            exportRoot.symb_1_6_4
-		        ]
-		    }
+			{
+				id: "g1",
+				parts: [
+					exportRoot.symb_1_1_1,
+					exportRoot.symb_1_1_2,
+					exportRoot.symb_1_1_3,
+					exportRoot.symb_1_1_4
+				]
+			},
+			{
+				id: "g2",
+				parts: [
+					exportRoot.symb_1_2_1,
+					exportRoot.symb_1_2_2,
+					exportRoot.symb_1_2_3,
+					exportRoot.symb_1_2_4
+				]
+			},
+			{
+				id: "g3",
+				parts: [
+					exportRoot.symb_1_3_1,
+					exportRoot.symb_1_3_2,
+					exportRoot.symb_1_3_3,
+					exportRoot.symb_1_3_4
+				]
+			},
+			{
+				id: "g4",
+				parts: [
+					exportRoot.symb_1_4_1,
+					exportRoot.symb_1_4_2,
+					exportRoot.symb_1_4_3,
+					exportRoot.symb_1_4_4
+				]
+			},
+			{
+				id: "g5",
+				parts: [
+					exportRoot.symb_1_5_1,
+					exportRoot.symb_1_5_2,
+					exportRoot.symb_1_5_3,
+					exportRoot.symb_1_5_4
+				]
+			},
+			{
+				id: "g6",
+				parts: [
+					exportRoot.symb_1_6_1,
+					exportRoot.symb_1_6_2,
+					exportRoot.symb_1_6_3,
+					exportRoot.symb_1_6_4
+				]
+			}
 		];
 		
 		// Зөвшөөрөгдөх 6 хослол
 		var ALL_VALID_COMBINATIONS = {
-		    "1-2": true,
-		    "1-3": true,
-		    "1-4": true,
-		    "2-3": true,
-		    "2-4": true,
-		    "3-4": true
+			"1-2": true,
+			"1-3": true,
+			"1-4": true,
+			"2-3": true,
+			"2-4": true,
+			"3-4": true
 		};
 		
 		var usedCombinations = {};
@@ -7217,187 +7843,173 @@ if (reversed == null) { reversed = false; }
 		// HELPERS
 		// =====================================================
 		function setPartSelected(part, isSelected) {
-		    if (!part) return;
-		    part.isSelected = isSelected;
-		    part.alpha = isSelected ? CONFIG.selectedAlpha : CONFIG.normalAlpha;
+			if (!part) return;
+			part.isSelected = isSelected;
+			part.alpha = isSelected ? CONFIG.selectedAlpha : CONFIG.normalAlpha;
 		}
 		
 		function setGroupLocked(group, locked) {
-		    group.isLocked = locked;
+			group.isLocked = locked;
 		
-		    for (var i = 0; i < group.parts.length; i++) {
-		        if (!group.parts[i]) continue;
-		        group.parts[i].mouseEnabled = !locked;
-		        group.parts[i].mouseChildren = false;
-		        group.parts[i].cursor = locked ? "default" : "pointer";
-		    }
+			for (var i = 0; i < group.parts.length; i++) {
+				if (!group.parts[i]) continue;
+				group.parts[i].mouseEnabled = !locked;
+				group.parts[i].mouseChildren = false;
+				group.parts[i].cursor = locked ? "default" : "pointer";
+			}
 		}
 		
 		function getSelectedIndexes(group) {
-		    var arr = [];
-		    for (var i = 0; i < group.parts.length; i++) {
-		        var part = group.parts[i];
-		        if (part && part.isSelected) {
-		            arr.push(i + 1);
-		        }
-		    }
-		    return arr;
+			var arr = [];
+			for (var i = 0; i < group.parts.length; i++) {
+				var part = group.parts[i];
+				if (part && part.isSelected) {
+					arr.push(i + 1);
+				}
+			}
+			return arr;
 		}
 		
 		function getCombinationKey(indexes) {
-		    var sorted = indexes.slice().sort(function (a, b) { return a - b; });
-		    return sorted.join("-");
+			var sorted = indexes.slice().sort(function (a, b) { return a - b; });
+			return sorted.join("-");
 		}
 		
 		function clearGroup(group) {
-		    for (var i = 0; i < group.parts.length; i++) {
-		        var part = group.parts[i];
-		        if (!part) continue;
-		        setPartSelected(part, false);
-		    }
+			for (var i = 0; i < group.parts.length; i++) {
+				var part = group.parts[i];
+				if (!part) continue;
+				setPartSelected(part, false);
+			}
 		}
 		
 		function pulseWrong(group) {
-		    for (var i = 0; i < group.parts.length; i++) {
-		        var part = group.parts[i];
-		        if (!part) continue;
+			for (var i = 0; i < group.parts.length; i++) {
+				var part = group.parts[i];
+				if (!part) continue;
 		
-		        var baseScaleX = part.baseScaleX || 1;
-		        var baseScaleY = part.baseScaleY || 1;
+				var baseScaleX = part.baseScaleX || 1;
+				var baseScaleY = part.baseScaleY || 1;
 		
-		        createjs.Tween.removeTweens(part);
-		        createjs.Tween.get(part)
-		            .to({ scaleX: baseScaleX * 1.05, scaleY: baseScaleY * 1.05 }, 60)
-		            .to({ scaleX: baseScaleX, scaleY: baseScaleY }, 60);
-		    }
+				createjs.Tween.removeTweens(part);
+				createjs.Tween.get(part)
+					.to({ scaleX: baseScaleX * 1.05, scaleY: baseScaleY * 1.05 }, 60)
+					.to({ scaleX: baseScaleX, scaleY: baseScaleY }, 60);
+			}
 		}
 		
 		function finalizeGroup(group) {
-		    var selected = getSelectedIndexes(group);
-		    var key = getCombinationKey(selected);
+			var selected = getSelectedIndexes(group);
+			var key = getCombinationKey(selected);
 		
-		    if (!ALL_VALID_COMBINATIONS[key]) {
-		        playSound("wrong");
-		        pulseWrong(group);
-		        setTimeout(function () {
-		            clearGroup(group);
-		        }, 150);
-		        return;
-		    }
+			if (!ALL_VALID_COMBINATIONS[key]) {
+				playSound("wrong");
+				pulseWrong(group);
+				setTimeout(function () {
+					clearGroup(group);
+				}, 150);
+				return;
+			}
 		
-		    if (usedCombinations[key]) {
-		        playSound("wrong");
-		        pulseWrong(group);
-		        setTimeout(function () {
-		            clearGroup(group);
-		        }, 150);
-		        return;
-		    }
+			if (usedCombinations[key]) {
+				playSound("wrong");
+				pulseWrong(group);
+				setTimeout(function () {
+					clearGroup(group);
+				}, 150);
+				return;
+			}
 		
-		    usedCombinations[key] = true;
-		    group.combinationKey = key;
-		    group.isDone = true;
-		    completedGroupCount++;
+			usedCombinations[key] = true;
+			group.combinationKey = key;
+			group.isDone = true;
+			completedGroupCount++;
 		
-		    for (var i = 0; i < group.parts.length; i++) {
-		        var part = group.parts[i];
-		        if (!part) continue;
+			for (var i = 0; i < group.parts.length; i++) {
+				var part = group.parts[i];
+				if (!part) continue;
 		
-		        if (part.isSelected) {
-		            part.alpha = CONFIG.doneAlpha;
-		        } else {
-		            part.alpha = CONFIG.normalAlpha;
-		        }
-		    }
+				if (part.isSelected) {
+					part.alpha = CONFIG.doneAlpha;
+				} else {
+					part.alpha = CONFIG.normalAlpha;
+				}
+			}
 		
-		    setGroupLocked(group, true);
-		    playSound("correct");
+			setGroupLocked(group, true);
+			playSound("correct");
 		
-		    if (completedGroupCount === groups.length) {
-		        finishExercise();
-		    }
+			if (completedGroupCount === groups.length) {
+				finishExercise();
+			}
 		}
 		
 		function finishExercise() {
-		    if (finished) return;
-		    finished = true;
+			if (finished) return;
+			finished = true;
 		
-		    exportRoot.saveState();
+			exportRoot.saveState();
 		
-		    setTimeout(function () {
-		        if (CONFIG.nextFrame != null) {
-		            exportRoot.gotoAndStop(CONFIG.nextFrame);
-		        }
-		    }, CONFIG.autoNextDelay);
+			setTimeout(function () {
+				if (CONFIG.nextFrame != null) {
+					exportRoot.gotoAndStop(CONFIG.nextFrame);
+				}
+			}, CONFIG.autoNextDelay);
 		}
 		
 		// =====================================================
 		// INIT
 		// =====================================================
 		groups.forEach(function (group, groupIndex) {
-		    group.isLocked = false;
-		    group.isDone = false;
-		    group.combinationKey = null;
+			group.isLocked = false;
+			group.isDone = false;
+			group.combinationKey = null;
 		
-		    group.parts.forEach(function (part, partIndex) {
-		        if (!part) {
-		            console.log("Missing:", "symb_" + (groupIndex + 1) + "_" + (partIndex + 1));
-		            return;
-		        }
+			group.parts.forEach(function (part, partIndex) {
+				if (!part) {
+					console.log("Missing:", "symb_" + (groupIndex + 1) + "_" + (partIndex + 1));
+					return;
+				}
 		
-		        part.groupRef = group;
-		        part.partIndex = partIndex + 1;
-		        part.isSelected = false;
-		        part.mouseChildren = false;
-		        part.mouseEnabled = true;
-		        part.cursor = "pointer";
-		        part.alpha = CONFIG.normalAlpha;
-		        part.baseScaleX = part.scaleX;
-		        part.baseScaleY = part.scaleY;
+				part.groupRef = group;
+				part.partIndex = partIndex + 1;
+				part.isSelected = false;
+				part.mouseChildren = false;
+				part.mouseEnabled = true;
+				part.cursor = "pointer";
+				part.alpha = CONFIG.normalAlpha;
+				part.baseScaleX = part.scaleX;
+				part.baseScaleY = part.scaleY;
 		
-		        part.on("mousedown", function () {
-		            var currentGroup = this.groupRef;
-		            if (!currentGroup || currentGroup.isLocked || finished) return;
+				part.on("mousedown", function () {
+					var currentGroup = this.groupRef;
+					if (!currentGroup || currentGroup.isLocked || finished) return;
 		
-		            playSound("click");
+					playSound("click");
 		
-		            if (this.isSelected) {
-		                setPartSelected(this, false);
-		                return;
-		            }
+					if (this.isSelected) {
+						setPartSelected(this, false);
+						return;
+					}
 		
-		            var selectedNow = getSelectedIndexes(currentGroup);
-		            if (selectedNow.length >= CONFIG.requiredCountPerGroup) {
-		                playSound("wrong");
-		                pulseWrong(currentGroup);
-		                return;
-		            }
+					var selectedNow = getSelectedIndexes(currentGroup);
+					if (selectedNow.length >= CONFIG.requiredCountPerGroup) {
+						playSound("wrong");
+						pulseWrong(currentGroup);
+						return;
+					}
 		
-		            setPartSelected(this, true);
+					setPartSelected(this, true);
 		
-		            selectedNow = getSelectedIndexes(currentGroup);
-		            if (selectedNow.length === CONFIG.requiredCountPerGroup) {
-		                finalizeGroup(currentGroup);
-		            }
-		        });
-		    });
+					selectedNow = getSelectedIndexes(currentGroup);
+					if (selectedNow.length === CONFIG.requiredCountPerGroup) {
+						finalizeGroup(currentGroup);
+					}
+				});
+			});
 		});
 		
-		// =====================================================
-		// OPTIONAL BACK BUTTON
-		// =====================================================
-		if (exportRoot.btn_back) {
-		    exportRoot.btn_back.visible = CONFIG.backFrame != null;
-		    exportRoot.btn_back.mouseEnabled = CONFIG.backFrame != null;
-		
-		    if (CONFIG.backFrame != null) {
-		        exportRoot.btn_back.cursor = "pointer";
-		        exportRoot.btn_back.on("click", function () {
-		            playSound("click");
-		            exportRoot.gotoAndStop(CONFIG.backFrame);
-		        });
-		    }
-		}
+		console.log("🚀 Animation frame 3 initialized!");
 	}
 	this.frame_7 = function() {
 		var exportRoot = this;
@@ -7413,7 +8025,7 @@ if (reversed == null) { reversed = false; }
 			exportRoot.gameState.videosWatched = [];
 		}
 		if (!exportRoot.saveState) {
-			exportRoot.saveState = function() {};
+			exportRoot.saveState = function () {};
 		}
 		
 		var videoContainer = null;
@@ -7474,6 +8086,12 @@ if (reversed == null) { reversed = false; }
 				tuva: "ЭРТЕР ▶",
 				sign: "АЛГАСАХ ▶"
 			};
+			var loadingLabels = {
+				mn: "Ачаалж байна...",
+				kz: "Жүктелуде...",
+				tuva: "Чүдүрүп тур...",
+				sign: "Ачаалж байна..."
+			};
 		
 			var existingContainer = document.getElementById("video-container-main");
 			if (existingContainer && existingContainer.parentNode) {
@@ -7525,7 +8143,7 @@ if (reversed == null) { reversed = false; }
 			spinner.style.animation = "spin 1s linear infinite";
 		
 			var loadingText = document.createElement("div");
-			loadingText.textContent = currentLang === "mn" ? "Ачаалж байна..." : "Жүктелуде...";
+			loadingText.textContent = loadingLabels[currentLang] || loadingLabels.mn;
 			loadingText.style.color = "#fff";
 			loadingText.style.fontSize = "18px";
 			loadingText.style.fontFamily = "'Rubik', sans-serif";
@@ -7545,7 +8163,15 @@ if (reversed == null) { reversed = false; }
 			// VIDEO ELEMENT
 			// =====================================================
 			videoElement = document.createElement("video");
-			videoElement.src = "./videos/lesson6_intro4_mn.mp4";
+		
+		
+			var videoFiles = {
+				mn: "./videos/lesson6_intro4_mn.webm",
+				kz: "./videos/lesson6_intro4_kz.webm",
+				tuva: "./videos/lesson6_intro4_tuva.webm",
+				sign: "./videos/lesson6_intro4_dohio.webm"
+			};
+			videoElement.src = videoFiles[currentLang] || videoFiles.mn;
 			videoElement.style.width = "100%";
 			videoElement.style.height = "100%";
 			videoElement.style.objectFit = "contain";
@@ -7556,7 +8182,7 @@ if (reversed == null) { reversed = false; }
 			videoElement.autoplay = true;
 			videoElement.setAttribute("webkit-playsinline", "true");
 		
-			videoElement.addEventListener("error", function() {
+			videoElement.addEventListener("error", function () {
 				console.log("VIDEO ERROR:", videoElement.error);
 			});
 		
@@ -7590,16 +8216,17 @@ if (reversed == null) { reversed = false; }
 			function showFlash(icon) {
 				flashIcon.textContent = icon;
 				flashIcon.style.opacity = "1";
-				setTimeout(function() {
+				setTimeout(function () {
 					flashIcon.style.opacity = "0";
 				}, 400);
 			}
 		
-			clickOverlay.addEventListener("click", function() {
+			clickOverlay.addEventListener("click", function () {
 				if (!videoElement) return;
 				if (videoElement.paused) {
 					videoElement.muted = false;
-					videoElement.play().catch(function() {});
+					videoElement.play().
+					catch (function () {});
 					if (playPauseBtn) playPauseBtn.innerHTML = "⏸️";
 					showFlash("▶");
 				} else {
@@ -7739,28 +8366,29 @@ if (reversed == null) { reversed = false; }
 			// =====================================================
 			// VIDEO EVENTS
 			// =====================================================
-			videoElement.addEventListener("loadeddata", function() {
+			videoElement.addEventListener("loadeddata", function () {
 				if (loadingIndicator) loadingIndicator.style.display = "none";
 				videoElement.style.display = "block";
 				controlsBar.style.display = "flex";
 				clickOverlay.style.display = "block";
 				if (!videoWatched) skipButton.style.display = "block";
 		
-				videoElement.play().then(function() {
+				videoElement.play().then(function () {
 					playPauseBtn.innerHTML = "⏸️";
-				}).catch(function(err) {
+				}).
+				catch (function (err) {
 					console.log("Play failed:", err);
 					playPauseBtn.innerHTML = "▶️";
 				});
 			});
 		
-			videoElement.addEventListener("loadedmetadata", function() {
+			videoElement.addEventListener("loadedmetadata", function () {
 				if (timeDisplay) {
 					timeDisplay.textContent = "0:00 / " + formatTime(videoElement.duration);
 				}
 			});
 		
-			videoElement.addEventListener("timeupdate", function() {
+			videoElement.addEventListener("timeupdate", function () {
 				if (progressFill && timeDisplay && videoElement.duration) {
 					var percent = (videoElement.currentTime / videoElement.duration) * 100;
 					progressFill.style.width = percent + "%";
@@ -7768,7 +8396,7 @@ if (reversed == null) { reversed = false; }
 				}
 			});
 		
-			videoElement.addEventListener("ended", function() {
+			videoElement.addEventListener("ended", function () {
 				if (playPauseBtn) playPauseBtn.innerHTML = "▶️";
 				if (exportRoot.gameState.videosWatched.indexOf("mainStory") === -1) {
 					exportRoot.gameState.videosWatched.push("mainStory");
@@ -7780,7 +8408,7 @@ if (reversed == null) { reversed = false; }
 			// =====================================================
 			// CONTROLS EVENTS
 			// =====================================================
-			playPauseBtn.addEventListener("click", function(e) {
+			playPauseBtn.addEventListener("click", function (e) {
 				e.stopPropagation();
 				if (videoElement.paused) {
 					videoElement.muted = false;
@@ -7792,34 +8420,43 @@ if (reversed == null) { reversed = false; }
 				}
 			});
 		
-			progressContainer.addEventListener("click", function(e) {
+			progressContainer.addEventListener("click", function (e) {
 				e.stopPropagation();
 				var r = progressContainer.getBoundingClientRect();
 				var pos = (e.clientX - r.left) / r.width;
 				videoElement.currentTime = pos * videoElement.duration;
 			});
 		
-			volumeSlider.addEventListener("input", function(e) {
+			volumeSlider.addEventListener("input", function (e) {
 				e.stopPropagation();
 				videoElement.volume = this.value / 100;
 				if (this.value > 0) videoElement.muted = false;
 			});
 		
-			downloadBtn.addEventListener("click", function(e) {
+		
+			downloadBtn.addEventListener("click", function (e) {
 				e.stopPropagation();
+				var downloadFiles = {
+					mn: "lesson6_intro4_mn.webm",
+					kz: "lesson6_intro4_kz.webm",
+					tuva: "lesson6_intro4_tuva.webm",
+					sign: "lesson6_intro4_dohio.webm"
+				};
+		
 				var a = document.createElement("a");
 				a.href = videoElement.src;
-				a.download = "lesson6_intro4_mn.mp4";
+				a.download = downloadFiles[currentLang] || downloadFiles.mn;
 				a.click();
 			});
 		
 			// =====================================================
 			// FULLSCREEN EVENTS ← NEW
 			// =====================================================
-			fullscreenBtn.addEventListener("click", function(e) {
+			fullscreenBtn.addEventListener("click", function (e) {
 				e.stopPropagation();
 				if (!document.fullscreenElement) {
-					videoContainer.requestFullscreen().catch(function(err) {
+					videoContainer.requestFullscreen().
+					catch (function (err) {
 						console.log("Fullscreen error:", err);
 					});
 				} else {
@@ -7829,7 +8466,7 @@ if (reversed == null) { reversed = false; }
 		
 			document.addEventListener("fullscreenchange", fullscreenChangeHandler);
 		
-			skipButton.addEventListener("click", function(e) {
+			skipButton.addEventListener("click", function (e) {
 				e.stopPropagation();
 				goToExercise1();
 			});
@@ -7837,14 +8474,14 @@ if (reversed == null) { reversed = false; }
 			// =====================================================
 			// RESIZE
 			// =====================================================
-			resizeHandler = function() {
+			resizeHandler = function () {
 				if (!videoContainer) return;
 				var canvas = document.getElementById("canvas");
 				if (!canvas) return;
 				var r = canvas.getBoundingClientRect();
-				videoContainer.style.left   = r.left   + "px";
-				videoContainer.style.top    = r.top    + "px";
-				videoContainer.style.width  = r.width  + "px";
+				videoContainer.style.left = r.left + "px";
+				videoContainer.style.top = r.top + "px";
+				videoContainer.style.width = r.width + "px";
 				videoContainer.style.height = r.height + "px";
 			};
 			window.addEventListener("resize", resizeHandler);
@@ -7871,6 +8508,382 @@ if (reversed == null) { reversed = false; }
 		exportRoot.on("removed", cleanup);
 		
 		createVideoPlayer();
+	}
+	this.frame_8 = function() {
+		var exportRoot = this;
+		exportRoot.stop();
+		
+		// =====================================================
+		// CONFIG
+		// =====================================================
+		var CONFIG = {
+			lessonId: "lesson6",
+			exerciseId: "ex01",
+			exerciseNumber: 1,
+			storageKey: "lesson6_gameState",
+			backFrame: null,
+			nextFrame: 9,
+			autoNextDelay: 2500,
+			soundPaths: {
+				correct: "./sounds/voice_correct.mp3",
+				wrong: "./sounds/voice_wrong.mp3",
+				click: "./sounds/click.mp3"
+			},
+			inputs: {
+				input_1_1: "1",
+				input_1_2: "2",
+				input_1_3: "2",
+				input_1_4: "3",
+				input_1_5: "2",
+				input_1_6: "4",
+				input_1_7: "3",
+				input_1_8: "5",
+				input_1_9: "3",
+				input_1_10: "6",
+				input_1_11: "4",
+				input_1_12: "8",
+				input_1_13: "5",
+				input_1_14: "10"
+			}
+		};
+		
+		exportRoot.currentExerciseId = CONFIG.exerciseId;
+		exportRoot.backBtn = CONFIG.backFrame;
+		exportRoot.nextBtn = CONFIG.nextFrame;
+		CONFIG.positionsKey = "exercise" + CONFIG.exerciseNumber + "Positions";
+		CONFIG.completeKey = "exercise" + CONFIG.exerciseNumber + "Complete";
+		
+		// =====================================================
+		// STATE & INIT
+		// =====================================================
+		if (!exportRoot.gameState) exportRoot.gameState = {};
+		if (!exportRoot.gameState[CONFIG.positionsKey]) exportRoot.gameState[CONFIG.positionsKey] = {};
+		if (typeof exportRoot.gameState[CONFIG.completeKey] === "undefined") exportRoot.gameState[CONFIG.completeKey] = false;
+		
+		if (!exportRoot.saveState) {
+			exportRoot.saveState = function () {
+				try {
+					localStorage.setItem(CONFIG.storageKey, JSON.stringify(exportRoot.gameState));
+				} catch (e) {}
+			};
+		}
+		
+		// =====================================================
+		// CHARACTER
+		// =====================================
+		function createCharacterController(characterMC) {
+			var resetTimer = null;
+			return {
+				play: function (state) {
+					if (!characterMC) return;
+					if (resetTimer) clearTimeout(resetTimer);
+					if (state === "correct") {
+						characterMC.gotoAndStop(3);
+						resetTimer = setTimeout(function () {
+							if (characterMC) characterMC.gotoAndStop(0);
+						}, 1500);
+					} else if (state === "wrong") {
+						characterMC.gotoAndStop(2);
+						resetTimer = setTimeout(function () {
+							if (characterMC) characterMC.gotoAndStop(0);
+						}, 1500);
+					} else {
+						characterMC.gotoAndStop(0);
+					}
+				},
+				reset: function () {
+					if (resetTimer) clearTimeout(resetTimer);
+					if (characterMC) characterMC.gotoAndStop(0);
+				}
+			};
+		}
+		var character = createCharacterController(exportRoot.Emoji_result || exportRoot.Huuhduu);
+		
+		var INPUT_NAMES = Object.keys(CONFIG.inputs);
+		var autoNextTriggered = !! exportRoot.gameState[CONFIG.completeKey];
+		
+		function playSound(type) {
+			if (exportRoot.playExerciseSound) {
+				exportRoot.playExerciseSound(type);
+			} else {
+				// Fallback
+				try {
+					new Audio(CONFIG.soundPaths[type]).play().
+					catch (function () {});
+				} catch (e) {}
+			}
+		}
+		
+		// =====================================================
+		// HTML INPUT HELPERS
+		// =====================================================
+		function getInputDomId(name) {
+			return "html_" + CONFIG.lessonId + "_" + CONFIG.exerciseId + "_" + name;
+		}
+		
+		function createOrGetHtmlInput(name) {
+			var id = getInputDomId(name);
+			var input = document.getElementById(id);
+		
+			if (!input) {
+				input = document.createElement("input");
+				input.type = "text";
+				input.id = id;
+				input.inputMode = "numeric";
+				input.maxLength = (name === "input_1_14") ? 2 : 1;
+		
+				input.style.position = "fixed";
+				input.style.zIndex = "99999";
+				input.style.boxSizing = "border-box";
+				input.style.textAlign = "center";
+				input.style.fontFamily = "'Rubik', Arial, sans-serif";
+				input.style.fontWeight = "700";
+		
+				input.style.background = "transparent";
+				input.style.border = "none";
+				input.style.outline = "none";
+				input.style.padding = "0";
+				input.style.margin = "0";
+		
+				document.body.appendChild(input);
+			}
+			input.style.opacity = "1";
+			input.style.pointerEvents = "auto";
+		
+			return input;
+		}
+		
+		function hideAllHtmlInputs() {
+			INPUT_NAMES.forEach(function (name) {
+				var input = document.getElementById(getInputDomId(name));
+				if (input) {
+					input.style.opacity = "0";
+					input.style.pointerEvents = "none";
+				}
+			});
+		}
+		
+		function positionHtmlInput(name) {
+			var clip = exportRoot[name];
+			var input = document.getElementById(getInputDomId(name));
+			var canvas = exportRoot.stage ? exportRoot.stage.canvas : document.querySelector("canvas");
+		
+			if (!clip || !input || !canvas || !exportRoot.stage) return;
+		
+			var canvasRect = canvas.getBoundingClientRect();
+			var stageScaleX = exportRoot.stage.scaleX || 1;
+			var stageScaleY = exportRoot.stage.scaleY || 1;
+			var browserScaleX = canvasRect.width / canvas.width;
+			var browserScaleY = canvasRect.height / canvas.height;
+		
+			var b = clip.getBounds() || clip.nominalBounds || {
+				width: 46,
+				height: 46
+			};
+			var size = {
+				width: b.width,
+				height: b.height
+			};
+			var globalPos = clip.localToGlobal(0, 0);
+		
+			var width = (size.width * stageScaleX * browserScaleX) * 0.9;
+			var height = (size.height * stageScaleY * browserScaleY) * 0.9;
+		
+			var left = canvasRect.left + (globalPos.x * browserScaleX) - (width * 0.5);
+			var top = canvasRect.top + (globalPos.y * browserScaleY) - (height * 0.5);
+		
+			input.style.left = left + "px";
+			input.style.top = top + "px";
+			input.style.width = width + "px";
+			input.style.height = height + "px";
+		
+			input.style.fontSize = Math.max(16, Math.floor(height * 0.7)) + "px";
+			input.style.lineHeight = Math.floor(height) + "px";
+		}
+		
+		function positionAllHtmlInputs() {
+			INPUT_NAMES.forEach(positionHtmlInput);
+		}
+		
+		// ЗАСВАРЛАГДСАН ХЭСЭГ: Зөвхөн текстийн өнгийг сольж, background-г үргэлж transparent байлгана.
+		function paintInputState(input, state) {
+			if (!input) return;
+		
+			input.style.backgroundColor = "transparent"; // Арын дэвсгэр үргэлж нэвт гэрэлтэнэ
+		
+			if (state === "correct") {
+				input.style.color = "#1F5F1A"; // Зөв бол ногоон текст
+			} else if (state === "wrong") {
+				input.style.color = "#E54848"; // Буруу бол улаан текст
+			} else {
+				input.style.color = "#222222"; // Хэвийн үед хар
+			}
+		}
+		
+		function isCorrect(name, value) {
+			return String(value || "").trim() === String(CONFIG.inputs[name]);
+		}
+		
+		// =====================================================
+		// CHECK LOGIC
+		// =====================================================
+		function checkAllAnswers() {
+			var allCorrect = true;
+		
+			INPUT_NAMES.forEach(function (name) {
+				var input = document.getElementById(getInputDomId(name));
+				if (!input) {
+					allCorrect = false;
+					return;
+				}
+				var value = String(input.value || "").trim();
+				if (value === "" || !isCorrect(name, value)) allCorrect = false;
+			});
+		
+			if (allCorrect && !autoNextTriggered) {
+				autoNextTriggered = true;
+				exportRoot.gameState[CONFIG.completeKey] = true;
+				exportRoot.saveState();
+				if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
+		
+				INPUT_NAMES.forEach(function (n) {
+					var locked = document.getElementById(getInputDomId(n));
+					if (locked) locked.disabled = true;
+				});
+		
+				setTimeout(function () {
+					hideAllHtmlInputs();
+					exportRoot.gotoAndStop(CONFIG.nextFrame);
+				}, CONFIG.autoNextDelay);
+			}
+		}
+		
+		// =====================================================
+		// SETUP
+		// =====================================================
+		function setupSingleHtmlInput(name) {
+			var clip = exportRoot[name];
+			if (!clip) return;
+		
+			var input = createOrGetHtmlInput(name);
+			clip.alpha = 0.01;
+			clip.mouseEnabled = false;
+		
+			input.value = String(exportRoot.gameState[CONFIG.positionsKey][name] || "");
+			input.disabled = !! exportRoot.gameState[CONFIG.completeKey];
+		
+			if (input.value !== "") {
+				paintInputState(input, isCorrect(name, input.value) ? "correct" : "wrong");
+			} else {
+				paintInputState(input, "default");
+			}
+		
+			input.oninput = function () {
+				var maxLen = (name === "input_1_14") ? 2 : 1;
+				this.value = String(this.value || "").replace(/[^0-9]/g, "").slice(0, maxLen);
+				exportRoot.gameState[CONFIG.positionsKey][name] = this.value;
+				exportRoot.saveState();
+		
+				if (this.value !== "" && this.value.length >= maxLen) {
+					paintInputState(this, isCorrect(name, this.value) ? "correct" : "wrong");
+					if (exportRoot.playCharacterAnimation) {
+						exportRoot.playCharacterAnimation(isCorrect(name, this.value) ? "correct" : "wrong");
+					}
+				} else {
+					paintInputState(this, "default");
+				}
+				checkAllAnswers();
+			};
+		
+			input.onfocus = function () {
+				playSound("click");
+			};
+			positionHtmlInput(name);
+		}
+		
+		function setupAllHtmlInputs() {
+			INPUT_NAMES.forEach(setupSingleHtmlInput);
+			positionAllHtmlInputs();
+		}
+		
+		// =====================================================
+		// START
+		// =====================================================
+		setupAllHtmlInputs();
+		
+		if (!exportRoot.resizeHandler) {
+			exportRoot.resizeHandler = function () {
+				positionAllHtmlInputs();
+			};
+			window.addEventListener("resize", exportRoot.resizeHandler);
+		}
+		
+		if (!exportRoot.tickAttached && createjs && createjs.Ticker) {
+			createjs.Ticker.addEventListener("tick", positionAllHtmlInputs);
+			exportRoot.tickAttached = true;
+		}
+		
+		// =====================================================
+		// EXECUTION
+		// =====================================
+		if (exportRoot.help_popup) {
+			exportRoot.help_popup.visible = false;
+			exportRoot.help_popup.stop();
+		}
+		
+		console.log("exportRoot.refreshNavButtons");
+		if (exportRoot.refreshNavButtons) {
+			console.log("exportRoot.refreshNavButtons");
+			exportRoot.refreshNavButtons();
+		}
+		
+		if (exportRoot.stopInstruction) exportRoot.stopInstruction();
+		if (!exportRoot.gameState[CONFIG.completeKey]) {
+			setTimeout(function () {
+				if (exportRoot.playInstruction) exportRoot.playInstruction();
+			}, 500);
+		}
+		
+		exportRoot.on("removed", function () {
+			if (exportRoot.stopInstruction) exportRoot.stopInstruction();
+			hideAllHtmlInputs();
+		});
+		var exportRoot = this;
+		exportRoot.stop();
+		
+		var characterMC = exportRoot.Emoji_result;
+		var characterResetTimer = null;
+		
+		var soundPaths = {
+			correct: "./sounds/voice_correct.mp3",
+			wrong: "./sounds/voice_wrong.mp3",
+			click: "./sounds/click.mp3"
+		};
+		
+		function playSound(type) {
+		    try { new Audio(soundPaths[type]).play().catch(function() {}); } catch (e) {}
+		}
+		
+		exportRoot.playCharacterAnimation = function(state) {
+			if (!characterMC) return;
+			if (characterResetTimer) clearTimeout(characterResetTimer);
+				if (exportRoot.playExerciseSound) {
+				exportRoot.playExerciseSound(state);
+			}
+			if (state === "correct") {
+				characterMC.gotoAndStop(3);
+				characterResetTimer = setTimeout(function () {
+					if (characterMC) characterMC.gotoAndStop(0);
+				}, 2000);
+			} else if (state === "wrong") {
+				characterMC.gotoAndStop(2);
+				characterResetTimer = setTimeout(function () {
+					if (characterMC) characterMC.gotoAndStop(0);
+				}, 2000);
+			} else {
+				characterMC.gotoAndStop(0);
+			}
+		}
 		var exportRoot = this;
 		exportRoot.stop();
 		
@@ -7889,23 +8902,21 @@ if (reversed == null) { reversed = false; }
 		var storageKey = "lesson6_gameState"
 		
 		function loadSound(type) {
-			var lang = exportRoot.gameState.selectedLanguage || "mn";
-			var lessonId = exportRoot.currentLessonId || "Lesson06";
+			var lang       = exportRoot.gameState.selectedLanguage || "mn";
+			var lessonId   = exportRoot.currentLessonId   || "Lesson06";
 			var exerciseId = exportRoot.currentExerciseId || "ex01";
-			var key = type + "_" + lessonId + "_" + exerciseId + "_" + lang;
-		
+			var key        = type + "_" + lessonId + "_" + exerciseId + "_" + lang;
+			var soundLang = (lang === "kz" || lang === "tuva") ? lang : "mn";
 			var paths = {
-				correct: "./sounds/voice_correct.mp3",
-				wrong: "./sounds/voice_wrong.mp3",
-				click: "./sounds/click.mp3",
+				correct:     "./sounds/voice_correct_" + soundLang + ".mp3",
+				wrong:       "./sounds/voice_wrong_" + soundLang + ".mp3",
+				click:       "./sounds/click.mp3",
 				instruction: "./sounds/instructions/" + lessonId + "_" + exerciseId + "_" + lang + ".mp3"
 			};
-		
 			if (!exportRoot.audioPool[key]) {
 				exportRoot.audioPool[key] = new Audio(paths[type]);
 				exportRoot.audioPool[key].preload = "metadata";
 			}
-		
 			return exportRoot.audioPool[key];
 		}
 		
@@ -7921,6 +8932,10 @@ if (reversed == null) { reversed = false; }
 		};
 		
 		exportRoot.playInstruction = function() {
+			if (exportRoot.gameState.selectedLanguage === 'sign') {
+				playSignVideo();
+				return;
+			}
 			if (currentInstructionAudio) {
 				currentInstructionAudio.pause();
 				currentInstructionAudio.currentTime = 0;
@@ -8110,7 +9125,40 @@ if (reversed == null) { reversed = false; }
 			}
 		}
 		
-		console.log("create exportRoot.refreshNavButtons");
+		const playSignVideo = function () {
+		    // өмнө нь байвал устгана (давхардахгүй)
+		    let oldVideo = document.getElementById("signVideoPlayer");
+		    if (oldVideo) {
+		        oldVideo.pause();
+		        oldVideo.remove();
+		    }
+		
+		    // video element үүсгэх
+		    let video = document.createElement("video");
+		    video.id = "signVideoPlayer";
+		    video.src = "./videos/sign/lesson06_"+exportRoot.currentExerciseId+"_dohio.mp4"; // 👈 өөрийн path
+		    video.autoplay = true;
+		    video.controls = true;
+		
+		    // style (баруун доод буланд)
+		    video.style.position = "fixed";
+		    video.style.bottom = "20px";
+		    video.style.right = "20px";
+		    video.style.width = "300px";
+		    video.style.height = "auto";
+		    video.style.zIndex = "9999";
+		    video.style.borderRadius = "12px";
+		    video.style.boxShadow = "0 4px 12px rgba(0,0,0,0.3)";
+		    video.style.background = "#000";
+		
+		    // document дээр нэмэх
+		    document.body.appendChild(video);
+		
+		    // дуусахад өөрөө алга болно
+		    video.onended = function () {
+		        video.remove();
+		    };
+		};
 		
 		exportRoot.refreshNavButtons = function() {
 			console.log("refreshNavButtons");
@@ -8144,337 +9192,6 @@ if (reversed == null) { reversed = false; }
 				}, isComplete);
 			}
 		}
-	}
-	this.frame_8 = function() {
-		var exportRoot = this;
-		exportRoot.stop();
-		
-		// =====================================================
-		// CONFIG
-		// =====================================================
-		var CONFIG = {
-		    lessonId: "lesson6",
-		    exerciseId: "ex01",
-		    exerciseNumber: 1,
-		    storageKey: "lesson6_gameState",
-		    backFrame: null,
-		    nextFrame: 9,
-		    autoNextDelay: 3500,
-		    soundPaths: {
-		        correct: "./sounds/voice_correct.mp3",
-		        wrong: "./sounds/voice_wrong.mp3",
-		        click: "./sounds/click.mp3"
-		    },
-		    inputs: {
-		        input_1_1: "1", input_1_2: "2", input_1_3: "2", input_1_4: "3",
-		        input_1_5: "2", input_1_6: "4", input_1_7: "3", input_1_8: "5",
-		        input_1_9: "3", input_1_10: "6", input_1_11: "4", input_1_12: "8",
-		        input_1_13: "5", input_1_14: "10"
-		    }
-		};
-		
-		exportRoot.currentExerciseId = CONFIG.exerciseId;
-		exportRoot.backBtn = CONFIG.backFrame;
-		exportRoot.nextBtn = CONFIG.nextFrame;
-		CONFIG.positionsKey = "exercise" + CONFIG.exerciseNumber + "Positions";
-		CONFIG.completeKey = "exercise" + CONFIG.exerciseNumber + "Complete";
-		
-		// =====================================================
-		// STATE & INIT
-		// =====================================================
-		if (!exportRoot.gameState) exportRoot.gameState = {};
-		if (!exportRoot.gameState[CONFIG.positionsKey]) exportRoot.gameState[CONFIG.positionsKey] = {};
-		if (typeof exportRoot.gameState[CONFIG.completeKey] === "undefined") exportRoot.gameState[CONFIG.completeKey] = false;
-		
-		if (!exportRoot.saveState) {
-		    exportRoot.saveState = function() {
-		        try { localStorage.setItem(CONFIG.storageKey, JSON.stringify(exportRoot.gameState)); } catch (e) {}
-		    };
-		}
-		
-		// =====================================================
-		// CHARACTER
-		// =====================================
-		function createCharacterController(characterMC) {
-		    var resetTimer = null;
-		    return {
-		        play: function(state) {
-		            if (!characterMC) return;
-		            if (resetTimer) clearTimeout(resetTimer);
-		            if (state === "correct") {
-		                characterMC.gotoAndStop(3);
-		                resetTimer = setTimeout(function() { if (characterMC) characterMC.gotoAndStop(0); }, 1500);
-		            } else if (state === "wrong") {
-		                characterMC.gotoAndStop(2);
-		                resetTimer = setTimeout(function() { if (characterMC) characterMC.gotoAndStop(0); }, 1500);
-		            } else {
-		                characterMC.gotoAndStop(0);
-		            }
-		        },
-		        reset: function() {
-		            if (resetTimer) clearTimeout(resetTimer);
-		            if (characterMC) characterMC.gotoAndStop(0);
-		        }
-		    };
-		}
-		var character = createCharacterController(exportRoot.Emoji_result || exportRoot.Huuhduu);
-		
-		var INPUT_NAMES = Object.keys(CONFIG.inputs);
-		var autoNextTriggered = !!exportRoot.gameState[CONFIG.completeKey];
-		
-		function playSound(type) {
-		    try { new Audio(CONFIG.soundPaths[type]).play().catch(function() {}); } catch (e) {}
-		}
-		
-		// =====================================================
-		// HTML INPUT HELPERS
-		// =====================================================
-		function getInputDomId(name) { return "html_" + CONFIG.lessonId + "_" + CONFIG.exerciseId + "_" + name; }
-		
-		function createOrGetHtmlInput(name) {
-		    var id = getInputDomId(name);
-		    var input = document.getElementById(id);
-		
-		    if (!input) {
-		        input = document.createElement("input");
-		        input.type = "text";
-		        input.id = id;
-		        input.inputMode = "numeric";
-		        input.maxLength = (name === "input_1_14") ? 2 : 1;
-		
-		        input.style.position = "fixed";
-		        input.style.zIndex = "99999";
-		        input.style.boxSizing = "border-box";
-		        input.style.textAlign = "center";
-		        input.style.fontFamily = "'Rubik', Arial, sans-serif";
-		        input.style.fontWeight = "700";
-		        
-		        input.style.background = "transparent"; 
-		        input.style.border = "none";
-		        input.style.outline = "none";
-		        input.style.padding = "0";
-		        input.style.margin = "0";
-		
-		        document.body.appendChild(input);
-		    }
-		    input.style.opacity = "1";
-		    input.style.pointerEvents = "auto";
-		    
-		    return input;
-		}
-		
-		function hideAllHtmlInputs() {
-		    INPUT_NAMES.forEach(function(name) {
-		        var input = document.getElementById(getInputDomId(name));
-		        if (input) {
-		            input.style.opacity = "0";
-		            input.style.pointerEvents = "none";
-		        }
-		    });
-		}
-		
-		function positionHtmlInput(name) {
-		    var clip = exportRoot[name];
-		    var input = document.getElementById(getInputDomId(name));
-		    var canvas = exportRoot.stage ? exportRoot.stage.canvas : document.querySelector("canvas");
-		
-		    if (!clip || !input || !canvas || !exportRoot.stage) return;
-		
-		    var canvasRect = canvas.getBoundingClientRect();
-		    var stageScaleX = exportRoot.stage.scaleX || 1;
-		    var stageScaleY = exportRoot.stage.scaleY || 1;
-		    var browserScaleX = canvasRect.width / canvas.width;
-		    var browserScaleY = canvasRect.height / canvas.height;
-		
-		    var b = clip.getBounds() || clip.nominalBounds || {width: 46, height: 46};
-		    var size = { width: b.width, height: b.height };
-		    var globalPos = clip.localToGlobal(0, 0);
-		
-		    var width = (size.width * stageScaleX * browserScaleX) * 0.9;
-		    var height = (size.height * stageScaleY * browserScaleY) * 0.9;
-		
-		    var left = canvasRect.left + (globalPos.x * browserScaleX) - (width * 0.5);
-		    var top = canvasRect.top + (globalPos.y * browserScaleY) - (height * 0.5);
-		
-		    input.style.left = left + "px";
-		    input.style.top = top + "px";
-		    input.style.width = width + "px";
-		    input.style.height = height + "px";
-		    
-		    input.style.fontSize = Math.max(16, Math.floor(height * 0.7)) + "px";
-		    input.style.lineHeight = Math.floor(height) + "px";
-		}
-		
-		function positionAllHtmlInputs() {
-		    INPUT_NAMES.forEach(positionHtmlInput);
-		}
-		
-		// ЗАСВАРЛАГДСАН ХЭСЭГ: Зөвхөн текстийн өнгийг сольж, background-г үргэлж transparent байлгана.
-		function paintInputState(input, state) {
-		    if (!input) return;
-		    
-		    input.style.backgroundColor = "transparent"; // Арын дэвсгэр үргэлж нэвт гэрэлтэнэ
-		    
-		    if (state === "correct") {
-		        input.style.color = "#1F5F1A"; // Зөв бол ногоон текст
-		    } else if (state === "wrong") {
-		        input.style.color = "#E54848"; // Буруу бол улаан текст
-		    } else {
-		        input.style.color = "#222222"; // Хэвийн үед хар
-		    }
-		}
-		
-		function isCorrect(name, value) { return String(value || "").trim() === String(CONFIG.inputs[name]); }
-		
-		// =====================================================
-		// CHECK LOGIC
-		// =====================================================
-		function checkAllAnswers() {
-		    var allCorrect = true;
-		
-		    INPUT_NAMES.forEach(function(name) {
-		        var input = document.getElementById(getInputDomId(name));
-		        if (!input) { allCorrect = false; return; }
-		        var value = String(input.value || "").trim();
-		        if (value === "" || !isCorrect(name, value)) allCorrect = false;
-		    });
-		
-		    if (allCorrect && !autoNextTriggered) {
-		        autoNextTriggered = true;
-		        exportRoot.gameState[CONFIG.completeKey] = true;
-		        exportRoot.saveState();
-		        if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
-		
-		        INPUT_NAMES.forEach(function(n) {
-		            var locked = document.getElementById(getInputDomId(n));
-		            if (locked) locked.disabled = true;
-		        });
-		
-		        setTimeout(function() {
-		            hideAllHtmlInputs(); 
-		            exportRoot.gotoAndStop(CONFIG.nextFrame);
-		        }, CONFIG.autoNextDelay);
-		    }
-		}
-		
-		// =====================================================
-		// SETUP
-		// =====================================================
-		function setupSingleHtmlInput(name) {
-		    var clip = exportRoot[name];
-		    if (!clip) return;
-		
-		    var input = createOrGetHtmlInput(name);
-		    clip.alpha = 0.01;
-		    clip.mouseEnabled = false;
-		
-		    input.value = String(exportRoot.gameState[CONFIG.positionsKey][name] || "");
-		    input.disabled = !!exportRoot.gameState[CONFIG.completeKey];
-		
-		    if (input.value !== "") {
-		        paintInputState(input, isCorrect(name, input.value) ? "correct" : "wrong");
-		    } else {
-		        paintInputState(input, "default");
-		    }
-		
-		    input.oninput = function() {
-		        var maxLen = (name === "input_1_14") ? 2 : 1;
-		        this.value = String(this.value || "").replace(/[^0-9]/g, "").slice(0, maxLen);
-		        exportRoot.gameState[CONFIG.positionsKey][name] = this.value;
-		        exportRoot.saveState();
-		        
-		        if (this.value !== "" && this.value.length >= maxLen) {
-		            paintInputState(this, isCorrect(name, this.value) ? "correct" : "wrong");
-					exportRoot.playCharacterAnimation(isCorrect(name, this.value) ? "correct" : "wrong");
-		        } else {
-		            paintInputState(this, "default");
-		        }
-		        checkAllAnswers(); 
-		    };
-		
-		    input.onfocus = function() { playSound("click"); };
-		    positionHtmlInput(name);
-		}
-		
-		function setupAllHtmlInputs() {
-		    INPUT_NAMES.forEach(setupSingleHtmlInput);
-		    positionAllHtmlInputs();
-		}
-		
-		// =====================================================
-		// START
-		// =====================================================
-		setupAllHtmlInputs();
-		
-		if (!exportRoot.resizeHandler) {
-		    exportRoot.resizeHandler = function() { positionAllHtmlInputs(); };
-		    window.addEventListener("resize", exportRoot.resizeHandler);
-		}
-		
-		if (!exportRoot.tickAttached && createjs && createjs.Ticker) {
-		    createjs.Ticker.addEventListener("tick", positionAllHtmlInputs);
-		    exportRoot.tickAttached = true;
-		}
-		
-		// =====================================================
-		// EXECUTION
-		// =====================================
-		if (exportRoot.help_popup) {
-		    exportRoot.help_popup.visible = false;
-		    exportRoot.help_popup.stop();
-		}
-		
-		console.log("exportRoot.refreshNavButtons");
-		if (exportRoot.refreshNavButtons) {
-			console.log("exportRoot.refreshNavButtons");
-			exportRoot.refreshNavButtons();
-		}
-		
-		exportRoot.stopInstruction();
-		if (!exportRoot.gameState[CONFIG.completeKey]) {
-		    setTimeout(function() { 
-		        if(exportRoot.playInstruction) exportRoot.playInstruction(); 
-		    }, 500);
-		}
-		
-		exportRoot.on("removed", function() { 
-		    if(exportRoot.stopInstruction) exportRoot.stopInstruction(); 
-		    hideAllHtmlInputs(); 
-		});
-		var exportRoot = this;
-		exportRoot.stop();
-		
-		var characterMC = exportRoot.Emoji_result;
-		var characterResetTimer = null;
-		
-		var soundPaths = {
-			correct: "./sounds/voice_correct.mp3",
-			wrong: "./sounds/voice_wrong.mp3",
-			click: "./sounds/click.mp3"
-		};
-		
-		function playSound(type) {
-		    try { new Audio(soundPaths[type]).play().catch(function() {}); } catch (e) {}
-		}
-		
-		exportRoot.playCharacterAnimation = function(state) {
-			if (!characterMC) return;
-			if (characterResetTimer) clearTimeout(characterResetTimer);
-			playSound(state);
-			if (state === "correct") {
-				characterMC.gotoAndStop(3);
-				characterResetTimer = setTimeout(function () {
-					if (characterMC) characterMC.gotoAndStop(0);
-				}, 2000);
-			} else if (state === "wrong") {
-				characterMC.gotoAndStop(2);
-				characterResetTimer = setTimeout(function () {
-					if (characterMC) characterMC.gotoAndStop(0);
-				}, 2000);
-			} else {
-				characterMC.gotoAndStop(0);
-			}
-		}
 		var exportRoot = this;
 		
 		function applyTextStyling(textObj, opts) {
@@ -8482,12 +9199,17 @@ if (reversed == null) { reversed = false; }
 		
 			opts = opts || {};
 		
-			// Фонт тохиргоо - Default-оор Rubik Bold ашиглана
-			var fontSize = opts.fontSize || textObj.font.split('px')[0] || "40"; 
+			// 🔥 FIX: Parse existing font properly using regex
+			var currentFont = textObj.font || "bold 40px 'Rubik', sans-serif";
+			var fontParts = currentFont.match(/(\d+)px/); // Extract number before 'px'
+			var currentSize = fontParts ? fontParts[1] : "40";
+			
+			// Font settings
+			var fontSize = opts.fontSize || currentSize;
 			var fontStyle = opts.fontStyle || "bold";
 			var fontFamily = opts.fontFamily || "'Rubik', sans-serif";
 			
-			// textObj-ийн фонтыг шинэчлэх
+			// Update font
 			textObj.font = fontStyle + " " + fontSize + "px " + fontFamily;
 		
 			var outlineColor = opts.outlineColor || "#461A17";
@@ -8501,7 +9223,7 @@ if (reversed == null) { reversed = false; }
 			var parent = textObj.parent;
 			var cloneName = "__strokeClone_" + (textObj.name || "text");
 		
-			// Өмнө үлдсэн ижил clone-уудыг parent-оос цэвэрлэнэ
+			// Clean up old clones
 			for (var i = parent.numChildren - 1; i >= 0; i--) {
 				var child = parent.getChildAt(i);
 				if (child && child.name === cloneName) {
@@ -8510,7 +9232,7 @@ if (reversed == null) { reversed = false; }
 				}
 			}
 		
-			// Хуучин cache арилгана
+			// Clear old cache
 			if (textObj.cacheCanvas) {
 				textObj.uncache();
 			}
@@ -8519,20 +9241,20 @@ if (reversed == null) { reversed = false; }
 			textObj.color = fillColor;
 			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
 		
-			// Stroke үүсгэхдээ шинэчлэгдсэн фонтыг ашиглана
+			// Create stroke with updated font
 			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
 			strokeText.name = cloneName;
-			strokeText.textAlign = textObj.textAlign;
-			strokeText.textBaseline = textObj.textBaseline;
+			strokeText.textAlign = textObj.textAlign || "left";
+			strokeText.textBaseline = textObj.textBaseline || "top";
 			strokeText.x = savedX;
 			strokeText.y = savedY;
-			strokeText.scaleX = textObj.scaleX;
-			strokeText.scaleY = textObj.scaleY;
-			strokeText.rotation = textObj.rotation;
-			strokeText.skewX = textObj.skewX;
-			strokeText.skewY = textObj.skewY;
-			strokeText.regX = textObj.regX;
-			strokeText.regY = textObj.regY;
+			strokeText.scaleX = textObj.scaleX || 1;
+			strokeText.scaleY = textObj.scaleY || 1;
+			strokeText.rotation = textObj.rotation || 0;
+			strokeText.skewX = textObj.skewX || 0;
+			strokeText.skewY = textObj.skewY || 0;
+			strokeText.regX = textObj.regX || 0;
+			strokeText.regY = textObj.regY || 0;
 			strokeText.outline = outlineSize;
 			strokeText.shadow = null;
 			strokeText.mouseEnabled = false;
@@ -8542,20 +9264,30 @@ if (reversed == null) { reversed = false; }
 		
 			textObj._strokeClone = strokeText;
 		
-			// Cache хэрэглэх
+			// Get bounds AFTER updating text
 			var bounds = textObj.getBounds();
-			if (bounds) {
-				var cacheX = bounds.x - pad;
-				var cacheY = bounds.y - pad;
-				var cacheW = bounds.width + pad * 2;
-				var cacheH = bounds.height + pad * 2;
-		
-				if (strokeText.cacheCanvas) strokeText.uncache();
-				if (textObj.cacheCanvas) textObj.uncache();
-		
-				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
-				textObj.cache(cacheX, cacheY, cacheW, cacheH);
+			if (!bounds) {
+				// Manually calculate bounds if getBounds fails
+				var metrics = textObj.getMeasuredWidth();
+				var lineHeight = parseInt(fontSize) * 1.2;
+				bounds = {
+					x: 0,
+					y: 0,
+					width: metrics || 200,
+					height: lineHeight || parseInt(fontSize)
+				};
 			}
+		
+			var cacheX = bounds.x - pad;
+			var cacheY = bounds.y - pad;
+			var cacheW = bounds.width + pad * 2;
+			var cacheH = bounds.height + pad * 2;
+		
+			if (strokeText.cacheCanvas) strokeText.uncache();
+			if (textObj.cacheCanvas) textObj.uncache();
+		
+			strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+			textObj.cache(cacheX, cacheY, cacheW, cacheH);
 		
 			// Cleanup logic
 			if (textObj._onRemovedCleanup) {
@@ -8577,13 +9309,12 @@ if (reversed == null) { reversed = false; }
 		
 			textObj.on("removed", textObj._onRemovedCleanup);
 		
-			// Байрлалыг баталгаажуулах
+			// Ensure position
 			textObj.x = savedX;
 			textObj.y = savedY;
 			strokeText.x = savedX;
 			strokeText.y = savedY;
 		}
-		
 		var exerciseText = {
 			mn: {
 				title: "ТОГЛООМЫН ЗАМ",
@@ -8591,13 +9322,17 @@ if (reversed == null) { reversed = false; }
 			},
 			kz: {
 				title: "ОЙЫН ЖОЛЫ",
-				instruction: "Ойын жолының боялған бөліктеріне назар аударыңыз. \n1 метр жолдың неше бөлігі қызғылт түсті? \nСәйкес жай бөлшекті толықтырып жазыңыз."
+				instruction: "Ойын жолының боялған бөліктерін бақылаңдар.\n1Бір метрлік жолдың неше бөлігі қызғылт түсті?\n1Тиісті жай бөлшекті қойып жазыңдар."
 			},
 			tuva: {
-				title: "НААДАМ ЧОЛ",
-				instruction: "Наадам чолунуң өөделген кезектерин ажыглаңар. \n1 метр чолнуң каш үеези ягаан өңгүлүг болур? \nТуда келген эңгин бөлүктү дүптеп бижиңер."
+				title: "ОЮН ОРУУ",
+				instruction: "Оюн оруунуң будаан кезектерин хынаңар.\n1Бир метр оруктуң каш кезии оошку өңнүг-дүр?\n1Тааржыр энгийн үүрмекти немеп бижиңер."
 			},
 			sign: {
+				title: "ТОГЛООМЫН ЗАМ",
+				instruction: "Тоглоомын замын будсан хэсгүүдийг ажиглаарай. \n1 метр замын хэдэн хэсэг нь ягаан өнгөтэй байна вэ? \nТохирох энгийн бутархайг нөхөж бичээрэй."
+			},
+			blind: {
 				title: "ТОГЛООМЫН ЗАМ",
 				instruction: "Тоглоомын замын будсан хэсгүүдийг ажиглаарай. \n1 метр замын хэдэн хэсэг нь ягаан өнгөтэй байна вэ? \nТохирох энгийн бутархайг нөхөж бичээрэй."
 			}
@@ -8606,32 +9341,38 @@ if (reversed == null) { reversed = false; }
 		var lang = exportRoot.gameState.selectedLanguage || "mn";
 		var texts = exerciseText[lang];
 		
-		function findTextByContent(container, content) {
+		function findTextByName(container, name) {
 			if (!container) return null;
 		
-			if (container instanceof createjs.Text && container.text === content) {
+			if (container.name === name) {
 				return container;
 			}
 		
 			if (!container.numChildren) return null;
 		
 			for (var i = 0; i < container.numChildren; i++) {
-				var found = findTextByContent(container.getChildAt(i), content);
+				var found = findTextByName(container.getChildAt(i), name);
 				if (found) return found;
 			}
 		
 			return null;
 		}
+		if (exportRoot.mc_ex2) {
+			exportRoot.mc_ex2.gotoAndStop(lang);
+		}
 		
-		var txt_title = findTextByContent(exportRoot, "txt_title");
-		var txt_instruction = findTextByContent(exportRoot, "txt_instruction");
+		
+		// Then use it like this:
+		var txt_title = findTextByName(exportRoot, "txt_title");
+		var txt_instruction = findTextByName(exportRoot, "txt_instruction");
+		
 		
 		
 		console.log("exerciseText[lang]");
 		console.log(exerciseText[lang]);
 		console.log(exportRoot.txt_title);
 		if (txt_title) {
-			txt_title.text = texts.title;
+			txt_title.text = texts.title.toUpperCase();
 			applyTextStyling(txt_title, {
 				outlineSize: 15,
 				outlineColor: "#461A17",
@@ -8896,7 +9637,7 @@ if (reversed == null) { reversed = false; }
 			storageKey: "lesson6_gameState",
 			backFrame: 8,
 			nextFrame: 11,
-			autoNextDelay: 3500,
+			autoNextDelay: 2500,
 			soundPaths: {
 				correct: "./sounds/voice_correct.mp3",
 				wrong: "./sounds/voice_wrong.mp3",
@@ -8939,9 +9680,14 @@ if (reversed == null) { reversed = false; }
 		};
 		
 		function playSound(type) {
-			try {
-				new Audio(CONFIG.soundPaths[type]).play().catch(function () {});
-			} catch (e) {}
+			if (exportRoot.playExerciseSound) {
+				exportRoot.playExerciseSound(type);
+			} else {
+				// Fallback
+				try {
+					new Audio(CONFIG.soundPaths[type]).play().catch(function () {});
+				} catch (e) {}
+			}
 		}
 		
 		// =====================================================
@@ -9056,12 +9802,17 @@ if (reversed == null) { reversed = false; }
 		
 			opts = opts || {};
 		
-			// Фонт тохиргоо - Default-оор Rubik Bold ашиглана
-			var fontSize = opts.fontSize || textObj.font.split('px')[0] || "40"; 
+			// 🔥 FIX: Parse existing font properly using regex
+			var currentFont = textObj.font || "bold 40px 'Rubik', sans-serif";
+			var fontParts = currentFont.match(/(\d+)px/); // Extract number before 'px'
+			var currentSize = fontParts ? fontParts[1] : "40";
+			
+			// Font settings
+			var fontSize = opts.fontSize || currentSize;
 			var fontStyle = opts.fontStyle || "bold";
 			var fontFamily = opts.fontFamily || "'Rubik', sans-serif";
 			
-			// textObj-ийн фонтыг шинэчлэх
+			// Update font
 			textObj.font = fontStyle + " " + fontSize + "px " + fontFamily;
 		
 			var outlineColor = opts.outlineColor || "#461A17";
@@ -9075,7 +9826,7 @@ if (reversed == null) { reversed = false; }
 			var parent = textObj.parent;
 			var cloneName = "__strokeClone_" + (textObj.name || "text");
 		
-			// Өмнө үлдсэн ижил clone-уудыг parent-оос цэвэрлэнэ
+			// Clean up old clones
 			for (var i = parent.numChildren - 1; i >= 0; i--) {
 				var child = parent.getChildAt(i);
 				if (child && child.name === cloneName) {
@@ -9084,7 +9835,7 @@ if (reversed == null) { reversed = false; }
 				}
 			}
 		
-			// Хуучин cache арилгана
+			// Clear old cache
 			if (textObj.cacheCanvas) {
 				textObj.uncache();
 			}
@@ -9093,20 +9844,20 @@ if (reversed == null) { reversed = false; }
 			textObj.color = fillColor;
 			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
 		
-			// Stroke үүсгэхдээ шинэчлэгдсэн фонтыг ашиглана
+			// Create stroke with updated font
 			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
 			strokeText.name = cloneName;
-			strokeText.textAlign = textObj.textAlign;
-			strokeText.textBaseline = textObj.textBaseline;
+			strokeText.textAlign = textObj.textAlign || "left";
+			strokeText.textBaseline = textObj.textBaseline || "top";
 			strokeText.x = savedX;
 			strokeText.y = savedY;
-			strokeText.scaleX = textObj.scaleX;
-			strokeText.scaleY = textObj.scaleY;
-			strokeText.rotation = textObj.rotation;
-			strokeText.skewX = textObj.skewX;
-			strokeText.skewY = textObj.skewY;
-			strokeText.regX = textObj.regX;
-			strokeText.regY = textObj.regY;
+			strokeText.scaleX = textObj.scaleX || 1;
+			strokeText.scaleY = textObj.scaleY || 1;
+			strokeText.rotation = textObj.rotation || 0;
+			strokeText.skewX = textObj.skewX || 0;
+			strokeText.skewY = textObj.skewY || 0;
+			strokeText.regX = textObj.regX || 0;
+			strokeText.regY = textObj.regY || 0;
 			strokeText.outline = outlineSize;
 			strokeText.shadow = null;
 			strokeText.mouseEnabled = false;
@@ -9116,20 +9867,30 @@ if (reversed == null) { reversed = false; }
 		
 			textObj._strokeClone = strokeText;
 		
-			// Cache хэрэглэх
+			// Get bounds AFTER updating text
 			var bounds = textObj.getBounds();
-			if (bounds) {
-				var cacheX = bounds.x - pad;
-				var cacheY = bounds.y - pad;
-				var cacheW = bounds.width + pad * 2;
-				var cacheH = bounds.height + pad * 2;
-		
-				if (strokeText.cacheCanvas) strokeText.uncache();
-				if (textObj.cacheCanvas) textObj.uncache();
-		
-				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
-				textObj.cache(cacheX, cacheY, cacheW, cacheH);
+			if (!bounds) {
+				// Manually calculate bounds if getBounds fails
+				var metrics = textObj.getMeasuredWidth();
+				var lineHeight = parseInt(fontSize) * 1.2;
+				bounds = {
+					x: 0,
+					y: 0,
+					width: metrics || 200,
+					height: lineHeight || parseInt(fontSize)
+				};
 			}
+		
+			var cacheX = bounds.x - pad;
+			var cacheY = bounds.y - pad;
+			var cacheW = bounds.width + pad * 2;
+			var cacheH = bounds.height + pad * 2;
+		
+			if (strokeText.cacheCanvas) strokeText.uncache();
+			if (textObj.cacheCanvas) textObj.uncache();
+		
+			strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+			textObj.cache(cacheX, cacheY, cacheW, cacheH);
 		
 			// Cleanup logic
 			if (textObj._onRemovedCleanup) {
@@ -9151,13 +9912,12 @@ if (reversed == null) { reversed = false; }
 		
 			textObj.on("removed", textObj._onRemovedCleanup);
 		
-			// Байрлалыг баталгаажуулах
+			// Ensure position
 			textObj.x = savedX;
 			textObj.y = savedY;
 			strokeText.x = savedX;
 			strokeText.y = savedY;
 		}
-		
 		var exerciseText = {
 			mn: {
 				title: "ЭРГЭДЭГ ХҮРД",
@@ -9165,46 +9925,52 @@ if (reversed == null) { reversed = false; }
 			},
 			kz: {
 				title: "АЙНАЛМАЛЫ ДӨҢГЕЛЕК",
-				instruction: "Дөңгелектің боялмаған бөлігіне сәйкес келетін жауапты таңдаңыз."
+				instruction: "Боялмаған бөлігі жалпы дөңгелектің қандай бөлігін құрайтынын тауып, тиісті жай бөлшекті таңдаңдар."
 			},
 			tuva: {
-				title: "ЭРТКЕН ХҮР",
-				instruction: "Хүрнүң өөделбээн кезээнге тааржыыр харыыны шылыңар."
+				title: "ЭРГИЛЕР ХҮРТҮ",
+				instruction: "Будутпаан кезии ниити хүрдүнүң каш кезии боорун тып, тааржыр энгийн үүрмекти шилиңер."
 			},
 			sign: {
 				title: "ЭРГЭДЭГ ХҮРД",
-				instruction: "Хүрдний будагдаагүй хэсэгт тохирох хариултыг сонгоно уу."
+				instruction: "Будагдаагүй хэсэг нь нийт хүрдийн хэдэн хэсэг болхийг олж тохирох энгийн бутархайг сонгоно уу."
+			},
+			blind: {
+				title: "ЭРГЭДЭГ ХҮРД",
+				instruction: "Будагдаагүй хэсэг нь нийт хүрдийн хэдэн хэсэг болхийг олж тохирох энгийн бутархайг сонгоно уу."
 			}
 		};
 		
 		var lang = exportRoot.gameState.selectedLanguage || "mn";
 		var texts = exerciseText[lang];
 		
-		function findTextByContent(container, content) {
+		function findTextByName(container, name) {
 			if (!container) return null;
 		
-			if (container instanceof createjs.Text && container.text === content) {
+			if (container.name === name) {
 				return container;
 			}
 		
 			if (!container.numChildren) return null;
 		
 			for (var i = 0; i < container.numChildren; i++) {
-				var found = findTextByContent(container.getChildAt(i), content);
+				var found = findTextByName(container.getChildAt(i), name);
 				if (found) return found;
 			}
 		
 			return null;
 		}
 		
-		var txt_title = findTextByContent(exportRoot, "txt_title");
-		var txt_instruction = findTextByContent(exportRoot, "txt_instruction");
+		// Одоо ингэж дуудах
+		var txt_title = findTextByName(exportRoot, "txt_title");
+		var txt_instruction = findTextByName(exportRoot, "txt_instruction");
 		
 		
-		console.log("exerciseText[lang]");
-		console.log(exerciseText[lang]);
-		console.log(exportRoot.txt_title);
+		
 		if (txt_title) {
+			if (txt_title.cacheCanvas) {
+				txt_title.uncache();
+			}
 			txt_title.text = texts.title;
 			applyTextStyling(txt_title, {
 				outlineSize: 15,
@@ -9212,16 +9978,18 @@ if (reversed == null) { reversed = false; }
 				fillColor: "#FFFFFF",
 				pad: 80
 			});
-		}else {
+		} else {
 			console.log("exportRoot.txt_title not found");
 		}
 		
-		console.log('--------------------------');
-		console.log(exportRoot);
-		console.log('--------------------------');
+		
 		
 		if (txt_instruction) {
 			txt_instruction.text = texts.instruction;
+		}
+		
+		if (exportRoot.mc_ex4_tex1) {
+			exportRoot.mc_ex4_tex1.gotoAndStop(lang);
 		}
 	}
 	this.frame_11 = function() {
@@ -9470,7 +10238,7 @@ if (reversed == null) { reversed = false; }
 		    storageKey: "lesson6_gameState",
 		    backFrame: 10, 
 		    nextFrame: 13, 
-		    autoNextDelay: 3500,
+		    autoNextDelay: 2500,
 		    soundPaths: {
 		        correct: "./sounds/voice_correct.mp3",
 		        wrong: "./sounds/voice_wrong.mp3",
@@ -9511,7 +10279,14 @@ if (reversed == null) { reversed = false; }
 		};
 		
 		function playSound(type) {
-		    try { new Audio(CONFIG.soundPaths[type]).play().catch(function(){}); } catch (e) {}
+			if (exportRoot.playExerciseSound) {
+				exportRoot.playExerciseSound(type);
+			} else {
+				// Fallback
+				try {
+					new Audio(CONFIG.soundPaths[type]).play().catch(function () {});
+				} catch (e) {}
+			}
 		}
 		
 		// =====================================================
@@ -9635,12 +10410,17 @@ if (reversed == null) { reversed = false; }
 		
 			opts = opts || {};
 		
-			// Фонт тохиргоо - Default-оор Rubik Bold ашиглана
-			var fontSize = opts.fontSize || textObj.font.split('px')[0] || "40"; 
+			// 🔥 FIX: Parse existing font properly using regex
+			var currentFont = textObj.font || "bold 40px 'Rubik', sans-serif";
+			var fontParts = currentFont.match(/(\d+)px/); // Extract number before 'px'
+			var currentSize = fontParts ? fontParts[1] : "40";
+			
+			// Font settings
+			var fontSize = opts.fontSize || currentSize;
 			var fontStyle = opts.fontStyle || "bold";
 			var fontFamily = opts.fontFamily || "'Rubik', sans-serif";
 			
-			// textObj-ийн фонтыг шинэчлэх
+			// Update font
 			textObj.font = fontStyle + " " + fontSize + "px " + fontFamily;
 		
 			var outlineColor = opts.outlineColor || "#461A17";
@@ -9654,7 +10434,7 @@ if (reversed == null) { reversed = false; }
 			var parent = textObj.parent;
 			var cloneName = "__strokeClone_" + (textObj.name || "text");
 		
-			// Өмнө үлдсэн ижил clone-уудыг parent-оос цэвэрлэнэ
+			// Clean up old clones
 			for (var i = parent.numChildren - 1; i >= 0; i--) {
 				var child = parent.getChildAt(i);
 				if (child && child.name === cloneName) {
@@ -9663,7 +10443,7 @@ if (reversed == null) { reversed = false; }
 				}
 			}
 		
-			// Хуучин cache арилгана
+			// Clear old cache
 			if (textObj.cacheCanvas) {
 				textObj.uncache();
 			}
@@ -9672,20 +10452,20 @@ if (reversed == null) { reversed = false; }
 			textObj.color = fillColor;
 			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
 		
-			// Stroke үүсгэхдээ шинэчлэгдсэн фонтыг ашиглана
+			// Create stroke with updated font
 			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
 			strokeText.name = cloneName;
-			strokeText.textAlign = textObj.textAlign;
-			strokeText.textBaseline = textObj.textBaseline;
+			strokeText.textAlign = textObj.textAlign || "left";
+			strokeText.textBaseline = textObj.textBaseline || "top";
 			strokeText.x = savedX;
 			strokeText.y = savedY;
-			strokeText.scaleX = textObj.scaleX;
-			strokeText.scaleY = textObj.scaleY;
-			strokeText.rotation = textObj.rotation;
-			strokeText.skewX = textObj.skewX;
-			strokeText.skewY = textObj.skewY;
-			strokeText.regX = textObj.regX;
-			strokeText.regY = textObj.regY;
+			strokeText.scaleX = textObj.scaleX || 1;
+			strokeText.scaleY = textObj.scaleY || 1;
+			strokeText.rotation = textObj.rotation || 0;
+			strokeText.skewX = textObj.skewX || 0;
+			strokeText.skewY = textObj.skewY || 0;
+			strokeText.regX = textObj.regX || 0;
+			strokeText.regY = textObj.regY || 0;
 			strokeText.outline = outlineSize;
 			strokeText.shadow = null;
 			strokeText.mouseEnabled = false;
@@ -9695,20 +10475,30 @@ if (reversed == null) { reversed = false; }
 		
 			textObj._strokeClone = strokeText;
 		
-			// Cache хэрэглэх
+			// Get bounds AFTER updating text
 			var bounds = textObj.getBounds();
-			if (bounds) {
-				var cacheX = bounds.x - pad;
-				var cacheY = bounds.y - pad;
-				var cacheW = bounds.width + pad * 2;
-				var cacheH = bounds.height + pad * 2;
-		
-				if (strokeText.cacheCanvas) strokeText.uncache();
-				if (textObj.cacheCanvas) textObj.uncache();
-		
-				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
-				textObj.cache(cacheX, cacheY, cacheW, cacheH);
+			if (!bounds) {
+				// Manually calculate bounds if getBounds fails
+				var metrics = textObj.getMeasuredWidth();
+				var lineHeight = parseInt(fontSize) * 1.2;
+				bounds = {
+					x: 0,
+					y: 0,
+					width: metrics || 200,
+					height: lineHeight || parseInt(fontSize)
+				};
 			}
+		
+			var cacheX = bounds.x - pad;
+			var cacheY = bounds.y - pad;
+			var cacheW = bounds.width + pad * 2;
+			var cacheH = bounds.height + pad * 2;
+		
+			if (strokeText.cacheCanvas) strokeText.uncache();
+			if (textObj.cacheCanvas) textObj.uncache();
+		
+			strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+			textObj.cache(cacheX, cacheY, cacheW, cacheH);
 		
 			// Cleanup logic
 			if (textObj._onRemovedCleanup) {
@@ -9730,13 +10520,12 @@ if (reversed == null) { reversed = false; }
 		
 			textObj.on("removed", textObj._onRemovedCleanup);
 		
-			// Байрлалыг баталгаажуулах
+			// Ensure position
 			textObj.x = savedX;
 			textObj.y = savedY;
 			strokeText.x = savedX;
 			strokeText.y = savedY;
 		}
-		
 		var exerciseText = {
 			mn: {
 				title: "АМЬТНЫ ХҮРЭЭЛЭН",
@@ -9744,15 +10533,19 @@ if (reversed == null) { reversed = false; }
 			},
 			kz: {
 				title: "ХАЙУАНАТТАР БАҒЫ",
-				instruction: "Хайуанаттар бағындағы жануарларға назар аударыңыз. Барлық жануарлардың ішінде сары түсті жануарлар неше бөлік болатынын тауып, сәйкес жолақтағы бөлікті бояңыз."
+				instruction: "Барлық жануарлардың ішінде сары түсті жануарлар қандай бөлікті құрайтынын тауып, лентадағы тиісті бөлікті бояңдар."
 			},
 			tuva: {
-				title: "АҢНАР ХҮРЭЭЗИ",
-				instruction: "Аңнар хүрээзиндеги аңнарны ажыглаңар. Бүгү аңнарның иштинде шара өңгүлүг аңнар каш бөлүк болурн олуп, тааржыыр лента дээрги бөлүктү өөдеңер."
+				title: "АҢ-МЕҢ ПАРГЫ",
+				instruction: "Ниити амытаннар иштинде сарыг өңнүг амытаннар каш кезек бооп турарын тып алгаш, тааржыр тууз кырында кезээн будуңар."
 			},
 			sign: {
 				title: "АМЬТНЫ ХҮРЭЭЛЭН",
-				instruction: "Амьтны хүрээлэн дэх амьтдыг ажиглаарай. Нийт амьтдын дотор шар өнгөтэй амьтад хэдэн хэсэг болж байгааг олоод тохирох туузан дээрх хэсгийг будаарай."
+				instruction: "Нийт амьтадын хэдэн хэсэг нь шар өнгөтэй байна вэ? Тохирох хэсгийг будаарай."
+			},
+			blind: {
+				title: "АМЬТНЫ ХҮРЭЭЛЭН",
+				instruction: "Нийт амьтадын хэдэн хэсэг нь шар өнгөтэй байна вэ? Тохирох хэсгийг будаарай."
 			}
 		};
 		
@@ -9762,31 +10555,33 @@ if (reversed == null) { reversed = false; }
 		var lang = exportRoot.gameState.selectedLanguage || "mn";
 		var texts = exerciseText[lang];
 		
-		function findTextByContent(container, content) {
+		function findTextByName(container, name) {
 			if (!container) return null;
 		
-			if (container instanceof createjs.Text && container.text === content) {
+			if (container.name === name) {
 				return container;
 			}
 		
 			if (!container.numChildren) return null;
 		
 			for (var i = 0; i < container.numChildren; i++) {
-				var found = findTextByContent(container.getChildAt(i), content);
+				var found = findTextByName(container.getChildAt(i), name);
 				if (found) return found;
 			}
 		
 			return null;
 		}
 		
-		var txt_title = findTextByContent(exportRoot, "txt_title");
-		var txt_instruction = findTextByContent(exportRoot, "txt_instruction");
+		// Одоо ингэж дуудах
+		var txt_title = findTextByName(exportRoot, "txt_title");
+		var txt_instruction = findTextByName(exportRoot, "txt_instruction");
 		
 		
-		console.log("exerciseText[lang]");
-		console.log(exerciseText[lang]);
-		console.log(exportRoot.txt_title);
+		
 		if (txt_title) {
+			if (txt_title.cacheCanvas) {
+				txt_title.uncache();
+			}
 			txt_title.text = texts.title;
 			applyTextStyling(txt_title, {
 				outlineSize: 15,
@@ -9794,13 +10589,11 @@ if (reversed == null) { reversed = false; }
 				fillColor: "#FFFFFF",
 				pad: 80
 			});
-		}else {
+		} else {
 			console.log("exportRoot.txt_title not found");
 		}
 		
-		console.log('--------------------------');
-		console.log(exportRoot);
-		console.log('--------------------------');
+		
 		
 		if (txt_instruction) {
 			txt_instruction.text = texts.instruction;
@@ -10052,7 +10845,7 @@ if (reversed == null) { reversed = false; }
 		    storageKey: "lesson6_gameState",
 		    backFrame: 12, 
 		    nextFrame: 15, 
-		    autoNextDelay: 3500,
+		    autoNextDelay: 2500,
 		    soundPaths: {
 		        correct: "./sounds/voice_correct.mp3",
 		        wrong: "./sounds/voice_wrong.mp3",
@@ -10092,7 +10885,14 @@ if (reversed == null) { reversed = false; }
 		};
 		
 		function playSound(type) {
-		    try { new Audio(CONFIG.soundPaths[type]).play().catch(function(){}); } catch (e) {}
+			if (exportRoot.playExerciseSound) {
+				exportRoot.playExerciseSound(type);
+			} else {
+				// Fallback
+				try {
+					new Audio(CONFIG.soundPaths[type]).play().catch(function () {});
+				} catch (e) {}
+			}
 		}
 		
 		// =====================================================
@@ -10217,12 +11017,17 @@ if (reversed == null) { reversed = false; }
 		
 			opts = opts || {};
 		
-			// Фонт тохиргоо - Default-оор Rubik Bold ашиглана
-			var fontSize = opts.fontSize || textObj.font.split('px')[0] || "40"; 
+			// 🔥 FIX: Parse existing font properly using regex
+			var currentFont = textObj.font || "bold 40px 'Rubik', sans-serif";
+			var fontParts = currentFont.match(/(\d+)px/); // Extract number before 'px'
+			var currentSize = fontParts ? fontParts[1] : "40";
+			
+			// Font settings
+			var fontSize = opts.fontSize || currentSize;
 			var fontStyle = opts.fontStyle || "bold";
 			var fontFamily = opts.fontFamily || "'Rubik', sans-serif";
 			
-			// textObj-ийн фонтыг шинэчлэх
+			// Update font
 			textObj.font = fontStyle + " " + fontSize + "px " + fontFamily;
 		
 			var outlineColor = opts.outlineColor || "#461A17";
@@ -10236,7 +11041,7 @@ if (reversed == null) { reversed = false; }
 			var parent = textObj.parent;
 			var cloneName = "__strokeClone_" + (textObj.name || "text");
 		
-			// Өмнө үлдсэн ижил clone-уудыг parent-оос цэвэрлэнэ
+			// Clean up old clones
 			for (var i = parent.numChildren - 1; i >= 0; i--) {
 				var child = parent.getChildAt(i);
 				if (child && child.name === cloneName) {
@@ -10245,7 +11050,7 @@ if (reversed == null) { reversed = false; }
 				}
 			}
 		
-			// Хуучин cache арилгана
+			// Clear old cache
 			if (textObj.cacheCanvas) {
 				textObj.uncache();
 			}
@@ -10254,20 +11059,20 @@ if (reversed == null) { reversed = false; }
 			textObj.color = fillColor;
 			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
 		
-			// Stroke үүсгэхдээ шинэчлэгдсэн фонтыг ашиглана
+			// Create stroke with updated font
 			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
 			strokeText.name = cloneName;
-			strokeText.textAlign = textObj.textAlign;
-			strokeText.textBaseline = textObj.textBaseline;
+			strokeText.textAlign = textObj.textAlign || "left";
+			strokeText.textBaseline = textObj.textBaseline || "top";
 			strokeText.x = savedX;
 			strokeText.y = savedY;
-			strokeText.scaleX = textObj.scaleX;
-			strokeText.scaleY = textObj.scaleY;
-			strokeText.rotation = textObj.rotation;
-			strokeText.skewX = textObj.skewX;
-			strokeText.skewY = textObj.skewY;
-			strokeText.regX = textObj.regX;
-			strokeText.regY = textObj.regY;
+			strokeText.scaleX = textObj.scaleX || 1;
+			strokeText.scaleY = textObj.scaleY || 1;
+			strokeText.rotation = textObj.rotation || 0;
+			strokeText.skewX = textObj.skewX || 0;
+			strokeText.skewY = textObj.skewY || 0;
+			strokeText.regX = textObj.regX || 0;
+			strokeText.regY = textObj.regY || 0;
 			strokeText.outline = outlineSize;
 			strokeText.shadow = null;
 			strokeText.mouseEnabled = false;
@@ -10277,20 +11082,30 @@ if (reversed == null) { reversed = false; }
 		
 			textObj._strokeClone = strokeText;
 		
-			// Cache хэрэглэх
+			// Get bounds AFTER updating text
 			var bounds = textObj.getBounds();
-			if (bounds) {
-				var cacheX = bounds.x - pad;
-				var cacheY = bounds.y - pad;
-				var cacheW = bounds.width + pad * 2;
-				var cacheH = bounds.height + pad * 2;
-		
-				if (strokeText.cacheCanvas) strokeText.uncache();
-				if (textObj.cacheCanvas) textObj.uncache();
-		
-				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
-				textObj.cache(cacheX, cacheY, cacheW, cacheH);
+			if (!bounds) {
+				// Manually calculate bounds if getBounds fails
+				var metrics = textObj.getMeasuredWidth();
+				var lineHeight = parseInt(fontSize) * 1.2;
+				bounds = {
+					x: 0,
+					y: 0,
+					width: metrics || 200,
+					height: lineHeight || parseInt(fontSize)
+				};
 			}
+		
+			var cacheX = bounds.x - pad;
+			var cacheY = bounds.y - pad;
+			var cacheW = bounds.width + pad * 2;
+			var cacheH = bounds.height + pad * 2;
+		
+			if (strokeText.cacheCanvas) strokeText.uncache();
+			if (textObj.cacheCanvas) textObj.uncache();
+		
+			strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+			textObj.cache(cacheX, cacheY, cacheW, cacheH);
 		
 			// Cleanup logic
 			if (textObj._onRemovedCleanup) {
@@ -10312,63 +11127,66 @@ if (reversed == null) { reversed = false; }
 		
 			textObj.on("removed", textObj._onRemovedCleanup);
 		
-			// Байрлалыг баталгаажуулах
+			// Ensure position
 			textObj.x = savedX;
 			textObj.y = savedY;
 			strokeText.x = savedX;
 			strokeText.y = savedY;
 		}
-		
 		var exerciseText = {
 			mn: {
 				title: "ХУВААРЬТ ЦАМХГУУД",
 				instruction: "Цамхаг бүр хэдэн тэнцүү хэсэгт хуваагдсан болоод хэдэн хэсэг нь будагдсан байгааг тоолоод тохирох энгийн бутархайг сонгон зөв цамхаг дээр байршуулна уу."
 			},
 			kz: {
-				title: "БӨЛІНГЕН МҰНАРАЛАР",
-				instruction: "Мұнараның боялған бөлігіне сәйкес келетін жай бөлшекті орналастырыңыз."
+				title: "КЕСТЕЛІ МҰНАРАЛАР",
+				instruction: "Әр мұнараның неше тең бөлікке бөлінгенін және неше бөлігі боялғанын санап, тиісті жай бөлшекті таңдап, дұрыс мұнараның үстіне орналастырыңдар."
 			},
 			tuva: {
-				title: "ҮЛЕЖИЛГЕН МҮНАРЛАР",
-				instruction: "Мүнарның өөделген кезээнге тааржыыр эңгин бөлүктү тургузуңар."
+				title: "ГРАФИКТИГ ТУРУГЛАР",
+				instruction: "Цамхаг бүрүзү каш дең кезекке үлеттингенин болгаш каш кезии будуктуг турарын санааш, тааржыр энгийн үүрмекти шилип шын цамхаг кырынга салыңар."
 			},
 			sign: {
 				title: "ХУВААРЬТ ЦАМХГУУД",
-				instruction: "Цамхгийн будагдсан хэсэгт тохирох энгийн бутархайг байршуулна уу."
+				instruction: "Цамхаг бүр хэдэн тэнцүү хэсэгт хуваагдсан болоод хэдэн хэсэг нь будагдсан байгааг тоолоод тохирох энгийн бутархайг сонгон зөв цамхаг дээр байршуулна уу."
+			},
+			blind: {
+				title: "ХУВААРЬТ ЦАМХГУУД",
+				instruction: "Цамхаг бүр хэдэн тэнцүү хэсэгт хуваагдсан болоод хэдэн хэсэг нь будагдсан байгааг тоолоод тохирох энгийн бутархайг сонгон зөв цамхаг дээр байршуулна уу."
 			}
 		};
 		
-		var lang = exportRoot.gameState.selectedLanguage || "mn";
-		var texts = exerciseText[lang];
 		
 		var lang = exportRoot.gameState.selectedLanguage || "mn";
 		var texts = exerciseText[lang];
 		
-		function findTextByContent(container, content) {
+		function findTextByName(container, name) {
 			if (!container) return null;
 		
-			if (container instanceof createjs.Text && container.text === content) {
+			if (container.name === name) {
 				return container;
 			}
 		
 			if (!container.numChildren) return null;
 		
 			for (var i = 0; i < container.numChildren; i++) {
-				var found = findTextByContent(container.getChildAt(i), content);
+				var found = findTextByName(container.getChildAt(i), name);
 				if (found) return found;
 			}
 		
 			return null;
 		}
 		
-		var txt_title = findTextByContent(exportRoot, "txt_title");
-		var txt_instruction = findTextByContent(exportRoot, "txt_instruction");
+		// Одоо ингэж дуудах
+		var txt_title = findTextByName(exportRoot, "txt_title");
+		var txt_instruction = findTextByName(exportRoot, "txt_instruction");
 		
 		
-		console.log("exerciseText[lang]");
-		console.log(exerciseText[lang]);
-		console.log(exportRoot.txt_title);
+		
 		if (txt_title) {
+			if (txt_title.cacheCanvas) {
+				txt_title.uncache();
+			}
 			txt_title.text = texts.title;
 			applyTextStyling(txt_title, {
 				outlineSize: 15,
@@ -10376,13 +11194,11 @@ if (reversed == null) { reversed = false; }
 				fillColor: "#FFFFFF",
 				pad: 80
 			});
-		}else {
+		} else {
 			console.log("exportRoot.txt_title not found");
 		}
 		
-		console.log('--------------------------');
-		console.log(exportRoot);
-		console.log('--------------------------');
+		
 		
 		if (txt_instruction) {
 			txt_instruction.text = texts.instruction;
@@ -10634,7 +11450,7 @@ if (reversed == null) { reversed = false; }
 		    storageKey: "lesson6_gameState",
 		    backFrame: 14, 
 		    nextFrame: 17, 
-		    autoNextDelay: 3500,
+		    autoNextDelay: 2500,
 		    soundPaths: {
 		        correct: "./sounds/voice_correct.mp3",
 		        wrong: "./sounds/voice_wrong.mp3",
@@ -10672,7 +11488,14 @@ if (reversed == null) { reversed = false; }
 		var autoNextTriggered = !!exportRoot.gameState[CONFIG.completeKey];
 		
 		function playSound(type) {
-		    try { new Audio(CONFIG.soundPaths[type]).play().catch(function() {}); } catch (e) {}
+			if (exportRoot.playExerciseSound) {
+				exportRoot.playExerciseSound(type);
+			} else {
+				// Fallback
+				try {
+					new Audio(CONFIG.soundPaths[type]).play().catch(function () {});
+				} catch (e) {}
+			}
 		}
 		
 		// =====================================================
@@ -10875,12 +11698,17 @@ if (reversed == null) { reversed = false; }
 		
 			opts = opts || {};
 		
-			// Фонт тохиргоо - Default-оор Rubik Bold ашиглана
-			var fontSize = opts.fontSize || textObj.font.split('px')[0] || "40"; 
+			// 🔥 FIX: Parse existing font properly using regex
+			var currentFont = textObj.font || "bold 40px 'Rubik', sans-serif";
+			var fontParts = currentFont.match(/(\d+)px/); // Extract number before 'px'
+			var currentSize = fontParts ? fontParts[1] : "40";
+			
+			// Font settings
+			var fontSize = opts.fontSize || currentSize;
 			var fontStyle = opts.fontStyle || "bold";
 			var fontFamily = opts.fontFamily || "'Rubik', sans-serif";
 			
-			// textObj-ийн фонтыг шинэчлэх
+			// Update font
 			textObj.font = fontStyle + " " + fontSize + "px " + fontFamily;
 		
 			var outlineColor = opts.outlineColor || "#461A17";
@@ -10894,7 +11722,7 @@ if (reversed == null) { reversed = false; }
 			var parent = textObj.parent;
 			var cloneName = "__strokeClone_" + (textObj.name || "text");
 		
-			// Өмнө үлдсэн ижил clone-уудыг parent-оос цэвэрлэнэ
+			// Clean up old clones
 			for (var i = parent.numChildren - 1; i >= 0; i--) {
 				var child = parent.getChildAt(i);
 				if (child && child.name === cloneName) {
@@ -10903,7 +11731,7 @@ if (reversed == null) { reversed = false; }
 				}
 			}
 		
-			// Хуучин cache арилгана
+			// Clear old cache
 			if (textObj.cacheCanvas) {
 				textObj.uncache();
 			}
@@ -10912,20 +11740,20 @@ if (reversed == null) { reversed = false; }
 			textObj.color = fillColor;
 			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
 		
-			// Stroke үүсгэхдээ шинэчлэгдсэн фонтыг ашиглана
+			// Create stroke with updated font
 			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
 			strokeText.name = cloneName;
-			strokeText.textAlign = textObj.textAlign;
-			strokeText.textBaseline = textObj.textBaseline;
+			strokeText.textAlign = textObj.textAlign || "left";
+			strokeText.textBaseline = textObj.textBaseline || "top";
 			strokeText.x = savedX;
 			strokeText.y = savedY;
-			strokeText.scaleX = textObj.scaleX;
-			strokeText.scaleY = textObj.scaleY;
-			strokeText.rotation = textObj.rotation;
-			strokeText.skewX = textObj.skewX;
-			strokeText.skewY = textObj.skewY;
-			strokeText.regX = textObj.regX;
-			strokeText.regY = textObj.regY;
+			strokeText.scaleX = textObj.scaleX || 1;
+			strokeText.scaleY = textObj.scaleY || 1;
+			strokeText.rotation = textObj.rotation || 0;
+			strokeText.skewX = textObj.skewX || 0;
+			strokeText.skewY = textObj.skewY || 0;
+			strokeText.regX = textObj.regX || 0;
+			strokeText.regY = textObj.regY || 0;
 			strokeText.outline = outlineSize;
 			strokeText.shadow = null;
 			strokeText.mouseEnabled = false;
@@ -10935,20 +11763,30 @@ if (reversed == null) { reversed = false; }
 		
 			textObj._strokeClone = strokeText;
 		
-			// Cache хэрэглэх
+			// Get bounds AFTER updating text
 			var bounds = textObj.getBounds();
-			if (bounds) {
-				var cacheX = bounds.x - pad;
-				var cacheY = bounds.y - pad;
-				var cacheW = bounds.width + pad * 2;
-				var cacheH = bounds.height + pad * 2;
-		
-				if (strokeText.cacheCanvas) strokeText.uncache();
-				if (textObj.cacheCanvas) textObj.uncache();
-		
-				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
-				textObj.cache(cacheX, cacheY, cacheW, cacheH);
+			if (!bounds) {
+				// Manually calculate bounds if getBounds fails
+				var metrics = textObj.getMeasuredWidth();
+				var lineHeight = parseInt(fontSize) * 1.2;
+				bounds = {
+					x: 0,
+					y: 0,
+					width: metrics || 200,
+					height: lineHeight || parseInt(fontSize)
+				};
 			}
+		
+			var cacheX = bounds.x - pad;
+			var cacheY = bounds.y - pad;
+			var cacheW = bounds.width + pad * 2;
+			var cacheH = bounds.height + pad * 2;
+		
+			if (strokeText.cacheCanvas) strokeText.uncache();
+			if (textObj.cacheCanvas) textObj.uncache();
+		
+			strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+			textObj.cache(cacheX, cacheY, cacheW, cacheH);
 		
 			// Cleanup logic
 			if (textObj._onRemovedCleanup) {
@@ -10970,13 +11808,12 @@ if (reversed == null) { reversed = false; }
 		
 			textObj.on("removed", textObj._onRemovedCleanup);
 		
-			// Байрлалыг баталгаажуулах
+			// Ensure position
 			textObj.x = savedX;
 			textObj.y = savedY;
 			strokeText.x = savedX;
 			strokeText.y = savedY;
 		}
-		
 		var exerciseText = {
 			mn: {
 				title: "УС ТҮГЭЭХ ТӨВ",
@@ -10984,13 +11821,17 @@ if (reversed == null) { reversed = false; }
 			},
 			kz: {
 				title: "СУ ТАРАТУ ОРТАЛЫҒЫ",
-				instruction: "Ыдыстағы сұйықтықтардың көлемін салыстырып, теңестіріңіз."
+				instruction: "Ыдыстағы сұйықтықтардың көлемін салыстырып, таңбасын қойыңдар."
 			},
 			tuva: {
-				title: "СУГ ҮЛЕЖИР ТӨВ",
-				instruction: "Савлар дахь шингэнниң көлемин деңнеп, жештириңер."
+				title: "СУГ ҮЛЕГЕР ТӨП",
+				instruction: "Савалыг сугсуннуң ишкирин деңнештирип чижектеннер."
 			},
 			sign: {
+				title: "УС ТҮГЭЭХ ТӨВ",
+				instruction: "Савтай шингэний эзлэхүүнийг харьцуулж, жишээрэй."
+			},
+			blind: {
 				title: "УС ТҮГЭЭХ ТӨВ",
 				instruction: "Савтай шингэний эзлэхүүнийг харьцуулж, жишээрэй."
 			}
@@ -10999,34 +11840,33 @@ if (reversed == null) { reversed = false; }
 		var lang = exportRoot.gameState.selectedLanguage || "mn";
 		var texts = exerciseText[lang];
 		
-		var lang = exportRoot.gameState.selectedLanguage || "mn";
-		var texts = exerciseText[lang];
-		
-		function findTextByContent(container, content) {
+		function findTextByName(container, name) {
 			if (!container) return null;
 		
-			if (container instanceof createjs.Text && container.text === content) {
+			if (container.name === name) {
 				return container;
 			}
 		
 			if (!container.numChildren) return null;
 		
 			for (var i = 0; i < container.numChildren; i++) {
-				var found = findTextByContent(container.getChildAt(i), content);
+				var found = findTextByName(container.getChildAt(i), name);
 				if (found) return found;
 			}
 		
 			return null;
 		}
 		
-		var txt_title = findTextByContent(exportRoot, "txt_title");
-		var txt_instruction = findTextByContent(exportRoot, "txt_instruction");
+		// Одоо ингэж дуудах
+		var txt_title = findTextByName(exportRoot, "txt_title");
+		var txt_instruction = findTextByName(exportRoot, "txt_instruction");
 		
 		
-		console.log("exerciseText[lang]");
-		console.log(exerciseText[lang]);
-		console.log(exportRoot.txt_title);
+		
 		if (txt_title) {
+			if (txt_title.cacheCanvas) {
+				txt_title.uncache();
+			}
 			txt_title.text = texts.title;
 			applyTextStyling(txt_title, {
 				outlineSize: 15,
@@ -11034,13 +11874,11 @@ if (reversed == null) { reversed = false; }
 				fillColor: "#FFFFFF",
 				pad: 80
 			});
-		}else {
+		} else {
 			console.log("exportRoot.txt_title not found");
 		}
 		
-		console.log('--------------------------');
-		console.log(exportRoot);
-		console.log('--------------------------');
+		
 		
 		if (txt_instruction) {
 			txt_instruction.text = texts.instruction;
@@ -11292,7 +12130,7 @@ if (reversed == null) { reversed = false; }
 		    storageKey: "lesson6_gameState",
 		    backFrame: 16,
 		    nextFrame: 19,
-		    autoNextDelay: 3500,
+		    autoNextDelay: 2500,
 		    soundPaths: {
 		        correct: "./sounds/voice_correct.mp3",
 		        wrong: "./sounds/voice_wrong.mp3",
@@ -11347,10 +12185,14 @@ if (reversed == null) { reversed = false; }
 		};
 		
 		function playSound(type) {
-		    try {
-		        var audio = new Audio(CONFIG.soundPaths[type]);
-		        audio.play().catch(function(){});
-		    } catch (e) {}
+			if (exportRoot.playExerciseSound) {
+				exportRoot.playExerciseSound(type);
+			} else {
+				// Fallback
+				try {
+					new Audio(CONFIG.soundPaths[type]).play().catch(function () {});
+				} catch (e) {}
+			}
 		}
 		
 		// =====================================================
@@ -11659,12 +12501,17 @@ if (reversed == null) { reversed = false; }
 		
 			opts = opts || {};
 		
-			// Фонт тохиргоо - Default-оор Rubik Bold ашиглана
-			var fontSize = opts.fontSize || textObj.font.split('px')[0] || "40"; 
+			// 🔥 FIX: Parse existing font properly using regex
+			var currentFont = textObj.font || "bold 40px 'Rubik', sans-serif";
+			var fontParts = currentFont.match(/(\d+)px/); // Extract number before 'px'
+			var currentSize = fontParts ? fontParts[1] : "40";
+			
+			// Font settings
+			var fontSize = opts.fontSize || currentSize;
 			var fontStyle = opts.fontStyle || "bold";
 			var fontFamily = opts.fontFamily || "'Rubik', sans-serif";
 			
-			// textObj-ийн фонтыг шинэчлэх
+			// Update font
 			textObj.font = fontStyle + " " + fontSize + "px " + fontFamily;
 		
 			var outlineColor = opts.outlineColor || "#461A17";
@@ -11678,7 +12525,7 @@ if (reversed == null) { reversed = false; }
 			var parent = textObj.parent;
 			var cloneName = "__strokeClone_" + (textObj.name || "text");
 		
-			// Өмнө үлдсэн ижил clone-уудыг parent-оос цэвэрлэнэ
+			// Clean up old clones
 			for (var i = parent.numChildren - 1; i >= 0; i--) {
 				var child = parent.getChildAt(i);
 				if (child && child.name === cloneName) {
@@ -11687,7 +12534,7 @@ if (reversed == null) { reversed = false; }
 				}
 			}
 		
-			// Хуучин cache арилгана
+			// Clear old cache
 			if (textObj.cacheCanvas) {
 				textObj.uncache();
 			}
@@ -11696,20 +12543,20 @@ if (reversed == null) { reversed = false; }
 			textObj.color = fillColor;
 			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
 		
-			// Stroke үүсгэхдээ шинэчлэгдсэн фонтыг ашиглана
+			// Create stroke with updated font
 			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
 			strokeText.name = cloneName;
-			strokeText.textAlign = textObj.textAlign;
-			strokeText.textBaseline = textObj.textBaseline;
+			strokeText.textAlign = textObj.textAlign || "left";
+			strokeText.textBaseline = textObj.textBaseline || "top";
 			strokeText.x = savedX;
 			strokeText.y = savedY;
-			strokeText.scaleX = textObj.scaleX;
-			strokeText.scaleY = textObj.scaleY;
-			strokeText.rotation = textObj.rotation;
-			strokeText.skewX = textObj.skewX;
-			strokeText.skewY = textObj.skewY;
-			strokeText.regX = textObj.regX;
-			strokeText.regY = textObj.regY;
+			strokeText.scaleX = textObj.scaleX || 1;
+			strokeText.scaleY = textObj.scaleY || 1;
+			strokeText.rotation = textObj.rotation || 0;
+			strokeText.skewX = textObj.skewX || 0;
+			strokeText.skewY = textObj.skewY || 0;
+			strokeText.regX = textObj.regX || 0;
+			strokeText.regY = textObj.regY || 0;
 			strokeText.outline = outlineSize;
 			strokeText.shadow = null;
 			strokeText.mouseEnabled = false;
@@ -11719,20 +12566,30 @@ if (reversed == null) { reversed = false; }
 		
 			textObj._strokeClone = strokeText;
 		
-			// Cache хэрэглэх
+			// Get bounds AFTER updating text
 			var bounds = textObj.getBounds();
-			if (bounds) {
-				var cacheX = bounds.x - pad;
-				var cacheY = bounds.y - pad;
-				var cacheW = bounds.width + pad * 2;
-				var cacheH = bounds.height + pad * 2;
-		
-				if (strokeText.cacheCanvas) strokeText.uncache();
-				if (textObj.cacheCanvas) textObj.uncache();
-		
-				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
-				textObj.cache(cacheX, cacheY, cacheW, cacheH);
+			if (!bounds) {
+				// Manually calculate bounds if getBounds fails
+				var metrics = textObj.getMeasuredWidth();
+				var lineHeight = parseInt(fontSize) * 1.2;
+				bounds = {
+					x: 0,
+					y: 0,
+					width: metrics || 200,
+					height: lineHeight || parseInt(fontSize)
+				};
 			}
+		
+			var cacheX = bounds.x - pad;
+			var cacheY = bounds.y - pad;
+			var cacheW = bounds.width + pad * 2;
+			var cacheH = bounds.height + pad * 2;
+		
+			if (strokeText.cacheCanvas) strokeText.uncache();
+			if (textObj.cacheCanvas) textObj.uncache();
+		
+			strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+			textObj.cache(cacheX, cacheY, cacheW, cacheH);
 		
 			// Cleanup logic
 			if (textObj._onRemovedCleanup) {
@@ -11754,27 +12611,30 @@ if (reversed == null) { reversed = false; }
 		
 			textObj.on("removed", textObj._onRemovedCleanup);
 		
-			// Байрлалыг баталгаажуулах
+			// Ensure position
 			textObj.x = savedX;
 			textObj.y = savedY;
 			strokeText.x = savedX;
 			strokeText.y = savedY;
 		}
-		
 		var exerciseText = {
 			mn: {
 				title: "ХЯНАХ САМБАР",
 				instruction: "Хянах самбарын будсан хэсэгт тохирох энгийн бутархайг бичээд жишээрэй."
 			},
 			kz: {
-				title: "БАҚЫЛАУ ТАҚТАСЫ",
-				instruction: "Бақылау тақтасындағы боялған бөлікке сәйкес келетін жай бөлшекті жазып, салыстырыңыз."
+				title: "БАҚЫЛАУ ПАНЕЛІ",
+				instruction: "Жарық жанған бөлікке сәйкес келетін жай бөлшекті жазып, оларды өзара салыстырыңдар."
 			},
 			tuva: {
-				title: "ХЫНААР САМБАЗЫ",
-				instruction: "Хынаар самбазының өөделген кезээнге тааржыыр эңгин бөлүктү бижип, деңнеп көрүңер."
+				title: "ХЯНАЛДА САМБАРЫ",
+				instruction: "Чырык кыпкан кезиинге тааржыр энгийн үүрмекти бижээш, бот-боттарын деңнеңер."
 			},
 			sign: {
+				title: "ХЯНАХ САМБАР",
+				instruction: "Хянах самбарын будсан хэсэгт тохирох энгийн бутархайг бичээд жишээрэй."
+			},
+			blind: {
 				title: "ХЯНАХ САМБАР",
 				instruction: "Хянах самбарын будсан хэсэгт тохирох энгийн бутархайг бичээд жишээрэй."
 			}
@@ -11783,31 +12643,33 @@ if (reversed == null) { reversed = false; }
 		var lang = exportRoot.gameState.selectedLanguage || "mn";
 		var texts = exerciseText[lang];
 		
-		function findTextByContent(container, content) {
+		function findTextByName(container, name) {
 			if (!container) return null;
 		
-			if (container instanceof createjs.Text && container.text === content) {
+			if (container.name === name) {
 				return container;
 			}
 		
 			if (!container.numChildren) return null;
 		
 			for (var i = 0; i < container.numChildren; i++) {
-				var found = findTextByContent(container.getChildAt(i), content);
+				var found = findTextByName(container.getChildAt(i), name);
 				if (found) return found;
 			}
 		
 			return null;
 		}
 		
-		var txt_title = findTextByContent(exportRoot, "txt_title");
-		var txt_instruction = findTextByContent(exportRoot, "txt_instruction");
+		// Одоо ингэж дуудах
+		var txt_title = findTextByName(exportRoot, "txt_title");
+		var txt_instruction = findTextByName(exportRoot, "txt_instruction");
 		
 		
-		console.log("exerciseText[lang]");
-		console.log(exerciseText[lang]);
-		console.log(exportRoot.txt_title);
+		
 		if (txt_title) {
+			if (txt_title.cacheCanvas) {
+				txt_title.uncache();
+			}
 			txt_title.text = texts.title;
 			applyTextStyling(txt_title, {
 				outlineSize: 15,
@@ -11815,13 +12677,11 @@ if (reversed == null) { reversed = false; }
 				fillColor: "#FFFFFF",
 				pad: 80
 			});
-		}else {
+		} else {
 			console.log("exportRoot.txt_title not found");
 		}
 		
-		console.log('--------------------------');
-		console.log(exportRoot);
-		console.log('--------------------------');
+		
 		
 		if (txt_instruction) {
 			txt_instruction.text = texts.instruction;
@@ -12074,7 +12934,7 @@ if (reversed == null) { reversed = false; }
 		    storageKey: "lesson6_gameState",
 		    backFrame: 18,
 		    nextFrame: 21,
-		    autoNextDelay: 3500,
+		    autoNextDelay: 2500,
 		    soundPaths: {
 		        correct: "./sounds/voice_correct.mp3",
 		        wrong: "./sounds/voice_wrong.mp3",
@@ -12108,9 +12968,14 @@ if (reversed == null) { reversed = false; }
 		var SLOTS = [];
 		
 		function playSound(type) {
-		    try {
-		        new Audio(CONFIG.soundPaths[type]).play().catch(function(){});
-		    } catch (e) {}
+			if (exportRoot.playExerciseSound) {
+				exportRoot.playExerciseSound(type);
+			} else {
+				// Fallback
+				try {
+					new Audio(CONFIG.soundPaths[type]).play().catch(function () {});
+				} catch (e) {}
+			}
 		}
 		
 		function saveStateToLocal() {
@@ -12374,12 +13239,17 @@ if (reversed == null) { reversed = false; }
 		
 			opts = opts || {};
 		
-			// Фонт тохиргоо - Default-оор Rubik Bold ашиглана
-			var fontSize = opts.fontSize || textObj.font.split('px')[0] || "40"; 
+			// 🔥 FIX: Parse existing font properly using regex
+			var currentFont = textObj.font || "bold 40px 'Rubik', sans-serif";
+			var fontParts = currentFont.match(/(\d+)px/); // Extract number before 'px'
+			var currentSize = fontParts ? fontParts[1] : "40";
+			
+			// Font settings
+			var fontSize = opts.fontSize || currentSize;
 			var fontStyle = opts.fontStyle || "bold";
 			var fontFamily = opts.fontFamily || "'Rubik', sans-serif";
 			
-			// textObj-ийн фонтыг шинэчлэх
+			// Update font
 			textObj.font = fontStyle + " " + fontSize + "px " + fontFamily;
 		
 			var outlineColor = opts.outlineColor || "#461A17";
@@ -12393,7 +13263,7 @@ if (reversed == null) { reversed = false; }
 			var parent = textObj.parent;
 			var cloneName = "__strokeClone_" + (textObj.name || "text");
 		
-			// Өмнө үлдсэн ижил clone-уудыг parent-оос цэвэрлэнэ
+			// Clean up old clones
 			for (var i = parent.numChildren - 1; i >= 0; i--) {
 				var child = parent.getChildAt(i);
 				if (child && child.name === cloneName) {
@@ -12402,7 +13272,7 @@ if (reversed == null) { reversed = false; }
 				}
 			}
 		
-			// Хуучин cache арилгана
+			// Clear old cache
 			if (textObj.cacheCanvas) {
 				textObj.uncache();
 			}
@@ -12411,20 +13281,20 @@ if (reversed == null) { reversed = false; }
 			textObj.color = fillColor;
 			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
 		
-			// Stroke үүсгэхдээ шинэчлэгдсэн фонтыг ашиглана
+			// Create stroke with updated font
 			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
 			strokeText.name = cloneName;
-			strokeText.textAlign = textObj.textAlign;
-			strokeText.textBaseline = textObj.textBaseline;
+			strokeText.textAlign = textObj.textAlign || "left";
+			strokeText.textBaseline = textObj.textBaseline || "top";
 			strokeText.x = savedX;
 			strokeText.y = savedY;
-			strokeText.scaleX = textObj.scaleX;
-			strokeText.scaleY = textObj.scaleY;
-			strokeText.rotation = textObj.rotation;
-			strokeText.skewX = textObj.skewX;
-			strokeText.skewY = textObj.skewY;
-			strokeText.regX = textObj.regX;
-			strokeText.regY = textObj.regY;
+			strokeText.scaleX = textObj.scaleX || 1;
+			strokeText.scaleY = textObj.scaleY || 1;
+			strokeText.rotation = textObj.rotation || 0;
+			strokeText.skewX = textObj.skewX || 0;
+			strokeText.skewY = textObj.skewY || 0;
+			strokeText.regX = textObj.regX || 0;
+			strokeText.regY = textObj.regY || 0;
 			strokeText.outline = outlineSize;
 			strokeText.shadow = null;
 			strokeText.mouseEnabled = false;
@@ -12434,20 +13304,30 @@ if (reversed == null) { reversed = false; }
 		
 			textObj._strokeClone = strokeText;
 		
-			// Cache хэрэглэх
+			// Get bounds AFTER updating text
 			var bounds = textObj.getBounds();
-			if (bounds) {
-				var cacheX = bounds.x - pad;
-				var cacheY = bounds.y - pad;
-				var cacheW = bounds.width + pad * 2;
-				var cacheH = bounds.height + pad * 2;
-		
-				if (strokeText.cacheCanvas) strokeText.uncache();
-				if (textObj.cacheCanvas) textObj.uncache();
-		
-				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
-				textObj.cache(cacheX, cacheY, cacheW, cacheH);
+			if (!bounds) {
+				// Manually calculate bounds if getBounds fails
+				var metrics = textObj.getMeasuredWidth();
+				var lineHeight = parseInt(fontSize) * 1.2;
+				bounds = {
+					x: 0,
+					y: 0,
+					width: metrics || 200,
+					height: lineHeight || parseInt(fontSize)
+				};
 			}
+		
+			var cacheX = bounds.x - pad;
+			var cacheY = bounds.y - pad;
+			var cacheW = bounds.width + pad * 2;
+			var cacheH = bounds.height + pad * 2;
+		
+			if (strokeText.cacheCanvas) strokeText.uncache();
+			if (textObj.cacheCanvas) textObj.uncache();
+		
+			strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+			textObj.cache(cacheX, cacheY, cacheW, cacheH);
 		
 			// Cleanup logic
 			if (textObj._onRemovedCleanup) {
@@ -12469,13 +13349,12 @@ if (reversed == null) { reversed = false; }
 		
 			textObj.on("removed", textObj._onRemovedCleanup);
 		
-			// Байрлалыг баталгаажуулах
+			// Ensure position
 			textObj.x = savedX;
 			textObj.y = savedY;
 			strokeText.x = savedX;
 			strokeText.y = savedY;
 		}
-		
 		var exerciseText = {
 			mn: {
 				title: "УРАЛДААНЫ ЗАМ",
@@ -12483,13 +13362,17 @@ if (reversed == null) { reversed = false; }
 			},
 			kz: {
 				title: "ЖАРЫС ЖОЛЫ",
-				instruction: "Төмендегі жай бөлшектерді өсу ретімен жарыс жолына орналастырыңыз."
+				instruction: "Келесі жай бөлшектерді өсу ретімен жарыс жолына орналастырыңдар."
 			},
 			tuva: {
-				title: "УРАЛДААН ЧОЛУ",
-				instruction: "Дорудагы эңгин бөлүктерни өске эрээри-биле уралдаан чолга тургузуңар."
+				title: "ЧАРЫШ ОРУУ",
+				instruction: "Дараазында энгийн үүрмектерни өзер эрембе биле чарыш оруу кырынга салыңар."
 			},
 			sign: {
+				title: "УРАЛДААНЫ ЗАМ",
+				instruction: "Дараах энгийн бутархайнуудыг өсөх эрэмбээр уралдааны зам дээр байрлуулна уу."
+			},
+			blind: {
 				title: "УРАЛДААНЫ ЗАМ",
 				instruction: "Дараах энгийн бутархайнуудыг өсөх эрэмбээр уралдааны зам дээр байрлуулна уу."
 			}
@@ -12498,31 +13381,33 @@ if (reversed == null) { reversed = false; }
 		var lang = exportRoot.gameState.selectedLanguage || "mn";
 		var texts = exerciseText[lang];
 		
-		function findTextByContent(container, content) {
+		function findTextByName(container, name) {
 			if (!container) return null;
 		
-			if (container instanceof createjs.Text && container.text === content) {
+			if (container.name === name) {
 				return container;
 			}
 		
 			if (!container.numChildren) return null;
 		
 			for (var i = 0; i < container.numChildren; i++) {
-				var found = findTextByContent(container.getChildAt(i), content);
+				var found = findTextByName(container.getChildAt(i), name);
 				if (found) return found;
 			}
 		
 			return null;
 		}
 		
-		var txt_title = findTextByContent(exportRoot, "txt_title");
-		var txt_instruction = findTextByContent(exportRoot, "txt_instruction");
+		// Одоо ингэж дуудах
+		var txt_title = findTextByName(exportRoot, "txt_title");
+		var txt_instruction = findTextByName(exportRoot, "txt_instruction");
 		
 		
-		console.log("exerciseText[lang]");
-		console.log(exerciseText[lang]);
-		console.log(exportRoot.txt_title);
+		
 		if (txt_title) {
+			if (txt_title.cacheCanvas) {
+				txt_title.uncache();
+			}
 			txt_title.text = texts.title;
 			applyTextStyling(txt_title, {
 				outlineSize: 15,
@@ -12530,13 +13415,11 @@ if (reversed == null) { reversed = false; }
 				fillColor: "#FFFFFF",
 				pad: 80
 			});
-		}else {
+		} else {
 			console.log("exportRoot.txt_title not found");
 		}
 		
-		console.log('--------------------------');
-		console.log(exportRoot);
-		console.log('--------------------------');
+		
 		
 		if (txt_instruction) {
 			txt_instruction.text = texts.instruction;
@@ -12788,15 +13671,8 @@ if (reversed == null) { reversed = false; }
 			storageKey: "lesson6_gameState",
 			backFrame: 20, 
 			nextFrame: 23, 
-			autoNextDelay: 3500,
-			soundPaths: {
-				correct: "./sounds/voice_correct.mp3",
-				wrong: "./sounds/voice_wrong.mp3",
-				click: "./sounds/click.mp3"
-			},
-			// Чирэх объектууд
+			autoNextDelay: 2500,
 			items: ["txt_8_1", "txt_8_2", "txt_8_3", "txt_8_4"],
-			// Чиний өгсөн зөв хариултын зураглал:
 			correctMapping: {
 				"target_8_1": "txt_8_3",
 				"target_8_2": "txt_8_1",
@@ -12805,7 +13681,6 @@ if (reversed == null) { reversed = false; }
 			}
 		};
 		
-		// --- Common хэсгүүд ---
 		exportRoot.currentExerciseId = CONFIG.exerciseId;
 		exportRoot.backBtn = CONFIG.backFrame;
 		exportRoot.nextBtn = CONFIG.nextFrame;
@@ -12814,7 +13689,7 @@ if (reversed == null) { reversed = false; }
 		
 		// =====================================================
 		// STATE & INIT
-		// =====================
+		// =====================================================
 		if (!exportRoot.gameState) exportRoot.gameState = {};
 		if (!exportRoot.gameState[CONFIG.answersKey]) exportRoot.gameState[CONFIG.answersKey] = {};
 		if (typeof exportRoot.gameState[CONFIG.completeKey] === "undefined") exportRoot.gameState[CONFIG.completeKey] = false;
@@ -12824,12 +13699,45 @@ if (reversed == null) { reversed = false; }
 		};
 		
 		function playSound(type) {
-			try { new Audio(CONFIG.soundPaths[type]).play().catch(function(){}); } catch (e) {}
+			if (exportRoot.playExerciseSound) {
+				exportRoot.playExerciseSound(type);
+			} else {
+				try {
+					new Audio("./sounds/" + type + ".mp3").play().catch(function () {});
+				} catch (e) {}
+			}
+		}
+		
+		// =====================================================
+		// LANGUAGE SUPPORT
+		// =====================================================
+		function setLanguageForItems() {
+			var lang = exportRoot.gameState.selectedLanguage || "mn";
+			
+			CONFIG.items.forEach(function(itemName) {
+				var item = exportRoot[itemName];
+				if (!item) return;
+				
+				if (item.numChildren > 0) {
+					var nestedClip = item.getChildAt(0);
+					
+					if (nestedClip && typeof nestedClip.gotoAndStop === "function") {
+						try {
+							nestedClip.stop();
+							nestedClip.gotoAndStop(lang);
+						} catch(e) {}
+					}
+				}
+			});
+			
+			if (exportRoot.stage) {
+				exportRoot.stage.update();
+			}
 		}
 		
 		// =====================================================
 		// DRAG AND DROP LOGIC
-		// =====================
+		// =====================================================
 		var targetNames = Object.keys(CONFIG.correctMapping);
 		
 		function setupDragAndDrop() {
@@ -12842,7 +13750,6 @@ if (reversed == null) { reversed = false; }
 				item.cursor = "pointer";
 				item.mouseChildren = false;
 		
-				// 1. Хадгалагдсан төлөвийг сэргээх
 				targetNames.forEach(function(tName) {
 					if (exportRoot.gameState[CONFIG.answersKey][tName] === itemName) {
 						var target = exportRoot[tName];
@@ -12854,15 +13761,13 @@ if (reversed == null) { reversed = false; }
 					}
 				});
 		
-				// 2. Чирж эхлэх
 				item.on("mousedown", function(evt) {
 					if (exportRoot.gameState[CONFIG.completeKey]) return;
-					exportRoot.addChild(item); // Хамгийн дээр гаргах
+					exportRoot.addChild(item);
 					var localPos = item.parent.globalToLocal(evt.stageX, evt.stageY);
 					item.offset = { x: item.x - localPos.x, y: item.y - localPos.y };
 				});
 		
-				// 3. Чирэх үйлдэл
 				item.on("pressmove", function(evt) {
 					if (exportRoot.gameState[CONFIG.completeKey]) return;
 					var localPos = item.parent.globalToLocal(evt.stageX, evt.stageY);
@@ -12870,7 +13775,6 @@ if (reversed == null) { reversed = false; }
 					item.y = localPos.y + item.offset.y;
 				});
 		
-				// 4. Тавих үйлдэл
 				item.on("pressup", function(evt) {
 					if (exportRoot.gameState[CONFIG.completeKey]) return;
 		
@@ -12879,7 +13783,6 @@ if (reversed == null) { reversed = false; }
 						var target = exportRoot[tName];
 						if (!target) return;
 						
-						// Зай болон HitTest шалгах
 						var pt = target.globalToLocal(evt.stageX, evt.stageY);
 						var dist = Math.sqrt(Math.pow(item.x - target.x, 2) + Math.pow(item.y - target.y, 2));
 						
@@ -12889,7 +13792,6 @@ if (reversed == null) { reversed = false; }
 					});
 		
 					if (hitTargetName && CONFIG.correctMapping[hitTargetName] === itemName) {
-						// ЗӨВ БАЙРЛАЛ
 						playSound("click");
 						item.x = exportRoot[hitTargetName].x;
 						item.y = exportRoot[hitTargetName].y;
@@ -12899,8 +13801,12 @@ if (reversed == null) { reversed = false; }
 						exportRoot.saveState();
 						checkWin();
 					} else {
-						// БУРУУ БАЙРЛАЛ - Буцааж үсэргэх
-						if (hitTargetName) exportRoot.playCharacterAnimation("wrong");
+						if (hitTargetName) {
+							playSound("wrong");
+							if (exportRoot.playCharacterAnimation) {
+								exportRoot.playCharacterAnimation("wrong");
+							}
+						}
 						createjs.Tween.get(item).to({ x: item.oldX, y: item.oldY }, 500, createjs.Ease.backOut);
 					}
 				});
@@ -12918,8 +13824,14 @@ if (reversed == null) { reversed = false; }
 			if (allDone) {
 				exportRoot.gameState[CONFIG.completeKey] = true;
 				exportRoot.saveState();
-				exportRoot.playCharacterAnimation("correct");
+				
+				playSound("correct");
+				if (exportRoot.playCharacterAnimation) {
+					exportRoot.playCharacterAnimation("correct");
+				}
+				
 				if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
+				
 				setTimeout(function() {
 					exportRoot.gotoAndStop(CONFIG.nextFrame);
 				}, CONFIG.autoNextDelay);
@@ -12927,8 +13839,8 @@ if (reversed == null) { reversed = false; }
 		}
 		
 		// =====================================================
-		// COMMON ELEMENTS
-		// =====================
+		// INITIALIZATION
+		// =====================================================
 		if (exportRoot.help_popup) {
 			exportRoot.help_popup.visible = false;
 			exportRoot.help_popup.stop();
@@ -12936,14 +13848,19 @@ if (reversed == null) { reversed = false; }
 			exportRoot.help_popup.gotoAndStop(currentLang);
 		}
 		
-		if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
+		setLanguageForItems();
 		
-		// Start
-		setupDragAndDrop();
-		if (exportRoot.stopInstruction) exportRoot.stopInstruction();
-		if (!exportRoot.gameState[CONFIG.completeKey]) {
-			setTimeout(function() { if(exportRoot.playInstruction) exportRoot.playInstruction(); }, 500);
-		}
+		setTimeout(function() {
+			setupDragAndDrop();
+			if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
+			
+			if (exportRoot.stopInstruction) exportRoot.stopInstruction();
+			if (!exportRoot.gameState[CONFIG.completeKey]) {
+				setTimeout(function() { 
+					if(exportRoot.playInstruction) exportRoot.playInstruction(); 
+				}, 500);
+			}
+		}, 100);
 		
 		exportRoot.on("removed", function() {
 			if(exportRoot.stopInstruction) exportRoot.stopInstruction(); 
@@ -12953,12 +13870,14 @@ if (reversed == null) { reversed = false; }
 		
 			opts = opts || {};
 		
-			// Фонт тохиргоо - Default-оор Rubik Bold ашиглана
-			var fontSize = opts.fontSize || textObj.font.split('px')[0] || "40"; 
+			var currentFont = textObj.font || "bold 40px 'Rubik', sans-serif";
+			var fontParts = currentFont.match(/(\d+)px/);
+			var currentSize = fontParts ? fontParts[1] : "40";
+			
+			var fontSize = opts.fontSize || currentSize;
 			var fontStyle = opts.fontStyle || "bold";
 			var fontFamily = opts.fontFamily || "'Rubik', sans-serif";
 			
-			// textObj-ийн фонтыг шинэчлэх
 			textObj.font = fontStyle + " " + fontSize + "px " + fontFamily;
 		
 			var outlineColor = opts.outlineColor || "#461A17";
@@ -12972,7 +13891,6 @@ if (reversed == null) { reversed = false; }
 			var parent = textObj.parent;
 			var cloneName = "__strokeClone_" + (textObj.name || "text");
 		
-			// Өмнө үлдсэн ижил clone-уудыг parent-оос цэвэрлэнэ
 			for (var i = parent.numChildren - 1; i >= 0; i--) {
 				var child = parent.getChildAt(i);
 				if (child && child.name === cloneName) {
@@ -12981,7 +13899,6 @@ if (reversed == null) { reversed = false; }
 				}
 			}
 		
-			// Хуучин cache арилгана
 			if (textObj.cacheCanvas) {
 				textObj.uncache();
 			}
@@ -12990,20 +13907,19 @@ if (reversed == null) { reversed = false; }
 			textObj.color = fillColor;
 			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
 		
-			// Stroke үүсгэхдээ шинэчлэгдсэн фонтыг ашиглана
 			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
 			strokeText.name = cloneName;
-			strokeText.textAlign = textObj.textAlign;
-			strokeText.textBaseline = textObj.textBaseline;
+			strokeText.textAlign = textObj.textAlign || "left";
+			strokeText.textBaseline = textObj.textBaseline || "top";
 			strokeText.x = savedX;
 			strokeText.y = savedY;
-			strokeText.scaleX = textObj.scaleX;
-			strokeText.scaleY = textObj.scaleY;
-			strokeText.rotation = textObj.rotation;
-			strokeText.skewX = textObj.skewX;
-			strokeText.skewY = textObj.skewY;
-			strokeText.regX = textObj.regX;
-			strokeText.regY = textObj.regY;
+			strokeText.scaleX = textObj.scaleX || 1;
+			strokeText.scaleY = textObj.scaleY || 1;
+			strokeText.rotation = textObj.rotation || 0;
+			strokeText.skewX = textObj.skewX || 0;
+			strokeText.skewY = textObj.skewY || 0;
+			strokeText.regX = textObj.regX || 0;
+			strokeText.regY = textObj.regY || 0;
 			strokeText.outline = outlineSize;
 			strokeText.shadow = null;
 			strokeText.mouseEnabled = false;
@@ -13013,22 +13929,29 @@ if (reversed == null) { reversed = false; }
 		
 			textObj._strokeClone = strokeText;
 		
-			// Cache хэрэглэх
 			var bounds = textObj.getBounds();
-			if (bounds) {
-				var cacheX = bounds.x - pad;
-				var cacheY = bounds.y - pad;
-				var cacheW = bounds.width + pad * 2;
-				var cacheH = bounds.height + pad * 2;
-		
-				if (strokeText.cacheCanvas) strokeText.uncache();
-				if (textObj.cacheCanvas) textObj.uncache();
-		
-				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
-				textObj.cache(cacheX, cacheY, cacheW, cacheH);
+			if (!bounds) {
+				var metrics = textObj.getMeasuredWidth();
+				var lineHeight = parseInt(fontSize) * 1.2;
+				bounds = {
+					x: 0,
+					y: 0,
+					width: metrics || 200,
+					height: lineHeight || parseInt(fontSize)
+				};
 			}
 		
-			// Cleanup logic
+			var cacheX = bounds.x - pad;
+			var cacheY = bounds.y - pad;
+			var cacheW = bounds.width + pad * 2;
+			var cacheH = bounds.height + pad * 2;
+		
+			if (strokeText.cacheCanvas) strokeText.uncache();
+			if (textObj.cacheCanvas) textObj.uncache();
+		
+			strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+			textObj.cache(cacheX, cacheY, cacheW, cacheH);
+		
 			if (textObj._onRemovedCleanup) {
 				textObj.off("removed", textObj._onRemovedCleanup);
 			}
@@ -13048,7 +13971,6 @@ if (reversed == null) { reversed = false; }
 		
 			textObj.on("removed", textObj._onRemovedCleanup);
 		
-			// Байрлалыг баталгаажуулах
 			textObj.x = savedX;
 			textObj.y = savedY;
 			strokeText.x = savedX;
@@ -13061,14 +13983,18 @@ if (reversed == null) { reversed = false; }
 				instruction: "Дараах энгийн бутархайнуудыг буурах эрэмбээр байрлуулна уу."
 			},
 			kz: {
-				title: "ТӨМЕНДЕУ МҰНАРАСЫ",
-				instruction: "Төмендегі жай бөлшектерді кему ретімен орналастырыңыз."
+				title: "ҚОНУ МҰНАРАСЫ",
+				instruction: "Келесі жай бөлшектерді кему ретімен орналастырыңдар."
 			},
 			tuva: {
-				title: "ДООРААР МҮНАР",
-				instruction: "Дорудагы эңгин бөлүктерни буураар эрээри-биле тургузуңар."
+				title: "ДҮЖҮР ТУРУГ",
+				instruction: "Дараазында энгийн үүрмектерни бадар эрэмбэ биле салыңар."
 			},
 			sign: {
+				title: "БУУХ ЦАМХАГ",
+				instruction: "Дараах энгийн бутархайнуудыг буурах эрэмбээр байрлуулна уу."
+			},
+			blind: {
 				title: "БУУХ ЦАМХАГ",
 				instruction: "Дараах энгийн бутархайнуудыг буурах эрэмбээр байрлуулна уу."
 			}
@@ -13077,49 +14003,82 @@ if (reversed == null) { reversed = false; }
 		var lang = exportRoot.gameState.selectedLanguage || "mn";
 		var texts = exerciseText[lang];
 		
-		function findTextByContent(container, content) {
+		function findTextByName(container, name) {
 			if (!container) return null;
 		
-			if (container instanceof createjs.Text && container.text === content) {
+			if (container.name === name) {
 				return container;
 			}
 		
 			if (!container.numChildren) return null;
 		
 			for (var i = 0; i < container.numChildren; i++) {
-				var found = findTextByContent(container.getChildAt(i), content);
+				var found = findTextByName(container.getChildAt(i), name);
 				if (found) return found;
 			}
 		
 			return null;
 		}
 		
-		var txt_title = findTextByContent(exportRoot, "txt_title");
-		var txt_instruction = findTextByContent(exportRoot, "txt_instruction");
-		
-		
-		console.log("exerciseText[lang]");
-		console.log(exerciseText[lang]);
-		console.log(exportRoot.txt_title);
-		if (txt_title) {
-			txt_title.text = texts.title;
-			applyTextStyling(txt_title, {
-				outlineSize: 15,
-				outlineColor: "#461A17",
-				fillColor: "#FFFFFF",
-				pad: 80
-			});
-		}else {
-			console.log("exportRoot.txt_title not found");
+		// Change language for nested MovieClips
+		if (exportRoot.txt_8_1 && exportRoot.txt_8_1.numChildren > 0) {
+			var clip1 = exportRoot.txt_8_1.getChildAt(0);
+			if (clip1 && typeof clip1.gotoAndStop === "function") {
+				clip1.stop();
+				clip1.gotoAndStop(lang);
+			}
+		}
+		if (exportRoot.txt_8_2 && exportRoot.txt_8_2.numChildren > 0) {
+			var clip2 = exportRoot.txt_8_2.getChildAt(0);
+			if (clip2 && typeof clip2.gotoAndStop === "function") {
+				clip2.stop();
+				clip2.gotoAndStop(lang);
+			}
+		}
+		if (exportRoot.txt_8_3 && exportRoot.txt_8_3.numChildren > 0) {
+			var clip3 = exportRoot.txt_8_3.getChildAt(0);
+			if (clip3 && typeof clip3.gotoAndStop === "function") {
+				clip3.stop();
+				clip3.gotoAndStop(lang);
+			}
+		}
+		if (exportRoot.txt_8_4 && exportRoot.txt_8_4.numChildren > 0) {
+			var clip4 = exportRoot.txt_8_4.getChildAt(0);
+			if (clip4 && typeof clip4.gotoAndStop === "function") {
+				clip4.stop();
+				clip4.gotoAndStop(lang);
+			}
 		}
 		
-		console.log('--------------------------');
-		console.log(exportRoot);
-		console.log('--------------------------');
-		
-		if (txt_instruction) {
-			txt_instruction.text = texts.instruction;
+		if (exportRoot.stage) {
+			exportRoot.stage.update();
 		}
+		
+		setTimeout(function() {
+			var txt_title = findTextByName(exportRoot, "txt_title");
+			var txt_instruction = findTextByName(exportRoot, "txt_instruction");
+		
+			if (txt_title) {
+				if (txt_title.cacheCanvas) {
+					txt_title.uncache();
+				}
+				txt_title.text = texts.title;
+				applyTextStyling(txt_title, {
+					outlineSize: 15,
+					outlineColor: "#461A17",
+					fillColor: "#FFFFFF",
+					pad: 80
+				});
+			}
+		
+			if (txt_instruction) {
+				txt_instruction.text = texts.instruction;
+			}
+		
+			if (exportRoot.stage) {
+				exportRoot.stage.update();
+			}
+		}, 150);
 	}
 	this.frame_23 = function() {
 		var exportRoot = this;
@@ -13367,7 +14326,7 @@ if (reversed == null) { reversed = false; }
 			storageKey: "lesson6_gameState",
 			backFrame: 22,
 			nextFrame: 25,
-			autoNextDelay: 3500,
+			autoNextDelay: 2500,
 			soundPaths: {
 				correct: "./sounds/voice_correct.mp3",
 				wrong: "./sounds/voice_wrong.mp3",
@@ -13411,10 +14370,14 @@ if (reversed == null) { reversed = false; }
 		};
 		
 		function playSound(type) {
-			try {
-				var a = new Audio(CONFIG.soundPaths[type]);
-				a.play().catch(function(){});
-			} catch (e) {}
+			if (exportRoot.playExerciseSound) {
+				exportRoot.playExerciseSound(type);
+			} else {
+				// Fallback
+				try {
+					new Audio(CONFIG.soundPaths[type]).play().catch(function () {});
+				} catch (e) {}
+			}
 		}
 		
 		// =====================================================
@@ -13740,12 +14703,17 @@ if (reversed == null) { reversed = false; }
 		
 			opts = opts || {};
 		
-			// Фонт тохиргоо - Default-оор Rubik Bold ашиглана
-			var fontSize = opts.fontSize || textObj.font.split('px')[0] || "40"; 
+			// 🔥 FIX: Parse existing font properly using regex
+			var currentFont = textObj.font || "bold 40px 'Rubik', sans-serif";
+			var fontParts = currentFont.match(/(\d+)px/); // Extract number before 'px'
+			var currentSize = fontParts ? fontParts[1] : "40";
+			
+			// Font settings
+			var fontSize = opts.fontSize || currentSize;
 			var fontStyle = opts.fontStyle || "bold";
 			var fontFamily = opts.fontFamily || "'Rubik', sans-serif";
 			
-			// textObj-ийн фонтыг шинэчлэх
+			// Update font
 			textObj.font = fontStyle + " " + fontSize + "px " + fontFamily;
 		
 			var outlineColor = opts.outlineColor || "#461A17";
@@ -13759,7 +14727,7 @@ if (reversed == null) { reversed = false; }
 			var parent = textObj.parent;
 			var cloneName = "__strokeClone_" + (textObj.name || "text");
 		
-			// Өмнө үлдсэн ижил clone-уудыг parent-оос цэвэрлэнэ
+			// Clean up old clones
 			for (var i = parent.numChildren - 1; i >= 0; i--) {
 				var child = parent.getChildAt(i);
 				if (child && child.name === cloneName) {
@@ -13768,7 +14736,7 @@ if (reversed == null) { reversed = false; }
 				}
 			}
 		
-			// Хуучин cache арилгана
+			// Clear old cache
 			if (textObj.cacheCanvas) {
 				textObj.uncache();
 			}
@@ -13777,20 +14745,20 @@ if (reversed == null) { reversed = false; }
 			textObj.color = fillColor;
 			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
 		
-			// Stroke үүсгэхдээ шинэчлэгдсэн фонтыг ашиглана
+			// Create stroke with updated font
 			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
 			strokeText.name = cloneName;
-			strokeText.textAlign = textObj.textAlign;
-			strokeText.textBaseline = textObj.textBaseline;
+			strokeText.textAlign = textObj.textAlign || "left";
+			strokeText.textBaseline = textObj.textBaseline || "top";
 			strokeText.x = savedX;
 			strokeText.y = savedY;
-			strokeText.scaleX = textObj.scaleX;
-			strokeText.scaleY = textObj.scaleY;
-			strokeText.rotation = textObj.rotation;
-			strokeText.skewX = textObj.skewX;
-			strokeText.skewY = textObj.skewY;
-			strokeText.regX = textObj.regX;
-			strokeText.regY = textObj.regY;
+			strokeText.scaleX = textObj.scaleX || 1;
+			strokeText.scaleY = textObj.scaleY || 1;
+			strokeText.rotation = textObj.rotation || 0;
+			strokeText.skewX = textObj.skewX || 0;
+			strokeText.skewY = textObj.skewY || 0;
+			strokeText.regX = textObj.regX || 0;
+			strokeText.regY = textObj.regY || 0;
 			strokeText.outline = outlineSize;
 			strokeText.shadow = null;
 			strokeText.mouseEnabled = false;
@@ -13800,20 +14768,30 @@ if (reversed == null) { reversed = false; }
 		
 			textObj._strokeClone = strokeText;
 		
-			// Cache хэрэглэх
+			// Get bounds AFTER updating text
 			var bounds = textObj.getBounds();
-			if (bounds) {
-				var cacheX = bounds.x - pad;
-				var cacheY = bounds.y - pad;
-				var cacheW = bounds.width + pad * 2;
-				var cacheH = bounds.height + pad * 2;
-		
-				if (strokeText.cacheCanvas) strokeText.uncache();
-				if (textObj.cacheCanvas) textObj.uncache();
-		
-				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
-				textObj.cache(cacheX, cacheY, cacheW, cacheH);
+			if (!bounds) {
+				// Manually calculate bounds if getBounds fails
+				var metrics = textObj.getMeasuredWidth();
+				var lineHeight = parseInt(fontSize) * 1.2;
+				bounds = {
+					x: 0,
+					y: 0,
+					width: metrics || 200,
+					height: lineHeight || parseInt(fontSize)
+				};
 			}
+		
+			var cacheX = bounds.x - pad;
+			var cacheY = bounds.y - pad;
+			var cacheW = bounds.width + pad * 2;
+			var cacheH = bounds.height + pad * 2;
+		
+			if (strokeText.cacheCanvas) strokeText.uncache();
+			if (textObj.cacheCanvas) textObj.uncache();
+		
+			strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+			textObj.cache(cacheX, cacheY, cacheW, cacheH);
 		
 			// Cleanup logic
 			if (textObj._onRemovedCleanup) {
@@ -13835,27 +14813,30 @@ if (reversed == null) { reversed = false; }
 		
 			textObj.on("removed", textObj._onRemovedCleanup);
 		
-			// Байрлалыг баталгаажуулах
+			// Ensure position
 			textObj.x = savedX;
 			textObj.y = savedY;
 			strokeText.x = savedX;
 			strokeText.y = savedY;
 		}
-		
 		var exerciseText = {
 			mn: {
 				title: "ТУУЗАН ДАРААЛАЛ",
 				instruction: "Дараах тэнцэтгэл бишийг үнэн болгох энгийн бутархайнуудыг олж, хоосон зайд бичээрэй. Дараа нь үүссэн дарааллыг уншаарай."
 			},
 			kz: {
-				title: "ЖОЛАҚ ТІЗБЕГІ",
-				instruction: "Төмендегі теңсіздікті дұрыс ететін жай бөлшектерді тауып, бос орынға жазыңыз. Содан кейін шыққан тізбекті оқыңыз."
+				title: "ЗЫМЫРАН КЕЗЕКТІЛІГІ",
+				instruction: "Келесі теңсіздікті дұрыс ететін жай бөлшектерді тауып, бос орындарға жазыңдар. Содан кейін пайда болған тізбекті оқыңдар."
 			},
 			tuva: {
-				title: "ЛЕНТА ДАРААЛАЛЫ",
-				instruction: "Дорудагы тең болбасын чөптүг болурунга тааржыыр эңгин бөлүктерни таап, хооңгай турар черге бижиңер. Сонуң соонда үүскен дараалалды унууңар."
+				title: "РАКЕТА ДАРААЛАЛЫ",
+				instruction: "Дараазында деңнежилге эмес  бижилгени шын болдурар энгийн үүрмектерни тып, куруг черге бижиңер. Оон үнген дараалалды номчуңар."
 			},
 			sign: {
+				title: "ТУУЗАН ДАРААЛАЛ",
+				instruction: "Дараах тэнцэтгэл бишийг үнэн болгох энгийн бутархайнуудыг олж, хоосон зайд бичээрэй. Дараа нь үүссэн дарааллыг уншаарай."
+			},
+			blind: {
 				title: "ТУУЗАН ДАРААЛАЛ",
 				instruction: "Дараах тэнцэтгэл бишийг үнэн болгох энгийн бутархайнуудыг олж, хоосон зайд бичээрэй. Дараа нь үүссэн дарааллыг уншаарай."
 			}
@@ -13864,31 +14845,33 @@ if (reversed == null) { reversed = false; }
 		var lang = exportRoot.gameState.selectedLanguage || "mn";
 		var texts = exerciseText[lang];
 		
-		function findTextByContent(container, content) {
+		function findTextByName(container, name) {
 			if (!container) return null;
 		
-			if (container instanceof createjs.Text && container.text === content) {
+			if (container.name === name) {
 				return container;
 			}
 		
 			if (!container.numChildren) return null;
 		
 			for (var i = 0; i < container.numChildren; i++) {
-				var found = findTextByContent(container.getChildAt(i), content);
+				var found = findTextByName(container.getChildAt(i), name);
 				if (found) return found;
 			}
 		
 			return null;
 		}
 		
-		var txt_title = findTextByContent(exportRoot, "txt_title");
-		var txt_instruction = findTextByContent(exportRoot, "txt_instruction");
+		// Одоо ингэж дуудах
+		var txt_title = findTextByName(exportRoot, "txt_title");
+		var txt_instruction = findTextByName(exportRoot, "txt_instruction");
 		
 		
-		console.log("exerciseText[lang]");
-		console.log(exerciseText[lang]);
-		console.log(exportRoot.txt_title);
+		
 		if (txt_title) {
+			if (txt_title.cacheCanvas) {
+				txt_title.uncache();
+			}
 			txt_title.text = texts.title;
 			applyTextStyling(txt_title, {
 				outlineSize: 15,
@@ -13896,13 +14879,11 @@ if (reversed == null) { reversed = false; }
 				fillColor: "#FFFFFF",
 				pad: 80
 			});
-		}else {
+		} else {
 			console.log("exportRoot.txt_title not found");
 		}
 		
-		console.log('--------------------------');
-		console.log(exportRoot);
-		console.log('--------------------------');
+		
 		
 		if (txt_instruction) {
 			txt_instruction.text = texts.instruction;
@@ -13919,7 +14900,7 @@ if (reversed == null) { reversed = false; }
 		    lessonId: "lesson6",
 		    lessonFolder: "Lesson6",
 		    videoId: "map09",
-		    videoFile: "./videos/lesson6_map09.mp4",
+		    videoFile: "./videos/lesson6_map9.webm",
 		    containerId: "success-video-map09",
 		    nextFrame: 26,
 		    backgroundColor: "#6B4FBB",
@@ -14154,7 +15135,7 @@ if (reversed == null) { reversed = false; }
 		    storageKey: "lesson6_gameState",
 		    backFrame: 24, 
 		    nextFrame: 27, 
-		    autoNextDelay: 3500,
+		    autoNextDelay: 2500,
 		    soundPaths: {
 		        correct: "./sounds/voice_correct.mp3",
 		        wrong: "./sounds/voice_wrong.mp3",
@@ -14192,9 +15173,15 @@ if (reversed == null) { reversed = false; }
 		};
 		
 		function playSound(type) {
-		    try { new Audio(CONFIG.soundPaths[type]).play().catch(function(){}); } catch (e) {}
+			if (exportRoot.playExerciseSound) {
+				exportRoot.playExerciseSound(type);
+			} else {
+				// Fallback
+				try {
+					new Audio(CONFIG.soundPaths[type]).play().catch(function () {});
+				} catch (e) {}
+			}
 		}
-		
 		// =====================================================
 		// DRAG AND DROP LOGIC
 		// =====================
@@ -14315,12 +15302,17 @@ if (reversed == null) { reversed = false; }
 		
 			opts = opts || {};
 		
-			// Фонт тохиргоо - Default-оор Rubik Bold ашиглана
-			var fontSize = opts.fontSize || textObj.font.split('px')[0] || "40"; 
+			// 🔥 FIX: Parse existing font properly using regex
+			var currentFont = textObj.font || "bold 40px 'Rubik', sans-serif";
+			var fontParts = currentFont.match(/(\d+)px/); // Extract number before 'px'
+			var currentSize = fontParts ? fontParts[1] : "40";
+			
+			// Font settings
+			var fontSize = opts.fontSize || currentSize;
 			var fontStyle = opts.fontStyle || "bold";
 			var fontFamily = opts.fontFamily || "'Rubik', sans-serif";
 			
-			// textObj-ийн фонтыг шинэчлэх
+			// Update font
 			textObj.font = fontStyle + " " + fontSize + "px " + fontFamily;
 		
 			var outlineColor = opts.outlineColor || "#461A17";
@@ -14334,7 +15326,7 @@ if (reversed == null) { reversed = false; }
 			var parent = textObj.parent;
 			var cloneName = "__strokeClone_" + (textObj.name || "text");
 		
-			// Өмнө үлдсэн ижил clone-уудыг parent-оос цэвэрлэнэ
+			// Clean up old clones
 			for (var i = parent.numChildren - 1; i >= 0; i--) {
 				var child = parent.getChildAt(i);
 				if (child && child.name === cloneName) {
@@ -14343,7 +15335,7 @@ if (reversed == null) { reversed = false; }
 				}
 			}
 		
-			// Хуучин cache арилгана
+			// Clear old cache
 			if (textObj.cacheCanvas) {
 				textObj.uncache();
 			}
@@ -14352,20 +15344,20 @@ if (reversed == null) { reversed = false; }
 			textObj.color = fillColor;
 			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
 		
-			// Stroke үүсгэхдээ шинэчлэгдсэн фонтыг ашиглана
+			// Create stroke with updated font
 			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
 			strokeText.name = cloneName;
-			strokeText.textAlign = textObj.textAlign;
-			strokeText.textBaseline = textObj.textBaseline;
+			strokeText.textAlign = textObj.textAlign || "left";
+			strokeText.textBaseline = textObj.textBaseline || "top";
 			strokeText.x = savedX;
 			strokeText.y = savedY;
-			strokeText.scaleX = textObj.scaleX;
-			strokeText.scaleY = textObj.scaleY;
-			strokeText.rotation = textObj.rotation;
-			strokeText.skewX = textObj.skewX;
-			strokeText.skewY = textObj.skewY;
-			strokeText.regX = textObj.regX;
-			strokeText.regY = textObj.regY;
+			strokeText.scaleX = textObj.scaleX || 1;
+			strokeText.scaleY = textObj.scaleY || 1;
+			strokeText.rotation = textObj.rotation || 0;
+			strokeText.skewX = textObj.skewX || 0;
+			strokeText.skewY = textObj.skewY || 0;
+			strokeText.regX = textObj.regX || 0;
+			strokeText.regY = textObj.regY || 0;
 			strokeText.outline = outlineSize;
 			strokeText.shadow = null;
 			strokeText.mouseEnabled = false;
@@ -14375,20 +15367,30 @@ if (reversed == null) { reversed = false; }
 		
 			textObj._strokeClone = strokeText;
 		
-			// Cache хэрэглэх
+			// Get bounds AFTER updating text
 			var bounds = textObj.getBounds();
-			if (bounds) {
-				var cacheX = bounds.x - pad;
-				var cacheY = bounds.y - pad;
-				var cacheW = bounds.width + pad * 2;
-				var cacheH = bounds.height + pad * 2;
-		
-				if (strokeText.cacheCanvas) strokeText.uncache();
-				if (textObj.cacheCanvas) textObj.uncache();
-		
-				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
-				textObj.cache(cacheX, cacheY, cacheW, cacheH);
+			if (!bounds) {
+				// Manually calculate bounds if getBounds fails
+				var metrics = textObj.getMeasuredWidth();
+				var lineHeight = parseInt(fontSize) * 1.2;
+				bounds = {
+					x: 0,
+					y: 0,
+					width: metrics || 200,
+					height: lineHeight || parseInt(fontSize)
+				};
 			}
+		
+			var cacheX = bounds.x - pad;
+			var cacheY = bounds.y - pad;
+			var cacheW = bounds.width + pad * 2;
+			var cacheH = bounds.height + pad * 2;
+		
+			if (strokeText.cacheCanvas) strokeText.uncache();
+			if (textObj.cacheCanvas) textObj.uncache();
+		
+			strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+			textObj.cache(cacheX, cacheY, cacheW, cacheH);
 		
 			// Cleanup logic
 			if (textObj._onRemovedCleanup) {
@@ -14410,13 +15412,12 @@ if (reversed == null) { reversed = false; }
 		
 			textObj.on("removed", textObj._onRemovedCleanup);
 		
-			// Байрлалыг баталгаажуулах
+			// Ensure position
 			textObj.x = savedX;
 			textObj.y = savedY;
 			strokeText.x = savedX;
 			strokeText.y = savedY;
 		}
-		
 		var exerciseText = {
 			mn: {
 				title: "ТОГЛОХ ЦАГ",
@@ -14424,13 +15425,17 @@ if (reversed == null) { reversed = false; }
 			},
 			kz: {
 				title: "ОЙЫН УАҚЫТЫ",
-				instruction: "Ойын қаласында балалар төмендегі уақыттарды өткізді.\nБалалардың ойнаған уақыттарын өсу ретімен орналастырыңыз."
+				instruction: "Ойнаған уақыт аралығын бақылаңдар.\nБұл уақыттарды өсу ретімен орналастырыңдар."
 			},
 			tuva: {
-				title: "НААДААР ҮЕ",
-				instruction: "Наадам хоорайда уруглар дорудагы үелерни өткөрген.\nУругларның наадаан үелерин өске эрээри-биле тургузуңар."
+				title: "ОЮН ҮЕЗІ",
+				instruction: "Ойнаан үезин хынаңар.\nБо үелерни өзер эремби-биле салыңар."
 			},
 			sign: {
+				title: "ТОГЛОХ ЦАГ",
+				instruction: "Тоглоомын хотод хүүхдүүд дараах хугацааг өнгөрөөжээ.\nХүүхдүүдийн тоглосон хугацааг өсөх эрэмбээр байрлуулна уу."
+			},
+			blind: {
 				title: "ТОГЛОХ ЦАГ",
 				instruction: "Тоглоомын хотод хүүхдүүд дараах хугацааг өнгөрөөжээ.\nХүүхдүүдийн тоглосон хугацааг өсөх эрэмбээр байрлуулна уу."
 			}
@@ -14438,32 +15443,33 @@ if (reversed == null) { reversed = false; }
 		
 		var lang = exportRoot.gameState.selectedLanguage || "mn";
 		var texts = exerciseText[lang];
-		
-		function findTextByContent(container, content) {
+		function findTextByName(container, name) {
 			if (!container) return null;
 		
-			if (container instanceof createjs.Text && container.text === content) {
+			if (container.name === name) {
 				return container;
 			}
 		
 			if (!container.numChildren) return null;
 		
 			for (var i = 0; i < container.numChildren; i++) {
-				var found = findTextByContent(container.getChildAt(i), content);
+				var found = findTextByName(container.getChildAt(i), name);
 				if (found) return found;
 			}
 		
 			return null;
 		}
 		
-		var txt_title = findTextByContent(exportRoot, "txt_title");
-		var txt_instruction = findTextByContent(exportRoot, "txt_instruction");
+		// Одоо ингэж дуудах
+		var txt_title = findTextByName(exportRoot, "txt_title");
+		var txt_instruction = findTextByName(exportRoot, "txt_instruction");
 		
 		
-		console.log("exerciseText[lang]");
-		console.log(exerciseText[lang]);
-		console.log(exportRoot.txt_title);
+		
 		if (txt_title) {
+			if (txt_title.cacheCanvas) {
+				txt_title.uncache();
+			}
 			txt_title.text = texts.title;
 			applyTextStyling(txt_title, {
 				outlineSize: 15,
@@ -14471,13 +15477,11 @@ if (reversed == null) { reversed = false; }
 				fillColor: "#FFFFFF",
 				pad: 80
 			});
-		}else {
+		} else {
 			console.log("exportRoot.txt_title not found");
 		}
 		
-		console.log('--------------------------');
-		console.log(exportRoot);
-		console.log('--------------------------');
+		
 		
 		if (txt_instruction) {
 			txt_instruction.text = texts.instruction;
@@ -14494,7 +15498,7 @@ if (reversed == null) { reversed = false; }
 		    lessonId: "lesson6",
 		    lessonFolder: "Lesson6",
 		    videoId: "map10",
-		    videoFile: "./videos/lesson6_map10.mp4",
+		    videoFile: "./videos/lesson6_map10.webm",
 		    containerId: "success-video-map10",
 		    nextFrame: 28,
 		    backgroundColor: "#6B4FBB",
@@ -14763,7 +15767,14 @@ if (reversed == null) { reversed = false; }
 		};
 		
 		function playSound(type) {
-		    try { new Audio(CONFIG.soundPaths[type]).play().catch(function(){}); } catch (e) {}
+			if (exportRoot.playExerciseSound) {
+				exportRoot.playExerciseSound(type);
+			} else {
+				// Fallback
+				try {
+					new Audio(CONFIG.soundPaths[type]).play().catch(function () {});
+				} catch (e) {}
+			}
 		}
 		
 		// =====================================================
@@ -14923,12 +15934,17 @@ if (reversed == null) { reversed = false; }
 		
 			opts = opts || {};
 		
-			// Фонт тохиргоо - Default-оор Rubik Bold ашиглана
-			var fontSize = opts.fontSize || textObj.font.split('px')[0] || "40"; 
+			// 🔥 FIX: Parse existing font properly using regex
+			var currentFont = textObj.font || "bold 40px 'Rubik', sans-serif";
+			var fontParts = currentFont.match(/(\d+)px/); // Extract number before 'px'
+			var currentSize = fontParts ? fontParts[1] : "40";
+			
+			// Font settings
+			var fontSize = opts.fontSize || currentSize;
 			var fontStyle = opts.fontStyle || "bold";
 			var fontFamily = opts.fontFamily || "'Rubik', sans-serif";
 			
-			// textObj-ийн фонтыг шинэчлэх
+			// Update font
 			textObj.font = fontStyle + " " + fontSize + "px " + fontFamily;
 		
 			var outlineColor = opts.outlineColor || "#461A17";
@@ -14942,7 +15958,7 @@ if (reversed == null) { reversed = false; }
 			var parent = textObj.parent;
 			var cloneName = "__strokeClone_" + (textObj.name || "text");
 		
-			// Өмнө үлдсэн ижил clone-уудыг parent-оос цэвэрлэнэ
+			// Clean up old clones
 			for (var i = parent.numChildren - 1; i >= 0; i--) {
 				var child = parent.getChildAt(i);
 				if (child && child.name === cloneName) {
@@ -14951,7 +15967,7 @@ if (reversed == null) { reversed = false; }
 				}
 			}
 		
-			// Хуучин cache арилгана
+			// Clear old cache
 			if (textObj.cacheCanvas) {
 				textObj.uncache();
 			}
@@ -14960,20 +15976,20 @@ if (reversed == null) { reversed = false; }
 			textObj.color = fillColor;
 			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
 		
-			// Stroke үүсгэхдээ шинэчлэгдсэн фонтыг ашиглана
+			// Create stroke with updated font
 			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
 			strokeText.name = cloneName;
-			strokeText.textAlign = textObj.textAlign;
-			strokeText.textBaseline = textObj.textBaseline;
+			strokeText.textAlign = textObj.textAlign || "left";
+			strokeText.textBaseline = textObj.textBaseline || "top";
 			strokeText.x = savedX;
 			strokeText.y = savedY;
-			strokeText.scaleX = textObj.scaleX;
-			strokeText.scaleY = textObj.scaleY;
-			strokeText.rotation = textObj.rotation;
-			strokeText.skewX = textObj.skewX;
-			strokeText.skewY = textObj.skewY;
-			strokeText.regX = textObj.regX;
-			strokeText.regY = textObj.regY;
+			strokeText.scaleX = textObj.scaleX || 1;
+			strokeText.scaleY = textObj.scaleY || 1;
+			strokeText.rotation = textObj.rotation || 0;
+			strokeText.skewX = textObj.skewX || 0;
+			strokeText.skewY = textObj.skewY || 0;
+			strokeText.regX = textObj.regX || 0;
+			strokeText.regY = textObj.regY || 0;
 			strokeText.outline = outlineSize;
 			strokeText.shadow = null;
 			strokeText.mouseEnabled = false;
@@ -14983,20 +15999,30 @@ if (reversed == null) { reversed = false; }
 		
 			textObj._strokeClone = strokeText;
 		
-			// Cache хэрэглэх
+			// Get bounds AFTER updating text
 			var bounds = textObj.getBounds();
-			if (bounds) {
-				var cacheX = bounds.x - pad;
-				var cacheY = bounds.y - pad;
-				var cacheW = bounds.width + pad * 2;
-				var cacheH = bounds.height + pad * 2;
-		
-				if (strokeText.cacheCanvas) strokeText.uncache();
-				if (textObj.cacheCanvas) textObj.uncache();
-		
-				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
-				textObj.cache(cacheX, cacheY, cacheW, cacheH);
+			if (!bounds) {
+				// Manually calculate bounds if getBounds fails
+				var metrics = textObj.getMeasuredWidth();
+				var lineHeight = parseInt(fontSize) * 1.2;
+				bounds = {
+					x: 0,
+					y: 0,
+					width: metrics || 200,
+					height: lineHeight || parseInt(fontSize)
+				};
 			}
+		
+			var cacheX = bounds.x - pad;
+			var cacheY = bounds.y - pad;
+			var cacheW = bounds.width + pad * 2;
+			var cacheH = bounds.height + pad * 2;
+		
+			if (strokeText.cacheCanvas) strokeText.uncache();
+			if (textObj.cacheCanvas) textObj.uncache();
+		
+			strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+			textObj.cache(cacheX, cacheY, cacheW, cacheH);
 		
 			// Cleanup logic
 			if (textObj._onRemovedCleanup) {
@@ -15016,27 +16042,30 @@ if (reversed == null) { reversed = false; }
 				textObj._strokeClone = null;
 			};
 		
-			// textObj.on("removed", textObj._onRemovedCleanup);
+			textObj.on("removed", textObj._onRemovedCleanup);
 		
-			// Байрлалыг баталгаажуулах
+			// Ensure position
 			textObj.x = savedX;
 			textObj.y = savedY;
 			strokeText.x = savedX;
 			strokeText.y = savedY;
 		}
-		
 		var exerciseText = {
 			mn: {
 				title: "ШААР ХАГАЛАХ ТЭМЦЭЭН",
 				instruction: "Эгнээ бүрд бүтэн үлдсэн бөмбөлгийн тоо ямар зүй тогтлоор өөрчлөгдөж байгааг олж харна уу. Дунд эгнээнд тохирох энгийн бутархайг олж бичээрэй."
 			},
 			kz: {
-				title: "ШАР ЖАРУ САЙЫЖЫ",
-				instruction: "Хатар бүрүзүндө бүтүн артып калган шарларның тоозу кандыг ёзулал-биле өскерип турганын ажыглаңар. Ортакы хатарга тааржыыр эңгин бөлүктү таап бижиңер."
+				title: "ШАР ЖАРУ ЖАРЫСЫ",
+				instruction: "Әр қатарда бүтін қалған шарлар саны қандай заңдылықпен өзгеріп жатқанын анықтаңдар. Ортаңғы қатарға сәйкес келетін жай бөлшекті тауып жазыңдар."
 			},
 			tuva: {
-				title: "ШАР ЖАРУ САЙЫЖЫ",
-				instruction: "Хатар бүрүзүндө бүтүн артып калган шарларның тоозу кандыг ёзулал-биле өскерип турганын ажыглаңар. Ортакы хатарга тааржыыр эңгин бөлүктү таап бижиңер."
+				title: "ШАР ЧАРЫЛДААР ЧАРЫШ",
+				instruction: "Эн бүрүзүнде бүдүн арткан бөмбөлөктөр саны кандыг зүй тогтол-биле өскерлип турарын тып көрүңер. Ортуку энге тааржыр энгийн үүрмекти тып бижиңер."
+			},
+			sign: {
+				title: "ШААР ХАГАЛАХ ТЭМЦЭЭН",
+				instruction: "Эгнээ бүрд бүтэн үлдсэн шааруудын тоо ямар зүй тогтлоор өөрчлөгдөж байгааг олж харна уу. Дунд эгнээнд тохирох энгийн бутархайг олж бичээрэй."
 			},
 			sign: {
 				title: "ШААР ХАГАЛАХ ТЭМЦЭЭН",
@@ -15047,31 +16076,33 @@ if (reversed == null) { reversed = false; }
 		var lang = exportRoot.gameState.selectedLanguage || "mn";
 		var texts = exerciseText[lang];
 		
-		function findTextByContent(container, content) {
+		function findTextByName(container, name) {
 			if (!container) return null;
 		
-			if (container instanceof createjs.Text && container.text === content) {
+			if (container.name === name) {
 				return container;
 			}
 		
 			if (!container.numChildren) return null;
 		
 			for (var i = 0; i < container.numChildren; i++) {
-				var found = findTextByContent(container.getChildAt(i), content);
+				var found = findTextByName(container.getChildAt(i), name);
 				if (found) return found;
 			}
 		
 			return null;
 		}
 		
-		var txt_title = findTextByContent(exportRoot, "txt_title");
-		var txt_instruction = findTextByContent(exportRoot, "txt_instruction");
+		// Одоо ингэж дуудах
+		var txt_title = findTextByName(exportRoot, "txt_title");
+		var txt_instruction = findTextByName(exportRoot, "txt_instruction");
 		
 		
-		console.log("exerciseText[lang]");
-		console.log(exerciseText[lang]);
-		console.log(exportRoot.txt_title);
+		
 		if (txt_title) {
+			if (txt_title.cacheCanvas) {
+				txt_title.uncache();
+			}
 			txt_title.text = texts.title;
 			applyTextStyling(txt_title, {
 				outlineSize: 15,
@@ -15079,9 +16110,11 @@ if (reversed == null) { reversed = false; }
 				fillColor: "#FFFFFF",
 				pad: 80
 			});
-		}else {
+		} else {
 			console.log("exportRoot.txt_title not found");
 		}
+		
+		
 		
 		if (txt_instruction) {
 			txt_instruction.text = texts.instruction;
@@ -15127,7 +16160,7 @@ if (reversed == null) { reversed = false; }
 			lessonId:              "lesson6",
 			lessonFolder:          "Lesson6",
 			videoId:               "map11",
-			videoFile:             "./videos/lesson6_map11.mp4",
+			videoFile:             "./videos/lesson6_map11.webm",
 			containerId:           "success-video-map11",
 			backgroundColor:       "#6B4FBB",
 			zIndex:                "9999",
@@ -15490,119 +16523,59 @@ if (reversed == null) { reversed = false; }
 	this.voice_btn.setTransform(1823.5,391);
 	new cjs.ButtonHelper(this.voice_btn, 0, 1, 1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.voice_btn},{t:this.help_btn},{t:this.home_btn},{t:this.btn_back},{t:this.btn_next}]},7).to({state:[]},22).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.voice_btn},{t:this.help_btn},{t:this.home_btn},{t:this.btn_back},{t:this.btn_next}]},8).to({state:[]},21).wait(1));
 
 	// text
-	this.text = new cjs.Text("Тэнцүү биш хэсэгт \nхуваасан", "42px 'Roboto'");
-	this.text.textAlign = "center";
-	this.text.lineHeight = 51;
-	this.text.lineWidth = 812;
-	this.text.parent = this;
-	this.text.setTransform(1173,234);
+	this.mc_ex1_tex1 = new lib.mc_ex1_tex1();
+	this.mc_ex1_tex1.name = "mc_ex1_tex1";
+	this.mc_ex1_tex1.setTransform(849.2,311.6,1,1,0,0,0,731.8,79.6);
 
-	this.text_1 = new cjs.Text("Тэнцүү хэсэгт хуваасан", "42px 'Roboto'");
-	this.text_1.textAlign = "center";
-	this.text_1.lineHeight = 51;
-	this.text_1.lineWidth = 812;
-	this.text_1.parent = this;
-	this.text_1.setTransform(525.3,234);
+	this.mc_ex2_tex1 = new lib.mc_ex2_tex1();
+	this.mc_ex2_tex1.name = "mc_ex2_tex1";
+	this.mc_ex2_tex1.setTransform(949.85,299.85,1,1,0,0,0,699.4,79.6);
 
-	this.text_2 = new cjs.Text("Дөрөвний дөрөв", "normal 400 30px 'Roboto'");
-	this.text_2.textAlign = "center";
-	this.text_2.lineHeight = 40;
-	this.text_2.lineWidth = 239;
-	this.text_2.parent = this;
-	this.text_2.setTransform(1546.6,776.45);
+	this.mc_ex3_tex1 = new lib.mc_ex3_tex1();
+	this.mc_ex3_tex1.name = "mc_ex3_tex1";
+	this.mc_ex3_tex1.setTransform(949.85,229.45,1,1,0,0,0,699.4,79.6);
+
+	this.txt_instruction = new cjs.Text("txt_instruction", "normal 400 35px 'Roboto'");
+	this.txt_instruction.name = "txt_instruction";
+	this.txt_instruction.textAlign = "center";
+	this.txt_instruction.lineHeight = 48;
+	this.txt_instruction.lineWidth = 1398;
+	this.txt_instruction.parent = this;
+	this.txt_instruction.setTransform(1010.6,360.55);
 	if(!lib.properties.webfonts['Roboto']) {
 		lib.webFontTxtInst['Roboto'] = lib.webFontTxtInst['Roboto'] || [];
-		lib.webFontTxtInst['Roboto'].push(this.text_2);
+		lib.webFontTxtInst['Roboto'].push(this.txt_instruction);
 	}
 
-	this.text_3 = new cjs.Text("Дөрөвний гурав", "normal 400 30px 'Roboto'");
-	this.text_3.textAlign = "center";
-	this.text_3.lineHeight = 40;
-	this.text_3.lineWidth = 231;
-	this.text_3.parent = this;
-	this.text_3.setTransform(1543.9,698.15);
+	this.txt_title = new cjs.Text("txt_title", "normal 700 50px 'Roboto'", "#FFFFFF");
+	this.txt_title.name = "txt_title";
+	this.txt_title.textAlign = "center";
+	this.txt_title.lineHeight = 68;
+	this.txt_title.lineWidth = 843;
+	this.txt_title.parent = this;
+	this.txt_title.setTransform(1012.65,140.3);
+	this.txt_title.shadow = new cjs.Shadow("rgba(70,26,23,1)",0,0,6);
 	if(!lib.properties.webfonts['Roboto']) {
 		lib.webFontTxtInst['Roboto'] = lib.webFontTxtInst['Roboto'] || [];
-		lib.webFontTxtInst['Roboto'].push(this.text_3);
+		lib.webFontTxtInst['Roboto'].push(this.txt_title);
 	}
 
-	this.text_4 = new cjs.Text("Дөрөвний хоёр", "normal 400 30px 'Roboto'");
-	this.text_4.textAlign = "center";
-	this.text_4.lineHeight = 40;
-	this.text_4.lineWidth = 221;
-	this.text_4.parent = this;
-	this.text_4.setTransform(1536.3,617.7);
-	if(!lib.properties.webfonts['Roboto']) {
-		lib.webFontTxtInst['Roboto'] = lib.webFontTxtInst['Roboto'] || [];
-		lib.webFontTxtInst['Roboto'].push(this.text_4);
-	}
-
-	this.text_5 = new cjs.Text("Дөрөвний нэг", "normal 400 30px 'Roboto'");
-	this.text_5.textAlign = "center";
-	this.text_5.lineHeight = 40;
-	this.text_5.lineWidth = 203;
-	this.text_5.parent = this;
-	this.text_5.setTransform(1535.15,540.25);
-	if(!lib.properties.webfonts['Roboto']) {
-		lib.webFontTxtInst['Roboto'] = lib.webFontTxtInst['Roboto'] || [];
-		lib.webFontTxtInst['Roboto'].push(this.text_5);
-	}
-
-	this.text_6 = new cjs.Text("Гурван бүхэл", "normal 400 30px 'Roboto'");
-	this.text_6.textAlign = "center";
-	this.text_6.lineHeight = 40;
-	this.text_6.lineWidth = 217;
-	this.text_6.parent = this;
-	this.text_6.setTransform(851.5,774.3);
-	if(!lib.properties.webfonts['Roboto']) {
-		lib.webFontTxtInst['Roboto'] = lib.webFontTxtInst['Roboto'] || [];
-		lib.webFontTxtInst['Roboto'].push(this.text_6);
-	}
-
-	this.text_7 = new cjs.Text("Гуравны гурав", "normal 400 30px 'Roboto'");
-	this.text_7.textAlign = "center";
-	this.text_7.lineHeight = 40;
-	this.text_7.lineWidth = 217;
-	this.text_7.parent = this;
-	this.text_7.setTransform(852.55,696);
-	if(!lib.properties.webfonts['Roboto']) {
-		lib.webFontTxtInst['Roboto'] = lib.webFontTxtInst['Roboto'] || [];
-		lib.webFontTxtInst['Roboto'].push(this.text_7);
-	}
-
-	this.text_8 = new cjs.Text("Гуравны хоёр", "normal 400 30px 'Roboto'");
-	this.text_8.textAlign = "center";
-	this.text_8.lineHeight = 40;
-	this.text_8.lineWidth = 203;
-	this.text_8.parent = this;
-	this.text_8.setTransform(849.9,615.7);
-	if(!lib.properties.webfonts['Roboto']) {
-		lib.webFontTxtInst['Roboto'] = lib.webFontTxtInst['Roboto'] || [];
-		lib.webFontTxtInst['Roboto'].push(this.text_8);
-	}
-
-	this.text_9 = new cjs.Text("Гуравны нэг", "normal 400 30px 'Roboto'");
-	this.text_9.lineHeight = 40;
-	this.text_9.lineWidth = 203;
-	this.text_9.parent = this;
-	this.text_9.setTransform(749.35,538.25);
-	if(!lib.properties.webfonts['Roboto']) {
-		lib.webFontTxtInst['Roboto'] = lib.webFontTxtInst['Roboto'] || [];
-		lib.webFontTxtInst['Roboto'].push(this.text_9);
-	}
+	this.mc_ex4_tex1 = new lib.mc_ex4_tex1();
+	this.mc_ex4_tex1.name = "mc_ex4_tex1";
+	this.mc_ex4_tex1.setTransform(1204.45,677.25,1,1,0,0,0,463.4,141);
 
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1).p("ABtEKIjYAAIAAoTIDYAA");
 	this.shape.setTransform(387.05,770.025);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1).p("AhrhzIAAksIDYAAABtB0IjYAAIAAjnIDYAAABtGgIjYAAIAAks");
+	this.shape_1.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1).p("AhrhzIAAksIDYAAAhrhzIDYAAAhrB0IAAjnABtB0IjYAAABtGgIjYAAIAAks");
 	this.shape_1.setTransform(387.05,755.025);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.text_1,p:{x:525.3,y:234,text:"Тэнцүү хэсэгт хуваасан",font:"42px 'Roboto'",color:"#000000",lineHeight:51.2,lineWidth:812}},{t:this.text,p:{x:1173,y:234,text:"Тэнцүү биш хэсэгт \nхуваасан",lineWidth:812,font:"42px 'Roboto'",lineHeight:51.2}}]},2).to({state:[]},1).to({state:[{t:this.text,p:{x:949.85,y:222.25,text:"Дугуй дүрсний 2/4 хэсгийг будъя.\nАль хэсгийг будахаа өөрсдөө сонгоорой.",lineWidth:1395,font:"42px 'Roboto'",lineHeight:51.2}}]},1).to({state:[]},1).to({state:[{t:this.text,p:{x:949.85,y:151.85,text:"Харин дөрвөн тэнцүү хуваасан тэгш өнцөгтийн 2/4-ыг  будах хэдэн өөр боломж байна вэ? \nНайзууд аа. Үүнийг бие дааж хийгээрэй. ",lineWidth:1395,font:"42px 'Roboto'",lineHeight:51.2}}]},1).to({state:[]},1).to({state:[{t:this.text_1,p:{x:1012.65,y:140.3,text:"txt_title",font:"50px 'Arial'",color:"#FFFFFF",lineHeight:82.35,lineWidth:843}},{t:this.text,p:{x:1010.6,y:360.55,text:"txt_instruction",lineWidth:1398,font:"35px 'Arial'",lineHeight:48.45}}]},1).to({state:[{t:this.text_9},{t:this.text_8},{t:this.text_7},{t:this.text_6},{t:this.text_5},{t:this.text_4},{t:this.text_3},{t:this.text_2},{t:this.text_1,p:{x:1012.65,y:140.3,text:"txt_title",font:"50px 'Arial'",color:"#FFFFFF",lineHeight:82.35,lineWidth:843}},{t:this.text,p:{x:1008.65,y:352.55,text:"txt_instruction",lineWidth:1098,font:"35px 'Arial'",lineHeight:48.45}}]},2).to({state:[{t:this.shape,p:{y:770.025}},{t:this.text_1,p:{x:1012.65,y:140.3,text:"txt_title",font:"50px 'Arial'",color:"#FFFFFF",lineHeight:82.35,lineWidth:843}},{t:this.text,p:{x:1010.6,y:352.55,text:"txt_instruction",lineWidth:1398,font:"35px 'Arial'",lineHeight:48.45}}]},2).to({state:[{t:this.text_1,p:{x:1012.65,y:140.3,text:"txt_title",font:"50px 'Arial'",color:"#FFFFFF",lineHeight:82.35,lineWidth:843}},{t:this.text,p:{x:1010.6,y:354.55,text:"txt_instruction",lineWidth:1398,font:"35px 'Arial'",lineHeight:48.45}}]},2).to({state:[{t:this.shape,p:{y:770.025}},{t:this.text_1,p:{x:1012.65,y:140.3,text:"txt_title",font:"50px 'Arial'",color:"#FFFFFF",lineHeight:82.35,lineWidth:843}},{t:this.text,p:{x:1010.6,y:354.55,text:"txt_instruction",lineWidth:1398,font:"35px 'Arial'",lineHeight:48.45}}]},2).to({state:[{t:this.shape_1},{t:this.text_1,p:{x:1008,y:140.6,text:"txt_title",font:"50px 'Arial'",color:"#FFFFFF",lineHeight:82.35,lineWidth:843}},{t:this.text,p:{x:1010.6,y:354.55,text:"txt_instruction",lineWidth:1398,font:"35px 'Arial'",lineHeight:48.45}}]},2).to({state:[{t:this.shape_1},{t:this.text_1,p:{x:1008,y:140.3,text:"txt_title",font:"50px 'Arial'",color:"#FFFFFF",lineHeight:82.35,lineWidth:843}},{t:this.text,p:{x:1010.6,y:354.55,text:"txt_instruction",lineWidth:1398,font:"35px 'Arial'",lineHeight:48.45}}]},2).to({state:[{t:this.shape_1},{t:this.text_1,p:{x:1012.65,y:140.3,text:"txt_title",font:"50px 'Arial'",color:"#FFFFFF",lineHeight:82.35,lineWidth:843}},{t:this.text,p:{x:1230.55,y:354.55,text:"txt_instruction",lineWidth:958,font:"35px 'Arial'",lineHeight:48.45}}]},2).to({state:[{t:this.shape_1},{t:this.text_1,p:{x:1012.65,y:140.3,text:"txt_title",font:"50px 'Arial'",color:"#FFFFFF",lineHeight:82.35,lineWidth:843}},{t:this.text,p:{x:1010.6,y:354.55,text:"txt_instruction",lineWidth:1398,font:"35px 'Arial'",lineHeight:48.45}}]},2).to({state:[{t:this.shape,p:{y:740.025}},{t:this.text_1,p:{x:1012.65,y:140.3,text:"txt_title",font:"50px 'Arial'",color:"#FFFFFF",lineHeight:82.35,lineWidth:843}},{t:this.text,p:{x:1010.6,y:354.55,text:"txt_instruction",lineWidth:1398,font:"35px 'Arial'",lineHeight:48.45}}]},2).to({state:[{t:this.shape,p:{y:740.025}},{t:this.text_1,p:{x:1012.65,y:140.3,text:"txt_title",font:"50px 'Arial'",color:"#FFFFFF",lineHeight:82.35,lineWidth:843}},{t:this.text,p:{x:1010.6,y:354.55,text:"txt_instruction",lineWidth:1398,font:"35px 'Arial'",lineHeight:48.45}}]},2).to({state:[]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.mc_ex1_tex1}]},2).to({state:[]},1).to({state:[{t:this.mc_ex2_tex1}]},1).to({state:[]},1).to({state:[{t:this.mc_ex3_tex1}]},1).to({state:[]},1).to({state:[{t:this.txt_title,p:{lineHeight:68.35,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1010.6,y:360.55,lineWidth:1398,lineHeight:48.45}}]},1).to({state:[{t:this.txt_title,p:{lineHeight:68.35,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1008.65,y:352.55,lineWidth:1098,lineHeight:48.45}},{t:this.mc_ex4_tex1}]},2).to({state:[{t:this.shape,p:{y:770.025}},{t:this.txt_title,p:{lineHeight:52,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1010.6,y:352.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.txt_title,p:{lineHeight:52,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.shape,p:{y:770.025}},{t:this.txt_title,p:{lineHeight:52,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.shape_1},{t:this.txt_title,p:{lineHeight:52,x:1008,y:140.6}},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.shape_1},{t:this.txt_title,p:{lineHeight:52,x:1008,y:140.3}},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.shape_1},{t:this.txt_title,p:{lineHeight:52,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1230.55,y:354.55,lineWidth:958,lineHeight:40.75}}]},2).to({state:[{t:this.shape_1},{t:this.txt_title,p:{lineHeight:52,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.shape,p:{y:740.025}},{t:this.txt_title,p:{lineHeight:52,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.shape,p:{y:740.025}},{t:this.txt_title,p:{lineHeight:52,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[]},1).wait(1));
 
 	// hariult
 	this.input_1_14 = new lib.input_1();
@@ -16624,9 +17597,9 @@ if (reversed == null) { reversed = false; }
 	this.txt_subtitle.name = "txt_subtitle";
 	this.txt_subtitle.textAlign = "center";
 	this.txt_subtitle.lineHeight = 59;
-	this.txt_subtitle.lineWidth = 1706;
+	this.txt_subtitle.lineWidth = 1302;
 	this.txt_subtitle.parent = this;
-	this.txt_subtitle.setTransform(974.45,485.9);
+	this.txt_subtitle.setTransform(961.25,485.9);
 
 	this.main_txt_title = new cjs.Text("ТОГЛООМЫН ХОТ", "bold 72px 'Rubik'", "#38019A");
 	this.main_txt_title.name = "main_txt_title";
@@ -16684,7 +17657,7 @@ if (reversed == null) { reversed = false; }
 	this.target_8_1_1.alpha = 0.0117;
 
 	this.instance_27 = new lib.lesson6_8();
-	this.instance_27.setTransform(385,379,0.9669,0.9668);
+	this.instance_27.setTransform(408,379,0.9669,0.9668);
 
 	this.instance_28 = new lib.lesson6_9Group2copy9();
 	this.instance_28.setTransform(631,724,1.0998,1.0998);
