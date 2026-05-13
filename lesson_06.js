@@ -21,7 +21,8 @@ lib.ssMetadata = [
 		{name:"lesson_06_atlas_11", frames: [[0,0,1920,1080]]},
 		{name:"lesson_06_atlas_12", frames: [[0,0,1920,1080]]},
 		{name:"lesson_06_atlas_13", frames: [[0,0,1920,1080]]},
-		{name:"lesson_06_atlas_14", frames: [[0,0,1928,1187]]}
+		{name:"lesson_06_atlas_14", frames: [[0,0,1920,1080]]},
+		{name:"lesson_06_atlas_15", frames: [[0,0,1928,1187]]}
 ];
 
 
@@ -130,7 +131,7 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 (lib._06storyinteractive = function() {
-	this.initialize(ss["lesson_06_atlas_14"]);
+	this.initialize(ss["lesson_06_atlas_15"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -256,7 +257,7 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 (lib.bg_lessonnhiih = function() {
-	this.initialize(ss["lesson_06_atlas_13"]);
+	this.initialize(ss["lesson_06_atlas_14"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -466,14 +467,14 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 (lib.lesson6_inter_bg3_02618 = function() {
-	this.initialize(ss["lesson_06_atlas_12"]);
+	this.initialize(ss["lesson_06_atlas_13"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lesson6_inter_bg4_03532 = function() {
-	this.initialize(ss["lesson_06_atlas_11"]);
+	this.initialize(ss["lesson_06_atlas_12"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -536,8 +537,8 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 (lib.lesson_bg = function() {
-	this.initialize(ss["lesson_06_atlas_10"]);
-	this.gotoAndStop(1);
+	this.initialize(ss["lesson_06_atlas_11"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -741,6 +742,13 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 (lib.true0012 = function() {
 	this.initialize(ss["lesson_06_atlas_3"]);
 	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.unlogo = function() {
+	this.initialize(ss["lesson_06_atlas_10"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -9921,7 +9929,7 @@ if (reversed == null) { reversed = false; }
 		var exerciseText = {
 			mn: {
 				title: "ЭРГЭДЭГ ХҮРД",
-				instruction: "Будагдаагүй хэсэг нь нийт хүрдийн хэдэн хэсэг болхийг олж тохирох энгийн бутархайг сонгоно уу."
+				instruction: "Будагдаагүй хэсэг нь нийт хүрдийн хэдэн хэсэг болохыг олж тохирох энгийн бутархайг сонгоно уу."
 			},
 			kz: {
 				title: "АЙНАЛМАЛЫ ДӨҢГЕЛЕК",
@@ -9933,11 +9941,11 @@ if (reversed == null) { reversed = false; }
 			},
 			sign: {
 				title: "ЭРГЭДЭГ ХҮРД",
-				instruction: "Будагдаагүй хэсэг нь нийт хүрдийн хэдэн хэсэг болхийг олж тохирох энгийн бутархайг сонгоно уу."
+				instruction: "Будагдаагүй хэсэг нь нийт хүрдийн хэдэн хэсэг болохыг олж тохирох энгийн бутархайг сонгоно уу."
 			},
 			blind: {
 				title: "ЭРГЭДЭГ ХҮРД",
-				instruction: "Будагдаагүй хэсэг нь нийт хүрдийн хэдэн хэсэг болхийг олж тохирох энгийн бутархайг сонгоно уу."
+				instruction: "Будагдаагүй хэсэг нь нийт хүрдийн хэдэн хэсэг болохыг олж тохирох энгийн бутархайг сонгоно уу."
 			}
 		};
 		
@@ -14541,6 +14549,9 @@ if (reversed == null) { reversed = false; }
 		// =====================================================
 		// PROGRESS SOUND LOGIC
 		// =====================================================
+		// =====================================================
+		// PROGRESS SOUND LOGIC
+		// =====================================================
 		function evaluateProgressSound() {
 			var f0 = 1 / 4;
 			var f1 = getFraction("input_9_1_1", "input_9_1_2");
@@ -14550,22 +14561,49 @@ if (reversed == null) { reversed = false; }
 			var progress = exportRoot.gameState[CONFIG.progressKey];
 			var changed = false;
 		
-			if (f1 !== null && f0 < f1 && !progress.step1) {
-				progress.step1 = true;
-				changed = true;
+			// ✅ Reset flags if chain is broken
+			if (f1 === null || f0 >= f1) {
+				if (progress.step1) changed = true;
+				progress.step1 = false;
+				progress.step2 = false;
+				progress.step3 = false;
 			}
-			if (f1 !== null && f2 !== null && f1 < f2 && !progress.step2) {
-				progress.step2 = true;
-				changed = true;
+			else if (f2 === null || f1 >= f2) {
+				if (progress.step2) changed = true;
+				progress.step2 = false;
+				progress.step3 = false;
 			}
-			if (f2 !== null && f3 !== null && f2 < f3 && !progress.step3) {
-				progress.step3 = true;
-				changed = true;
+			else if (f3 === null || f2 >= f3) {
+				if (progress.step3) changed = true;
+				progress.step3 = false;
+			}
+			// ✅ Only mark steps when chain is valid
+			else {
+				// Step 1: f0 < f1
+				if (f1 !== null && f0 < f1 && !progress.step1) {
+					progress.step1 = true;
+					changed = true;
+					playSound("correct");
+				}
+				
+				// Step 2: f0 < f1 < f2
+				if (f1 !== null && f2 !== null && f0 < f1 && f1 < f2 && !progress.step2) {
+					progress.step2 = true;
+					changed = true;
+					playSound("correct");
+				}
+				
+				// Step 3: f0 < f1 < f2 < f3
+				if (f1 !== null && f2 !== null && f3 !== null && 
+				    f0 < f1 && f1 < f2 && f2 < f3 && !progress.step3) {
+					progress.step3 = true;
+					changed = true;
+					playSound("correct");
+				}
 			}
 		
 			if (changed) {
 				exportRoot.saveState();
-				playSound("correct");
 			}
 		}
 		
@@ -16124,43 +16162,87 @@ if (reversed == null) { reversed = false; }
 		var exportRoot = this;
 		exportRoot.stop();
 		
-		function hideAllStageChildren() {
-		    if (!exportRoot || !exportRoot.children) return;
-		
-		    exportRoot.children.forEach(function(child) {
-		        // restart button-оо үлдээнэ
-		        if (child !== exportRoot.btn_restart) {
-		            child.visible = false;
-		        }
-		    });
-		}
-		
 		var canvas = document.getElementById("canvas");
 		if (canvas) canvas.style.backgroundColor = "transparent";
 		
-		if (exportRoot.txt_title) exportRoot.txt_title.visible = false;
+		// =====================================================
+		// ✨ CLEANUP ALL PREVIOUS EXERCISE ELEMENTS ✨
+		// =====================================================
 		
-		if (exportRoot.txt_title) {
-		    exportRoot.txt_title.visible = false;
-		    if (exportRoot.txt_title._strokeClone && exportRoot.txt_title._strokeClone.parent) {
-		        exportRoot.txt_title._strokeClone.parent.removeChild(exportRoot.txt_title._strokeClone);
-		    }
+		// Helper function to remove text and its stroke clone
+		function removeTextWithStroke(textObj) {
+			if (!textObj) return;
+			// Remove stroke clone first
+			if (textObj._strokeClone && textObj._strokeClone.parent) {
+				textObj._strokeClone.parent.removeChild(textObj._strokeClone);
+				textObj._strokeClone = null;
+			}
+			// Hide original text
+			textObj.visible = false;
 		}
 		
-		if (exportRoot.txt_instruction) {
-		    exportRoot.txt_instruction.visible = false;
-		    if (exportRoot.txt_instruction._strokeClone && exportRoot.txt_instruction._strokeClone.parent) {
-		        exportRoot.txt_instruction._strokeClone.parent.removeChild(exportRoot.txt_instruction._strokeClone);
-		    }
+		function cleanupPreviousExercises() {
+			// Hide/remove text elements with their stroke clones
+			removeTextWithStroke(exportRoot.txt_title);
+			removeTextWithStroke(exportRoot.txt_instruction);
+			removeTextWithStroke(exportRoot.txt_subject);
+			removeTextWithStroke(exportRoot.txt_grade);
+			
+			// Hide character
+			if (exportRoot.Emoji_result) exportRoot.Emoji_result.visible = false;
+			
+			// Hide help button and popup
+			if (exportRoot.help_btn) exportRoot.help_btn.visible = false;
+			if (exportRoot.help_popup) exportRoot.help_popup.visible = false;
+			
+			// Hide navigation buttons temporarily
+			if (exportRoot.btn_back) exportRoot.btn_back.visible = false;
+			if (exportRoot.btn_next) exportRoot.btn_next.visible = false;
+			if (exportRoot.btn_home) exportRoot.btn_home.visible = false;
+			
+			// Remove any HTML inputs from previous exercises
+			var allInputIds = [
+				"html_ans_1", "html_ans_2",
+				"html_ex9_ans",
+				"html_ex7_ans_1", "html_ex7_ans_2", "html_ex7_ans_3",
+				"html_ex7_ans_4", "html_ex7_ans_5", "html_ex7_ans_6",
+				"html_ex10_ans_1", "html_ex10_ans_2", "html_ex10_ans_3",
+				"html_ex10_ans_4", "html_ex10_ans_5", "html_ex10_ans_6",
+				"html_ex10_ans_7", "html_ex10_ans_8", "html_ex10_ans_9"
+			];
+			allInputIds.forEach(function(id) {
+				var el = document.getElementById(id);
+				if (el && el.parentNode) {
+					el.parentNode.removeChild(el);
+				}
+			});
+			
+			// Hide any movie clips (exercises)
+			for (var i = 1; i <= 10; i++) {
+				if (exportRoot["mc_ex" + i]) {
+					exportRoot["mc_ex" + i].visible = false;
+				}
+			}
+			
+			// Call global cleanup if it exists
+			if (exportRoot.cleanupAllExercises) {
+				exportRoot.cleanupAllExercises();
+			}
 		}
+		
+		// Run cleanup immediately
+		cleanupPreviousExercises();
+		
+		// Run cleanup immediately
+		cleanupPreviousExercises();
 		// =====================================================
 		// CONFIG
 		// =====================================================
 		var CONFIG = {
-			lessonId:              "lesson6",
-			lessonFolder:          "Lesson6",
+			lessonId:              "lesson06",
+			lessonFolder:          "Lesson06",
 			videoId:               "map11",
-			videoFile:             "./videos/lesson6_map11.webm",
+			videoFile:             "./videos/lesson6_map11.mp4",
 			containerId:           "success-video-map11",
 			backgroundColor:       "#6B4FBB",
 			zIndex:                "9999",
@@ -16351,7 +16433,7 @@ if (reversed == null) { reversed = false; }
 		    });
 		    exportRoot.btn_restart.on("click", function() {
 		        cleanup();
-		        try { sessionStorage.removeItem("Lesson6_gameState"); } catch(e) {}
+		        try { sessionStorage.removeItem("Lesson13_gameState"); } catch(e) {}
 		        location.reload();
 		    });
 		}
@@ -16378,7 +16460,6 @@ if (reversed == null) { reversed = false; }
 		// MAIN VIDEO
 		// =====================================================
 		function createSuccessVideo() {
-			hideAllStageChildren();
 			var existingContainer = document.getElementById(CONFIG.containerId);
 			if (existingContainer && existingContainer.parentNode) {
 				existingContainer.parentNode.removeChild(existingContainer);
@@ -16498,6 +16579,8 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.Emoji_result).wait(8).to({_off:false},0).to({_off:true},21).wait(1));
 
 	// btn_main_new
+	this.instance_1 = new lib.unlogo();
+
 	this.btn_next = new lib.btn_next();
 	this.btn_next.name = "btn_next";
 	this.btn_next.setTransform(1061.5,1016);
@@ -16523,7 +16606,7 @@ if (reversed == null) { reversed = false; }
 	this.voice_btn.setTransform(1823.5,391);
 	new cjs.ButtonHelper(this.voice_btn, 0, 1, 1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.voice_btn},{t:this.help_btn},{t:this.home_btn},{t:this.btn_back},{t:this.btn_next}]},8).to({state:[]},21).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.voice_btn},{t:this.help_btn},{t:this.home_btn},{t:this.btn_back},{t:this.btn_next},{t:this.instance_1}]},8).to({state:[]},21).wait(1));
 
 	// text
 	this.mc_ex1_tex1 = new lib.mc_ex1_tex1();
@@ -16933,8 +17016,8 @@ if (reversed == null) { reversed = false; }
 	this.btn_4_1.name = "btn_4_1";
 	this.btn_4_1.setTransform(394,872,1,1,0,0,0,36.5,61);
 
-	this.instance_1 = new lib.CachedBmp_1();
-	this.instance_1.setTransform(575.75,534.05,0.5,0.5);
+	this.instance_2 = new lib.CachedBmp_1();
+	this.instance_2.setTransform(575.75,534.05,0.5,0.5);
 
 	this.img_7_4 = new lib.img_7_4();
 	this.img_7_4.name = "img_7_4";
@@ -17037,7 +17120,7 @@ if (reversed == null) { reversed = false; }
 	this.img_10_1.name = "img_10_1";
 	this.img_10_1.setTransform(1291.2,539.5,1,1,0,0,0,81.2,80.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.btn_prev_1_1},{t:this.btn_prev_1_2},{t:this.btn_prev_1_3},{t:this.btn_prev_1_4},{t:this.btn_prev_1_5},{t:this.btn_prev_1_6},{t:this.btn_prev_1_7},{t:this.btn_prev_1_8},{t:this.equal_slot_1},{t:this.equal_slot_2},{t:this.equal_slot_3},{t:this.equal_slot_4},{t:this.unequal_slot_1},{t:this.unequal_slot_2},{t:this.unequal_slot_3},{t:this.unequal_slot_4},{t:this.unequal_slot_5},{t:this.unequal_slot_6}]},2).to({state:[]},1).to({state:[{t:this.shape_2},{t:this.part_prev_1},{t:this.part_prev_2},{t:this.part_prev_3},{t:this.part_prev_4}]},1).to({state:[]},1).to({state:[{t:this.btn_2_1_4},{t:this.btn_2_2_3},{t:this.btn_2_1_3},{t:this.btn_2_1_2},{t:this.btn_2_1_1},{t:this.btn_2_2_2},{t:this.btn_2_2_1},{t:this.btn_2_2_4}]},5).to({state:[{t:this.target_3_1_1},{t:this.target_3_1_2},{t:this.target_3_2_1},{t:this.target_3_2_2},{t:this.target_3_2_3},{t:this.target_3_2_4},{t:this.target_3_2_5},{t:this.target_3_3_1},{t:this.target_3_3_2},{t:this.target_3_3_3},{t:this.target_3_4_1},{t:this.target_3_4_2}]},2).to({state:[{t:this.btn_4_1},{t:this.btn_4_2},{t:this.btn_4_3},{t:this.btn_4_4},{t:this.btn_4_5},{t:this.btn_4_6},{t:this.btn_4_7},{t:this.btn_4_8},{t:this.btn_4_9},{t:this.btn_4_10}]},2).to({state:[{t:this.instance_1}]},2).to({state:[]},2).to({state:[{t:this.img_7_1},{t:this.img_7_2},{t:this.img_7_3},{t:this.img_7_4}]},2).to({state:[{t:this.target_8_3},{t:this.target_8_2},{t:this.target_8_4},{t:this.txt_8_1},{t:this.txt_8_2},{t:this.txt_8_3},{t:this.txt_8_4}]},2).to({state:[]},2).to({state:[{t:this.img_10_1},{t:this.img_10_2},{t:this.img_10_3},{t:this.img_10_4},{t:this.img_10_5},{t:this.img_10_6},{t:this.target_10_1},{t:this.target_10_2},{t:this.target_10_3},{t:this.target_10_4},{t:this.target_10_5},{t:this.target_10_6}]},2).to({state:[]},2).wait(2));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.btn_prev_1_1},{t:this.btn_prev_1_2},{t:this.btn_prev_1_3},{t:this.btn_prev_1_4},{t:this.btn_prev_1_5},{t:this.btn_prev_1_6},{t:this.btn_prev_1_7},{t:this.btn_prev_1_8},{t:this.equal_slot_1},{t:this.equal_slot_2},{t:this.equal_slot_3},{t:this.equal_slot_4},{t:this.unequal_slot_1},{t:this.unequal_slot_2},{t:this.unequal_slot_3},{t:this.unequal_slot_4},{t:this.unequal_slot_5},{t:this.unequal_slot_6}]},2).to({state:[]},1).to({state:[{t:this.shape_2},{t:this.part_prev_1},{t:this.part_prev_2},{t:this.part_prev_3},{t:this.part_prev_4}]},1).to({state:[]},1).to({state:[{t:this.btn_2_1_4},{t:this.btn_2_2_3},{t:this.btn_2_1_3},{t:this.btn_2_1_2},{t:this.btn_2_1_1},{t:this.btn_2_2_2},{t:this.btn_2_2_1},{t:this.btn_2_2_4}]},5).to({state:[{t:this.target_3_1_1},{t:this.target_3_1_2},{t:this.target_3_2_1},{t:this.target_3_2_2},{t:this.target_3_2_3},{t:this.target_3_2_4},{t:this.target_3_2_5},{t:this.target_3_3_1},{t:this.target_3_3_2},{t:this.target_3_3_3},{t:this.target_3_4_1},{t:this.target_3_4_2}]},2).to({state:[{t:this.btn_4_1},{t:this.btn_4_2},{t:this.btn_4_3},{t:this.btn_4_4},{t:this.btn_4_5},{t:this.btn_4_6},{t:this.btn_4_7},{t:this.btn_4_8},{t:this.btn_4_9},{t:this.btn_4_10}]},2).to({state:[{t:this.instance_2}]},2).to({state:[]},2).to({state:[{t:this.img_7_1},{t:this.img_7_2},{t:this.img_7_3},{t:this.img_7_4}]},2).to({state:[{t:this.target_8_3},{t:this.target_8_2},{t:this.target_8_4},{t:this.txt_8_1},{t:this.txt_8_2},{t:this.txt_8_3},{t:this.txt_8_4}]},2).to({state:[]},2).to({state:[{t:this.img_10_1},{t:this.img_10_2},{t:this.img_10_3},{t:this.img_10_4},{t:this.img_10_5},{t:this.img_10_6},{t:this.target_10_1},{t:this.target_10_2},{t:this.target_10_3},{t:this.target_10_4},{t:this.target_10_5},{t:this.target_10_6}]},2).to({state:[]},2).wait(2));
 
 	// target
 	this.drop_unequal = new lib.Symbol1();
@@ -17050,8 +17133,8 @@ if (reversed == null) { reversed = false; }
 	this.drop_equal.setTransform(529.05,495.5,3.3861,8.9427);
 	this.drop_equal.alpha = 0.0117;
 
-	this.instance_2 = new lib.Layer1();
-	this.instance_2.setTransform(297,350);
+	this.instance_3 = new lib.Layer1();
+	this.instance_3.setTransform(297,350);
 
 	this.symb_1_6_4 = new lib.symb_1_6_4();
 	this.symb_1_6_4.name = "symb_1_6_4";
@@ -17298,8 +17381,8 @@ if (reversed == null) { reversed = false; }
 	this.btn_3_1_1.setTransform(390.7,788.5,0.2392,2.239,0,0,0,0,-0.2);
 	this.btn_3_1_1.alpha = 0.0117;
 
-	this.instance_3 = new lib.lesson6_3_1();
-	this.instance_3.setTransform(371,753);
+	this.instance_4 = new lib.lesson6_3_1();
+	this.instance_4.setTransform(371,753);
 
 	this.target_4_3 = new lib.target_4_3();
 	this.target_4_3.name = "target_4_3";
@@ -17313,38 +17396,38 @@ if (reversed == null) { reversed = false; }
 	this.target_4_1.name = "target_4_1";
 	this.target_4_1.setTransform(698.7,622,1,1,0,0,0,36.5,61);
 
-	this.instance_4 = new lib.target44();
-	this.instance_4.setTransform(871.5,875.05,1,1,0,0,0,156.5,27);
+	this.instance_5 = new lib.target44();
+	this.instance_5.setTransform(871.5,875.05,1,1,0,0,0,156.5,27);
 
-	this.instance_5 = new lib.target33();
-	this.instance_5.setTransform(871.5,772.55,1,1,0,0,0,156.5,27);
+	this.instance_6 = new lib.target33();
+	this.instance_6.setTransform(871.5,772.55,1,1,0,0,0,156.5,27);
 
-	this.instance_6 = new lib.target22();
-	this.instance_6.setTransform(871.5,669,1,1,0,0,0,156.5,27);
+	this.instance_7 = new lib.target22();
+	this.instance_7.setTransform(871.5,669,1,1,0,0,0,156.5,27);
 
 	this.target_8_1 = new lib.target11();
 	this.target_8_1.name = "target_8_1";
 	this.target_8_1.setTransform(871.4,567.6,1,1,0,0,0,156.5,27);
 
-	this.instance_7 = new lib.target6();
-	this.instance_7.setTransform(1012.5,754.5,1,1,0,0,0,80.5,79.5);
+	this.instance_8 = new lib.target6();
+	this.instance_8.setTransform(1012.5,754.5,1,1,0,0,0,80.5,79.5);
 
-	this.instance_8 = new lib.target5();
-	this.instance_8.setTransform(806.5,759.05,1,1,0,0,0,80.5,79.5);
+	this.instance_9 = new lib.target5();
+	this.instance_9.setTransform(806.5,759.05,1,1,0,0,0,80.5,79.5);
 
-	this.instance_9 = new lib.target4();
-	this.instance_9.setTransform(604.5,759.5,1,1,0,0,0,80.5,79.5);
+	this.instance_10 = new lib.target4();
+	this.instance_10.setTransform(604.5,759.5,1,1,0,0,0,80.5,79.5);
 
-	this.instance_10 = new lib.target3();
-	this.instance_10.setTransform(1013.9,583.5,1,1,0,0,0,80.5,79.5);
+	this.instance_11 = new lib.target3();
+	this.instance_11.setTransform(1013.9,583.5,1,1,0,0,0,80.5,79.5);
 
-	this.instance_11 = new lib.target2();
-	this.instance_11.setTransform(806.9,585.5,1,1,0,0,0,80.5,79.5);
+	this.instance_12 = new lib.target2();
+	this.instance_12.setTransform(806.9,585.5,1,1,0,0,0,80.5,79.5);
 
-	this.instance_12 = new lib.target1();
-	this.instance_12.setTransform(604.75,585.4,1,1,0,0,0,80.5,79.5);
+	this.instance_13 = new lib.target1();
+	this.instance_13.setTransform(604.75,585.4,1,1,0,0,0,80.5,79.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_2},{t:this.drop_equal},{t:this.drop_unequal}]},2).to({state:[]},1).to({state:[{t:this.symb_1_1_1},{t:this.symb_1_1_2},{t:this.symb_1_1_3},{t:this.symb_1_1_4},{t:this.symb_1_2_1},{t:this.symb_1_2_2},{t:this.symb_1_2_3},{t:this.symb_1_2_4},{t:this.symb_1_3_1},{t:this.symb_1_3_2},{t:this.symb_1_3_3},{t:this.symb_1_3_4},{t:this.symb_1_4_1},{t:this.symb_1_4_2},{t:this.symb_1_4_3},{t:this.symb_1_4_4},{t:this.symb_1_5_1},{t:this.symb_1_5_2},{t:this.symb_1_5_3},{t:this.symb_1_5_4},{t:this.symb_1_6_1},{t:this.symb_1_6_2},{t:this.symb_1_6_3},{t:this.symb_1_6_4}]},3).to({state:[]},1).to({state:[{t:this.instance_3},{t:this.btn_3_1_1},{t:this.btn_3_1_2},{t:this.btn_3_1_3},{t:this.btn_3_1_4},{t:this.btn_3_1_5},{t:this.btn_3_1_6},{t:this.btn_3_2_1},{t:this.btn_3_2_2},{t:this.btn_3_2_3},{t:this.btn_3_2_4},{t:this.btn_3_2_5},{t:this.btn_3_2_6},{t:this.btn_3_2_7},{t:this.btn_3_2_8},{t:this.btn_3_2_9},{t:this.btn_3_2_10},{t:this.btn_3_3_1},{t:this.btn_3_3_2},{t:this.btn_3_3_3},{t:this.btn_3_3_4},{t:this.btn_3_3_5},{t:this.btn_3_3_6},{t:this.btn_3_3_7},{t:this.btn_3_3_8},{t:this.btn_3_4_1},{t:this.btn_3_4_2},{t:this.btn_3_4_3},{t:this.btn_3_4_4},{t:this.btn_3_4_5}]},5).to({state:[{t:this.target_4_1},{t:this.target_4_2},{t:this.target_4_3}]},2).to({state:[]},2).to({state:[{t:this.target_8_1},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4}]},6).to({state:[]},2).to({state:[{t:this.instance_12},{t:this.instance_11},{t:this.instance_10},{t:this.instance_9},{t:this.instance_8},{t:this.instance_7}]},2).to({state:[]},2).wait(2));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_3},{t:this.drop_equal},{t:this.drop_unequal}]},2).to({state:[]},1).to({state:[{t:this.symb_1_1_1},{t:this.symb_1_1_2},{t:this.symb_1_1_3},{t:this.symb_1_1_4},{t:this.symb_1_2_1},{t:this.symb_1_2_2},{t:this.symb_1_2_3},{t:this.symb_1_2_4},{t:this.symb_1_3_1},{t:this.symb_1_3_2},{t:this.symb_1_3_3},{t:this.symb_1_3_4},{t:this.symb_1_4_1},{t:this.symb_1_4_2},{t:this.symb_1_4_3},{t:this.symb_1_4_4},{t:this.symb_1_5_1},{t:this.symb_1_5_2},{t:this.symb_1_5_3},{t:this.symb_1_5_4},{t:this.symb_1_6_1},{t:this.symb_1_6_2},{t:this.symb_1_6_3},{t:this.symb_1_6_4}]},3).to({state:[]},1).to({state:[{t:this.instance_4},{t:this.btn_3_1_1},{t:this.btn_3_1_2},{t:this.btn_3_1_3},{t:this.btn_3_1_4},{t:this.btn_3_1_5},{t:this.btn_3_1_6},{t:this.btn_3_2_1},{t:this.btn_3_2_2},{t:this.btn_3_2_3},{t:this.btn_3_2_4},{t:this.btn_3_2_5},{t:this.btn_3_2_6},{t:this.btn_3_2_7},{t:this.btn_3_2_8},{t:this.btn_3_2_9},{t:this.btn_3_2_10},{t:this.btn_3_3_1},{t:this.btn_3_3_2},{t:this.btn_3_3_3},{t:this.btn_3_3_4},{t:this.btn_3_3_5},{t:this.btn_3_3_6},{t:this.btn_3_3_7},{t:this.btn_3_3_8},{t:this.btn_3_4_1},{t:this.btn_3_4_2},{t:this.btn_3_4_3},{t:this.btn_3_4_4},{t:this.btn_3_4_5}]},5).to({state:[{t:this.target_4_1},{t:this.target_4_2},{t:this.target_4_3}]},2).to({state:[]},2).to({state:[{t:this.target_8_1},{t:this.instance_7},{t:this.instance_6},{t:this.instance_5}]},6).to({state:[]},2).to({state:[{t:this.instance_13},{t:this.instance_12},{t:this.instance_11},{t:this.instance_10},{t:this.instance_9},{t:this.instance_8}]},2).to({state:[]},2).wait(2));
 
 	// reshresh4
 	this.img_6_4 = new lib.img_6_4();
@@ -17499,7 +17582,7 @@ if (reversed == null) { reversed = false; }
 
 	this.hitarea_kz = new lib.Symbol1();
 	this.hitarea_kz.name = "hitarea_kz";
-	this.hitarea_kz.setTransform(751.35,969.75,1.6268,2.239,0,0,0,-0.1,-0.2);
+	this.hitarea_kz.setTransform(756.05,961.1,1.6268,2.239,0,0,0,-0.1,-0.2);
 	this.hitarea_kz.alpha = 0;
 
 	this.hitarea_mn = new lib.Symbol1();
@@ -17567,7 +17650,7 @@ if (reversed == null) { reversed = false; }
 	this.txt_tuva.parent = this;
 	this.txt_tuva.setTransform(976.5,947.3);
 
-	this.txt_kz = new cjs.Text("КАЗАК", "40px 'Rubik'", "#998DBF");
+	this.txt_kz = new cjs.Text("КАЗАХ", "40px 'Rubik'", "#998DBF");
 	this.txt_kz.name = "txt_kz";
 	this.txt_kz.lineHeight = 49;
 	this.txt_kz.lineWidth = 246;
@@ -17609,82 +17692,82 @@ if (reversed == null) { reversed = false; }
 	this.main_txt_title.parent = this;
 	this.main_txt_title.setTransform(971.25,389.05);
 
-	this.instance_13 = new lib.MC_Od_1();
-	this.instance_13.setTransform(1611.2,899.35,0.4077,0.4078,0,0,0,1.9,0.2);
+	this.instance_14 = new lib.MC_Od_1();
+	this.instance_14.setTransform(1611.2,899.35,0.4077,0.4078,0,0,0,1.9,0.2);
 
-	this.instance_14 = new lib.MC_Od_2();
-	this.instance_14.setTransform(169.05,517.8,0.7798,0.7791,0,0,180,0.2,0.5);
-
-	this.instance_15 = new lib.lesson_bg();
+	this.instance_15 = new lib.MC_Od_2();
+	this.instance_15.setTransform(169.05,517.8,0.7798,0.7791,0,0,180,0.2,0.5);
 
 	this.instance_16 = new lib.lesson_bg();
 
-	this.instance_17 = new lib.lesson6_inter_bg3_02618();
+	this.instance_17 = new lib.lesson_bg();
 
-	this.instance_18 = new lib.lesson6_inter_bg4_03532();
+	this.instance_18 = new lib.lesson6_inter_bg3_02618();
 
-	this.instance_19 = new lib._1();
-	this.instance_19.setTransform(326,478,0.9256,0.9245);
+	this.instance_19 = new lib.lesson6_inter_bg4_03532();
 
-	this.instance_20 = new lib.lesson6_1();
-	this.instance_20.setTransform(326,479,0.9257,0.9257);
+	this.instance_20 = new lib._1();
+	this.instance_20.setTransform(326,478,0.9256,0.9245);
 
-	this.instance_21 = new lib._22();
-	this.instance_21.setTransform(954,491);
+	this.instance_21 = new lib.lesson6_1();
+	this.instance_21.setTransform(326,479,0.9257,0.9257);
 
-	this.instance_22 = new lib._21();
-	this.instance_22.setTransform(310,501);
+	this.instance_22 = new lib._22();
+	this.instance_22.setTransform(954,491);
 
-	this.instance_23 = new lib.lesson6_3();
-	this.instance_23.setTransform(333,555);
+	this.instance_23 = new lib._21();
+	this.instance_23.setTransform(310,501);
 
-	this.instance_24 = new lib.lesson6_4();
-	this.instance_24.setTransform(351,429,0.9812,0.9812);
+	this.instance_24 = new lib.lesson6_3();
+	this.instance_24.setTransform(333,555);
 
-	this.instance_25 = new lib.lesson6_5();
-	this.instance_25.setTransform(335,459);
+	this.instance_25 = new lib.lesson6_4();
+	this.instance_25.setTransform(351,429,0.9812,0.9812);
+
+	this.instance_26 = new lib.lesson6_5();
+	this.instance_26.setTransform(335,459);
 
 	this.img_6_1 = new lib.img_6_1();
 	this.img_6_1.name = "img_6_1";
 	this.img_6_1.setTransform(1013,691.7,1,1,0,0,0,517,249.7);
 
-	this.instance_26 = new lib.lesson6_7();
-	this.instance_26.setTransform(277,424,0.9697,0.9697);
+	this.instance_27 = new lib.lesson6_7();
+	this.instance_27.setTransform(277,424,0.9697,0.9697);
 
 	this.target_8_1_1 = new lib.Symbol1();
 	this.target_8_1_1.name = "target_8_1_1";
 	this.target_8_1_1.setTransform(875.4,561.35,2.2516,2.239,0,0,0,-0.1,-0.2);
 	this.target_8_1_1.alpha = 0.0117;
 
-	this.instance_27 = new lib.lesson6_8();
-	this.instance_27.setTransform(408,379,0.9669,0.9668);
+	this.instance_28 = new lib.lesson6_8();
+	this.instance_28.setTransform(408,379,0.9669,0.9668);
 
-	this.instance_28 = new lib.lesson6_9Group2copy9();
-	this.instance_28.setTransform(631,724,1.0998,1.0998);
+	this.instance_29 = new lib.lesson6_9Group2copy9();
+	this.instance_29.setTransform(631,724,1.0998,1.0998);
 
-	this.instance_29 = new lib.lesson6_9pngcopy();
-	this.instance_29.setTransform(288,453,1.1122,1.112);
+	this.instance_30 = new lib.lesson6_9pngcopy();
+	this.instance_30.setTransform(288,453,1.1122,1.112);
 
-	this.instance_30 = new lib.lesson6_10();
-	this.instance_30.setTransform(291,445,0.9142,0.9143);
+	this.instance_31 = new lib.lesson6_10();
+	this.instance_31.setTransform(291,445,0.9142,0.9143);
 
-	this.instance_31 = new lib._0611zuraas();
-	this.instance_31.setTransform(343,398,1.1292,1.1307);
+	this.instance_32 = new lib._0611zuraas();
+	this.instance_32.setTransform(343,398,1.1292,1.1307);
 
 	this.btn_restart = new lib.btn_restart();
 	this.btn_restart.name = "btn_restart";
 	this.btn_restart.setTransform(960.75,769.25);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_16},{t:this.instance_15},{t:this.instance_14},{t:this.instance_13},{t:this.main_txt_title},{t:this.txt_subtitle},{t:this.btn_start},{t:this.txt_start},{t:this.txt_mn},{t:this.txt_kz},{t:this.txt_tuva},{t:this.txt_sign},{t:this.txt_subject},{t:this.txt_grade},{t:this.btn_voice},{t:this.btn_mn},{t:this.btn_kz},{t:this.btn_tuva},{t:this.btn_sign},{t:this.checkmark},{t:this.hitarea_sign_1},{t:this.hitarea_mn},{t:this.hitarea_kz},{t:this.hitarea_tuva},{t:this.hitarea_sign},{t:this.btn_visual},{t:this.txt_visual},{t:this.hitarea_visual}]}).to({state:[]},1).to({state:[{t:this.instance_17}]},3).to({state:[]},1).to({state:[{t:this.instance_18}]},1).to({state:[]},1).to({state:[{t:this.instance_20},{t:this.instance_19}]},1).to({state:[{t:this.instance_22},{t:this.instance_21}]},2).to({state:[{t:this.instance_23}]},2).to({state:[{t:this.instance_24}]},2).to({state:[{t:this.instance_25}]},2).to({state:[{t:this.img_6_1}]},2).to({state:[{t:this.instance_26}]},2).to({state:[{t:this.instance_27},{t:this.target_8_1_1}]},2).to({state:[{t:this.instance_29},{t:this.instance_28}]},2).to({state:[{t:this.instance_30}]},2).to({state:[{t:this.instance_31}]},2).to({state:[{t:this.btn_restart}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_17},{t:this.instance_16},{t:this.instance_15},{t:this.instance_14},{t:this.main_txt_title},{t:this.txt_subtitle},{t:this.btn_start},{t:this.txt_start},{t:this.txt_mn},{t:this.txt_kz},{t:this.txt_tuva},{t:this.txt_sign},{t:this.txt_subject},{t:this.txt_grade},{t:this.btn_voice},{t:this.btn_mn},{t:this.btn_kz},{t:this.btn_tuva},{t:this.btn_sign},{t:this.checkmark},{t:this.hitarea_sign_1},{t:this.hitarea_mn},{t:this.hitarea_kz},{t:this.hitarea_tuva},{t:this.hitarea_sign},{t:this.btn_visual},{t:this.txt_visual},{t:this.hitarea_visual}]}).to({state:[]},1).to({state:[{t:this.instance_18}]},3).to({state:[]},1).to({state:[{t:this.instance_19}]},1).to({state:[]},1).to({state:[{t:this.instance_21},{t:this.instance_20}]},1).to({state:[{t:this.instance_23},{t:this.instance_22}]},2).to({state:[{t:this.instance_24}]},2).to({state:[{t:this.instance_25}]},2).to({state:[{t:this.instance_26}]},2).to({state:[{t:this.img_6_1}]},2).to({state:[{t:this.instance_27}]},2).to({state:[{t:this.instance_28},{t:this.target_8_1_1}]},2).to({state:[{t:this.instance_30},{t:this.instance_29}]},2).to({state:[{t:this.instance_31}]},2).to({state:[{t:this.instance_32}]},2).to({state:[{t:this.btn_restart}]},1).wait(1));
 
 	// bg
-	this.instance_32 = new lib._06storyinteractive();
+	this.instance_33 = new lib._06storyinteractive();
 
-	this.instance_33 = new lib.bg_lessonnhiih();
-	this.instance_33._off = true;
+	this.instance_34 = new lib.bg_lessonnhiih();
+	this.instance_34._off = true;
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_32}]},2).to({state:[]},1).to({state:[{t:this.instance_33}]},5).to({state:[{t:this.instance_33}]},2).to({state:[{t:this.instance_33}]},2).to({state:[{t:this.instance_33}]},2).to({state:[{t:this.instance_33}]},2).to({state:[{t:this.instance_33}]},2).to({state:[{t:this.instance_33}]},2).to({state:[{t:this.instance_33}]},2).to({state:[{t:this.instance_33}]},2).to({state:[{t:this.instance_33}]},2).to({state:[{t:this.instance_33}]},2).to({state:[]},1).wait(1));
-	this.timeline.addTween(cjs.Tween.get(this.instance_33).wait(8).to({_off:false},0).wait(20).to({_off:true},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_33}]},2).to({state:[]},1).to({state:[{t:this.instance_34}]},5).to({state:[{t:this.instance_34}]},2).to({state:[{t:this.instance_34}]},2).to({state:[{t:this.instance_34}]},2).to({state:[{t:this.instance_34}]},2).to({state:[{t:this.instance_34}]},2).to({state:[{t:this.instance_34}]},2).to({state:[{t:this.instance_34}]},2).to({state:[{t:this.instance_34}]},2).to({state:[{t:this.instance_34}]},2).to({state:[{t:this.instance_34}]},2).to({state:[]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_34).wait(8).to({_off:false},0).wait(20).to({_off:true},1).wait(1));
 
 	// shar
 	this.shape_3 = new cjs.Shape();
@@ -17724,7 +17807,8 @@ lib.properties = {
 		{src:"images/lesson_06_atlas_11.png", id:"lesson_06_atlas_11"},
 		{src:"images/lesson_06_atlas_12.png", id:"lesson_06_atlas_12"},
 		{src:"images/lesson_06_atlas_13.png", id:"lesson_06_atlas_13"},
-		{src:"images/lesson_06_atlas_14.png", id:"lesson_06_atlas_14"}
+		{src:"images/lesson_06_atlas_14.png", id:"lesson_06_atlas_14"},
+		{src:"images/lesson_06_atlas_15.png", id:"lesson_06_atlas_15"}
 	],
 	preloads: []
 };
