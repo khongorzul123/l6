@@ -13,7 +13,7 @@ lib.ssMetadata = [
 		{name:"lesson_06_atlas_3", frames: [[0,0,482,578],[0,580,482,578],[0,1160,482,578],[484,0,482,578],[968,0,482,578],[1452,0,482,578],[484,580,482,578],[484,1160,482,578],[968,580,482,578],[1452,580,482,578],[968,1160,482,578],[1452,1160,482,578]]},
 		{name:"lesson_06_atlas_4", frames: [[0,0,482,578],[0,580,482,578],[0,1160,482,578],[484,0,482,578],[968,0,482,578],[1452,0,482,578],[484,580,482,578],[484,1160,482,578],[968,580,482,578],[1452,580,482,578],[968,1160,482,578],[1452,1160,482,578]]},
 		{name:"lesson_06_atlas_5", frames: [[0,374,1111,294],[0,0,1277,372],[0,670,1100,281],[1279,0,482,578],[1113,580,482,578],[0,1160,482,578],[484,953,482,578],[968,1160,482,578],[1452,1160,482,578]]},
-		{name:"lesson_06_atlas_6", frames: [[0,534,1194,520],[0,0,1178,532],[0,1539,1269,449],[0,1056,1284,481]]},
+		{name:"lesson_06_atlas_6", frames: [[0,534,1194,520],[0,0,1178,532],[0,1539,1269,449],[0,1056,1284,481],[-621483084,32721,-1040187284,-788529043]]},
 		{name:"lesson_06_atlas_7", frames: [[0,0,1453,533],[0,535,1242,600],[0,1137,1239,588]]},
 		{name:"lesson_06_atlas_8", frames: [[0,0,1505,634],[0,636,1453,559],[0,1197,1474,534]]},
 		{name:"lesson_06_atlas_9", frames: [[0,0,1513,794],[0,796,1513,794]]},
@@ -102,21 +102,21 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 
-(lib.CachedBmp_3 = function() {
+(lib.CachedBmp_6 = function() {
 	this.initialize(ss["lesson_06_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2 = function() {
+(lib.CachedBmp_5 = function() {
 	this.initialize(ss["lesson_06_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1 = function() {
+(lib.CachedBmp_4 = function() {
 	this.initialize(ss["lesson_06_atlas_8"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -4556,7 +4556,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.Blue();
 	this.instance.setTransform(0.25,0.2,0.3034,0.3034,0,0,0,205.8,205.3);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{regX:205.8,regY:205.3,scaleX:0.3034,scaleY:0.3034,x:0.25,y:0.2}},{t:this.shape,p:{regX:0.2,regY:0.2,scaleX:0.95,scaleY:0.95,x:0.2,y:0.2}}]}).to({state:[{t:this.instance,p:{regX:200.9,regY:200.5,scaleX:0.2377,scaleY:0.2377,x:0.2,y:0.15}},{t:this.shape,p:{regX:0.8,regY:2,scaleX:0.7452,scaleY:0.7452,x:0.15,y:0.25}}]},1).to({state:[{t:this.instance,p:{regX:205.8,regY:205.3,scaleX:0.3034,scaleY:0.3034,x:0.25,y:0.2}},{t:this.shape,p:{regX:0.2,regY:0.2,scaleX:0.95,scaleY:0.95,x:0.2,y:0.2}}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{regX:205.8,regY:205.3,scaleX:0.3034,scaleY:0.3034,x:0.25,y:0.2}},{t:this.shape,p:{regX:0.2,regY:0.2,scaleX:0.95,scaleY:0.95,x:0.2,y:0.2}}]}).to({state:[{t:this.instance,p:{regX:200.7,regY:200.3,scaleX:0.2377,scaleY:0.2377,x:0.2,y:0.15}},{t:this.shape,p:{regX:0.8,regY:2.1,scaleX:0.7452,scaleY:0.7452,x:0.15,y:0.25}}]},1).to({state:[{t:this.instance,p:{regX:205.8,regY:205.3,scaleX:0.3034,scaleY:0.3034,x:0.25,y:0.2}},{t:this.shape,p:{regX:0.2,regY:0.2,scaleX:0.95,scaleY:0.95,x:0.2,y:0.2}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -4846,7 +4846,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(6).to({startPosition:1},0).wait(2).to({startPosition:0},0).wait(11).to({startPosition:0},0).to({_off:true},1).wait(20));
 
 	// Od_2
-	this.instance_1 = new lib.CachedBmp_3();
+	this.instance_1 = new lib.CachedBmp_6();
 	this.instance_1.setTransform(9.95,11.1,0.4578,0.4578);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(19).to({_off:true},1).wait(20));
@@ -4898,7 +4898,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(10).to({startPosition:1},0).wait(2).to({startPosition:0},0).wait(10).to({startPosition:1},0).wait(2).to({startPosition:0},0).wait(1).to({startPosition:0},0).to({_off:true},1).wait(14));
 
 	// Od_1
-	this.instance_1 = new lib.CachedBmp_2();
+	this.instance_1 = new lib.CachedBmp_5();
 	this.instance_1.setTransform(9.4,9.55,0.473,0.473);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(25).to({_off:true},1).wait(14));
@@ -5241,348 +5241,6 @@ if (reversed == null) { reversed = false; }
 				video.remove();
 			};
 		};
-		function updateCheckmark() {
-			if (!exportRoot.checkmark) return;
-			var targetBtn = exportRoot["btn_" + exportRoot.gameState.selectedLanguage];
-			if (targetBtn) {
-				createjs.Tween.removeTweens(exportRoot.checkmark);
-				createjs.Tween.get(exportRoot.checkmark).to(
-					{x: targetBtn.x + 10, y: targetBtn.y - 20},
-					200,
-					createjs.Ease.quadOut
-				);
-			}
-		}
-		
-		function selectLanguage(l) {
-			exportRoot.playAudio("click");
-			exportRoot.stopAudio("title_" + exportRoot.gameState.selectedLanguage);
-			exportRoot.gameState.selectedLanguage = l;
-			exportRoot.loadAudio("title_" + l, SOUND_PATH + "title_" + l + ".mp3");
-			updateHomeText();
-			updateCheckmark();
-			saveState();
-		}
-		
-		["mn", "kz", "tuva", "sign", "visual"].forEach(function(l) {
-			if (exportRoot["btn_" + l]) exportRoot["btn_" + l].mouseEnabled = false;
-			if (exportRoot["txt_" + l]) exportRoot["txt_" + l].mouseEnabled = false;
-			if (exportRoot["hitarea_" + l]) {
-				var ha = exportRoot["hitarea_" + l];
-				ha.alpha = 0.01;
-				ha.cursor = "pointer";
-				ha.removeAllEventListeners("click");
-				ha.on("click", function() { selectLanguage(l); });
-			}
-		});
-		
-		if (exportRoot.btn_voice) {
-			exportRoot.btn_voice.cursor = "pointer";
-			exportRoot.btn_voice.scaleX = 1;
-			exportRoot.btn_voice.scaleY = 1;
-			exportRoot.btn_voice.removeAllEventListeners();
-			
-			exportRoot.btn_voice.on("mousedown", function() {
-				createjs.Tween.removeTweens(this);
-				createjs.Tween.get(this).to({scaleX: 0.9, scaleY: 0.9}, 100);
-			});
-			
-			exportRoot.btn_voice.on("pressup", function() {
-				createjs.Tween.removeTweens(this);
-				createjs.Tween.get(this).to({scaleX: 1, scaleY: 1}, 100);
-			});
-			
-			exportRoot.btn_voice.on("mouseout", function() {
-				createjs.Tween.removeTweens(this);
-				createjs.Tween.get(this).to({scaleX: 1, scaleY: 1}, 100);
-			});
-			
-			exportRoot.btn_voice.on("click", function() {
-				if (exportRoot.gameState.selectedLanguage === 'sign') {
-					playSignVideo();
-					return;
-				}
-				exportRoot.playAudio("title_" + exportRoot.gameState.selectedLanguage);
-			});
-		}
-		
-		if (exportRoot.btn_start) {
-			if (exportRoot.txt_start) exportRoot.txt_start.mouseEnabled = false;
-			exportRoot.btn_start.cursor = "pointer";
-			exportRoot.btn_start.mouseEnabled = true;
-			exportRoot.btn_start.mouseChildren = false;
-			exportRoot.btn_start.removeAllEventListeners();
-			
-			exportRoot.btn_start.on("mouseover", function() {
-				createjs.Tween.removeTweens(exportRoot.btn_start);
-				createjs.Tween.get(exportRoot.btn_start).to({scaleX: 0.95, scaleY: 0.95}, 150);
-				if (exportRoot.txt_start) {
-					createjs.Tween.get(exportRoot.txt_start).to({scaleX: 0.95, scaleY: 0.95}, 150);
-				}
-			});
-			
-			exportRoot.btn_start.on("mouseout", function() {
-				createjs.Tween.removeTweens(exportRoot.btn_start);
-				createjs.Tween.get(exportRoot.btn_start).to({scaleX: 1, scaleY: 1}, 150);
-				if (exportRoot.txt_start) {
-					createjs.Tween.get(exportRoot.txt_start).to({scaleX: 1, scaleY: 1}, 150);
-				}
-			});
-			
-			exportRoot.btn_start.on("click", function() {
-				exportRoot.playAudio("start");
-				exportRoot.stopAudio("title_" + exportRoot.gameState.selectedLanguage);
-				let signVideo = document.getElementById("signVideoPlayer");
-				if (signVideo) {
-					signVideo.pause();
-					signVideo.remove();
-				}
-				exportRoot.gameState.currentFrame = 1;
-				saveState();
-				createjs.Tween.get(exportRoot).to({alpha: 0}, 80).call(function() {
-					exportRoot.alpha = 1;
-					exportRoot.gotoAndStop(10);
-				});
-			});
-		}
-		
-		exportRoot.cleanupAllExercises = function() {
-			var inputNames = [
-				"ex1_input_1", "ex1_input_2", "ex1_input_3", "ex1_input_4",
-				"ex1_input_5", "ex1_input_6", "ex1_input_7", "ex1_input_8",
-				"ex2_input_1", "ex2_input_2", "ex2_input_3", "ex2_input_4",
-				"ex2_input_5", "ex2_input_6", "ex2_input_7", "ex2_input_8",
-				"ex3_input_1", "ex3_input_2", "ex3_input_3", "ex3_input_4",
-				"ex7_input_1", "ex7_input_2", "ex7_input_3", "ex7_input_4",
-				"ex8_input_1a", "ex8_input_1b", "ex8_input_2a", "ex8_input_2b",
-				"ex8_input_3a", "ex8_input_3b", "ex8_input_4a", "ex8_input_4b",
-				"ex10_input_1a", "ex10_input_1b", "ex10_input_2a", "ex10_input_2b",
-				"ex10_input_3a", "ex10_input_3b", "ex10_input_4a", "ex10_input_4b",
-				"ex11_input_middle", "ex11_input_final"
-			];
-			
-			inputNames.forEach(function(name) {
-				var el = document.getElementById("html_" + name);
-				if (el && el.parentNode) el.parentNode.removeChild(el);
-			});
-			
-			function cleanupTextObject(textObj) {
-				if (!textObj) return;
-				if (textObj._strokeClone && textObj._strokeClone.parent) {
-					textObj._strokeClone.parent.removeChild(textObj._strokeClone);
-					if (textObj._strokeClone.uncache) {
-						textObj._strokeClone.uncache();
-					}
-					textObj._strokeClone = null;
-				}
-				if (textObj._isStyled) {
-					textObj._isStyled = false;
-				}
-				if (textObj.uncache) {
-					textObj.uncache();
-				}
-				if (textObj.outline) {
-					textObj.outline = 0;
-				}
-				if (textObj.shadow) {
-					textObj.shadow = null;
-				}
-			}
-			
-			var textFields = ["main_txt_title", "main_txt_instruction"];
-			textFields.forEach(function(name) {
-				if (exportRoot[name]) {
-					cleanupTextObject(exportRoot[name]);
-				}
-			});
-			
-			function recursiveCleanup(container) {
-				if (!container || !container.children) return;
-				for (var i = container.children.length - 1; i >= 0; i--) {
-					var child = container.children[i];
-					if (child instanceof createjs.Text) {
-						cleanupTextObject(child);
-					}
-					if (child.children && child.children.length > 0) {
-						recursiveCleanup(child);
-					}
-				}
-			}
-			
-			recursiveCleanup(exportRoot);
-		};
-		
-		updateHomeText();
-		updateCheckmark();
-		
-		window.addEventListener("beforeunload", function() {
-			saveState();
-		});
-		
-		console.log("🚀 " + LESSON_NAME + " initialized!");var exportRoot = this;
-		exportRoot.stop();
-		
-		// ============================================
-		// LESSON CONFIG
-		// ============================================
-		var LESSON_ID = "Lesson06";
-		var LESSON_NAME = "Lesson 06 - Тоглоомын хот";
-		var STORAGE_KEY = LESSON_ID + "_gameState";
-		var SOUND_PATH = "./sounds/" + LESSON_ID + "_";
-		
-		// Reset state if needed
-		sessionStorage.removeItem(STORAGE_KEY);
-		
-		if (stage) stage.enableMouseOver(20);
-		
-		function loadState() {
-			try {
-				var saved = sessionStorage.getItem(STORAGE_KEY);
-				if (saved) {
-					return JSON.parse(saved);
-				}
-			} catch(e) {}
-			return null;
-		}
-		
-		function saveState() {
-			try {
-				exportRoot.gameState.timestamp = Date.now();
-				sessionStorage.setItem(STORAGE_KEY, JSON.stringify(exportRoot.gameState));
-			} catch(e) {}
-		}
-		
-		var savedState = loadState();
-		
-		if (!exportRoot.gameState) {
-			if (savedState) {
-				exportRoot.gameState = savedState;
-			} else {
-				exportRoot.gameState = {
-					timestamp: Date.now(),
-					currentFrame: 0,
-					selectedLanguage: "mn",
-					accessibilityMode: false,
-					exercise1Complete: false,
-					exercise1Matches: [],
-					exercise2Complete: false,
-					exercise2Matches: [],
-					exercise3Complete: false,
-					exercise3Values: {},
-					exercise4Complete: false,
-					exercise4Values: {},
-					exercise5Complete: false,
-					exercise5Values: {},
-					exercise6Complete: false,
-					exercise7Complete: false,
-					exercise7Values: {},
-					exercise8Complete: false,
-					exercise8Values: {}
-				};
-			}
-		}
-		
-		exportRoot.saveState = saveState;
-		
-		if (!exportRoot.audioPool) exportRoot.audioPool = {};
-		exportRoot.loadAudio = function(key, src) {
-			if (!this.audioPool[key]) {
-				this.audioPool[key] = new Audio(src);
-				this.audioPool[key].preload = "auto";
-			}
-			return this.audioPool[key];
-		};
-		
-		exportRoot.playAudio = function(key) {
-			var audio = this.audioPool[key];
-			if (audio) {
-				audio.pause();
-				audio.currentTime = 0;
-				audio.play().catch(function() {});
-			}
-		};
-		
-		exportRoot.stopAudio = function(key) {
-			var audio = this.audioPool[key];
-			if (audio) {
-				audio.pause();
-				audio.currentTime = 0;
-			}
-		};
-		
-		if (!exportRoot.videoCache) exportRoot.videoCache = {};
-		exportRoot.preloadVideo = function(path) {
-			if (this.videoCache[path]) return;
-			var vid = document.createElement("video");
-			vid.preload = "metadata";
-			vid.src = path;
-			vid.style.display = "none";
-			document.body.appendChild(vid);
-			this.videoCache[path] = vid;
-		};
-		
-		var lang = exportRoot.gameState.selectedLanguage;
-		
-		// Audio preload
-		exportRoot.loadAudio("title_mn", SOUND_PATH + "title_mn.mp3");
-		exportRoot.loadAudio("title_kz", SOUND_PATH + "title_kz.mp3");
-		exportRoot.loadAudio("title_tuva", SOUND_PATH + "title_tuva.mp3");
-		exportRoot.preloadVideo("./videos/sign/lesson06_title_dohio.mp4");
-		exportRoot.loadAudio("title_visual", SOUND_PATH + "title_mn.mp3");
-		exportRoot.loadAudio("click", "./sounds/click.mp3");
-		exportRoot.loadAudio("start", "./sounds/start.mp3");
-		
-		var homeText = {
-			mn: {
-				title: "ТОГЛООМЫН ХОТ",
-				subtitle: "Энгийн бутархайг дүрслэх, унших, бичих, жиших",
-				subject: "МАТЕМАТИК",
-				grade: "3 ДУГААР АНГИ",
-				start: "ЭХЛЭХ"
-			},
-			kz: {
-				title: "ОЙЫН ҚАЛАСЫ",
-				subtitle: "Жай бөлшектерді кескіндеу, оқу, жазу және салыстыру",
-				subject: "МАТЕМАТИКА",
-				grade: "3 СЫНЫП",
-				start: "БАСТАУ"
-			},
-			tuva: {
-				title: "ОЮН ХООРАЙ",
-				subtitle: "Наам үүрмек саннарны дүрсүлээри, номчууру, бижиири болгаш деңнээри.",
-				subject: "МАТЕМАТИКА",
-				grade: "3 КЛАСС",
-				start: "ЭГЕЛЭЭРИ"
-			},
-			sign: {
-				title: "ТОГЛООМЫН ХОТ",
-				subtitle: "Энгийн бутархайг дүрслэх, унших, бичих, жиших",
-				subject: "МАТЕМАТИК",
-				grade: "3 ДУГААР АНГИ",
-				start: "ЭХЛЭХ"
-			},
-			visual: {
-				title: "ТОГЛООМЫН ХОТ",
-				subtitle: "Энгийн бутархайг дүрслэх, унших, бичих, жиших",
-				subject: "МАТЕМАТИК",
-				grade: "3 ДУГААР АНГИ",
-				start: "ЭХЛЭХ"
-			}
-		};
-		
-		function updateHomeText() {
-			var texts = homeText[exportRoot.gameState.selectedLanguage];
-			if (exportRoot.main_txt_title) exportRoot.main_txt_title.text = texts.title;
-			if (exportRoot.txt_subtitle) exportRoot.txt_subtitle.text = texts.subtitle;
-			if (exportRoot.txt_subject) exportRoot.txt_subject.text = texts.subject;
-			if (exportRoot.txt_grade) exportRoot.txt_grade.text = texts.grade;
-			if (exportRoot.btn_start.txt_start) exportRoot.btn_start.txt_start.text = texts.start;
-		}
-				
-		// =====================================================
-		// PLAY sign video
-		// =====================================================
-		
 		function updateCheckmark() {
 			if (!exportRoot.checkmark) return;
 			var targetBtn = exportRoot["btn_" + exportRoot.gameState.selectedLanguage];
@@ -8761,6 +8419,9 @@ if (reversed == null) { reversed = false; }
 		
 				setTimeout(function () {
 					hideAllHtmlInputs();
+					 if (exportRoot.stopInstruction) {
+		        exportRoot.stopInstruction();
+		    }
 					exportRoot.gotoAndStop(CONFIG.nextFrame);
 				}, CONFIG.autoNextDelay);
 			}
@@ -9775,6 +9436,9 @@ if (reversed == null) { reversed = false; }
 				if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
 		
 				setTimeout(function () {
+					if (exportRoot.stopInstruction) {
+		        exportRoot.stopInstruction();
+		    }
 					exportRoot.gotoAndStop(CONFIG.nextFrame);
 				}, CONFIG.autoNextDelay);
 			}
@@ -10387,6 +10051,9 @@ if (reversed == null) { reversed = false; }
 		        if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
 		
 		        setTimeout(function() {
+					if (exportRoot.stopInstruction) {
+		        exportRoot.stopInstruction();
+		    }
 		            exportRoot.gotoAndStop(CONFIG.nextFrame);
 		        }, CONFIG.autoNextDelay);
 		    }
@@ -10995,6 +10662,9 @@ if (reversed == null) { reversed = false; }
 		        if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
 		
 		        setTimeout(function() {
+					if (exportRoot.stopInstruction) {
+		        exportRoot.stopInstruction();
+		    }
 		            exportRoot.gotoAndStop(CONFIG.nextFrame);
 		        }, CONFIG.autoNextDelay);
 		    }
@@ -11628,6 +11298,9 @@ if (reversed == null) { reversed = false; }
 		
 		        setTimeout(function() {
 		            hideAllHtmlInputs(); 
+					if (exportRoot.stopInstruction) {
+		        exportRoot.stopInstruction();
+		    }
 		            exportRoot.gotoAndStop(CONFIG.nextFrame);
 		        }, CONFIG.autoNextDelay);
 		    }
@@ -12422,6 +12095,9 @@ if (reversed == null) { reversed = false; }
 			setTimeout(function() {
 				console.log("🚀 Navigating to frame:", CONFIG.nextFrame);
 				if (exportRoot.gotoAndStop) {
+					if (exportRoot.stopInstruction) {
+		        exportRoot.stopInstruction();
+		    }
 					cleanupVisualsForLeavingThisExercise();
 					exportRoot.gotoAndStop(CONFIG.nextFrame);
 				} else {
@@ -13209,6 +12885,9 @@ if (reversed == null) { reversed = false; }
 		    if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
 		
 		    setTimeout(function() {
+				if (exportRoot.stopInstruction) {
+		        exportRoot.stopInstruction();
+		    }
 		        exportRoot.gotoAndStop(CONFIG.nextFrame);
 		    }, CONFIG.autoNextDelay);
 		}
@@ -13841,6 +13520,9 @@ if (reversed == null) { reversed = false; }
 				if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
 				
 				setTimeout(function() {
+					if (exportRoot.stopInstruction) {
+		        exportRoot.stopInstruction();
+		    }
 					exportRoot.gotoAndStop(CONFIG.nextFrame);
 				}, CONFIG.autoNextDelay);
 			}
@@ -14614,6 +14296,9 @@ if (reversed == null) { reversed = false; }
 			if (hasNavigated) return;
 			hasNavigated = true;
 			cleanupExerciseDom();
+			if (exportRoot.stopInstruction) {
+		        exportRoot.stopInstruction();
+		    }
 			exportRoot.gotoAndStop(CONFIG.nextFrame);
 		}
 		
@@ -15311,6 +14996,9 @@ if (reversed == null) { reversed = false; }
 		        exportRoot.playCharacterAnimation("correct");
 		        if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
 		        setTimeout(function() {
+					if (exportRoot.stopInstruction) {
+		        exportRoot.stopInstruction();
+		    }
 		            exportRoot.gotoAndStop(CONFIG.nextFrame);
 		        }, CONFIG.autoNextDelay);
 		    }
@@ -15892,7 +15580,20 @@ if (reversed == null) { reversed = false; }
 		            allCorrect = false;
 		        }
 		    });
-		
+		function cleanupTextObjects() {
+		    var textNames = ["txt_title", "txt_instruction", "txt_subject", "txt_grade"];
+		    textNames.forEach(function(name) {
+		        var txtObj = exportRoot[name];
+		        if (txtObj && txtObj._onRemovedCleanup) {
+		            txtObj.off("removed", txtObj._onRemovedCleanup);
+		            if (txtObj._strokeClone && txtObj._strokeClone.parent) {
+		                try {
+		                    txtObj._strokeClone.parent.removeChild(txtObj._strokeClone);
+		                } catch(e) {}
+		            }
+		        }
+		    });
+		}
 		    if (allCorrect) {
 		        // ЗӨВ
 		        exportRoot.gameState[CONFIG.completeKey] = true;
@@ -15908,10 +15609,11 @@ if (reversed == null) { reversed = false; }
 		        // if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
 		        
 		        setTimeout(function() {
-					hideAllInputs();
-		            // exportRoot.removeAllChildren();
-					//if (exportRoot.stage) {
-						// exportRoot.stage.update();
+					  hideAllInputs();
+		    cleanupTextObjects(); 
+		           if (exportRoot.stopInstruction) {
+		        exportRoot.stopInstruction();
+		    }
 					exportRoot.gotoAndStop(CONFIG.nextFrame);
 					//}
 		        }, CONFIG.autoNextDelay);
@@ -16242,7 +15944,7 @@ if (reversed == null) { reversed = false; }
 			lessonId:              "lesson06",
 			lessonFolder:          "Lesson06",
 			videoId:               "map11",
-			videoFile:             "./videos/lesson6_map11.mp4",
+			videoFile:             "./videos/lesson6_map11.webm",
 			containerId:           "success-video-map11",
 			backgroundColor:       "#6B4FBB",
 			zIndex:                "9999",
@@ -16655,7 +16357,7 @@ if (reversed == null) { reversed = false; }
 	this.shape.setTransform(387.05,770.025);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1).p("AhrhzIAAksIDYAAAhrhzIDYAAAhrB0IAAjnABtB0IjYAAABtGgIjYAAIAAks");
+	this.shape_1.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1).p("AhrhzIAAksIDYAAABtB0IjYAAIAAjnIDYAAABtGgIjYAAIAAks");
 	this.shape_1.setTransform(387.05,755.025);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.mc_ex1_tex1}]},2).to({state:[]},1).to({state:[{t:this.mc_ex2_tex1}]},1).to({state:[]},1).to({state:[{t:this.mc_ex3_tex1}]},1).to({state:[]},1).to({state:[{t:this.txt_title,p:{lineHeight:68.35,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1010.6,y:360.55,lineWidth:1398,lineHeight:48.45}}]},1).to({state:[{t:this.txt_title,p:{lineHeight:68.35,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1008.65,y:352.55,lineWidth:1098,lineHeight:48.45}},{t:this.mc_ex4_tex1}]},2).to({state:[{t:this.shape,p:{y:770.025}},{t:this.txt_title,p:{lineHeight:52,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1010.6,y:352.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.txt_title,p:{lineHeight:52,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.shape,p:{y:770.025}},{t:this.txt_title,p:{lineHeight:52,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.shape_1},{t:this.txt_title,p:{lineHeight:52,x:1008,y:140.6}},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.shape_1},{t:this.txt_title,p:{lineHeight:52,x:1008,y:140.3}},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.shape_1},{t:this.txt_title,p:{lineHeight:52,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1230.55,y:354.55,lineWidth:958,lineHeight:40.75}}]},2).to({state:[{t:this.shape_1},{t:this.txt_title,p:{lineHeight:52,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.shape,p:{y:740.025}},{t:this.txt_title,p:{lineHeight:52,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.shape,p:{y:740.025}},{t:this.txt_title,p:{lineHeight:52,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[]},1).wait(1));
@@ -17016,7 +16718,7 @@ if (reversed == null) { reversed = false; }
 	this.btn_4_1.name = "btn_4_1";
 	this.btn_4_1.setTransform(394,872,1,1,0,0,0,36.5,61);
 
-	this.instance_2 = new lib.CachedBmp_1();
+	this.instance_2 = new lib.CachedBmp_4();
 	this.instance_2.setTransform(575.75,534.05,0.5,0.5);
 
 	this.img_7_4 = new lib.img_7_4();
