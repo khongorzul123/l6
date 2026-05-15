@@ -13,7 +13,7 @@ lib.ssMetadata = [
 		{name:"lesson_06_atlas_3", frames: [[0,0,482,578],[0,580,482,578],[0,1160,482,578],[484,0,482,578],[968,0,482,578],[1452,0,482,578],[484,580,482,578],[484,1160,482,578],[968,580,482,578],[1452,580,482,578],[968,1160,482,578],[1452,1160,482,578]]},
 		{name:"lesson_06_atlas_4", frames: [[0,0,482,578],[0,580,482,578],[0,1160,482,578],[484,0,482,578],[968,0,482,578],[1452,0,482,578],[484,580,482,578],[484,1160,482,578],[968,580,482,578],[1452,580,482,578],[968,1160,482,578],[1452,1160,482,578]]},
 		{name:"lesson_06_atlas_5", frames: [[0,374,1111,294],[0,0,1277,372],[0,670,1100,281],[1279,0,482,578],[1113,580,482,578],[0,1160,482,578],[484,953,482,578],[968,1160,482,578],[1452,1160,482,578]]},
-		{name:"lesson_06_atlas_6", frames: [[0,534,1194,520],[0,0,1178,532],[0,1539,1269,449],[0,1056,1284,481],[-621483084,32721,-1040187284,-788529043]]},
+		{name:"lesson_06_atlas_6", frames: [[0,534,1194,520],[0,0,1178,532],[0,1539,1269,449],[0,1056,1284,481]]},
 		{name:"lesson_06_atlas_7", frames: [[0,0,1453,533],[0,535,1242,600],[0,1137,1239,588]]},
 		{name:"lesson_06_atlas_8", frames: [[0,0,1505,634],[0,636,1453,559],[0,1197,1474,534]]},
 		{name:"lesson_06_atlas_9", frames: [[0,0,1513,794],[0,796,1513,794]]},
@@ -102,21 +102,21 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 
-(lib.CachedBmp_6 = function() {
+(lib.CachedBmp_9 = function() {
 	this.initialize(ss["lesson_06_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_5 = function() {
+(lib.CachedBmp_8 = function() {
 	this.initialize(ss["lesson_06_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_4 = function() {
+(lib.CachedBmp_7 = function() {
 	this.initialize(ss["lesson_06_atlas_8"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -2015,7 +2015,7 @@ if (reversed == null) { reversed = false; }
 	this.shape_1.setTransform(77.0234,77.0765);
 
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#FE5F56").s().p("AriLaIgB2zIAPAAQJfAAGsGtQGrGqACJcgAJKH7Qg3ACgbAxQgYAoASArQAaA9BBADIARgBQA2gJAWgzQAWgygfgtQgegqgzAAIgGAAgAATHaQg8AagDBBQAAAQAEAOQAOApAnASQA7AbAwgrQAdgZADgmQAGg/g4ghQgXgNgXAAQgSAAgTAIgAo1G+QgpAYgFAvQgJBAA1AlQANAJAQAFQA1ARAqgkQAjgdgBguQgCg/g4gfQgYgNgYAAQgZAAgZAPgAFYErQguAPgPAtQgUA9AuAuQAIAIALAGQAvAbAxgYQApgUAKgtQAOg/gzgoQgcgWggAAQgRAAgRAGgAjEDeQhBACgZA9QgNAcAJAeQARA9A9AUQAmAKAjgSQAmgVALgpQAQg+gxgrQgegbgnAAIgEAAgAohAsQg9AagDBBQAAAQAEAOQAOApAoASQA7AbAwgrQAdgZAEgmQAEg/g3ghQgXgNgXAAQgSAAgTAIgAAkAPQg7AcgBBCQACA5AxAdQAwAaAvgaQAwgcADg3QADhAg5geQgWgMgWAAQgTAAgUAJgAFfhoQgdALgPAaQghA3AeA4QAWAmAsAJQAgAHAfgPQA5gdAAg/QAAgsgggfQgfgdgkAAQgTAAgVAJgAjVjMQgsASgMAuQgPA/AwAsQATASAZAHQA1AMApgjQAcgZADgmQAEhAg2glQgbgSgdAAQgUAAgUAJgAA7mpQg8AZgEBCQAAAQAFAOQAOApAnASQA7AbAxgrQAcgZADgmQAFg/g3ghQgXgNgXAAQgSAAgTAIgAofnTQgpAGgZAhQgWAeACAmQACApAcAdIADACIAEADIACADIAEACIAEADIADACQATAMAXACQAZACAYgKQARgIANgNQAOgOAHgRQAJgTAAgVIgBgDIAAgDQAAgIgBgHQgHgqgigZQgagTgfAAIgPABgAkppiQg4AhAEBBQAAARAGAQQATA0A3AMQAsAKAkgeQAygpgNhBQgLg2gygVQgTgHgSAAQgYAAgXANgAkBGNIAAgBIgBAAIABAAIAAABg");
+	this.shape_2.graphics.f("#FE5F56").s().p("AriLaIgB2zIAPAAQJfAAGsGtQGrGqACJcgAJKH7Qg3ACgbAxQgYAoASArQAaA9BBADIARgBQA2gJAWgzQAWgygfgtQgegqgzAAIgGAAgAATHaQg8AagDBBQAAAQAEAOQAOApAnASQA7AbAwgrQAdgZADgmQAGg/g4ghQgXgNgXAAQgSAAgTAIgAo1G+QgpAYgFAvQgJBAA1AlQANAJAQAFQA1ARAqgkQAjgdgBguQgCg/g4gfQgYgNgYAAQgZAAgZAPgAFYErQguAPgPAtQgTA9AtAuQAIAIALAGQAvAbAxgYQApgUAKgtQAOg/gzgoQgcgWggAAQgRAAgRAGgAjEDeQhBACgZA9QgNAcAJAeQARA9A9AUQAmAKAjgSQAmgVALgpQAQg+gxgrQgegbgnAAIgEAAgAohAsQg9AagDBBQAAAQAEAOQAOApAoASQA7AbAwgrQAdgZAEgmQAEg/g3ghQgXgNgXAAQgSAAgTAIgAAkAPQg7AcgBBCQACA5AxAdQAvAaAwgaQAwgcADg3QADhAg5geQgWgMgWAAQgTAAgUAJgAFfhoQgdALgPAaQghA3AeA4QAWAmAsAJQAgAHAfgPQA5gdAAg/QAAgsgggfQgfgdgkAAQgTAAgVAJgAjVjMQgsASgMAuQgPA/AwAsQATASAZAHQA1AMApgjQAcgZADgmQAEhAg2glQgbgSgdAAQgUAAgUAJgAA7mpQg8AZgEBCQAAAQAFAOQAOApAnASQA7AbAxgrQAcgZADgmQAFg/g3ghQgXgNgXAAQgSAAgTAIgAofnTQgpAGgZAhQgWAeACAmQACApAbAdIAEACIAEADIACADIAEACIAEADIADACQATAMAXACQAZACAYgKQARgIANgNQAOgOAHgRQAJgTgBgVIAAgDIAAgDQAAgIgBgHQgHgqgigZQgagTgfAAIgPABgAkppiQg4AhAEBBQAAARAGAQQATA0A3AMQAsAKAkgeQAygpgNhBQgLg2gygVQgTgHgSAAQgYAAgXANgAkBGNIgBgBIAAAAIABAAIAAABg");
 	this.shape_2.setTransform(74,73.025);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
@@ -2288,7 +2288,7 @@ if (reversed == null) { reversed = false; }
 		lib.webFontTxtInst['Roboto'].push(this.text_7);
 	}
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text_7,p:{text:"Гуравны нэг",lineHeight:39.85}},{t:this.text_6,p:{text:"Гуравны хоёр",lineHeight:39.85}},{t:this.text_5,p:{text:"Гуравны гурав",lineHeight:39.85}},{t:this.text_4,p:{text:"Гурван бүхэл",lineHeight:39.85}},{t:this.text_3,p:{text:"Дөрөвний нэг",lineHeight:39.85}},{t:this.text_2,p:{text:"Дөрөвний хоёр",lineHeight:39.85}},{t:this.text_1,p:{text:"Дөрөвний гурав",lineHeight:39.85}},{t:this.text,p:{text:"Дөрөвний дөрөв",lineHeight:39.85}}]}).to({state:[{t:this.text_7,p:{text:"   Үштен бірі",lineHeight:30}},{t:this.text_6,p:{text:"Үштен екі",lineHeight:30}},{t:this.text_5,p:{text:"Үштен үші",lineHeight:30}},{t:this.text_4,p:{text:"Үш бүтін",lineHeight:30}},{t:this.text_3,p:{text:"Төрттен бірі",lineHeight:30}},{t:this.text_2,p:{text:"Төрттен екі",lineHeight:30}},{t:this.text_1,p:{text:"Төрттен үші",lineHeight:30}},{t:this.text,p:{text:"Төрттен төрті",lineHeight:30}}]},1).to({state:[{t:this.text_7,p:{text:"   Үш чүс бир",lineHeight:30}},{t:this.text_6,p:{text:"Үш чүс ийи",lineHeight:30}},{t:this.text_5,p:{text:"Үш чүс үш",lineHeight:30}},{t:this.text_4,p:{text:"Үш бүдүн",lineHeight:30}},{t:this.text_3,p:{text:"Дөрт чүс бир",lineHeight:30}},{t:this.text_2,p:{text:"Дөрт чүс ийи",lineHeight:30}},{t:this.text_1,p:{text:"Дөрт чүс үш",lineHeight:30}},{t:this.text,p:{text:"Дөрт чүс дөрт",lineHeight:30}}]},1).to({state:[{t:this.text_7,p:{text:"Гуравны нэг",lineHeight:30}},{t:this.text_6,p:{text:"Гуравны хоёр",lineHeight:30}},{t:this.text_5,p:{text:"Гуравны гурав",lineHeight:30}},{t:this.text_4,p:{text:"Гурван бүхэл",lineHeight:30}},{t:this.text_3,p:{text:"Дөрөвний нэг",lineHeight:30}},{t:this.text_2,p:{text:"Дөрөвний хоёр",lineHeight:30}},{t:this.text_1,p:{text:"Дөрөвний гурав",lineHeight:30}},{t:this.text,p:{text:"Дөрөвний дөрөв",lineHeight:30}}]},1).to({state:[{t:this.text_7,p:{text:"Гуравны нэг",lineHeight:30}},{t:this.text_6,p:{text:"Гуравны хоёр",lineHeight:30}},{t:this.text_5,p:{text:"Гуравны гурав",lineHeight:30}},{t:this.text_4,p:{text:"Гурван бүхэл",lineHeight:30}},{t:this.text_3,p:{text:"Дөрөвний нэг",lineHeight:30}},{t:this.text_2,p:{text:"Дөрөвний хоёр",lineHeight:30}},{t:this.text_1,p:{text:"Дөрөвний гурав",lineHeight:30}},{t:this.text,p:{text:"Дөрөвний дөрөв",lineHeight:30}}]},1).to({state:[{t:this.text_7,p:{text:"Гуравны нэг",lineHeight:30}},{t:this.text_6,p:{text:"Гуравны хоёр",lineHeight:30}},{t:this.text_5,p:{text:"Гуравны гурав",lineHeight:30}},{t:this.text_4,p:{text:"Гурван бүхэл",lineHeight:30}},{t:this.text_3,p:{text:"Дөрөвний нэг",lineHeight:30}},{t:this.text_2,p:{text:"Дөрөвний хоёр",lineHeight:30}},{t:this.text_1,p:{text:"Дөрөвний гурав",lineHeight:30}},{t:this.text,p:{text:"Дөрөвний дөрөв",lineHeight:30}}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text_7,p:{text:"Гуравны нэг",lineHeight:39.85}},{t:this.text_6,p:{text:"Гуравны хоёр",lineHeight:39.85}},{t:this.text_5,p:{text:"Гуравны гурав",lineHeight:39.85}},{t:this.text_4,p:{text:"Гурван бүхэл",lineHeight:39.85}},{t:this.text_3,p:{text:"Дөрөвний нэг",lineHeight:39.85}},{t:this.text_2,p:{text:"Дөрөвний хоёр",lineHeight:39.85}},{t:this.text_1,p:{text:"Дөрөвний гурав",lineHeight:39.85}},{t:this.text,p:{text:"Дөрөвний дөрөв",lineHeight:39.85}}]}).to({state:[{t:this.text_7,p:{text:"   Үштен бірі",lineHeight:35.55}},{t:this.text_6,p:{text:"Үштен екі",lineHeight:35.55}},{t:this.text_5,p:{text:"Үштен үші",lineHeight:30}},{t:this.text_4,p:{text:"Үш бүтін",lineHeight:30}},{t:this.text_3,p:{text:"Төрттен бірі",lineHeight:30}},{t:this.text_2,p:{text:"Төрттен екі",lineHeight:30}},{t:this.text_1,p:{text:"Төрттен үші",lineHeight:30}},{t:this.text,p:{text:"Төрттен төрті",lineHeight:30}}]},1).to({state:[{t:this.text_7,p:{text:"   Үш чүс бир",lineHeight:30}},{t:this.text_6,p:{text:"Үш чүс ийи",lineHeight:30}},{t:this.text_5,p:{text:"Үш чүс үш",lineHeight:30}},{t:this.text_4,p:{text:"Үш бүдүн",lineHeight:30}},{t:this.text_3,p:{text:"Дөрт чүс бир",lineHeight:30}},{t:this.text_2,p:{text:"Дөрт чүс ийи",lineHeight:35.55}},{t:this.text_1,p:{text:"Дөрт чүс үш",lineHeight:35.55}},{t:this.text,p:{text:"Дөрт чүс дөрт",lineHeight:35.55}}]},1).to({state:[{t:this.text_7,p:{text:"Гуравны нэг",lineHeight:30}},{t:this.text_6,p:{text:"Гуравны хоёр",lineHeight:30}},{t:this.text_5,p:{text:"Гуравны гурав",lineHeight:30}},{t:this.text_4,p:{text:"Гурван бүхэл",lineHeight:30}},{t:this.text_3,p:{text:"Дөрөвний нэг",lineHeight:30}},{t:this.text_2,p:{text:"Дөрөвний хоёр",lineHeight:30}},{t:this.text_1,p:{text:"Дөрөвний гурав",lineHeight:30}},{t:this.text,p:{text:"Дөрөвний дөрөв",lineHeight:30}}]},1).to({state:[{t:this.text_7,p:{text:"Гуравны нэг",lineHeight:30}},{t:this.text_6,p:{text:"Гуравны хоёр",lineHeight:30}},{t:this.text_5,p:{text:"Гуравны гурав",lineHeight:30}},{t:this.text_4,p:{text:"Гурван бүхэл",lineHeight:30}},{t:this.text_3,p:{text:"Дөрөвний нэг",lineHeight:30}},{t:this.text_2,p:{text:"Дөрөвний хоёр",lineHeight:30}},{t:this.text_1,p:{text:"Дөрөвний гурав",lineHeight:30}},{t:this.text,p:{text:"Дөрөвний дөрөв",lineHeight:30}}]},1).to({state:[{t:this.text_7,p:{text:"Гуравны нэг",lineHeight:30}},{t:this.text_6,p:{text:"Гуравны хоёр",lineHeight:30}},{t:this.text_5,p:{text:"Гуравны гурав",lineHeight:30}},{t:this.text_4,p:{text:"Гурван бүхэл",lineHeight:30}},{t:this.text_3,p:{text:"Дөрөвний нэг",lineHeight:30}},{t:this.text_2,p:{text:"Дөрөвний хоёр",lineHeight:30}},{t:this.text_1,p:{text:"Дөрөвний гурав",lineHeight:30}},{t:this.text,p:{text:"Дөрөвний дөрөв",lineHeight:30}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -2308,9 +2308,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("Харин дөрвөн тэнцүү хуваасан тэгш өнцөгтийн 2/4-ыг  будах хэдэн өөр боломж байна вэ? \nНайзууд аа. Үүнийг бие дааж хийгээрэй. ", "42px 'Arial'");
+	this.text = new cjs.Text("Харин дөрвөн тэнцүү хуваасан тэгш өнцөгтийн 2/4-ыг  будах хэдэн өөр боломж байна вэ? \nНайзууд аа. Үүнийг бие дааж хийгээрэй. ", "42px 'Roboto'");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 44;
+	this.text.lineHeight = 51;
 	this.text.lineWidth = 1395;
 	this.text.parent = this;
 	this.text.setTransform(699.4,2);
@@ -2335,9 +2335,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("Дугуй дүрсний 2/4 хэсгийг будъя.\nАль хэсгийг будахаа өөрсдөө сонгоорой.", "42px 'Arial'");
+	this.text = new cjs.Text("Дугуй дүрсний 2/4 хэсгийг будъя.\nАль хэсгийг будахаа өөрсдөө сонгоорой.", "42px 'Roboto'");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 44;
+	this.text.lineHeight = 51;
 	this.text.lineWidth = 1395;
 	this.text.parent = this;
 	this.text.setTransform(699.4,2);
@@ -2362,16 +2362,16 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("Тэнцүү биш хэсэгт \nхуваасан", "42px 'Arial'");
+	this.text = new cjs.Text("Тэнцүү биш хэсэгт \nхуваасан", "42px 'Roboto'");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 44;
+	this.text.lineHeight = 51;
 	this.text.lineWidth = 812;
 	this.text.parent = this;
 	this.text.setTransform(1055.6,2);
 
-	this.text_1 = new cjs.Text("Тэнцүү хэсэгт хуваасан", "42px 'Arial'");
+	this.text_1 = new cjs.Text("Тэнцүү хэсэгт хуваасан", "42px 'Roboto'");
 	this.text_1.textAlign = "center";
-	this.text_1.lineHeight = 44;
+	this.text_1.lineHeight = 51;
 	this.text_1.lineWidth = 812;
 	this.text_1.parent = this;
 	this.text_1.setTransform(407.9,2);
@@ -2636,7 +2636,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("rgba(0,0,0,0.004)").s().p("Ao4IyQjsjpAAlJQAAlIDsjqQDsjoFNAAQFNAADrDoQDsDqAAFIQAAFJjsDpQjrDplNAAQlNAAjsjpg");
+	this.shape.graphics.f("rgba(0,0,0,0.004)").s().p("Ao4IyQjsjpAAlJQAAlIDsjqQDsjoFMAAQFNAADsDoQDsDqAAFIQAAFJjsDpQjsDplNAAQlMAAjsjpg");
 	this.shape.setTransform(80.5,79.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -2659,7 +2659,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("rgba(0,0,0,0.004)").s().p("Ao4IyQjsjpAAlJQAAlIDsjqQDsjoFNAAQFNAADrDoQDsDqAAFIQAAFJjsDpQjrDplNAAQlNAAjsjpg");
+	this.shape.graphics.f("rgba(0,0,0,0.004)").s().p("Ao4IyQjsjpAAlJQAAlIDsjqQDsjoFMAAQFNAADsDoQDsDqAAFIQAAFJjsDpQjsDplNAAQlMAAjsjpg");
 	this.shape.setTransform(80.5,79.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -2682,7 +2682,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("rgba(0,0,0,0.004)").s().p("Ao4IyQjsjpAAlJQAAlIDsjqQDsjoFNAAQFNAADrDoQDsDqAAFIQAAFJjsDpQjrDplNAAQlNAAjsjpg");
+	this.shape.graphics.f("rgba(0,0,0,0.004)").s().p("Ao4IyQjsjpAAlJQAAlIDsjqQDsjoFMAAQFNAADsDoQDsDqAAFIQAAFJjsDpQjsDplNAAQlMAAjsjpg");
 	this.shape.setTransform(80.5,79.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -2705,7 +2705,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("rgba(0,0,0,0.004)").s().p("Ao4IyQjsjpAAlJQAAlIDsjqQDsjoFNAAQFNAADrDoQDsDqAAFIQAAFJjsDpQjrDplNAAQlNAAjsjpg");
+	this.shape.graphics.f("rgba(0,0,0,0.004)").s().p("Ao4IyQjsjpAAlJQAAlIDsjqQDsjoFMAAQFNAADsDoQDsDqAAFIQAAFJjsDpQjsDplNAAQlMAAjsjpg");
 	this.shape.setTransform(80.5,79.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -2728,7 +2728,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("rgba(0,0,0,0.004)").s().p("Ao4IyQjsjpAAlJQAAlIDsjqQDsjoFNAAQFNAADrDoQDsDqAAFIQAAFJjsDpQjrDplNAAQlNAAjsjpg");
+	this.shape.graphics.f("rgba(0,0,0,0.004)").s().p("Ao4IyQjsjpAAlJQAAlIDsjqQDsjoFMAAQFNAADsDoQDsDqAAFIQAAFJjsDpQjsDplNAAQlMAAjsjpg");
 	this.shape.setTransform(80.5,79.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -2751,7 +2751,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("rgba(0,0,0,0.004)").s().p("Ao4IyQjsjpAAlJQAAlIDsjqQDsjoFNAAQFNAADrDoQDsDqAAFIQAAFJjsDpQjrDplNAAQlNAAjsjpg");
+	this.shape.graphics.f("rgba(0,0,0,0.004)").s().p("Ao4IyQjsjpAAlJQAAlIDsjqQDsjoFMAAQFNAADsDoQDsDqAAFIQAAFJjsDpQjsDplNAAQlMAAjsjpg");
 	this.shape.setTransform(80.5,79.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -3073,9 +3073,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("аравны нэг", "35px 'Arial'", "#FFFFFF");
+	this.text = new cjs.Text("аравны нэг", "bold 35px 'Rubik'", "#FFFFFF");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 37;
+	this.text.lineHeight = 43;
 	this.text.lineWidth = 267;
 	this.text.parent = this;
 	this.text.setTransform(151.35,2);
@@ -3108,9 +3108,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("аравны гурав", "35px 'Arial'", "#FFFFFF");
+	this.text = new cjs.Text("аравны гурав", "bold 35px 'Rubik'", "#FFFFFF");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 37;
+	this.text.lineHeight = 43;
 	this.text.lineWidth = 254;
 	this.text.parent = this;
 	this.text.setTransform(153.05,2);
@@ -3143,9 +3143,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("аравны дөрөв   ", "35px 'Arial'", "#FFFFFF");
+	this.text = new cjs.Text("аравны дөрөв   ", "bold 35px 'Rubik'", "#FFFFFF");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 37;
+	this.text.lineHeight = 43;
 	this.text.lineWidth = 269;
 	this.text.parent = this;
 	this.text.setTransform(152.95,2);
@@ -3178,9 +3178,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("аравны зургаа", "35px 'Arial'", "#FFFFFF");
+	this.text = new cjs.Text("аравны зургаа", "bold 35px 'Rubik'", "#FFFFFF");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 37;
+	this.text.lineHeight = 43;
 	this.text.lineWidth = 291;
 	this.text.parent = this;
 	this.text.setTransform(158.75,2);
@@ -3714,7 +3714,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_3
 	this.shape = new cjs.Shape();
-	this.shape.graphics.lf(["#4528B8","#457CEC"],[0,1],-177.3,-102.4,177.4,102.4).s().p("EgAJAgAQmggCl8ijQlviekakcQkbkdiZlwQifl+ACmfQACmhCjl7QCdlvEdkaQEdkaFwiaQF+ieGfABQGhACF8CjQFuCeEaEcQEaEdCaFwQCfF+gCGfQgCGhijF7QidFvkdEaQkdEalwCaQl5CdmbAAIgJAAg");
+	this.shape.graphics.lf(["#4528B8","#457CEC"],[0,1],-177.3,-102.4,177.4,102.4).s().p("EgAJAgAQmhgCl7ijQlviekakcQkbkdiZlwQifl+ACmfQACmhCjl7QCdlvEdkaQEdkaFwiaQF+ieGfABQGhACF8CjQFuCeEaEcQEaEdCaFwQCfF+gCGfQgCGhijF7QidFvkdEaQkdEalwCaQl5CdmbAAIgJAAg");
 	this.shape.setTransform(205.1,204.75);
 
 	var maskedShapeInstanceList = [this.shape];
@@ -3831,10 +3831,10 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.txt_start = new cjs.Text("БУЦАХ", "57px 'Arial'", "#FFFFFF");
+	this.txt_start = new cjs.Text("БУЦАХ", "bold 57px 'Rubik'", "#FFFFFF");
 	this.txt_start.name = "txt_start";
 	this.txt_start.textAlign = "center";
-	this.txt_start.lineHeight = 59;
+	this.txt_start.lineHeight = 69;
 	this.txt_start.lineWidth = 351;
 	this.txt_start.parent = this;
 	this.txt_start.setTransform(-2.45,-29.65);
@@ -4846,7 +4846,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(6).to({startPosition:1},0).wait(2).to({startPosition:0},0).wait(11).to({startPosition:0},0).to({_off:true},1).wait(20));
 
 	// Od_2
-	this.instance_1 = new lib.CachedBmp_6();
+	this.instance_1 = new lib.CachedBmp_9();
 	this.instance_1.setTransform(9.95,11.1,0.4578,0.4578);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(19).to({_off:true},1).wait(20));
@@ -4898,7 +4898,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(10).to({startPosition:1},0).wait(2).to({startPosition:0},0).wait(10).to({startPosition:1},0).wait(2).to({startPosition:0},0).wait(1).to({startPosition:0},0).to({_off:true},1).wait(14));
 
 	// Od_1
-	this.instance_1 = new lib.CachedBmp_5();
+	this.instance_1 = new lib.CachedBmp_8();
 	this.instance_1.setTransform(9.4,9.55,0.473,0.473);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(25).to({_off:true},1).wait(14));
@@ -5341,353 +5341,7 @@ if (reversed == null) { reversed = false; }
 				saveState();
 				createjs.Tween.get(exportRoot).to({alpha: 0}, 80).call(function() {
 					exportRoot.alpha = 1;
-<<<<<<< HEAD
 					exportRoot.gotoAndStop(1);
-=======
-					exportRoot.gotoAndStop(8);
-				});
-			});
-		}
-		
-		exportRoot.cleanupAllExercises = function() {
-			var inputNames = [
-				"ex1_input_1", "ex1_input_2", "ex1_input_3", "ex1_input_4",
-				"ex1_input_5", "ex1_input_6", "ex1_input_7", "ex1_input_8",
-				"ex2_input_1", "ex2_input_2", "ex2_input_3", "ex2_input_4",
-				"ex2_input_5", "ex2_input_6", "ex2_input_7", "ex2_input_8",
-				"ex3_input_1", "ex3_input_2", "ex3_input_3", "ex3_input_4",
-				"ex7_input_1", "ex7_input_2", "ex7_input_3", "ex7_input_4",
-				"ex8_input_1a", "ex8_input_1b", "ex8_input_2a", "ex8_input_2b",
-				"ex8_input_3a", "ex8_input_3b", "ex8_input_4a", "ex8_input_4b",
-				"ex10_input_1a", "ex10_input_1b", "ex10_input_2a", "ex10_input_2b",
-				"ex10_input_3a", "ex10_input_3b", "ex10_input_4a", "ex10_input_4b",
-				"ex11_input_middle", "ex11_input_final"
-			];
-			
-			inputNames.forEach(function(name) {
-				var el = document.getElementById("html_" + name);
-				if (el && el.parentNode) el.parentNode.removeChild(el);
-			});
-			
-			function cleanupTextObject(textObj) {
-				if (!textObj) return;
-				if (textObj._strokeClone && textObj._strokeClone.parent) {
-					textObj._strokeClone.parent.removeChild(textObj._strokeClone);
-					if (textObj._strokeClone.uncache) {
-						textObj._strokeClone.uncache();
-					}
-					textObj._strokeClone = null;
-				}
-				if (textObj._isStyled) {
-					textObj._isStyled = false;
-				}
-				if (textObj.uncache) {
-					textObj.uncache();
-				}
-				if (textObj.outline) {
-					textObj.outline = 0;
-				}
-				if (textObj.shadow) {
-					textObj.shadow = null;
-				}
-			}
-			
-			var textFields = ["main_txt_title", "main_txt_instruction"];
-			textFields.forEach(function(name) {
-				if (exportRoot[name]) {
-					cleanupTextObject(exportRoot[name]);
-				}
-			});
-			
-			function recursiveCleanup(container) {
-				if (!container || !container.children) return;
-				for (var i = container.children.length - 1; i >= 0; i--) {
-					var child = container.children[i];
-					if (child instanceof createjs.Text) {
-						cleanupTextObject(child);
-					}
-					if (child.children && child.children.length > 0) {
-						recursiveCleanup(child);
-					}
-				}
-			}
-			
-			recursiveCleanup(exportRoot);
-		};
-		
-		updateHomeText();
-		updateCheckmark();
-		
-		window.addEventListener("beforeunload", function() {
-			saveState();
-		});
-		
-		console.log("🚀 " + LESSON_NAME + " initialized!");var exportRoot = this;
-		exportRoot.stop();
-		
-		// ============================================
-		// LESSON CONFIG
-		// ============================================
-		var LESSON_ID = "Lesson06";
-		var LESSON_NAME = "Lesson 06 - Тоглоомын хот";
-		var STORAGE_KEY = LESSON_ID + "_gameState";
-		var SOUND_PATH = "./sounds/" + LESSON_ID + "_";
-		
-		// Reset state if needed
-		sessionStorage.removeItem(STORAGE_KEY);
-		
-		if (stage) stage.enableMouseOver(20);
-		
-		function loadState() {
-			try {
-				var saved = sessionStorage.getItem(STORAGE_KEY);
-				if (saved) {
-					return JSON.parse(saved);
-				}
-			} catch(e) {}
-			return null;
-		}
-		
-		function saveState() {
-			try {
-				exportRoot.gameState.timestamp = Date.now();
-				sessionStorage.setItem(STORAGE_KEY, JSON.stringify(exportRoot.gameState));
-			} catch(e) {}
-		}
-		
-		var savedState = loadState();
-		
-		if (!exportRoot.gameState) {
-			if (savedState) {
-				exportRoot.gameState = savedState;
-			} else {
-				exportRoot.gameState = {
-					timestamp: Date.now(),
-					currentFrame: 0,
-					selectedLanguage: "mn",
-					accessibilityMode: false,
-					exercise1Complete: false,
-					exercise1Matches: [],
-					exercise2Complete: false,
-					exercise2Matches: [],
-					exercise3Complete: false,
-					exercise3Values: {},
-					exercise4Complete: false,
-					exercise4Values: {},
-					exercise5Complete: false,
-					exercise5Values: {},
-					exercise6Complete: false,
-					exercise7Complete: false,
-					exercise7Values: {},
-					exercise8Complete: false,
-					exercise8Values: {}
-				};
-			}
-		}
-		
-		exportRoot.saveState = saveState;
-		
-		if (!exportRoot.audioPool) exportRoot.audioPool = {};
-		exportRoot.loadAudio = function(key, src) {
-			if (!this.audioPool[key]) {
-				this.audioPool[key] = new Audio(src);
-				this.audioPool[key].preload = "auto";
-			}
-			return this.audioPool[key];
-		};
-		
-		exportRoot.playAudio = function(key) {
-			var audio = this.audioPool[key];
-			if (audio) {
-				audio.pause();
-				audio.currentTime = 0;
-				audio.play().catch(function() {});
-			}
-		};
-		
-		exportRoot.stopAudio = function(key) {
-			var audio = this.audioPool[key];
-			if (audio) {
-				audio.pause();
-				audio.currentTime = 0;
-			}
-		};
-		
-		if (!exportRoot.videoCache) exportRoot.videoCache = {};
-		exportRoot.preloadVideo = function(path) {
-			if (this.videoCache[path]) return;
-			var vid = document.createElement("video");
-			vid.preload = "metadata";
-			vid.src = path;
-			vid.style.display = "none";
-			document.body.appendChild(vid);
-			this.videoCache[path] = vid;
-		};
-		
-		var lang = exportRoot.gameState.selectedLanguage;
-		
-		// Audio preload
-		exportRoot.loadAudio("title_mn", SOUND_PATH + "title_mn.mp3");
-		exportRoot.loadAudio("title_kz", SOUND_PATH + "title_kz.mp3");
-		exportRoot.loadAudio("title_tuva", SOUND_PATH + "title_tuva.mp3");
-		exportRoot.preloadVideo("./videos/sign/lesson06_title_dohio.mp4");
-		exportRoot.loadAudio("title_visual", SOUND_PATH + "title_mn.mp3");
-		exportRoot.loadAudio("click", "./sounds/click.mp3");
-		exportRoot.loadAudio("start", "./sounds/start.mp3");
-		
-		var homeText = {
-			mn: {
-				title: "ТОГЛООМЫН ХОТ",
-				subtitle: "Энгийн бутархайг дүрслэх, унших, бичих, жиших",
-				subject: "МАТЕМАТИК",
-				grade: "3 ДУГААР АНГИ",
-				start: "ЭХЛЭХ"
-			},
-			kz: {
-				title: "ОЙЫН ҚАЛАСЫ",
-				subtitle: "Жай бөлшектерді кескіндеу, оқу, жазу және салыстыру",
-				subject: "МАТЕМАТИКА",
-				grade: "3 СЫНЫП",
-				start: "БАСТАУ"
-			},
-			tuva: {
-				title: "ОЮН ХООРАЙ",
-				subtitle: "Наам үүрмек саннарны дүрсүлээри, номчууру, бижиири болгаш деңнээри.",
-				subject: "МАТЕМАТИКА",
-				grade: "3 КЛАСС",
-				start: "ЭГЕЛЭЭРИ"
-			},
-			sign: {
-				title: "ТОГЛООМЫН ХОТ",
-				subtitle: "Энгийн бутархайг дүрслэх, унших, бичих, жиших",
-				subject: "МАТЕМАТИК",
-				grade: "3 ДУГААР АНГИ",
-				start: "ЭХЛЭХ"
-			},
-			visual: {
-				title: "ТОГЛООМЫН ХОТ",
-				subtitle: "Энгийн бутархайг дүрслэх, унших, бичих, жиших",
-				subject: "МАТЕМАТИК",
-				grade: "3 ДУГААР АНГИ",
-				start: "ЭХЛЭХ"
-			}
-		};
-		
-		function updateHomeText() {
-			var texts = homeText[exportRoot.gameState.selectedLanguage];
-			if (exportRoot.main_txt_title) exportRoot.main_txt_title.text = texts.title;
-			if (exportRoot.txt_subtitle) exportRoot.txt_subtitle.text = texts.subtitle;
-			if (exportRoot.txt_subject) exportRoot.txt_subject.text = texts.subject;
-			if (exportRoot.txt_grade) exportRoot.txt_grade.text = texts.grade;
-			if (exportRoot.btn_start.txt_start) exportRoot.btn_start.txt_start.text = texts.start;
-		}
-				
-		// =====================================================
-		// PLAY sign video
-		// =====================================================
-		
-		function updateCheckmark() {
-			if (!exportRoot.checkmark) return;
-			var targetBtn = exportRoot["btn_" + exportRoot.gameState.selectedLanguage];
-			if (targetBtn) {
-				createjs.Tween.removeTweens(exportRoot.checkmark);
-				createjs.Tween.get(exportRoot.checkmark).to(
-					{x: targetBtn.x + 10, y: targetBtn.y - 20},
-					200,
-					createjs.Ease.quadOut
-				);
-			}
-		}
-		
-		function selectLanguage(l) {
-			exportRoot.playAudio("click");
-			exportRoot.stopAudio("title_" + exportRoot.gameState.selectedLanguage);
-			exportRoot.gameState.selectedLanguage = l;
-			exportRoot.loadAudio("title_" + l, SOUND_PATH + "title_" + l + ".mp3");
-			updateHomeText();
-			updateCheckmark();
-			saveState();
-		}
-		
-		["mn", "kz", "tuva", "sign", "visual"].forEach(function(l) {
-			if (exportRoot["btn_" + l]) exportRoot["btn_" + l].mouseEnabled = false;
-			if (exportRoot["txt_" + l]) exportRoot["txt_" + l].mouseEnabled = false;
-			if (exportRoot["hitarea_" + l]) {
-				var ha = exportRoot["hitarea_" + l];
-				ha.alpha = 0.01;
-				ha.cursor = "pointer";
-				ha.removeAllEventListeners("click");
-				ha.on("click", function() { selectLanguage(l); });
-			}
-		});
-		
-		if (exportRoot.btn_voice) {
-			exportRoot.btn_voice.cursor = "pointer";
-			exportRoot.btn_voice.scaleX = 1;
-			exportRoot.btn_voice.scaleY = 1;
-			exportRoot.btn_voice.removeAllEventListeners();
-			
-			exportRoot.btn_voice.on("mousedown", function() {
-				createjs.Tween.removeTweens(this);
-				createjs.Tween.get(this).to({scaleX: 0.9, scaleY: 0.9}, 100);
-			});
-			
-			exportRoot.btn_voice.on("pressup", function() {
-				createjs.Tween.removeTweens(this);
-				createjs.Tween.get(this).to({scaleX: 1, scaleY: 1}, 100);
-			});
-			
-			exportRoot.btn_voice.on("mouseout", function() {
-				createjs.Tween.removeTweens(this);
-				createjs.Tween.get(this).to({scaleX: 1, scaleY: 1}, 100);
-			});
-			
-			exportRoot.btn_voice.on("click", function() {
-				if (exportRoot.gameState.selectedLanguage === 'sign') {
-					playSignVideo();
-					return;
-				}
-				exportRoot.playAudio("title_" + exportRoot.gameState.selectedLanguage);
-			});
-		}
-		
-		if (exportRoot.btn_start) {
-			if (exportRoot.txt_start) exportRoot.txt_start.mouseEnabled = false;
-			exportRoot.btn_start.cursor = "pointer";
-			exportRoot.btn_start.mouseEnabled = true;
-			exportRoot.btn_start.mouseChildren = false;
-			exportRoot.btn_start.removeAllEventListeners();
-			
-			exportRoot.btn_start.on("mouseover", function() {
-				createjs.Tween.removeTweens(exportRoot.btn_start);
-				createjs.Tween.get(exportRoot.btn_start).to({scaleX: 0.95, scaleY: 0.95}, 150);
-				if (exportRoot.txt_start) {
-					createjs.Tween.get(exportRoot.txt_start).to({scaleX: 0.95, scaleY: 0.95}, 150);
-				}
-			});
-			
-			exportRoot.btn_start.on("mouseout", function() {
-				createjs.Tween.removeTweens(exportRoot.btn_start);
-				createjs.Tween.get(exportRoot.btn_start).to({scaleX: 1, scaleY: 1}, 150);
-				if (exportRoot.txt_start) {
-					createjs.Tween.get(exportRoot.txt_start).to({scaleX: 1, scaleY: 1}, 150);
-				}
-			});
-			
-			exportRoot.btn_start.on("click", function() {
-				exportRoot.playAudio("start");
-				exportRoot.stopAudio("title_" + exportRoot.gameState.selectedLanguage);
-				let signVideo = document.getElementById("signVideoPlayer");
-				if (signVideo) {
-					signVideo.pause();
-					signVideo.remove();
-				}
-				exportRoot.gameState.currentFrame = 1;
-				saveState();
-				createjs.Tween.get(exportRoot).to({alpha: 0}, 80).call(function() {
-					exportRoot.alpha = 1;
-					exportRoot.gotoAndStop(8);
->>>>>>> fa8eb2b98bb954523161eb8c781a1ab5a9a05a6c
 				});
 			});
 		}
@@ -8534,7 +8188,7 @@ if (reversed == null) { reversed = false; }
 			exerciseNumber: 1,
 			storageKey: "lesson6_gameState",
 			backFrame: null,
-			nextFrame: 27,
+			nextFrame: 9,
 			autoNextDelay: 2500,
 			soundPaths: {
 				correct: "./sounds/voice_correct.mp3",
@@ -9210,63 +8864,126 @@ if (reversed == null) { reversed = false; }
 		var exportRoot = this;
 		
 		function applyTextStyling(textObj, opts) {
-			if (!textObj || !(textObj instanceof createjs.Text)) return;
-		
-			if (textObj._strokeClone && textObj._strokeClone.parent) {
-				textObj._strokeClone.parent.removeChild(textObj._strokeClone);
-				if (textObj._strokeClone.uncache) textObj._strokeClone.uncache();
-				textObj._strokeClone = null;
-			}
-			if (textObj.cacheCanvas) textObj.uncache();
-			textObj._isStyled = false;
+			if (!textObj || !(textObj instanceof createjs.Text) || !textObj.parent) return;
 		
 			opts = opts || {};
+		
+			// 🔥 FIX: Parse existing font properly using regex
+			var currentFont = textObj.font || "bold 40px 'Rubik', sans-serif";
+			var fontParts = currentFont.match(/(\d+)px/); // Extract number before 'px'
+			var currentSize = fontParts ? fontParts[1] : "40";
+			
+			// Font settings
+			var fontSize = opts.fontSize || currentSize;
+			var fontStyle = opts.fontStyle || "bold";
+			var fontFamily = opts.fontFamily || "'Rubik', sans-serif";
+			
+			// Update font
+			textObj.font = fontStyle + " " + fontSize + "px " + fontFamily;
+		
 			var outlineColor = opts.outlineColor || "#461A17";
-			var outlineSize  = opts.outlineSize  || 12;
-			var fillColor    = opts.fillColor    || "#FFFFFF";
-			var shadowColor  = opts.shadowColor  || "rgba(60, 20, 0, 0.4)";
-			var pad          = opts.pad          || 60;
+			var outlineSize = opts.outlineSize || 6;
+			var fillColor = opts.fillColor || "#FFFFFF";
+			var shadowColor = opts.shadowColor || "rgba(60, 20, 0, 0.4)";
+			var pad = opts.pad || 60;
+		
 			var savedX = textObj.x;
 			var savedY = textObj.y;
+			var parent = textObj.parent;
+			var cloneName = "__strokeClone_" + (textObj.name || "text");
+		
+			// Clean up old clones
+			for (var i = parent.numChildren - 1; i >= 0; i--) {
+				var child = parent.getChildAt(i);
+				if (child && child.name === cloneName) {
+					if (child.cacheCanvas) child.uncache();
+					parent.removeChild(child);
+				}
+			}
+		
+			// Clear old cache
+			if (textObj.cacheCanvas) {
+				textObj.uncache();
+			}
 		
 			textObj.outline = null;
-			textObj.color   = fillColor;
-		
-			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
-			strokeText.textAlign    = textObj.textAlign;
-			strokeText.textBaseline = textObj.textBaseline;
-			strokeText.x            = savedX;
-			strokeText.y            = savedY;
-			strokeText.outline      = outlineSize;
-			strokeText.shadow       = null;
-		
-			var parent = textObj.parent;
-			if (parent) {
-				var idx = parent.getChildIndex(textObj);
-				parent.addChildAt(strokeText, idx);
-			}
-		
-			textObj._strokeClone = strokeText;
-			textObj._isStyled    = true;
+			textObj.color = fillColor;
 			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
 		
-			var bounds = textObj.getBounds();
-			if (bounds) {
-				var cacheX = bounds.x - pad;
-				var cacheY = bounds.y - pad;
-				var cacheW = bounds.width  + pad * 2;
-				var cacheH = bounds.height + pad * 2;
-				if (strokeText.cacheCanvas) strokeText.uncache();
-				if (textObj.cacheCanvas)    textObj.uncache();
-				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
-				textObj.cache(cacheX, cacheY, cacheW, cacheH);
-			}
-		
-			textObj.x    = savedX;
-			textObj.y    = savedY;
+			// Create stroke with updated font
+			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
+			strokeText.name = cloneName;
+			strokeText.textAlign = textObj.textAlign || "left";
+			strokeText.textBaseline = textObj.textBaseline || "top";
 			strokeText.x = savedX;
 			strokeText.y = savedY;
-		};
+			strokeText.scaleX = textObj.scaleX || 1;
+			strokeText.scaleY = textObj.scaleY || 1;
+			strokeText.rotation = textObj.rotation || 0;
+			strokeText.skewX = textObj.skewX || 0;
+			strokeText.skewY = textObj.skewY || 0;
+			strokeText.regX = textObj.regX || 0;
+			strokeText.regY = textObj.regY || 0;
+			strokeText.outline = outlineSize;
+			strokeText.shadow = null;
+			strokeText.mouseEnabled = false;
+		
+			var idx = parent.getChildIndex(textObj);
+			parent.addChildAt(strokeText, idx);
+		
+			textObj._strokeClone = strokeText;
+		
+			// Get bounds AFTER updating text
+			var bounds = textObj.getBounds();
+			if (!bounds) {
+				// Manually calculate bounds if getBounds fails
+				var metrics = textObj.getMeasuredWidth();
+				var lineHeight = parseInt(fontSize) * 1.2;
+				bounds = {
+					x: 0,
+					y: 0,
+					width: metrics || 200,
+					height: lineHeight || parseInt(fontSize)
+				};
+			}
+		
+			var cacheX = bounds.x - pad;
+			var cacheY = bounds.y - pad;
+			var cacheW = bounds.width + pad * 2;
+			var cacheH = bounds.height + pad * 2;
+		
+			if (strokeText.cacheCanvas) strokeText.uncache();
+			if (textObj.cacheCanvas) textObj.uncache();
+		
+			strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+			textObj.cache(cacheX, cacheY, cacheW, cacheH);
+		
+			// Cleanup logic
+			if (textObj._onRemovedCleanup) {
+				textObj.off("removed", textObj._onRemovedCleanup);
+			}
+		
+			textObj._onRemovedCleanup = function () {
+				if (strokeText) {
+					if (strokeText.cacheCanvas) strokeText.uncache();
+					if (strokeText.parent) {
+						strokeText.parent.removeChild(strokeText);
+					}
+				}
+				if (textObj.cacheCanvas) {
+					textObj.uncache();
+				}
+				textObj._strokeClone = null;
+			};
+		
+			textObj.on("removed", textObj._onRemovedCleanup);
+		
+			// Ensure position
+			textObj.x = savedX;
+			textObj.y = savedY;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+		}
 		var exerciseText = {
 			mn: {
 				title: "ТОГЛООМЫН ЗАМ",
@@ -9753,63 +9470,126 @@ if (reversed == null) { reversed = false; }
 			if (exportRoot.stopInstruction) exportRoot.stopInstruction();
 		});
 		function applyTextStyling(textObj, opts) {
-			if (!textObj || !(textObj instanceof createjs.Text)) return;
-		
-			if (textObj._strokeClone && textObj._strokeClone.parent) {
-				textObj._strokeClone.parent.removeChild(textObj._strokeClone);
-				if (textObj._strokeClone.uncache) textObj._strokeClone.uncache();
-				textObj._strokeClone = null;
-			}
-			if (textObj.cacheCanvas) textObj.uncache();
-			textObj._isStyled = false;
+			if (!textObj || !(textObj instanceof createjs.Text) || !textObj.parent) return;
 		
 			opts = opts || {};
+		
+			// 🔥 FIX: Parse existing font properly using regex
+			var currentFont = textObj.font || "bold 40px 'Rubik', sans-serif";
+			var fontParts = currentFont.match(/(\d+)px/); // Extract number before 'px'
+			var currentSize = fontParts ? fontParts[1] : "40";
+			
+			// Font settings
+			var fontSize = opts.fontSize || currentSize;
+			var fontStyle = opts.fontStyle || "bold";
+			var fontFamily = opts.fontFamily || "'Rubik', sans-serif";
+			
+			// Update font
+			textObj.font = fontStyle + " " + fontSize + "px " + fontFamily;
+		
 			var outlineColor = opts.outlineColor || "#461A17";
-			var outlineSize  = opts.outlineSize  || 12;
-			var fillColor    = opts.fillColor    || "#FFFFFF";
-			var shadowColor  = opts.shadowColor  || "rgba(60, 20, 0, 0.4)";
-			var pad          = opts.pad          || 60;
+			var outlineSize = opts.outlineSize || 6;
+			var fillColor = opts.fillColor || "#FFFFFF";
+			var shadowColor = opts.shadowColor || "rgba(60, 20, 0, 0.4)";
+			var pad = opts.pad || 60;
+		
 			var savedX = textObj.x;
 			var savedY = textObj.y;
+			var parent = textObj.parent;
+			var cloneName = "__strokeClone_" + (textObj.name || "text");
+		
+			// Clean up old clones
+			for (var i = parent.numChildren - 1; i >= 0; i--) {
+				var child = parent.getChildAt(i);
+				if (child && child.name === cloneName) {
+					if (child.cacheCanvas) child.uncache();
+					parent.removeChild(child);
+				}
+			}
+		
+			// Clear old cache
+			if (textObj.cacheCanvas) {
+				textObj.uncache();
+			}
 		
 			textObj.outline = null;
-			textObj.color   = fillColor;
-		
-			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
-			strokeText.textAlign    = textObj.textAlign;
-			strokeText.textBaseline = textObj.textBaseline;
-			strokeText.x            = savedX;
-			strokeText.y            = savedY;
-			strokeText.outline      = outlineSize;
-			strokeText.shadow       = null;
-		
-			var parent = textObj.parent;
-			if (parent) {
-				var idx = parent.getChildIndex(textObj);
-				parent.addChildAt(strokeText, idx);
-			}
-		
-			textObj._strokeClone = strokeText;
-			textObj._isStyled    = true;
+			textObj.color = fillColor;
 			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
 		
-			var bounds = textObj.getBounds();
-			if (bounds) {
-				var cacheX = bounds.x - pad;
-				var cacheY = bounds.y - pad;
-				var cacheW = bounds.width  + pad * 2;
-				var cacheH = bounds.height + pad * 2;
-				if (strokeText.cacheCanvas) strokeText.uncache();
-				if (textObj.cacheCanvas)    textObj.uncache();
-				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
-				textObj.cache(cacheX, cacheY, cacheW, cacheH);
-			}
-		
-			textObj.x    = savedX;
-			textObj.y    = savedY;
+			// Create stroke with updated font
+			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
+			strokeText.name = cloneName;
+			strokeText.textAlign = textObj.textAlign || "left";
+			strokeText.textBaseline = textObj.textBaseline || "top";
 			strokeText.x = savedX;
 			strokeText.y = savedY;
-		};
+			strokeText.scaleX = textObj.scaleX || 1;
+			strokeText.scaleY = textObj.scaleY || 1;
+			strokeText.rotation = textObj.rotation || 0;
+			strokeText.skewX = textObj.skewX || 0;
+			strokeText.skewY = textObj.skewY || 0;
+			strokeText.regX = textObj.regX || 0;
+			strokeText.regY = textObj.regY || 0;
+			strokeText.outline = outlineSize;
+			strokeText.shadow = null;
+			strokeText.mouseEnabled = false;
+		
+			var idx = parent.getChildIndex(textObj);
+			parent.addChildAt(strokeText, idx);
+		
+			textObj._strokeClone = strokeText;
+		
+			// Get bounds AFTER updating text
+			var bounds = textObj.getBounds();
+			if (!bounds) {
+				// Manually calculate bounds if getBounds fails
+				var metrics = textObj.getMeasuredWidth();
+				var lineHeight = parseInt(fontSize) * 1.2;
+				bounds = {
+					x: 0,
+					y: 0,
+					width: metrics || 200,
+					height: lineHeight || parseInt(fontSize)
+				};
+			}
+		
+			var cacheX = bounds.x - pad;
+			var cacheY = bounds.y - pad;
+			var cacheW = bounds.width + pad * 2;
+			var cacheH = bounds.height + pad * 2;
+		
+			if (strokeText.cacheCanvas) strokeText.uncache();
+			if (textObj.cacheCanvas) textObj.uncache();
+		
+			strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+			textObj.cache(cacheX, cacheY, cacheW, cacheH);
+		
+			// Cleanup logic
+			if (textObj._onRemovedCleanup) {
+				textObj.off("removed", textObj._onRemovedCleanup);
+			}
+		
+			textObj._onRemovedCleanup = function () {
+				if (strokeText) {
+					if (strokeText.cacheCanvas) strokeText.uncache();
+					if (strokeText.parent) {
+						strokeText.parent.removeChild(strokeText);
+					}
+				}
+				if (textObj.cacheCanvas) {
+					textObj.uncache();
+				}
+				textObj._strokeClone = null;
+			};
+		
+			textObj.on("removed", textObj._onRemovedCleanup);
+		
+			// Ensure position
+			textObj.x = savedX;
+			textObj.y = savedY;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+		}
 		var exerciseText = {
 			mn: {
 				title: "ЭРГЭДЭГ ХҮРД",
@@ -10301,63 +10081,126 @@ if (reversed == null) { reversed = false; }
 		    if(exportRoot.stopInstruction) exportRoot.stopInstruction(); 
 		});
 		function applyTextStyling(textObj, opts) {
-			if (!textObj || !(textObj instanceof createjs.Text)) return;
-		
-			if (textObj._strokeClone && textObj._strokeClone.parent) {
-				textObj._strokeClone.parent.removeChild(textObj._strokeClone);
-				if (textObj._strokeClone.uncache) textObj._strokeClone.uncache();
-				textObj._strokeClone = null;
-			}
-			if (textObj.cacheCanvas) textObj.uncache();
-			textObj._isStyled = false;
+			if (!textObj || !(textObj instanceof createjs.Text) || !textObj.parent) return;
 		
 			opts = opts || {};
+		
+			// 🔥 FIX: Parse existing font properly using regex
+			var currentFont = textObj.font || "bold 40px 'Rubik', sans-serif";
+			var fontParts = currentFont.match(/(\d+)px/); // Extract number before 'px'
+			var currentSize = fontParts ? fontParts[1] : "40";
+			
+			// Font settings
+			var fontSize = opts.fontSize || currentSize;
+			var fontStyle = opts.fontStyle || "bold";
+			var fontFamily = opts.fontFamily || "'Rubik', sans-serif";
+			
+			// Update font
+			textObj.font = fontStyle + " " + fontSize + "px " + fontFamily;
+		
 			var outlineColor = opts.outlineColor || "#461A17";
-			var outlineSize  = opts.outlineSize  || 12;
-			var fillColor    = opts.fillColor    || "#FFFFFF";
-			var shadowColor  = opts.shadowColor  || "rgba(60, 20, 0, 0.4)";
-			var pad          = opts.pad          || 60;
+			var outlineSize = opts.outlineSize || 6;
+			var fillColor = opts.fillColor || "#FFFFFF";
+			var shadowColor = opts.shadowColor || "rgba(60, 20, 0, 0.4)";
+			var pad = opts.pad || 60;
+		
 			var savedX = textObj.x;
 			var savedY = textObj.y;
+			var parent = textObj.parent;
+			var cloneName = "__strokeClone_" + (textObj.name || "text");
+		
+			// Clean up old clones
+			for (var i = parent.numChildren - 1; i >= 0; i--) {
+				var child = parent.getChildAt(i);
+				if (child && child.name === cloneName) {
+					if (child.cacheCanvas) child.uncache();
+					parent.removeChild(child);
+				}
+			}
+		
+			// Clear old cache
+			if (textObj.cacheCanvas) {
+				textObj.uncache();
+			}
 		
 			textObj.outline = null;
-			textObj.color   = fillColor;
-		
-			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
-			strokeText.textAlign    = textObj.textAlign;
-			strokeText.textBaseline = textObj.textBaseline;
-			strokeText.x            = savedX;
-			strokeText.y            = savedY;
-			strokeText.outline      = outlineSize;
-			strokeText.shadow       = null;
-		
-			var parent = textObj.parent;
-			if (parent) {
-				var idx = parent.getChildIndex(textObj);
-				parent.addChildAt(strokeText, idx);
-			}
-		
-			textObj._strokeClone = strokeText;
-			textObj._isStyled    = true;
+			textObj.color = fillColor;
 			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
 		
-			var bounds = textObj.getBounds();
-			if (bounds) {
-				var cacheX = bounds.x - pad;
-				var cacheY = bounds.y - pad;
-				var cacheW = bounds.width  + pad * 2;
-				var cacheH = bounds.height + pad * 2;
-				if (strokeText.cacheCanvas) strokeText.uncache();
-				if (textObj.cacheCanvas)    textObj.uncache();
-				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
-				textObj.cache(cacheX, cacheY, cacheW, cacheH);
-			}
-		
-			textObj.x    = savedX;
-			textObj.y    = savedY;
+			// Create stroke with updated font
+			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
+			strokeText.name = cloneName;
+			strokeText.textAlign = textObj.textAlign || "left";
+			strokeText.textBaseline = textObj.textBaseline || "top";
 			strokeText.x = savedX;
 			strokeText.y = savedY;
-		};
+			strokeText.scaleX = textObj.scaleX || 1;
+			strokeText.scaleY = textObj.scaleY || 1;
+			strokeText.rotation = textObj.rotation || 0;
+			strokeText.skewX = textObj.skewX || 0;
+			strokeText.skewY = textObj.skewY || 0;
+			strokeText.regX = textObj.regX || 0;
+			strokeText.regY = textObj.regY || 0;
+			strokeText.outline = outlineSize;
+			strokeText.shadow = null;
+			strokeText.mouseEnabled = false;
+		
+			var idx = parent.getChildIndex(textObj);
+			parent.addChildAt(strokeText, idx);
+		
+			textObj._strokeClone = strokeText;
+		
+			// Get bounds AFTER updating text
+			var bounds = textObj.getBounds();
+			if (!bounds) {
+				// Manually calculate bounds if getBounds fails
+				var metrics = textObj.getMeasuredWidth();
+				var lineHeight = parseInt(fontSize) * 1.2;
+				bounds = {
+					x: 0,
+					y: 0,
+					width: metrics || 200,
+					height: lineHeight || parseInt(fontSize)
+				};
+			}
+		
+			var cacheX = bounds.x - pad;
+			var cacheY = bounds.y - pad;
+			var cacheW = bounds.width + pad * 2;
+			var cacheH = bounds.height + pad * 2;
+		
+			if (strokeText.cacheCanvas) strokeText.uncache();
+			if (textObj.cacheCanvas) textObj.uncache();
+		
+			strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+			textObj.cache(cacheX, cacheY, cacheW, cacheH);
+		
+			// Cleanup logic
+			if (textObj._onRemovedCleanup) {
+				textObj.off("removed", textObj._onRemovedCleanup);
+			}
+		
+			textObj._onRemovedCleanup = function () {
+				if (strokeText) {
+					if (strokeText.cacheCanvas) strokeText.uncache();
+					if (strokeText.parent) {
+						strokeText.parent.removeChild(strokeText);
+					}
+				}
+				if (textObj.cacheCanvas) {
+					textObj.uncache();
+				}
+				textObj._strokeClone = null;
+			};
+		
+			textObj.on("removed", textObj._onRemovedCleanup);
+		
+			// Ensure position
+			textObj.x = savedX;
+			textObj.y = savedY;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+		}
 		var exerciseText = {
 			mn: {
 				title: "АМЬТНЫ ХҮРЭЭЛЭН",
@@ -10848,63 +10691,126 @@ if (reversed == null) { reversed = false; }
 		    if(exportRoot.stopInstruction) exportRoot.stopInstruction(); 
 		});
 		function applyTextStyling(textObj, opts) {
-			if (!textObj || !(textObj instanceof createjs.Text)) return;
-		
-			if (textObj._strokeClone && textObj._strokeClone.parent) {
-				textObj._strokeClone.parent.removeChild(textObj._strokeClone);
-				if (textObj._strokeClone.uncache) textObj._strokeClone.uncache();
-				textObj._strokeClone = null;
-			}
-			if (textObj.cacheCanvas) textObj.uncache();
-			textObj._isStyled = false;
+			if (!textObj || !(textObj instanceof createjs.Text) || !textObj.parent) return;
 		
 			opts = opts || {};
+		
+			// 🔥 FIX: Parse existing font properly using regex
+			var currentFont = textObj.font || "bold 40px 'Rubik', sans-serif";
+			var fontParts = currentFont.match(/(\d+)px/); // Extract number before 'px'
+			var currentSize = fontParts ? fontParts[1] : "40";
+			
+			// Font settings
+			var fontSize = opts.fontSize || currentSize;
+			var fontStyle = opts.fontStyle || "bold";
+			var fontFamily = opts.fontFamily || "'Rubik', sans-serif";
+			
+			// Update font
+			textObj.font = fontStyle + " " + fontSize + "px " + fontFamily;
+		
 			var outlineColor = opts.outlineColor || "#461A17";
-			var outlineSize  = opts.outlineSize  || 12;
-			var fillColor    = opts.fillColor    || "#FFFFFF";
-			var shadowColor  = opts.shadowColor  || "rgba(60, 20, 0, 0.4)";
-			var pad          = opts.pad          || 60;
+			var outlineSize = opts.outlineSize || 6;
+			var fillColor = opts.fillColor || "#FFFFFF";
+			var shadowColor = opts.shadowColor || "rgba(60, 20, 0, 0.4)";
+			var pad = opts.pad || 60;
+		
 			var savedX = textObj.x;
 			var savedY = textObj.y;
+			var parent = textObj.parent;
+			var cloneName = "__strokeClone_" + (textObj.name || "text");
+		
+			// Clean up old clones
+			for (var i = parent.numChildren - 1; i >= 0; i--) {
+				var child = parent.getChildAt(i);
+				if (child && child.name === cloneName) {
+					if (child.cacheCanvas) child.uncache();
+					parent.removeChild(child);
+				}
+			}
+		
+			// Clear old cache
+			if (textObj.cacheCanvas) {
+				textObj.uncache();
+			}
 		
 			textObj.outline = null;
-			textObj.color   = fillColor;
-		
-			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
-			strokeText.textAlign    = textObj.textAlign;
-			strokeText.textBaseline = textObj.textBaseline;
-			strokeText.x            = savedX;
-			strokeText.y            = savedY;
-			strokeText.outline      = outlineSize;
-			strokeText.shadow       = null;
-		
-			var parent = textObj.parent;
-			if (parent) {
-				var idx = parent.getChildIndex(textObj);
-				parent.addChildAt(strokeText, idx);
-			}
-		
-			textObj._strokeClone = strokeText;
-			textObj._isStyled    = true;
+			textObj.color = fillColor;
 			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
 		
-			var bounds = textObj.getBounds();
-			if (bounds) {
-				var cacheX = bounds.x - pad;
-				var cacheY = bounds.y - pad;
-				var cacheW = bounds.width  + pad * 2;
-				var cacheH = bounds.height + pad * 2;
-				if (strokeText.cacheCanvas) strokeText.uncache();
-				if (textObj.cacheCanvas)    textObj.uncache();
-				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
-				textObj.cache(cacheX, cacheY, cacheW, cacheH);
-			}
-		
-			textObj.x    = savedX;
-			textObj.y    = savedY;
+			// Create stroke with updated font
+			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
+			strokeText.name = cloneName;
+			strokeText.textAlign = textObj.textAlign || "left";
+			strokeText.textBaseline = textObj.textBaseline || "top";
 			strokeText.x = savedX;
 			strokeText.y = savedY;
-		};
+			strokeText.scaleX = textObj.scaleX || 1;
+			strokeText.scaleY = textObj.scaleY || 1;
+			strokeText.rotation = textObj.rotation || 0;
+			strokeText.skewX = textObj.skewX || 0;
+			strokeText.skewY = textObj.skewY || 0;
+			strokeText.regX = textObj.regX || 0;
+			strokeText.regY = textObj.regY || 0;
+			strokeText.outline = outlineSize;
+			strokeText.shadow = null;
+			strokeText.mouseEnabled = false;
+		
+			var idx = parent.getChildIndex(textObj);
+			parent.addChildAt(strokeText, idx);
+		
+			textObj._strokeClone = strokeText;
+		
+			// Get bounds AFTER updating text
+			var bounds = textObj.getBounds();
+			if (!bounds) {
+				// Manually calculate bounds if getBounds fails
+				var metrics = textObj.getMeasuredWidth();
+				var lineHeight = parseInt(fontSize) * 1.2;
+				bounds = {
+					x: 0,
+					y: 0,
+					width: metrics || 200,
+					height: lineHeight || parseInt(fontSize)
+				};
+			}
+		
+			var cacheX = bounds.x - pad;
+			var cacheY = bounds.y - pad;
+			var cacheW = bounds.width + pad * 2;
+			var cacheH = bounds.height + pad * 2;
+		
+			if (strokeText.cacheCanvas) strokeText.uncache();
+			if (textObj.cacheCanvas) textObj.uncache();
+		
+			strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+			textObj.cache(cacheX, cacheY, cacheW, cacheH);
+		
+			// Cleanup logic
+			if (textObj._onRemovedCleanup) {
+				textObj.off("removed", textObj._onRemovedCleanup);
+			}
+		
+			textObj._onRemovedCleanup = function () {
+				if (strokeText) {
+					if (strokeText.cacheCanvas) strokeText.uncache();
+					if (strokeText.parent) {
+						strokeText.parent.removeChild(strokeText);
+					}
+				}
+				if (textObj.cacheCanvas) {
+					textObj.uncache();
+				}
+				textObj._strokeClone = null;
+			};
+		
+			textObj.on("removed", textObj._onRemovedCleanup);
+		
+			// Ensure position
+			textObj.x = savedX;
+			textObj.y = savedY;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+		}
 		var exerciseText = {
 			mn: {
 				title: "ХУВААРЬТ ЦАМХГУУД",
@@ -11469,63 +11375,126 @@ if (reversed == null) { reversed = false; }
 		    hideAllHtmlInputs(); 
 		});
 		function applyTextStyling(textObj, opts) {
-			if (!textObj || !(textObj instanceof createjs.Text)) return;
-		
-			if (textObj._strokeClone && textObj._strokeClone.parent) {
-				textObj._strokeClone.parent.removeChild(textObj._strokeClone);
-				if (textObj._strokeClone.uncache) textObj._strokeClone.uncache();
-				textObj._strokeClone = null;
-			}
-			if (textObj.cacheCanvas) textObj.uncache();
-			textObj._isStyled = false;
+			if (!textObj || !(textObj instanceof createjs.Text) || !textObj.parent) return;
 		
 			opts = opts || {};
+		
+			// 🔥 FIX: Parse existing font properly using regex
+			var currentFont = textObj.font || "bold 40px 'Rubik', sans-serif";
+			var fontParts = currentFont.match(/(\d+)px/); // Extract number before 'px'
+			var currentSize = fontParts ? fontParts[1] : "40";
+			
+			// Font settings
+			var fontSize = opts.fontSize || currentSize;
+			var fontStyle = opts.fontStyle || "bold";
+			var fontFamily = opts.fontFamily || "'Rubik', sans-serif";
+			
+			// Update font
+			textObj.font = fontStyle + " " + fontSize + "px " + fontFamily;
+		
 			var outlineColor = opts.outlineColor || "#461A17";
-			var outlineSize  = opts.outlineSize  || 12;
-			var fillColor    = opts.fillColor    || "#FFFFFF";
-			var shadowColor  = opts.shadowColor  || "rgba(60, 20, 0, 0.4)";
-			var pad          = opts.pad          || 60;
+			var outlineSize = opts.outlineSize || 6;
+			var fillColor = opts.fillColor || "#FFFFFF";
+			var shadowColor = opts.shadowColor || "rgba(60, 20, 0, 0.4)";
+			var pad = opts.pad || 60;
+		
 			var savedX = textObj.x;
 			var savedY = textObj.y;
+			var parent = textObj.parent;
+			var cloneName = "__strokeClone_" + (textObj.name || "text");
+		
+			// Clean up old clones
+			for (var i = parent.numChildren - 1; i >= 0; i--) {
+				var child = parent.getChildAt(i);
+				if (child && child.name === cloneName) {
+					if (child.cacheCanvas) child.uncache();
+					parent.removeChild(child);
+				}
+			}
+		
+			// Clear old cache
+			if (textObj.cacheCanvas) {
+				textObj.uncache();
+			}
 		
 			textObj.outline = null;
-			textObj.color   = fillColor;
-		
-			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
-			strokeText.textAlign    = textObj.textAlign;
-			strokeText.textBaseline = textObj.textBaseline;
-			strokeText.x            = savedX;
-			strokeText.y            = savedY;
-			strokeText.outline      = outlineSize;
-			strokeText.shadow       = null;
-		
-			var parent = textObj.parent;
-			if (parent) {
-				var idx = parent.getChildIndex(textObj);
-				parent.addChildAt(strokeText, idx);
-			}
-		
-			textObj._strokeClone = strokeText;
-			textObj._isStyled    = true;
+			textObj.color = fillColor;
 			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
 		
-			var bounds = textObj.getBounds();
-			if (bounds) {
-				var cacheX = bounds.x - pad;
-				var cacheY = bounds.y - pad;
-				var cacheW = bounds.width  + pad * 2;
-				var cacheH = bounds.height + pad * 2;
-				if (strokeText.cacheCanvas) strokeText.uncache();
-				if (textObj.cacheCanvas)    textObj.uncache();
-				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
-				textObj.cache(cacheX, cacheY, cacheW, cacheH);
-			}
-		
-			textObj.x    = savedX;
-			textObj.y    = savedY;
+			// Create stroke with updated font
+			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
+			strokeText.name = cloneName;
+			strokeText.textAlign = textObj.textAlign || "left";
+			strokeText.textBaseline = textObj.textBaseline || "top";
 			strokeText.x = savedX;
 			strokeText.y = savedY;
-		};
+			strokeText.scaleX = textObj.scaleX || 1;
+			strokeText.scaleY = textObj.scaleY || 1;
+			strokeText.rotation = textObj.rotation || 0;
+			strokeText.skewX = textObj.skewX || 0;
+			strokeText.skewY = textObj.skewY || 0;
+			strokeText.regX = textObj.regX || 0;
+			strokeText.regY = textObj.regY || 0;
+			strokeText.outline = outlineSize;
+			strokeText.shadow = null;
+			strokeText.mouseEnabled = false;
+		
+			var idx = parent.getChildIndex(textObj);
+			parent.addChildAt(strokeText, idx);
+		
+			textObj._strokeClone = strokeText;
+		
+			// Get bounds AFTER updating text
+			var bounds = textObj.getBounds();
+			if (!bounds) {
+				// Manually calculate bounds if getBounds fails
+				var metrics = textObj.getMeasuredWidth();
+				var lineHeight = parseInt(fontSize) * 1.2;
+				bounds = {
+					x: 0,
+					y: 0,
+					width: metrics || 200,
+					height: lineHeight || parseInt(fontSize)
+				};
+			}
+		
+			var cacheX = bounds.x - pad;
+			var cacheY = bounds.y - pad;
+			var cacheW = bounds.width + pad * 2;
+			var cacheH = bounds.height + pad * 2;
+		
+			if (strokeText.cacheCanvas) strokeText.uncache();
+			if (textObj.cacheCanvas) textObj.uncache();
+		
+			strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+			textObj.cache(cacheX, cacheY, cacheW, cacheH);
+		
+			// Cleanup logic
+			if (textObj._onRemovedCleanup) {
+				textObj.off("removed", textObj._onRemovedCleanup);
+			}
+		
+			textObj._onRemovedCleanup = function () {
+				if (strokeText) {
+					if (strokeText.cacheCanvas) strokeText.uncache();
+					if (strokeText.parent) {
+						strokeText.parent.removeChild(strokeText);
+					}
+				}
+				if (textObj.cacheCanvas) {
+					textObj.uncache();
+				}
+				textObj._strokeClone = null;
+			};
+		
+			textObj.on("removed", textObj._onRemovedCleanup);
+		
+			// Ensure position
+			textObj.x = savedX;
+			textObj.y = savedY;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+		}
 		var exerciseText = {
 			mn: {
 				title: "УС ТҮГЭЭХ ТӨВ",
@@ -12212,63 +12181,126 @@ if (reversed == null) { reversed = false; }
 		    cleanupVisualsForLeavingThisExercise();
 		});
 		function applyTextStyling(textObj, opts) {
-			if (!textObj || !(textObj instanceof createjs.Text)) return;
-		
-			if (textObj._strokeClone && textObj._strokeClone.parent) {
-				textObj._strokeClone.parent.removeChild(textObj._strokeClone);
-				if (textObj._strokeClone.uncache) textObj._strokeClone.uncache();
-				textObj._strokeClone = null;
-			}
-			if (textObj.cacheCanvas) textObj.uncache();
-			textObj._isStyled = false;
+			if (!textObj || !(textObj instanceof createjs.Text) || !textObj.parent) return;
 		
 			opts = opts || {};
+		
+			// 🔥 FIX: Parse existing font properly using regex
+			var currentFont = textObj.font || "bold 40px 'Rubik', sans-serif";
+			var fontParts = currentFont.match(/(\d+)px/); // Extract number before 'px'
+			var currentSize = fontParts ? fontParts[1] : "40";
+			
+			// Font settings
+			var fontSize = opts.fontSize || currentSize;
+			var fontStyle = opts.fontStyle || "bold";
+			var fontFamily = opts.fontFamily || "'Rubik', sans-serif";
+			
+			// Update font
+			textObj.font = fontStyle + " " + fontSize + "px " + fontFamily;
+		
 			var outlineColor = opts.outlineColor || "#461A17";
-			var outlineSize  = opts.outlineSize  || 12;
-			var fillColor    = opts.fillColor    || "#FFFFFF";
-			var shadowColor  = opts.shadowColor  || "rgba(60, 20, 0, 0.4)";
-			var pad          = opts.pad          || 60;
+			var outlineSize = opts.outlineSize || 6;
+			var fillColor = opts.fillColor || "#FFFFFF";
+			var shadowColor = opts.shadowColor || "rgba(60, 20, 0, 0.4)";
+			var pad = opts.pad || 60;
+		
 			var savedX = textObj.x;
 			var savedY = textObj.y;
+			var parent = textObj.parent;
+			var cloneName = "__strokeClone_" + (textObj.name || "text");
+		
+			// Clean up old clones
+			for (var i = parent.numChildren - 1; i >= 0; i--) {
+				var child = parent.getChildAt(i);
+				if (child && child.name === cloneName) {
+					if (child.cacheCanvas) child.uncache();
+					parent.removeChild(child);
+				}
+			}
+		
+			// Clear old cache
+			if (textObj.cacheCanvas) {
+				textObj.uncache();
+			}
 		
 			textObj.outline = null;
-			textObj.color   = fillColor;
-		
-			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
-			strokeText.textAlign    = textObj.textAlign;
-			strokeText.textBaseline = textObj.textBaseline;
-			strokeText.x            = savedX;
-			strokeText.y            = savedY;
-			strokeText.outline      = outlineSize;
-			strokeText.shadow       = null;
-		
-			var parent = textObj.parent;
-			if (parent) {
-				var idx = parent.getChildIndex(textObj);
-				parent.addChildAt(strokeText, idx);
-			}
-		
-			textObj._strokeClone = strokeText;
-			textObj._isStyled    = true;
+			textObj.color = fillColor;
 			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
 		
-			var bounds = textObj.getBounds();
-			if (bounds) {
-				var cacheX = bounds.x - pad;
-				var cacheY = bounds.y - pad;
-				var cacheW = bounds.width  + pad * 2;
-				var cacheH = bounds.height + pad * 2;
-				if (strokeText.cacheCanvas) strokeText.uncache();
-				if (textObj.cacheCanvas)    textObj.uncache();
-				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
-				textObj.cache(cacheX, cacheY, cacheW, cacheH);
-			}
-		
-			textObj.x    = savedX;
-			textObj.y    = savedY;
+			// Create stroke with updated font
+			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
+			strokeText.name = cloneName;
+			strokeText.textAlign = textObj.textAlign || "left";
+			strokeText.textBaseline = textObj.textBaseline || "top";
 			strokeText.x = savedX;
 			strokeText.y = savedY;
-		};
+			strokeText.scaleX = textObj.scaleX || 1;
+			strokeText.scaleY = textObj.scaleY || 1;
+			strokeText.rotation = textObj.rotation || 0;
+			strokeText.skewX = textObj.skewX || 0;
+			strokeText.skewY = textObj.skewY || 0;
+			strokeText.regX = textObj.regX || 0;
+			strokeText.regY = textObj.regY || 0;
+			strokeText.outline = outlineSize;
+			strokeText.shadow = null;
+			strokeText.mouseEnabled = false;
+		
+			var idx = parent.getChildIndex(textObj);
+			parent.addChildAt(strokeText, idx);
+		
+			textObj._strokeClone = strokeText;
+		
+			// Get bounds AFTER updating text
+			var bounds = textObj.getBounds();
+			if (!bounds) {
+				// Manually calculate bounds if getBounds fails
+				var metrics = textObj.getMeasuredWidth();
+				var lineHeight = parseInt(fontSize) * 1.2;
+				bounds = {
+					x: 0,
+					y: 0,
+					width: metrics || 200,
+					height: lineHeight || parseInt(fontSize)
+				};
+			}
+		
+			var cacheX = bounds.x - pad;
+			var cacheY = bounds.y - pad;
+			var cacheW = bounds.width + pad * 2;
+			var cacheH = bounds.height + pad * 2;
+		
+			if (strokeText.cacheCanvas) strokeText.uncache();
+			if (textObj.cacheCanvas) textObj.uncache();
+		
+			strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+			textObj.cache(cacheX, cacheY, cacheW, cacheH);
+		
+			// Cleanup logic
+			if (textObj._onRemovedCleanup) {
+				textObj.off("removed", textObj._onRemovedCleanup);
+			}
+		
+			textObj._onRemovedCleanup = function () {
+				if (strokeText) {
+					if (strokeText.cacheCanvas) strokeText.uncache();
+					if (strokeText.parent) {
+						strokeText.parent.removeChild(strokeText);
+					}
+				}
+				if (textObj.cacheCanvas) {
+					textObj.uncache();
+				}
+				textObj._strokeClone = null;
+			};
+		
+			textObj.on("removed", textObj._onRemovedCleanup);
+		
+			// Ensure position
+			textObj.x = savedX;
+			textObj.y = savedY;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+		}
 		var exerciseText = {
 			mn: {
 				title: "ХЯНАХ САМБАР",
@@ -12890,63 +12922,126 @@ if (reversed == null) { reversed = false; }
 		    });
 		});
 		function applyTextStyling(textObj, opts) {
-			if (!textObj || !(textObj instanceof createjs.Text)) return;
-		
-			if (textObj._strokeClone && textObj._strokeClone.parent) {
-				textObj._strokeClone.parent.removeChild(textObj._strokeClone);
-				if (textObj._strokeClone.uncache) textObj._strokeClone.uncache();
-				textObj._strokeClone = null;
-			}
-			if (textObj.cacheCanvas) textObj.uncache();
-			textObj._isStyled = false;
+			if (!textObj || !(textObj instanceof createjs.Text) || !textObj.parent) return;
 		
 			opts = opts || {};
+		
+			// 🔥 FIX: Parse existing font properly using regex
+			var currentFont = textObj.font || "bold 40px 'Rubik', sans-serif";
+			var fontParts = currentFont.match(/(\d+)px/); // Extract number before 'px'
+			var currentSize = fontParts ? fontParts[1] : "40";
+			
+			// Font settings
+			var fontSize = opts.fontSize || currentSize;
+			var fontStyle = opts.fontStyle || "bold";
+			var fontFamily = opts.fontFamily || "'Rubik', sans-serif";
+			
+			// Update font
+			textObj.font = fontStyle + " " + fontSize + "px " + fontFamily;
+		
 			var outlineColor = opts.outlineColor || "#461A17";
-			var outlineSize  = opts.outlineSize  || 12;
-			var fillColor    = opts.fillColor    || "#FFFFFF";
-			var shadowColor  = opts.shadowColor  || "rgba(60, 20, 0, 0.4)";
-			var pad          = opts.pad          || 60;
+			var outlineSize = opts.outlineSize || 6;
+			var fillColor = opts.fillColor || "#FFFFFF";
+			var shadowColor = opts.shadowColor || "rgba(60, 20, 0, 0.4)";
+			var pad = opts.pad || 60;
+		
 			var savedX = textObj.x;
 			var savedY = textObj.y;
+			var parent = textObj.parent;
+			var cloneName = "__strokeClone_" + (textObj.name || "text");
+		
+			// Clean up old clones
+			for (var i = parent.numChildren - 1; i >= 0; i--) {
+				var child = parent.getChildAt(i);
+				if (child && child.name === cloneName) {
+					if (child.cacheCanvas) child.uncache();
+					parent.removeChild(child);
+				}
+			}
+		
+			// Clear old cache
+			if (textObj.cacheCanvas) {
+				textObj.uncache();
+			}
 		
 			textObj.outline = null;
-			textObj.color   = fillColor;
-		
-			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
-			strokeText.textAlign    = textObj.textAlign;
-			strokeText.textBaseline = textObj.textBaseline;
-			strokeText.x            = savedX;
-			strokeText.y            = savedY;
-			strokeText.outline      = outlineSize;
-			strokeText.shadow       = null;
-		
-			var parent = textObj.parent;
-			if (parent) {
-				var idx = parent.getChildIndex(textObj);
-				parent.addChildAt(strokeText, idx);
-			}
-		
-			textObj._strokeClone = strokeText;
-			textObj._isStyled    = true;
+			textObj.color = fillColor;
 			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
 		
-			var bounds = textObj.getBounds();
-			if (bounds) {
-				var cacheX = bounds.x - pad;
-				var cacheY = bounds.y - pad;
-				var cacheW = bounds.width  + pad * 2;
-				var cacheH = bounds.height + pad * 2;
-				if (strokeText.cacheCanvas) strokeText.uncache();
-				if (textObj.cacheCanvas)    textObj.uncache();
-				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
-				textObj.cache(cacheX, cacheY, cacheW, cacheH);
-			}
-		
-			textObj.x    = savedX;
-			textObj.y    = savedY;
+			// Create stroke with updated font
+			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
+			strokeText.name = cloneName;
+			strokeText.textAlign = textObj.textAlign || "left";
+			strokeText.textBaseline = textObj.textBaseline || "top";
 			strokeText.x = savedX;
 			strokeText.y = savedY;
-		};
+			strokeText.scaleX = textObj.scaleX || 1;
+			strokeText.scaleY = textObj.scaleY || 1;
+			strokeText.rotation = textObj.rotation || 0;
+			strokeText.skewX = textObj.skewX || 0;
+			strokeText.skewY = textObj.skewY || 0;
+			strokeText.regX = textObj.regX || 0;
+			strokeText.regY = textObj.regY || 0;
+			strokeText.outline = outlineSize;
+			strokeText.shadow = null;
+			strokeText.mouseEnabled = false;
+		
+			var idx = parent.getChildIndex(textObj);
+			parent.addChildAt(strokeText, idx);
+		
+			textObj._strokeClone = strokeText;
+		
+			// Get bounds AFTER updating text
+			var bounds = textObj.getBounds();
+			if (!bounds) {
+				// Manually calculate bounds if getBounds fails
+				var metrics = textObj.getMeasuredWidth();
+				var lineHeight = parseInt(fontSize) * 1.2;
+				bounds = {
+					x: 0,
+					y: 0,
+					width: metrics || 200,
+					height: lineHeight || parseInt(fontSize)
+				};
+			}
+		
+			var cacheX = bounds.x - pad;
+			var cacheY = bounds.y - pad;
+			var cacheW = bounds.width + pad * 2;
+			var cacheH = bounds.height + pad * 2;
+		
+			if (strokeText.cacheCanvas) strokeText.uncache();
+			if (textObj.cacheCanvas) textObj.uncache();
+		
+			strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+			textObj.cache(cacheX, cacheY, cacheW, cacheH);
+		
+			// Cleanup logic
+			if (textObj._onRemovedCleanup) {
+				textObj.off("removed", textObj._onRemovedCleanup);
+			}
+		
+			textObj._onRemovedCleanup = function () {
+				if (strokeText) {
+					if (strokeText.cacheCanvas) strokeText.uncache();
+					if (strokeText.parent) {
+						strokeText.parent.removeChild(strokeText);
+					}
+				}
+				if (textObj.cacheCanvas) {
+					textObj.uncache();
+				}
+				textObj._strokeClone = null;
+			};
+		
+			textObj.on("removed", textObj._onRemovedCleanup);
+		
+			// Ensure position
+			textObj.x = savedX;
+			textObj.y = savedY;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+		}
 		var exerciseText = {
 			mn: {
 				title: "УРАЛДААНЫ ЗАМ",
@@ -13461,63 +13556,116 @@ if (reversed == null) { reversed = false; }
 			if(exportRoot.stopInstruction) exportRoot.stopInstruction(); 
 		});
 		function applyTextStyling(textObj, opts) {
-			if (!textObj || !(textObj instanceof createjs.Text)) return;
-		
-			if (textObj._strokeClone && textObj._strokeClone.parent) {
-				textObj._strokeClone.parent.removeChild(textObj._strokeClone);
-				if (textObj._strokeClone.uncache) textObj._strokeClone.uncache();
-				textObj._strokeClone = null;
-			}
-			if (textObj.cacheCanvas) textObj.uncache();
-			textObj._isStyled = false;
+			if (!textObj || !(textObj instanceof createjs.Text) || !textObj.parent) return;
 		
 			opts = opts || {};
+		
+			var currentFont = textObj.font || "bold 40px 'Rubik', sans-serif";
+			var fontParts = currentFont.match(/(\d+)px/);
+			var currentSize = fontParts ? fontParts[1] : "40";
+			
+			var fontSize = opts.fontSize || currentSize;
+			var fontStyle = opts.fontStyle || "bold";
+			var fontFamily = opts.fontFamily || "'Rubik', sans-serif";
+			
+			textObj.font = fontStyle + " " + fontSize + "px " + fontFamily;
+		
 			var outlineColor = opts.outlineColor || "#461A17";
-			var outlineSize  = opts.outlineSize  || 12;
-			var fillColor    = opts.fillColor    || "#FFFFFF";
-			var shadowColor  = opts.shadowColor  || "rgba(60, 20, 0, 0.4)";
-			var pad          = opts.pad          || 60;
+			var outlineSize = opts.outlineSize || 6;
+			var fillColor = opts.fillColor || "#FFFFFF";
+			var shadowColor = opts.shadowColor || "rgba(60, 20, 0, 0.4)";
+			var pad = opts.pad || 60;
+		
 			var savedX = textObj.x;
 			var savedY = textObj.y;
+			var parent = textObj.parent;
+			var cloneName = "__strokeClone_" + (textObj.name || "text");
+		
+			for (var i = parent.numChildren - 1; i >= 0; i--) {
+				var child = parent.getChildAt(i);
+				if (child && child.name === cloneName) {
+					if (child.cacheCanvas) child.uncache();
+					parent.removeChild(child);
+				}
+			}
+		
+			if (textObj.cacheCanvas) {
+				textObj.uncache();
+			}
 		
 			textObj.outline = null;
-			textObj.color   = fillColor;
-		
-			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
-			strokeText.textAlign    = textObj.textAlign;
-			strokeText.textBaseline = textObj.textBaseline;
-			strokeText.x            = savedX;
-			strokeText.y            = savedY;
-			strokeText.outline      = outlineSize;
-			strokeText.shadow       = null;
-		
-			var parent = textObj.parent;
-			if (parent) {
-				var idx = parent.getChildIndex(textObj);
-				parent.addChildAt(strokeText, idx);
-			}
-		
-			textObj._strokeClone = strokeText;
-			textObj._isStyled    = true;
+			textObj.color = fillColor;
 			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
 		
-			var bounds = textObj.getBounds();
-			if (bounds) {
-				var cacheX = bounds.x - pad;
-				var cacheY = bounds.y - pad;
-				var cacheW = bounds.width  + pad * 2;
-				var cacheH = bounds.height + pad * 2;
-				if (strokeText.cacheCanvas) strokeText.uncache();
-				if (textObj.cacheCanvas)    textObj.uncache();
-				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
-				textObj.cache(cacheX, cacheY, cacheW, cacheH);
-			}
-		
-			textObj.x    = savedX;
-			textObj.y    = savedY;
+			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
+			strokeText.name = cloneName;
+			strokeText.textAlign = textObj.textAlign || "left";
+			strokeText.textBaseline = textObj.textBaseline || "top";
 			strokeText.x = savedX;
 			strokeText.y = savedY;
-		};
+			strokeText.scaleX = textObj.scaleX || 1;
+			strokeText.scaleY = textObj.scaleY || 1;
+			strokeText.rotation = textObj.rotation || 0;
+			strokeText.skewX = textObj.skewX || 0;
+			strokeText.skewY = textObj.skewY || 0;
+			strokeText.regX = textObj.regX || 0;
+			strokeText.regY = textObj.regY || 0;
+			strokeText.outline = outlineSize;
+			strokeText.shadow = null;
+			strokeText.mouseEnabled = false;
+		
+			var idx = parent.getChildIndex(textObj);
+			parent.addChildAt(strokeText, idx);
+		
+			textObj._strokeClone = strokeText;
+		
+			var bounds = textObj.getBounds();
+			if (!bounds) {
+				var metrics = textObj.getMeasuredWidth();
+				var lineHeight = parseInt(fontSize) * 1.2;
+				bounds = {
+					x: 0,
+					y: 0,
+					width: metrics || 200,
+					height: lineHeight || parseInt(fontSize)
+				};
+			}
+		
+			var cacheX = bounds.x - pad;
+			var cacheY = bounds.y - pad;
+			var cacheW = bounds.width + pad * 2;
+			var cacheH = bounds.height + pad * 2;
+		
+			if (strokeText.cacheCanvas) strokeText.uncache();
+			if (textObj.cacheCanvas) textObj.uncache();
+		
+			strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+			textObj.cache(cacheX, cacheY, cacheW, cacheH);
+		
+			if (textObj._onRemovedCleanup) {
+				textObj.off("removed", textObj._onRemovedCleanup);
+			}
+		
+			textObj._onRemovedCleanup = function () {
+				if (strokeText) {
+					if (strokeText.cacheCanvas) strokeText.uncache();
+					if (strokeText.parent) {
+						strokeText.parent.removeChild(strokeText);
+					}
+				}
+				if (textObj.cacheCanvas) {
+					textObj.uncache();
+				}
+				textObj._strokeClone = null;
+			};
+		
+			textObj.on("removed", textObj._onRemovedCleanup);
+		
+			textObj.x = savedX;
+			textObj.y = savedY;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+		}
 		
 		var exerciseText = {
 			mn: {
@@ -14274,63 +14422,126 @@ if (reversed == null) { reversed = false; }
 			cleanupExerciseDom();
 		});
 		function applyTextStyling(textObj, opts) {
-			if (!textObj || !(textObj instanceof createjs.Text)) return;
-		
-			if (textObj._strokeClone && textObj._strokeClone.parent) {
-				textObj._strokeClone.parent.removeChild(textObj._strokeClone);
-				if (textObj._strokeClone.uncache) textObj._strokeClone.uncache();
-				textObj._strokeClone = null;
-			}
-			if (textObj.cacheCanvas) textObj.uncache();
-			textObj._isStyled = false;
+			if (!textObj || !(textObj instanceof createjs.Text) || !textObj.parent) return;
 		
 			opts = opts || {};
+		
+			// 🔥 FIX: Parse existing font properly using regex
+			var currentFont = textObj.font || "bold 40px 'Rubik', sans-serif";
+			var fontParts = currentFont.match(/(\d+)px/); // Extract number before 'px'
+			var currentSize = fontParts ? fontParts[1] : "40";
+			
+			// Font settings
+			var fontSize = opts.fontSize || currentSize;
+			var fontStyle = opts.fontStyle || "bold";
+			var fontFamily = opts.fontFamily || "'Rubik', sans-serif";
+			
+			// Update font
+			textObj.font = fontStyle + " " + fontSize + "px " + fontFamily;
+		
 			var outlineColor = opts.outlineColor || "#461A17";
-			var outlineSize  = opts.outlineSize  || 12;
-			var fillColor    = opts.fillColor    || "#FFFFFF";
-			var shadowColor  = opts.shadowColor  || "rgba(60, 20, 0, 0.4)";
-			var pad          = opts.pad          || 60;
+			var outlineSize = opts.outlineSize || 6;
+			var fillColor = opts.fillColor || "#FFFFFF";
+			var shadowColor = opts.shadowColor || "rgba(60, 20, 0, 0.4)";
+			var pad = opts.pad || 60;
+		
 			var savedX = textObj.x;
 			var savedY = textObj.y;
+			var parent = textObj.parent;
+			var cloneName = "__strokeClone_" + (textObj.name || "text");
+		
+			// Clean up old clones
+			for (var i = parent.numChildren - 1; i >= 0; i--) {
+				var child = parent.getChildAt(i);
+				if (child && child.name === cloneName) {
+					if (child.cacheCanvas) child.uncache();
+					parent.removeChild(child);
+				}
+			}
+		
+			// Clear old cache
+			if (textObj.cacheCanvas) {
+				textObj.uncache();
+			}
 		
 			textObj.outline = null;
-			textObj.color   = fillColor;
-		
-			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
-			strokeText.textAlign    = textObj.textAlign;
-			strokeText.textBaseline = textObj.textBaseline;
-			strokeText.x            = savedX;
-			strokeText.y            = savedY;
-			strokeText.outline      = outlineSize;
-			strokeText.shadow       = null;
-		
-			var parent = textObj.parent;
-			if (parent) {
-				var idx = parent.getChildIndex(textObj);
-				parent.addChildAt(strokeText, idx);
-			}
-		
-			textObj._strokeClone = strokeText;
-			textObj._isStyled    = true;
+			textObj.color = fillColor;
 			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
 		
-			var bounds = textObj.getBounds();
-			if (bounds) {
-				var cacheX = bounds.x - pad;
-				var cacheY = bounds.y - pad;
-				var cacheW = bounds.width  + pad * 2;
-				var cacheH = bounds.height + pad * 2;
-				if (strokeText.cacheCanvas) strokeText.uncache();
-				if (textObj.cacheCanvas)    textObj.uncache();
-				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
-				textObj.cache(cacheX, cacheY, cacheW, cacheH);
-			}
-		
-			textObj.x    = savedX;
-			textObj.y    = savedY;
+			// Create stroke with updated font
+			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
+			strokeText.name = cloneName;
+			strokeText.textAlign = textObj.textAlign || "left";
+			strokeText.textBaseline = textObj.textBaseline || "top";
 			strokeText.x = savedX;
 			strokeText.y = savedY;
-		};
+			strokeText.scaleX = textObj.scaleX || 1;
+			strokeText.scaleY = textObj.scaleY || 1;
+			strokeText.rotation = textObj.rotation || 0;
+			strokeText.skewX = textObj.skewX || 0;
+			strokeText.skewY = textObj.skewY || 0;
+			strokeText.regX = textObj.regX || 0;
+			strokeText.regY = textObj.regY || 0;
+			strokeText.outline = outlineSize;
+			strokeText.shadow = null;
+			strokeText.mouseEnabled = false;
+		
+			var idx = parent.getChildIndex(textObj);
+			parent.addChildAt(strokeText, idx);
+		
+			textObj._strokeClone = strokeText;
+		
+			// Get bounds AFTER updating text
+			var bounds = textObj.getBounds();
+			if (!bounds) {
+				// Manually calculate bounds if getBounds fails
+				var metrics = textObj.getMeasuredWidth();
+				var lineHeight = parseInt(fontSize) * 1.2;
+				bounds = {
+					x: 0,
+					y: 0,
+					width: metrics || 200,
+					height: lineHeight || parseInt(fontSize)
+				};
+			}
+		
+			var cacheX = bounds.x - pad;
+			var cacheY = bounds.y - pad;
+			var cacheW = bounds.width + pad * 2;
+			var cacheH = bounds.height + pad * 2;
+		
+			if (strokeText.cacheCanvas) strokeText.uncache();
+			if (textObj.cacheCanvas) textObj.uncache();
+		
+			strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+			textObj.cache(cacheX, cacheY, cacheW, cacheH);
+		
+			// Cleanup logic
+			if (textObj._onRemovedCleanup) {
+				textObj.off("removed", textObj._onRemovedCleanup);
+			}
+		
+			textObj._onRemovedCleanup = function () {
+				if (strokeText) {
+					if (strokeText.cacheCanvas) strokeText.uncache();
+					if (strokeText.parent) {
+						strokeText.parent.removeChild(strokeText);
+					}
+				}
+				if (textObj.cacheCanvas) {
+					textObj.uncache();
+				}
+				textObj._strokeClone = null;
+			};
+		
+			textObj.on("removed", textObj._onRemovedCleanup);
+		
+			// Ensure position
+			textObj.x = savedX;
+			textObj.y = savedY;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+		}
 		var exerciseText = {
 			mn: {
 				title: "ТУУЗАН ДАРААЛАЛ",
@@ -14813,64 +15024,126 @@ if (reversed == null) { reversed = false; }
 		    if(exportRoot.stopInstruction) exportRoot.stopInstruction(); 
 		});
 		function applyTextStyling(textObj, opts) {
-			if (!textObj || !(textObj instanceof createjs.Text)) return;
-		
-			if (textObj._strokeClone && textObj._strokeClone.parent) {
-				textObj._strokeClone.parent.removeChild(textObj._strokeClone);
-				if (textObj._strokeClone.uncache) textObj._strokeClone.uncache();
-				textObj._strokeClone = null;
-			}
-			if (textObj.cacheCanvas) textObj.uncache();
-			textObj._isStyled = false;
+			if (!textObj || !(textObj instanceof createjs.Text) || !textObj.parent) return;
 		
 			opts = opts || {};
+		
+			// 🔥 FIX: Parse existing font properly using regex
+			var currentFont = textObj.font || "bold 40px 'Rubik', sans-serif";
+			var fontParts = currentFont.match(/(\d+)px/); // Extract number before 'px'
+			var currentSize = fontParts ? fontParts[1] : "40";
+			
+			// Font settings
+			var fontSize = opts.fontSize || currentSize;
+			var fontStyle = opts.fontStyle || "bold";
+			var fontFamily = opts.fontFamily || "'Rubik', sans-serif";
+			
+			// Update font
+			textObj.font = fontStyle + " " + fontSize + "px " + fontFamily;
+		
 			var outlineColor = opts.outlineColor || "#461A17";
-			var outlineSize  = opts.outlineSize  || 12;
-			var fillColor    = opts.fillColor    || "#FFFFFF";
-			var shadowColor  = opts.shadowColor  || "rgba(60, 20, 0, 0.4)";
-			var pad          = opts.pad          || 60;
+			var outlineSize = opts.outlineSize || 6;
+			var fillColor = opts.fillColor || "#FFFFFF";
+			var shadowColor = opts.shadowColor || "rgba(60, 20, 0, 0.4)";
+			var pad = opts.pad || 60;
+		
 			var savedX = textObj.x;
 			var savedY = textObj.y;
+			var parent = textObj.parent;
+			var cloneName = "__strokeClone_" + (textObj.name || "text");
+		
+			// Clean up old clones
+			for (var i = parent.numChildren - 1; i >= 0; i--) {
+				var child = parent.getChildAt(i);
+				if (child && child.name === cloneName) {
+					if (child.cacheCanvas) child.uncache();
+					parent.removeChild(child);
+				}
+			}
+		
+			// Clear old cache
+			if (textObj.cacheCanvas) {
+				textObj.uncache();
+			}
 		
 			textObj.outline = null;
-			textObj.color   = fillColor;
-		
-			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
-			strokeText.textAlign    = textObj.textAlign;
-			strokeText.textBaseline = textObj.textBaseline;
-			strokeText.x            = savedX;
-			strokeText.y            = savedY;
-			strokeText.outline      = outlineSize;
-			strokeText.shadow       = null;
-		
-			var parent = textObj.parent;
-			if (parent) {
-				var idx = parent.getChildIndex(textObj);
-				parent.addChildAt(strokeText, idx);
-			}
-		
-			textObj._strokeClone = strokeText;
-			textObj._isStyled    = true;
+			textObj.color = fillColor;
 			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
 		
-			var bounds = textObj.getBounds();
-			if (bounds) {
-				var cacheX = bounds.x - pad;
-				var cacheY = bounds.y - pad;
-				var cacheW = bounds.width  + pad * 2;
-				var cacheH = bounds.height + pad * 2;
-				if (strokeText.cacheCanvas) strokeText.uncache();
-				if (textObj.cacheCanvas)    textObj.uncache();
-				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
-				textObj.cache(cacheX, cacheY, cacheW, cacheH);
-			}
-		
-			textObj.x    = savedX;
-			textObj.y    = savedY;
+			// Create stroke with updated font
+			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
+			strokeText.name = cloneName;
+			strokeText.textAlign = textObj.textAlign || "left";
+			strokeText.textBaseline = textObj.textBaseline || "top";
 			strokeText.x = savedX;
 			strokeText.y = savedY;
-		};
+			strokeText.scaleX = textObj.scaleX || 1;
+			strokeText.scaleY = textObj.scaleY || 1;
+			strokeText.rotation = textObj.rotation || 0;
+			strokeText.skewX = textObj.skewX || 0;
+			strokeText.skewY = textObj.skewY || 0;
+			strokeText.regX = textObj.regX || 0;
+			strokeText.regY = textObj.regY || 0;
+			strokeText.outline = outlineSize;
+			strokeText.shadow = null;
+			strokeText.mouseEnabled = false;
 		
+			var idx = parent.getChildIndex(textObj);
+			parent.addChildAt(strokeText, idx);
+		
+			textObj._strokeClone = strokeText;
+		
+			// Get bounds AFTER updating text
+			var bounds = textObj.getBounds();
+			if (!bounds) {
+				// Manually calculate bounds if getBounds fails
+				var metrics = textObj.getMeasuredWidth();
+				var lineHeight = parseInt(fontSize) * 1.2;
+				bounds = {
+					x: 0,
+					y: 0,
+					width: metrics || 200,
+					height: lineHeight || parseInt(fontSize)
+				};
+			}
+		
+			var cacheX = bounds.x - pad;
+			var cacheY = bounds.y - pad;
+			var cacheW = bounds.width + pad * 2;
+			var cacheH = bounds.height + pad * 2;
+		
+			if (strokeText.cacheCanvas) strokeText.uncache();
+			if (textObj.cacheCanvas) textObj.uncache();
+		
+			strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+			textObj.cache(cacheX, cacheY, cacheW, cacheH);
+		
+			// Cleanup logic
+			if (textObj._onRemovedCleanup) {
+				textObj.off("removed", textObj._onRemovedCleanup);
+			}
+		
+			textObj._onRemovedCleanup = function () {
+				if (strokeText) {
+					if (strokeText.cacheCanvas) strokeText.uncache();
+					if (strokeText.parent) {
+						strokeText.parent.removeChild(strokeText);
+					}
+				}
+				if (textObj.cacheCanvas) {
+					textObj.uncache();
+				}
+				textObj._strokeClone = null;
+			};
+		
+			textObj.on("removed", textObj._onRemovedCleanup);
+		
+			// Ensure position
+			textObj.x = savedX;
+			textObj.y = savedY;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+		}
 		var exerciseText = {
 			mn: {
 				title: "ТОГЛОХ ЦАГ",
@@ -15336,7 +15609,6 @@ if (reversed == null) { reversed = false; }
 		        // if (exportRoot.refreshNavButtons) exportRoot.refreshNavButtons();
 		        
 		        setTimeout(function() {
-<<<<<<< HEAD
 					  hideAllInputs();
 		    cleanupTextObjects(); 
 		           if (exportRoot.stopInstruction) {
@@ -15344,20 +15616,6 @@ if (reversed == null) { reversed = false; }
 		    }
 					exportRoot.gotoAndStop(CONFIG.nextFrame);
 					//}
-=======
-					try{
-						hideAllInputs();
-						// exportRoot.removeAllChildren();
-						//if (exportRoot.stage) {
-							// exportRoot.stage.update();
-						exportRoot.gotoAndStop(CONFIG.nextFrame);
-						//}
-					}catch(err) {
-						console.log('daaaa');
-						console.log(err);
-					}
-					
->>>>>>> fa8eb2b98bb954523161eb8c781a1ab5a9a05a6c
 		        }, CONFIG.autoNextDelay);
 		    }
 		}
@@ -15412,64 +15670,126 @@ if (reversed == null) { reversed = false; }
 		   hideAllInputs();
 		});
 		function applyTextStyling(textObj, opts) {
-			if (!textObj || !(textObj instanceof createjs.Text)) return;
-		
-			if (textObj._strokeClone && textObj._strokeClone.parent) {
-				textObj._strokeClone.parent.removeChild(textObj._strokeClone);
-				if (textObj._strokeClone.uncache) textObj._strokeClone.uncache();
-				textObj._strokeClone = null;
-			}
-			if (textObj.cacheCanvas) textObj.uncache();
-			textObj._isStyled = false;
+			if (!textObj || !(textObj instanceof createjs.Text) || !textObj.parent) return;
 		
 			opts = opts || {};
+		
+			// 🔥 FIX: Parse existing font properly using regex
+			var currentFont = textObj.font || "bold 40px 'Rubik', sans-serif";
+			var fontParts = currentFont.match(/(\d+)px/); // Extract number before 'px'
+			var currentSize = fontParts ? fontParts[1] : "40";
+			
+			// Font settings
+			var fontSize = opts.fontSize || currentSize;
+			var fontStyle = opts.fontStyle || "bold";
+			var fontFamily = opts.fontFamily || "'Rubik', sans-serif";
+			
+			// Update font
+			textObj.font = fontStyle + " " + fontSize + "px " + fontFamily;
+		
 			var outlineColor = opts.outlineColor || "#461A17";
-			var outlineSize  = opts.outlineSize  || 12;
-			var fillColor    = opts.fillColor    || "#FFFFFF";
-			var shadowColor  = opts.shadowColor  || "rgba(60, 20, 0, 0.4)";
-			var pad          = opts.pad          || 60;
+			var outlineSize = opts.outlineSize || 6;
+			var fillColor = opts.fillColor || "#FFFFFF";
+			var shadowColor = opts.shadowColor || "rgba(60, 20, 0, 0.4)";
+			var pad = opts.pad || 60;
+		
 			var savedX = textObj.x;
 			var savedY = textObj.y;
+			var parent = textObj.parent;
+			var cloneName = "__strokeClone_" + (textObj.name || "text");
+		
+			// Clean up old clones
+			for (var i = parent.numChildren - 1; i >= 0; i--) {
+				var child = parent.getChildAt(i);
+				if (child && child.name === cloneName) {
+					if (child.cacheCanvas) child.uncache();
+					parent.removeChild(child);
+				}
+			}
+		
+			// Clear old cache
+			if (textObj.cacheCanvas) {
+				textObj.uncache();
+			}
 		
 			textObj.outline = null;
-			textObj.color   = fillColor;
-		
-			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
-			strokeText.textAlign    = textObj.textAlign;
-			strokeText.textBaseline = textObj.textBaseline;
-			strokeText.x            = savedX;
-			strokeText.y            = savedY;
-			strokeText.outline      = outlineSize;
-			strokeText.shadow       = null;
-		
-			var parent = textObj.parent;
-			if (parent) {
-				var idx = parent.getChildIndex(textObj);
-				parent.addChildAt(strokeText, idx);
-			}
-		
-			textObj._strokeClone = strokeText;
-			textObj._isStyled    = true;
+			textObj.color = fillColor;
 			textObj.shadow = new createjs.Shadow(shadowColor, 3, 3, 6);
 		
-			var bounds = textObj.getBounds();
-			if (bounds) {
-				var cacheX = bounds.x - pad;
-				var cacheY = bounds.y - pad;
-				var cacheW = bounds.width  + pad * 2;
-				var cacheH = bounds.height + pad * 2;
-				if (strokeText.cacheCanvas) strokeText.uncache();
-				if (textObj.cacheCanvas)    textObj.uncache();
-				strokeText.cache(cacheX, cacheY, cacheW, cacheH);
-				textObj.cache(cacheX, cacheY, cacheW, cacheH);
-			}
-		
-			textObj.x    = savedX;
-			textObj.y    = savedY;
+			// Create stroke with updated font
+			var strokeText = new createjs.Text(textObj.text, textObj.font, outlineColor);
+			strokeText.name = cloneName;
+			strokeText.textAlign = textObj.textAlign || "left";
+			strokeText.textBaseline = textObj.textBaseline || "top";
 			strokeText.x = savedX;
 			strokeText.y = savedY;
-		};
+			strokeText.scaleX = textObj.scaleX || 1;
+			strokeText.scaleY = textObj.scaleY || 1;
+			strokeText.rotation = textObj.rotation || 0;
+			strokeText.skewX = textObj.skewX || 0;
+			strokeText.skewY = textObj.skewY || 0;
+			strokeText.regX = textObj.regX || 0;
+			strokeText.regY = textObj.regY || 0;
+			strokeText.outline = outlineSize;
+			strokeText.shadow = null;
+			strokeText.mouseEnabled = false;
 		
+			var idx = parent.getChildIndex(textObj);
+			parent.addChildAt(strokeText, idx);
+		
+			textObj._strokeClone = strokeText;
+		
+			// Get bounds AFTER updating text
+			var bounds = textObj.getBounds();
+			if (!bounds) {
+				// Manually calculate bounds if getBounds fails
+				var metrics = textObj.getMeasuredWidth();
+				var lineHeight = parseInt(fontSize) * 1.2;
+				bounds = {
+					x: 0,
+					y: 0,
+					width: metrics || 200,
+					height: lineHeight || parseInt(fontSize)
+				};
+			}
+		
+			var cacheX = bounds.x - pad;
+			var cacheY = bounds.y - pad;
+			var cacheW = bounds.width + pad * 2;
+			var cacheH = bounds.height + pad * 2;
+		
+			if (strokeText.cacheCanvas) strokeText.uncache();
+			if (textObj.cacheCanvas) textObj.uncache();
+		
+			strokeText.cache(cacheX, cacheY, cacheW, cacheH);
+			textObj.cache(cacheX, cacheY, cacheW, cacheH);
+		
+			// Cleanup logic
+			if (textObj._onRemovedCleanup) {
+				textObj.off("removed", textObj._onRemovedCleanup);
+			}
+		
+			textObj._onRemovedCleanup = function () {
+				if (strokeText) {
+					if (strokeText.cacheCanvas) strokeText.uncache();
+					if (strokeText.parent) {
+						strokeText.parent.removeChild(strokeText);
+					}
+				}
+				if (textObj.cacheCanvas) {
+					textObj.uncache();
+				}
+				textObj._strokeClone = null;
+			};
+		
+			textObj.on("removed", textObj._onRemovedCleanup);
+		
+			// Ensure position
+			textObj.x = savedX;
+			textObj.y = savedY;
+			strokeText.x = savedX;
+			strokeText.y = savedY;
+		}
 		var exerciseText = {
 			mn: {
 				title: "ШААР ХАГАЛАХ ТЭМЦЭЭН",
@@ -15961,48 +16281,34 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.Emoji_result).wait(8).to({_off:false},0).to({_off:true},21).wait(1));
 
 	// btn_main_new
-	this.txt_title = new cjs.Text("txt_title", "normal 700 50px 'Roboto'", "#FFFFFF");
-	this.txt_title.name = "txt_title";
-	this.txt_title.textAlign = "center";
-	this.txt_title.lineHeight = 68;
-	this.txt_title.lineWidth = 843;
-	this.txt_title.parent = this;
-	this.txt_title.setTransform(1007.7,139.9);
-	this.txt_title.shadow = new cjs.Shadow("rgba(70,26,23,1)",0,0,6);
-	if(!lib.properties.webfonts['Roboto']) {
-		lib.webFontTxtInst['Roboto'] = lib.webFontTxtInst['Roboto'] || [];
-		lib.webFontTxtInst['Roboto'].push(this.txt_title);
-	}
-
 	this.instance_1 = new lib.unlogo();
-	this.instance_1.setTransform(0,-3);
 
 	this.btn_next = new lib.btn_next();
 	this.btn_next.name = "btn_next";
-	this.btn_next.setTransform(1061.5,1013);
+	this.btn_next.setTransform(1061.5,1016);
 	new cjs.ButtonHelper(this.btn_next, 0, 1, 1);
 
 	this.btn_back = new lib.btn_back();
 	this.btn_back.name = "btn_back";
-	this.btn_back.setTransform(954,1013);
+	this.btn_back.setTransform(954,1016);
 	new cjs.ButtonHelper(this.btn_back, 0, 1, 1);
 
 	this.home_btn = new lib.home_btn();
 	this.home_btn.name = "home_btn";
-	this.home_btn.setTransform(1824,624.5);
+	this.home_btn.setTransform(1824,627.5);
 	new cjs.ButtonHelper(this.home_btn, 0, 1, 1);
 
 	this.help_btn = new lib.help_btn_1();
 	this.help_btn.name = "help_btn";
-	this.help_btn.setTransform(1824,505);
+	this.help_btn.setTransform(1824,508);
 	new cjs.ButtonHelper(this.help_btn, 0, 1, 1);
 
 	this.voice_btn = new lib.voice_btn_1();
 	this.voice_btn.name = "voice_btn";
-	this.voice_btn.setTransform(1823.5,388);
+	this.voice_btn.setTransform(1823.5,391);
 	new cjs.ButtonHelper(this.voice_btn, 0, 1, 1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.voice_btn},{t:this.help_btn},{t:this.home_btn},{t:this.btn_back},{t:this.btn_next},{t:this.instance_1},{t:this.txt_title}]},8).to({state:[]},21).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.voice_btn},{t:this.help_btn},{t:this.home_btn},{t:this.btn_back},{t:this.btn_next},{t:this.instance_1}]},8).to({state:[]},21).wait(1));
 
 	// text
 	this.mc_ex1_tex1 = new lib.mc_ex1_tex1();
@@ -16029,6 +16335,19 @@ if (reversed == null) { reversed = false; }
 		lib.webFontTxtInst['Roboto'].push(this.txt_instruction);
 	}
 
+	this.txt_title = new cjs.Text("txt_title", "normal 700 50px 'Roboto'", "#FFFFFF");
+	this.txt_title.name = "txt_title";
+	this.txt_title.textAlign = "center";
+	this.txt_title.lineHeight = 68;
+	this.txt_title.lineWidth = 843;
+	this.txt_title.parent = this;
+	this.txt_title.setTransform(1012.65,140.3);
+	this.txt_title.shadow = new cjs.Shadow("rgba(70,26,23,1)",0,0,6);
+	if(!lib.properties.webfonts['Roboto']) {
+		lib.webFontTxtInst['Roboto'] = lib.webFontTxtInst['Roboto'] || [];
+		lib.webFontTxtInst['Roboto'].push(this.txt_title);
+	}
+
 	this.mc_ex4_tex1 = new lib.mc_ex4_tex1();
 	this.mc_ex4_tex1.name = "mc_ex4_tex1";
 	this.mc_ex4_tex1.setTransform(1204.45,677.25,1,1,0,0,0,463.4,141);
@@ -16038,10 +16357,10 @@ if (reversed == null) { reversed = false; }
 	this.shape.setTransform(387.05,770.025);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1).p("AhrhzIAAksIDYAAABtB0IjYAAIAAjnIDYAAABtGgIjYAAIAAks");
+	this.shape_1.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1).p("AhrhzIAAksIDYAAAhrhzIDYAAAhrB0IAAjnABtB0IjYAAABtGgIjYAAIAAks");
 	this.shape_1.setTransform(387.05,755.025);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.mc_ex1_tex1}]},2).to({state:[]},1).to({state:[{t:this.mc_ex2_tex1}]},1).to({state:[]},1).to({state:[{t:this.mc_ex3_tex1}]},1).to({state:[]},1).to({state:[{t:this.txt_instruction,p:{x:1010.6,y:360.55,lineWidth:1398,lineHeight:48.45}}]},1).to({state:[{t:this.txt_instruction,p:{x:1008.65,y:352.55,lineWidth:1098,lineHeight:48.45}},{t:this.mc_ex4_tex1}]},2).to({state:[{t:this.shape,p:{y:770.025}},{t:this.txt_instruction,p:{x:1010.6,y:352.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.shape,p:{y:770.025}},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.shape_1},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.shape_1},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.shape_1},{t:this.txt_instruction,p:{x:1230.55,y:354.55,lineWidth:958,lineHeight:40.75}}]},2).to({state:[{t:this.shape_1},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.shape,p:{y:740.025}},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.shape,p:{y:740.025}},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.mc_ex1_tex1}]},2).to({state:[]},1).to({state:[{t:this.mc_ex2_tex1}]},1).to({state:[]},1).to({state:[{t:this.mc_ex3_tex1}]},1).to({state:[]},1).to({state:[{t:this.txt_title,p:{lineHeight:68.35,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1010.6,y:360.55,lineWidth:1398,lineHeight:48.45}}]},1).to({state:[{t:this.txt_title,p:{lineHeight:68.35,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1008.65,y:352.55,lineWidth:1098,lineHeight:48.45}},{t:this.mc_ex4_tex1}]},2).to({state:[{t:this.shape,p:{y:770.025}},{t:this.txt_title,p:{lineHeight:52,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1010.6,y:352.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.txt_title,p:{lineHeight:52,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.shape,p:{y:770.025}},{t:this.txt_title,p:{lineHeight:52,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.shape_1},{t:this.txt_title,p:{lineHeight:52,x:1008,y:140.6}},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.shape_1},{t:this.txt_title,p:{lineHeight:52,x:1008,y:140.3}},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.shape_1},{t:this.txt_title,p:{lineHeight:52,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1230.55,y:354.55,lineWidth:958,lineHeight:40.75}}]},2).to({state:[{t:this.shape_1},{t:this.txt_title,p:{lineHeight:52,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.shape,p:{y:740.025}},{t:this.txt_title,p:{lineHeight:52,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[{t:this.shape,p:{y:740.025}},{t:this.txt_title,p:{lineHeight:52,x:1012.65,y:140.3}},{t:this.txt_instruction,p:{x:1010.6,y:354.55,lineWidth:1398,lineHeight:37}}]},2).to({state:[]},1).wait(1));
 
 	// hariult
 	this.input_1_14 = new lib.input_1();
@@ -16399,7 +16718,7 @@ if (reversed == null) { reversed = false; }
 	this.btn_4_1.name = "btn_4_1";
 	this.btn_4_1.setTransform(394,872,1,1,0,0,0,36.5,61);
 
-	this.instance_2 = new lib.CachedBmp_4();
+	this.instance_2 = new lib.CachedBmp_7();
 	this.instance_2.setTransform(575.75,534.05,0.5,0.5);
 
 	this.img_7_4 = new lib.img_7_4();
@@ -17003,54 +17322,54 @@ if (reversed == null) { reversed = false; }
 	this.btn_voice.setTransform(402.55,420.9,0.7243,0.7243,0,0,0,0.5,0.3);
 	new cjs.ButtonHelper(this.btn_voice, 0, 1, 2);
 
-	this.txt_grade = new cjs.Text("3 ДУГААР АНГИ", "40px 'Arial'", "#38019A");
+	this.txt_grade = new cjs.Text("3 ДУГААР АНГИ", "40px 'Rubik'", "#38019A");
 	this.txt_grade.name = "txt_grade";
 	this.txt_grade.textAlign = "center";
-	this.txt_grade.lineHeight = 42;
+	this.txt_grade.lineHeight = 49;
 	this.txt_grade.lineWidth = 326;
 	this.txt_grade.parent = this;
 	this.txt_grade.setTransform(962.3,657.55);
 
-	this.txt_subject = new cjs.Text("МАТЕМАТИК", "40px 'Arial'", "#38019A");
+	this.txt_subject = new cjs.Text("МАТЕМАТИК", "40px 'Rubik Medium'", "#38019A");
 	this.txt_subject.name = "txt_subject";
 	this.txt_subject.textAlign = "center";
-	this.txt_subject.lineHeight = 42;
+	this.txt_subject.lineHeight = 49;
 	this.txt_subject.lineWidth = 326;
 	this.txt_subject.parent = this;
 	this.txt_subject.setTransform(962.3,604.55);
 
-	this.txt_sign = new cjs.Text("ДОХИО", "40px 'Arial'", "#998DBF");
+	this.txt_sign = new cjs.Text("ДОХИО", "40px 'Rubik'", "#998DBF");
 	this.txt_sign.name = "txt_sign";
-	this.txt_sign.lineHeight = 42;
+	this.txt_sign.lineHeight = 49;
 	this.txt_sign.lineWidth = 246;
 	this.txt_sign.parent = this;
 	this.txt_sign.setTransform(1210.1,947.3);
 
-	this.txt_tuva = new cjs.Text("ТУВА", "40px 'Arial'", "#998DBF");
+	this.txt_tuva = new cjs.Text("ТУВА", "40px 'Rubik'", "#998DBF");
 	this.txt_tuva.name = "txt_tuva";
-	this.txt_tuva.lineHeight = 42;
+	this.txt_tuva.lineHeight = 49;
 	this.txt_tuva.lineWidth = 226;
 	this.txt_tuva.parent = this;
 	this.txt_tuva.setTransform(976.5,947.3);
 
-	this.txt_kz = new cjs.Text("КАЗАХ", "40px 'Arial'", "#998DBF");
+	this.txt_kz = new cjs.Text("КАЗАХ", "40px 'Rubik'", "#998DBF");
 	this.txt_kz.name = "txt_kz";
-	this.txt_kz.lineHeight = 42;
+	this.txt_kz.lineHeight = 49;
 	this.txt_kz.lineWidth = 246;
 	this.txt_kz.parent = this;
 	this.txt_kz.setTransform(716,947.3);
 
-	this.txt_mn = new cjs.Text("МОНГОЛ", "40px 'Arial'", "#998DBF");
+	this.txt_mn = new cjs.Text("МОНГОЛ", "40px 'Rubik'", "#998DBF");
 	this.txt_mn.name = "txt_mn";
-	this.txt_mn.lineHeight = 42;
+	this.txt_mn.lineHeight = 49;
 	this.txt_mn.lineWidth = 201;
 	this.txt_mn.parent = this;
 	this.txt_mn.setTransform(438.1,947.3);
 
-	this.txt_start = new cjs.Text("ЭХЛЭХ", "57px 'Arial'", "#FFFFFF");
+	this.txt_start = new cjs.Text("ЭХЛЭХ", "bold 57px 'Rubik'", "#FFFFFF");
 	this.txt_start.name = "txt_start";
 	this.txt_start.textAlign = "center";
-	this.txt_start.lineHeight = 59;
+	this.txt_start.lineHeight = 69;
 	this.txt_start.lineWidth = 226;
 	this.txt_start.parent = this;
 	this.txt_start.setTransform(960.5,759.7);
@@ -17059,18 +17378,18 @@ if (reversed == null) { reversed = false; }
 	this.btn_start.name = "btn_start";
 	this.btn_start.setTransform(968.5,795.5);
 
-	this.txt_subtitle = new cjs.Text("Энгийн бутархай ", "48px 'Arial'", "#38019A");
+	this.txt_subtitle = new cjs.Text("Энгийн бутархай ", "48px 'Rubik Light'", "#38019A");
 	this.txt_subtitle.name = "txt_subtitle";
 	this.txt_subtitle.textAlign = "center";
-	this.txt_subtitle.lineHeight = 50;
+	this.txt_subtitle.lineHeight = 59;
 	this.txt_subtitle.lineWidth = 1302;
 	this.txt_subtitle.parent = this;
 	this.txt_subtitle.setTransform(961.25,485.9);
 
-	this.main_txt_title = new cjs.Text("ТОГЛООМЫН ХОТ", "72px 'Arial'", "#38019A");
+	this.main_txt_title = new cjs.Text("ТОГЛООМЫН ХОТ", "bold 72px 'Rubik'", "#38019A");
 	this.main_txt_title.name = "main_txt_title";
 	this.main_txt_title.textAlign = "center";
-	this.main_txt_title.lineHeight = 74;
+	this.main_txt_title.lineHeight = 87;
 	this.main_txt_title.lineWidth = 941;
 	this.main_txt_title.parent = this;
 	this.main_txt_title.setTransform(971.25,389.05);
@@ -17177,21 +17496,21 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/lesson_06_atlas_1.png?1778753039121", id:"lesson_06_atlas_1"},
-		{src:"images/lesson_06_atlas_2.png?1778753039122", id:"lesson_06_atlas_2"},
-		{src:"images/lesson_06_atlas_3.png?1778753039122", id:"lesson_06_atlas_3"},
-		{src:"images/lesson_06_atlas_4.png?1778753039122", id:"lesson_06_atlas_4"},
-		{src:"images/lesson_06_atlas_5.png?1778753039122", id:"lesson_06_atlas_5"},
-		{src:"images/lesson_06_atlas_6.png?1778753039122", id:"lesson_06_atlas_6"},
-		{src:"images/lesson_06_atlas_7.png?1778753039122", id:"lesson_06_atlas_7"},
-		{src:"images/lesson_06_atlas_8.png?1778753039122", id:"lesson_06_atlas_8"},
-		{src:"images/lesson_06_atlas_9.png?1778753039122", id:"lesson_06_atlas_9"},
-		{src:"images/lesson_06_atlas_10.png?1778753039122", id:"lesson_06_atlas_10"},
-		{src:"images/lesson_06_atlas_11.png?1778753039122", id:"lesson_06_atlas_11"},
-		{src:"images/lesson_06_atlas_12.png?1778753039122", id:"lesson_06_atlas_12"},
-		{src:"images/lesson_06_atlas_13.png?1778753039122", id:"lesson_06_atlas_13"},
-		{src:"images/lesson_06_atlas_14.png?1778753039122", id:"lesson_06_atlas_14"},
-		{src:"images/lesson_06_atlas_15.png?1778753039122", id:"lesson_06_atlas_15"}
+		{src:"images/lesson_06_atlas_1.png", id:"lesson_06_atlas_1"},
+		{src:"images/lesson_06_atlas_2.png", id:"lesson_06_atlas_2"},
+		{src:"images/lesson_06_atlas_3.png", id:"lesson_06_atlas_3"},
+		{src:"images/lesson_06_atlas_4.png", id:"lesson_06_atlas_4"},
+		{src:"images/lesson_06_atlas_5.png", id:"lesson_06_atlas_5"},
+		{src:"images/lesson_06_atlas_6.png", id:"lesson_06_atlas_6"},
+		{src:"images/lesson_06_atlas_7.png", id:"lesson_06_atlas_7"},
+		{src:"images/lesson_06_atlas_8.png", id:"lesson_06_atlas_8"},
+		{src:"images/lesson_06_atlas_9.png", id:"lesson_06_atlas_9"},
+		{src:"images/lesson_06_atlas_10.png", id:"lesson_06_atlas_10"},
+		{src:"images/lesson_06_atlas_11.png", id:"lesson_06_atlas_11"},
+		{src:"images/lesson_06_atlas_12.png", id:"lesson_06_atlas_12"},
+		{src:"images/lesson_06_atlas_13.png", id:"lesson_06_atlas_13"},
+		{src:"images/lesson_06_atlas_14.png", id:"lesson_06_atlas_14"},
+		{src:"images/lesson_06_atlas_15.png", id:"lesson_06_atlas_15"}
 	],
 	preloads: []
 };
