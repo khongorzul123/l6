@@ -283,11 +283,26 @@
     }
 
     function jumpToExercise() {
+        // Cancel speech synthesis
         if (window.speechSynthesis) {
             window.speechSynthesis.cancel();
             setTimeout(function() { window.speechSynthesis.cancel(); }, 50);
         }
+        
+        // Stop exercise instruction audio
         stopExerciseInstruction();
+        
+        // Stop ALL audio from audioPool (main instruction audio, etc.)
+        if (exportRoot && exportRoot.audioPool) {
+            for (var key in exportRoot.audioPool) {
+                var audio = exportRoot.audioPool[key];
+                if (audio && !audio.paused) {
+                    audio.pause();
+                    audio.currentTime = 0;
+                }
+            }
+        }
+        
         isSpeaking     = false;
         questionSpoken = false;
 
@@ -369,7 +384,7 @@
             // Wait for frame to load, then setup blind mode final frame
             setTimeout(function() {
                 // Speak congratulations message
-                speak("Баяр хүргэе! Бүх дасгалыг амжилттай дуусгалаа.");
+     
                 
                 // Setup keyboard handler for restart button in blind mode
                 if (exportRoot.btn_restart) {
