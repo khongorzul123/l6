@@ -40,7 +40,7 @@
         choiceExercises: {
             14: { buttons: ["btn_4_4", "btn_4_5", "btn_4_6"], correctKey: 2 },  // Ex4: Drag-drop → 3 fraction choices, btn_4_5 correct
             16: { buttons: [], correctKey: 1 },  // Ex5: > < > comparison, press 1 for "Их" (correct)
-            28: { buttons: [], correctKey: 3 }   // Ex11: 8/8, 8/6 comparison, press 3 for "Наймны гурав" (correct)
+            28: { buttons: [], correctKey: 1 }   // Ex11: 8/8, 8/6 comparison, press 1 (correct)
         },
         
         // Choice labels for audio announcements
