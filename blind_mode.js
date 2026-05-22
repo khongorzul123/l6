@@ -394,9 +394,7 @@
                             clearInterval(checkInterval);
                             
                             // Announce button is ready
-                            setTimeout(function() {
-                                speak("Enter дарж дахин эхлүүлэх товч дарна уу.");
-                            }, 2000);
+                     
                             
                             // Add keyboard listener for Enter key
                             var enterHandler = function(e) {
