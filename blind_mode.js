@@ -906,7 +906,7 @@
         var isTypingInInput = targetEl && (targetEl.tagName === 'INPUT' || targetEl.tagName === 'TEXTAREA');
 
         // ACTIVATE BLIND MODE
-        if ((e.ctrlKey && e.key.toLowerCase() === 'v') ||
+        if ((e.shiftKey && e.key.toLowerCase() === 'v') ||
             (e.key === '5' && exportRoot.currentFrame === 0)) {
             e.preventDefault();
             if (!BLIND_CONFIG.enabled) {
